@@ -4,14 +4,17 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BG_PATH = ROOT / "assets" / "templates" / "ai_news_aria_layout_v1.png"
-OUT_PATH = ROOT / "output" / "layout_examples" / "2026-05-01" / "ai_news_aria_layout_example_01.png"
+BASE_TEMPLATE = ROOT / "assets" / "templates" / "ai_news_aria_layout_v1.png"
+VISUAL_TEMPLATE = ROOT / "assets" / "templates" / "ai_news_aria_layout_visual_v1.png"
+OUT_PATH = ROOT / "output" / "layout_examples" / "2026-05-01" / "ai_news_aria_layout_visual_example_01.png"
 
 NAVY = (17, 39, 70, 255)
 BLUE = (18, 89, 150, 255)
+CYAN = (28, 183, 220, 255)
 TEXT = (25, 35, 52, 255)
 MUTED = (93, 110, 132, 255)
 LINE = (176, 204, 226, 230)
+PANEL = (248, 252, 255, 235)
 
 
 def pick_font(bold: bool = False) -> Path:
@@ -89,13 +92,84 @@ def draw_wrapped(
     fill: tuple[int, int, int, int],
     max_width: int,
     line_gap: int = 8,
+    max_lines: int | None = None,
 ) -> int:
     x, y = xy
-    for line in wrap_text(draw, text, font, max_width):
+    lines = wrap_text(draw, text, font, max_width)
+    if max_lines is not None:
+        lines = lines[:max_lines]
+    for line in lines:
         draw.text((x, y), line, font=font, fill=fill)
         box = draw.textbbox((x, y), line or "가", font=font)
         y += (box[3] - box[1]) + line_gap
     return y
+
+
+def draw_blank_visual_box(draw: ImageDraw.ImageDraw) -> None:
+    draw.rounded_rectangle((612, 322, 914, 522), radius=22, fill=(244, 250, 255, 245), outline=LINE, width=2)
+    draw.rounded_rectangle((632, 342, 894, 502), radius=18, fill=(255, 255, 255, 210), outline=(210, 231, 244, 190), width=1)
+    for x in range(660, 875, 34):
+        draw.line((x, 360, x, 485), fill=(225, 238, 247, 130), width=1)
+    for y in range(370, 490, 28):
+        draw.line((648, y, 880, y), fill=(225, 238, 247, 130), width=1)
+    draw.rounded_rectangle((652, 454, 742, 476), radius=11, fill=(226, 247, 252, 210), outline=(160, 220, 235, 180))
+    draw.rounded_rectangle((760, 454, 850, 476), radius=11, fill=(238, 244, 255, 220), outline=(188, 207, 235, 180))
+
+
+def build_visual_template() -> None:
+    image = Image.open(BASE_TEMPLATE).convert("RGBA")
+    overlay = Image.new("RGBA", image.size, (0, 0, 0, 0))
+    draw = ImageDraw.Draw(overlay)
+    draw.rounded_rectangle(
+        (70, 286, 948, 982),
+        radius=24,
+        fill=(255, 255, 255, 115),
+        outline=(210, 230, 244, 190),
+        width=2,
+    )
+    draw_blank_visual_box(draw)
+    image.alpha_composite(overlay)
+    VISUAL_TEMPLATE.parent.mkdir(parents=True, exist_ok=True)
+    image.convert("RGB").save(VISUAL_TEMPLATE, quality=95)
+
+
+def draw_shield(draw: ImageDraw.ImageDraw, cx: int, cy: int) -> None:
+    points = [(cx, cy - 48), (cx + 48, cy - 28), (cx + 38, cy + 34), (cx, cy + 62), (cx - 38, cy + 34), (cx - 48, cy - 28)]
+    draw.polygon(points, fill=(17, 86, 142, 255))
+    inner = [(cx, cy - 32), (cx + 28, cy - 18), (cx + 22, cy + 24), (cx, cy + 42), (cx - 22, cy + 24), (cx - 28, cy - 18)]
+    draw.polygon(inner, fill=(236, 249, 255, 255))
+    draw.line((cx - 18, cy + 2, cx - 3, cy + 18, cx + 22, cy - 16), fill=CYAN, width=8, joint="curve")
+
+
+def draw_chip(draw: ImageDraw.ImageDraw, cx: int, cy: int) -> None:
+    draw.rounded_rectangle((cx - 38, cy - 38, cx + 38, cy + 38), radius=10, fill=(21, 51, 88, 255))
+    draw.rounded_rectangle((cx - 20, cy - 20, cx + 20, cy + 20), radius=6, outline=(130, 224, 245, 255), width=4)
+    for offset in (-26, -10, 10, 26):
+        draw.line((cx - 54, cy + offset, cx - 40, cy + offset), fill=(130, 224, 245, 255), width=4)
+        draw.line((cx + 40, cy + offset, cx + 54, cy + offset), fill=(130, 224, 245, 255), width=4)
+        draw.line((cx + offset, cy - 54, cx + offset, cy - 40), fill=(130, 224, 245, 255), width=4)
+        draw.line((cx + offset, cy + 40, cx + offset, cy + 54), fill=(130, 224, 245, 255), width=4)
+
+
+def draw_visual_summary(draw: ImageDraw.ImageDraw, fonts: dict[str, ImageFont.FreeTypeFont]) -> None:
+    box = (612, 322, 914, 522)
+    draw.rounded_rectangle(box, radius=22, fill=(244, 250, 255, 245), outline=LINE, width=2)
+    draw.rounded_rectangle((632, 342, 894, 502), radius=18, fill=(255, 255, 255, 225), outline=(210, 231, 244, 190), width=1)
+    draw.text((652, 358), "관련 비주얼", font=fonts["caption"], fill=BLUE)
+
+    # Keep the generated fallback visual readable at Kakao thumbnail size:
+    # one dominant symbol, then compact topic chips instead of overlapping icons.
+    draw_chip(draw, 762, 426)
+    draw.arc((690, 352, 834, 496), 205, 335, fill=(196, 230, 243, 180), width=8)
+    draw.arc((710, 372, 814, 476), 205, 335, fill=(224, 242, 249, 190), width=6)
+    draw.line((654, 426, 702, 426), fill=(115, 197, 222, 210), width=4)
+    draw.line((822, 426, 870, 426), fill=(115, 197, 222, 210), width=4)
+
+    chips = [("보안", 654, 468, 720), ("차량", 734, 468, 802), ("칩", 816, 468, 880)]
+    for label, x1, y1, x2 in chips:
+        draw.rounded_rectangle((x1, y1, x2, y1 + 24), radius=12, fill=(226, 247, 252, 245))
+        label_width = text_width(draw, label, fonts["micro"])
+        draw.text((x1 + ((x2 - x1) - label_width) / 2, y1 + 2), label, font=fonts["micro"], fill=BLUE)
 
 
 def draw_news_item(
@@ -106,45 +180,36 @@ def draw_news_item(
     y: int,
     fonts: dict[str, ImageFont.FreeTypeFont],
 ) -> int:
-    draw.rounded_rectangle((82, y, 922, y + 142), radius=18, fill=(248, 252, 255, 230), outline=LINE, width=2)
-    draw.ellipse((106, y + 34, 158, y + 86), fill=(21, 93, 151, 255))
-    draw.text((122, y + 42), str(num), font=fonts["body_bold"], fill=(255, 255, 255, 255))
-    draw.text((178, y + 24), title, font=fonts["body_bold"], fill=NAVY)
-    draw_wrapped(draw, body, (178, y + 69), fonts["body"], TEXT, 700, 6)
-    return y + 166
+    draw.rounded_rectangle((82, y, 922, y + 132), radius=18, fill=PANEL, outline=LINE, width=2)
+    draw.ellipse((106, y + 32, 154, y + 80), fill=(21, 93, 151, 255))
+    draw.text((121, y + 38), str(num), font=fonts["body_bold"], fill=(255, 255, 255, 255))
+    draw.text((176, y + 22), title, font=fonts["body_bold"], fill=NAVY)
+    draw_wrapped(draw, body, (176, y + 64), fonts["body"], TEXT, 705, 5, max_lines=2)
+    return y + 145
 
 
-def main() -> None:
+def render_example() -> None:
+    build_visual_template()
     fonts = {
         "eyebrow": make_font(24),
         "title": make_font(50, True),
         "date": make_font(30, True),
-        "section": make_font(34, True),
-        "body": make_font(30),
-        "body_bold": make_font(31, True),
-        "small": make_font(22),
-        "bubble": make_font(28, True),
+        "section": make_font(32, True),
+        "body": make_font(26),
+        "body_bold": make_font(28, True),
+        "small": make_font(21),
+        "bubble": make_font(27, True),
+        "caption": make_font(20, True),
+        "micro": make_font(16, True),
     }
 
-    image = Image.open(BG_PATH).convert("RGBA")
+    image = Image.open(VISUAL_TEMPLATE).convert("RGBA")
     draw = ImageDraw.Draw(image)
 
     draw.text((72, 62), "AI NEWS ARIA", font=fonts["eyebrow"], fill=(74, 147, 190, 255))
     draw.text((72, 96), "전날 AI 뉴스 핵심 요약", font=fonts["title"], fill=NAVY)
     draw.text((835, 104), "2026.05.01", font=fonts["date"], fill=(230, 247, 255, 255))
     draw.text((846, 145), "작성 기준", font=fonts["small"], fill=(165, 213, 232, 255))
-
-    overlay = Image.new("RGBA", image.size, (0, 0, 0, 0))
-    overlay_draw = ImageDraw.Draw(overlay)
-    overlay_draw.rounded_rectangle(
-        (70, 286, 948, 982),
-        radius=24,
-        fill=(255, 255, 255, 120),
-        outline=(210, 230, 244, 190),
-        width=2,
-    )
-    image.alpha_composite(overlay)
-    draw = ImageDraw.Draw(image)
 
     draw.rounded_rectangle(
         (82, 318, 242, 362),
@@ -158,27 +223,29 @@ def main() -> None:
     draw.text((82, 390), "오늘의 흐름", font=fonts["section"], fill=NAVY)
     draw_wrapped(
         draw,
-        'AI 서비스가 "모델 성능 경쟁"을 넘어 보안, 차량, 결제, 칩 인프라까지 넓어지는 날이었습니다.',
-        (82, 442),
+        'AI 서비스가 "성능 경쟁"을 넘어 보안, 차량, 칩 인프라로 확장되는 흐름이 뚜렷했습니다.',
+        (82, 438),
         fonts["body"],
         TEXT,
-        820,
-        10,
+        500,
+        8,
+        max_lines=3,
     )
+    draw_visual_summary(draw, fonts)
 
-    y = 535
+    y = 555
     news_items = [
         (
             "OpenAI, 계정 보안 강화",
-            "ChatGPT와 Codex 계정에 고위험 사용자를 위한 Advanced Account Security를 도입했습니다.",
+            "ChatGPT와 Codex 계정에 고위험 사용자를 위한 추가 보안 기능을 도입했습니다.",
         ),
         (
             "Gemini, 차량 안으로 확장",
-            "Google built-in 차량에 Gemini가 순차 적용되며 자동차 음성비서가 더 자연스러운 대화형으로 바뀝니다.",
+            "Google built-in 차량에 Gemini가 적용되며 음성비서가 대화형 AI에 가까워졌습니다.",
         ),
         (
             "AI 칩 경쟁, 다변화 신호",
-            "Google TPU와 Amazon Trainium처럼 자체 AI 칩을 외부 고객에게 제공하려는 움직임이 커지고 있습니다.",
+            "Google TPU와 Amazon Trainium처럼 자체 AI 칩을 외부 고객에게 제공하려는 움직임입니다.",
         ),
     ]
     for index, (title, body) in enumerate(news_items, 1):
@@ -194,7 +261,7 @@ def main() -> None:
 
     draw_wrapped(
         draw,
-        '아리아 한줄 요약: 오늘은 AI가 "더 똑똑해지는 것"보다, 어디에 들어가고 어떻게 안전하게 쓰이는지가 핵심이에요.',
+        '아리아 한줄 요약: 오늘은 "AI가 어디에 들어가고, 어떻게 안전하게 쓰이는가"가 핵심이에요.',
         (87, 1163),
         fonts["bubble"],
         NAVY,
@@ -208,4 +275,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    render_example()
