@@ -1,0 +1,8 @@
+config/kakao_token.json
+config/config.json
+work/drafts/*
+!work/drafts/.gitkeep
+output/cardnews/*
+!output/cardnews/.gitkeep
+output/published/*
+!output/published/.gitkeep

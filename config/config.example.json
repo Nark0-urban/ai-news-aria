@@ -1,0 +1,19 @@
+{
+  "kakao": {
+    "rest_api_key": "YOUR_KAKAO_REST_API_KEY",
+    "client_secret": "",
+    "redirect_uri": "http://localhost:8765/callback",
+    "token_file": "config/kakao_token.json"
+  },
+  "cardnews": {
+    "character_reference": "assets/character/aria_reference.png",
+    "output_dir": "output/cardnews",
+    "published_dir": "output/published",
+    "cards_per_day": 8,
+    "image_width": 1080,
+    "image_height": 1350
+  },
+  "cleanup": {
+    "keep_days": 30
+  }
+}
