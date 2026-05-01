@@ -1,0 +1,46 @@
+name: Kakao notify cardnews
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/cardnews/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  send-kakao:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Find latest cardnews
+        id: latest
+        shell: bash
+        run: |
+          set -euo pipefail
+          day="$(find docs/cardnews -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | sort | tail -n 1)"
+          if [ -z "$day" ]; then
+            echo "No cardnews folder found." >&2
+            exit 1
+          fi
+          echo "day=$day" >> "$GITHUB_OUTPUT"
+
+      - name: Send Kakao message
+        env:
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+          BASE_URL: https://nark0-urban.github.io/ai-news-aria
+        run: |
+          python scripts/send_kakao.py \
+            --title "AI 뉴스 아리아" \
+            --description "오늘의 AI 카드뉴스가 업데이트됐습니다." \
+            --image-url "${BASE_URL}/cardnews/${{ steps.latest.outputs.day }}/card_01.png" \
+            --link-url "${BASE_URL}/cardnews/${{ steps.latest.outputs.day }}/" \
+            --button-title "카드뉴스 확인하기" \
+            --fallback-text

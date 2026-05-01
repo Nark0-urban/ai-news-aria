@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -80,6 +81,29 @@ def token_needs_refresh(token: dict[str, Any]) -> bool:
 
 
 def load_and_refresh_token(config: dict[str, Any]) -> dict[str, Any]:
+    env_access_token = os.environ.get("KAKAO_ACCESS_TOKEN")
+    if env_access_token:
+        return {"access_token": env_access_token}
+
+    env_token_json = os.environ.get("KAKAO_TOKEN_JSON")
+    if env_token_json:
+        token = json.loads(env_token_json)
+        if not token_needs_refresh(token):
+            return token
+        refresh = token.get("refresh_token")
+        if not refresh:
+            raise SystemExit("KAKAO_TOKEN_JSON has no refresh_token.")
+        body = make_token_body(config, "refresh_token", refresh_token=refresh)
+        new_token = post_form("https://kauth.kakao.com/oauth/token", body)
+        if not new_token.get("refresh_token"):
+            new_token["refresh_token"] = refresh
+        return new_token
+
+    env_refresh_token = os.environ.get("KAKAO_REFRESH_TOKEN")
+    if env_refresh_token:
+        body = make_token_body(config, "refresh_token", refresh_token=env_refresh_token)
+        return post_form("https://kauth.kakao.com/oauth/token", body)
+
     path = PROJECT_ROOT / config["kakao"]["token_file"]
     if not path.exists():
         raise SystemExit(f"Missing Kakao token file: {path}\nRun scripts/kakao_auth.py first.")
@@ -168,7 +192,12 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
-    config = load_json(PROJECT_ROOT / args.config)
+    config_path = PROJECT_ROOT / args.config
+    config = load_json(config_path) if config_path.exists() else load_json(PROJECT_ROOT / "config/config.example.json")
+    if os.environ.get("KAKAO_REST_API_KEY"):
+        config["kakao"]["rest_api_key"] = os.environ["KAKAO_REST_API_KEY"]
+    if os.environ.get("KAKAO_CLIENT_SECRET"):
+        config["kakao"]["client_secret"] = os.environ["KAKAO_CLIENT_SECRET"]
     token = load_and_refresh_token(config)
     template_json = json.dumps(build_template(args), ensure_ascii=False, separators=(",", ":"))
 
