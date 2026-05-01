@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - "docs/cardnews/**"
-      - "docs/assets/kakao_thumbnail.png"
+      - "docs/assets/**"
   workflow_dispatch:
 
 permissions:
@@ -41,7 +41,7 @@ jobs:
           python scripts/send_kakao.py \
             --title "AI 뉴스 아리아" \
             --description "오늘의 AI 카드뉴스가 업데이트됐습니다." \
-            --image-url "${BASE_URL}/assets/kakao_thumbnail.png" \
+            --image-url "${BASE_URL}/assets/kakao_thumbnail_20260501_v2.png" \
             --link-url "${BASE_URL}/cardnews/${{ steps.latest.outputs.day }}/" \
             --button-title "카드뉴스 확인하기" \
             --fallback-text
