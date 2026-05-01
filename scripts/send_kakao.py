@@ -107,6 +107,8 @@ def load_and_refresh_token(config: dict[str, Any]) -> dict[str, Any]:
 def build_template(args: argparse.Namespace) -> dict[str, Any]:
     if args.image_url:
         description = args.description or args.text
+        if args.include_url and args.link_url and args.link_url not in description:
+            description = f"{description}\n{args.link_url}"
         return {
             "object_type": "feed",
             "content": {
@@ -120,7 +122,7 @@ def build_template(args: argparse.Namespace) -> dict[str, Any]:
             },
             "buttons": [
                 {
-                    "title": "카드뉴스 보기",
+                    "title": args.button_title,
                     "link": {
                         "web_url": args.link_url,
                         "mobile_web_url": args.link_url,
@@ -136,7 +138,7 @@ def build_template(args: argparse.Namespace) -> dict[str, Any]:
             "web_url": args.link_url,
             "mobile_web_url": args.link_url,
         },
-        "button_title": "열어보기",
+        "button_title": args.button_title,
     }
 
 
@@ -148,6 +150,8 @@ def main() -> None:
     parser.add_argument("--description", default="")
     parser.add_argument("--image-url", default="")
     parser.add_argument("--link-url", default="https://example.com")
+    parser.add_argument("--button-title", default="카드뉴스 보기")
+    parser.add_argument("--include-url", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
