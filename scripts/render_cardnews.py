@@ -78,9 +78,16 @@ def sample_cards(day: str) -> dict[str, Any]:
 
 
 def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
+    repo_fonts = PROJECT_ROOT / "assets" / "fonts"
     candidates = [
+        repo_fonts / ("Pretendard-Bold.otf" if bold else "Pretendard-Regular.otf"),
+        repo_fonts / ("Pretendard-Bold.ttf" if bold else "Pretendard-Regular.ttf"),
+        repo_fonts / ("S-CoreDream-6Bold.otf" if bold else "S-CoreDream-4Regular.otf"),
+        repo_fonts / ("SCDream6.otf" if bold else "SCDream4.otf"),
+        Path("C:/Windows/Fonts/Pretendard-Bold.otf" if bold else "C:/Windows/Fonts/Pretendard-Regular.otf"),
+        Path("C:/Windows/Fonts/S-CoreDream-6Bold.otf" if bold else "C:/Windows/Fonts/S-CoreDream-4Regular.otf"),
         Path("C:/Windows/Fonts/malgunbd.ttf" if bold else "C:/Windows/Fonts/malgun.ttf"),
-        Path("C:/Windows/Fonts/NotoSansKR-Bold.otf" if bold else "C:/Windows/Fonts/NotoSansKR-Regular.otf"),
+        Path("C:/Windows/Fonts/NotoSansKR-VF.ttf"),
     ]
     for candidate in candidates:
         if candidate.exists():
@@ -130,19 +137,32 @@ def paste_character(canvas: Image.Image, reference_path: Path, width: int, heigh
     if not reference_path.exists():
         return
     ref = Image.open(reference_path).convert("RGBA")
-    # Keep Aria as the side commentator and crop out most of the old text panels.
-    crop_left = int(ref.width * 0.43)
-    crop_top = int(ref.height * 0.10)
-    ref = ref.crop((crop_left, crop_top, ref.width, ref.height))
-    target_w = 520
-    target_h = int(ref.height * (target_w / ref.width))
-    ref = ref.resize((target_w, target_h), Image.Resampling.LANCZOS)
-    x = width - target_w + 18
-    y = height - target_h + 85
+    # Use Aria as a compact host avatar, not the main visual.
+    crop = (
+        int(ref.width * 0.50),
+        int(ref.height * 0.12),
+        int(ref.width * 0.92),
+        int(ref.height * 0.47),
+    )
+    ref = ref.crop(crop)
+    size = 176
+    ref = ref.resize((size, size), Image.Resampling.LANCZOS)
 
-    fade = Image.new("RGBA", ref.size, (255, 255, 255, 0))
-    ref = Image.blend(ref, fade, 0.02)
-    canvas.alpha_composite(ref, (x, y))
+    mask = Image.new("L", (size, size), 0)
+    mask_draw = ImageDraw.Draw(mask)
+    mask_draw.ellipse((0, 0, size - 1, size - 1), fill=255)
+
+    avatar = Image.new("RGBA", (size, size), (255, 255, 255, 0))
+    avatar.alpha_composite(ref, (0, 0))
+    avatar.putalpha(mask)
+
+    x = width - size - 72
+    y = height - size - 156
+    canvas.alpha_composite(avatar, (x, y))
+
+    draw = ImageDraw.Draw(canvas)
+    draw.ellipse((x - 6, y - 6, x + size + 6, y + size + 6), outline=(9, 32, 70, 255), width=5)
+    draw.ellipse((x - 13, y - 13, x + size + 13, y + size + 13), outline=(0, 178, 218, 180), width=3)
 
 
 def draw_badge(
@@ -188,19 +208,14 @@ def draw_card(card: dict[str, Any], index: int, total: int, config: dict[str, An
         draw.line([(0, y), (width, y)], fill=(r, g, b, 255))
 
     draw.rounded_rectangle((-70, 220, 470, 760), radius=80, fill=(214, 235, 250, 105))
-    draw.rounded_rectangle((680, 138, 1200, 720), radius=90, fill=(208, 230, 247, 120))
-    draw.rounded_rectangle((560, 760, 1170, 1430), radius=100, fill=(225, 237, 244, 165))
+    draw.rounded_rectangle((720, 146, 1200, 520), radius=90, fill=(208, 230, 247, 105))
+    draw.rounded_rectangle((646, 940, 1170, 1430), radius=100, fill=(225, 237, 244, 150))
 
     grid_color = (182, 205, 225, 65)
     for x in range(60, width, 120):
         draw.line([(x, 170), (x, height - 70)], fill=grid_color, width=1)
     for y in range(190, height, 120):
         draw.line([(40, y), (width - 40, y)], fill=grid_color, width=1)
-
-    # Right visual stage for Aria, so the template looks intentional even with fixed art.
-    stage = (630, 156, 1032, 1094)
-    draw_soft_shadow(draw, stage, 38)
-    draw.rounded_rectangle(stage, radius=38, fill=(239, 247, 253, 232), outline=(185, 214, 236), width=2)
 
     paste_character(canvas, reference_path, width, height)
     draw = ImageDraw.Draw(canvas)
@@ -215,16 +230,16 @@ def draw_card(card: dict[str, Any], index: int, total: int, config: dict[str, An
     white = (255, 255, 255)
     panel_border = (180, 209, 232)
 
-    meta_font = font(26, bold=True)
+    meta_font = font(25, bold=True)
     date_font = font(24, bold=True)
     card_no_font = font(58, bold=True)
     title_font = font(50, bold=True)
-    body_font = font(34)
-    speech_font = font(34, bold=True)
+    body_font = font(37)
+    speech_font = font(21, bold=True)
     small_font = font(27)
     source_font = font(24)
-    label_font = font(24, bold=True)
-    bullet_font = font(29, bold=True)
+    label_font = font(25, bold=True)
+    bullet_font = font(32, bold=True)
 
     created_date = clean_day(str(card.get("created_date") or card.get("date") or date.today().isoformat()))
     source_date = clean_day(str(card.get("source_date") or created_date))
@@ -262,47 +277,47 @@ def draw_card(card: dict[str, Any], index: int, total: int, config: dict[str, An
     )
 
     # Main information board.
-    panel = (66, 228, 620, 940)
+    panel = (66, 228, 1014, 1014)
     draw_soft_shadow(draw, panel, 30)
     draw.rounded_rectangle(panel, radius=30, fill=(255, 255, 255, 248), outline=panel_border, width=2)
-    draw.rounded_rectangle((66, 228, 620, 300), radius=30, fill=(239, 248, 255, 255))
-    draw.rectangle((66, 266, 620, 300), fill=(239, 248, 255, 255))
+    draw.rounded_rectangle((66, 228, 1014, 304), radius=30, fill=(239, 248, 255, 255))
+    draw.rectangle((66, 266, 1014, 304), fill=(239, 248, 255, 255))
     draw.text((98, 250), topic, font=label_font, fill=blue)
-    draw_badge(draw, (420, 244, 578, 288), importance, meta_font, (255, 248, 224, 255), gold, navy)
-    draw.text((98, 334), "핵심 요약", font=label_font, fill=navy)
-    y_after_summary = draw_wrapped(draw, (98, 382), summary, body_font, gray, 474, 48, 4)
+    draw_badge(draw, (812, 246, 970, 290), importance, meta_font, (255, 248, 224, 255), gold, navy)
+    draw.text((98, 344), "핵심 요약", font=label_font, fill=navy)
+    y_after_summary = draw_wrapped(draw, (98, 394), summary, body_font, gray, 820, 54, 5)
 
     bullets = card.get("bullets") or []
     if not bullets:
         bullets = [caption, "출처 확인", "내일 흐름 체크"]
-    draw.text((98, max(574, y_after_summary + 34)), "오늘 볼 포인트", font=label_font, fill=navy)
-    bullet_y = max(624, y_after_summary + 82)
+    draw.text((98, max(630, y_after_summary + 34)), "오늘 볼 포인트", font=label_font, fill=navy)
+    bullet_y = max(684, y_after_summary + 86)
     for bullet in [str(item) for item in bullets[:3]]:
-        row = (98, bullet_y - 8, 584, bullet_y + 42)
+        row = (98, bullet_y - 10, 650, bullet_y + 44)
         draw.rounded_rectangle(row, radius=16, fill=(245, 249, 252, 255), outline=(220, 232, 240), width=1)
         draw.rounded_rectangle((118, bullet_y + 5, 138, bullet_y + 25), radius=6, fill=cyan)
         draw.text((154, bullet_y - 1), bullet, font=bullet_font, fill=navy)
-        bullet_y += 62
+        bullet_y += 66
 
     # Source/date strip.
-    strip = (96, 824, 590, 886)
+    strip = (96, 900, 568, 958)
     draw.rounded_rectangle(strip, radius=18, fill=(235, 244, 253, 255), outline=(187, 211, 232), width=1)
-    draw.text((126, 842), f"뉴스 기준일  {source_date}", font=small_font, fill=navy)
+    draw.text((126, 916), f"뉴스 기준일  {source_date}", font=small_font, fill=navy)
 
     # Speech bubble from Aria.
-    speech_box = (404, 886, 1014, 1162)
-    draw_soft_shadow(draw, speech_box, 34)
-    draw.rounded_rectangle(speech_box, radius=32, fill=white, outline=navy, width=4)
-    tail = [(735, 888), (814, 842), (796, 908)]
+    speech_box = (420, 1034, 802, 1164)
+    draw_soft_shadow(draw, speech_box, 24)
+    draw.rounded_rectangle(speech_box, radius=24, fill=white, outline=navy, width=3)
+    tail = [(802, 1118), (838, 1100), (802, 1084)]
     draw.polygon(tail, fill=white, outline=navy)
-    draw.line([tail[0], tail[1], tail[2]], fill=navy, width=4)
-    draw.text((456, 922), "ARIA COMMENT", font=label_font, fill=blue)
-    draw_wrapped(draw, (456, 972), aria_line, speech_font, navy, 500, 49, 3)
+    draw.line([tail[0], tail[1], tail[2]], fill=navy, width=3)
+    draw.text((452, 1056), "ARIA", font=label_font, fill=blue)
+    draw_wrapped(draw, (452, 1088), aria_line, speech_font, navy, 310, 30, 2)
 
     sources = card.get("sources") or []
     names = [str(source.get("name")) for source in sources if isinstance(source, dict) and source.get("name")]
     if names:
-        draw_wrapped(draw, (78, 972), "출처: " + ", ".join(names), source_font, muted, 310, 34, 3)
+        draw_wrapped(draw, (78, 1048), "출처: " + ", ".join(names), source_font, muted, 540, 34, 3)
 
     footer = (66, 1202, 1014, 1284)
     draw.rounded_rectangle(footer, radius=24, fill=(9, 32, 70, 238))

@@ -1,0 +1,58 @@
+{
+  "date": "2026-05-01-avatar2",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "어제 AI 뉴스 핵심 요약",
+      "summary": "중요한 변화만 빠르게 정리했어요.",
+      "aria_line": "오늘은 흐름을 바꿀 만한 소식만 콕 집어줄게요!",
+      "caption": "AI 뉴스 큐레이터 아리아",
+      "importance": "브리핑",
+      "topic": "Daily Brief",
+      "source_date": "2026-05-01-avatar2",
+      "bullets": [
+        "제품 업데이트",
+        "연구/논문",
+        "정책과 커뮤니티 반응"
+      ],
+      "sources": []
+    },
+    {
+      "type": "news",
+      "title": "제품 업데이트",
+      "summary": "새 모델, 새 기능, 가격 정책 변화처럼 실사용에 영향을 주는 소식을 우선 확인합니다.",
+      "aria_line": "업데이트는 기능보다 내 작업이 어떻게 달라지나를 보면 쉬워요.",
+      "caption": "실무 영향 중심으로 보기",
+      "importance": "중요",
+      "topic": "Product Update",
+      "source_date": "2026-05-01-avatar2",
+      "bullets": [
+        "새 기능과 모델 변화",
+        "가격/정책 영향",
+        "실무 적용 포인트"
+      ],
+      "sources": [
+        {
+          "name": "출처 예시",
+          "url": "https://example.com"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "title": "오늘 주목할 포인트",
+      "summary": "반복해서 등장하는 키워드를 모아 내일 확인할 흐름을 정합니다.",
+      "aria_line": "뉴스는 하루치만 보면 점이고, 며칠 묶어 보면 방향이 보여요.",
+      "caption": "내일 다시 볼 키워드",
+      "importance": "체크",
+      "topic": "Watch Point",
+      "source_date": "2026-05-01-avatar2",
+      "bullets": [
+        "반복 키워드",
+        "개발자 관점",
+        "내일 확인할 흐름"
+      ],
+      "sources": []
+    }
+  ]
+}
