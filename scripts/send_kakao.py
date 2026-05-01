@@ -162,7 +162,7 @@ def main() -> None:
     parser.add_argument("--description", default="")
     parser.add_argument("--image-url", default="")
     parser.add_argument("--link-url", default="https://example.com")
-    parser.add_argument("--button-title", default="카드뉴스 보기")
+    parser.add_argument("--button-title", default="카드뉴스 확인하기")
     parser.add_argument("--include-url", action="store_true")
     parser.add_argument("--fallback-text", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
