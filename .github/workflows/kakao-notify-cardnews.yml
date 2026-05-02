@@ -31,6 +31,9 @@ jobs:
           fi
           echo "day=$day" >> "$GITHUB_OUTPUT"
 
+      - name: Wait for GitHub Pages
+        run: sleep 120
+
       - name: Send Kakao message
         env:
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
