@@ -24,7 +24,12 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          day="$(find docs/cardnews -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | sort | tail -n 1)"
+          day="$(
+            find docs/cardnews -mindepth 1 -maxdepth 1 -type d -printf '%f\n' \
+              | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' \
+              | sort \
+              | tail -n 1
+          )"
           if [ -z "$day" ]; then
             echo "No cardnews folder found." >&2
             exit 1
