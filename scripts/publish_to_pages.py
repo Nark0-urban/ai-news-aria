@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import shutil
 from datetime import date
 from pathlib import Path
@@ -27,26 +28,30 @@ def copy_tree(source: Path, target: Path) -> None:
             shutil.copy2(item, target / item.name)
 
 
+def is_date_folder(path: Path) -> bool:
+    return path.is_dir() and re.match(r"^\d{4}-\d{2}-\d{2}$", path.name) is not None
+
+
 def write_index(docs_dir: Path, site_title: str, base_url: str) -> None:
     entries: list[str] = []
-    for day_dir in sorted((docs_dir / "cardnews").glob("*"), reverse=True):
-        if not day_dir.is_dir():
-            continue
-        cards = sorted(day_dir.glob("card_*.png"))
-        if not cards:
-            continue
-        day = day_dir.name
-        first = f"cardnews/{day}/{cards[0].name}"
-        entries.append(
-            f"""
+    cardnews_root = docs_dir / "cardnews"
+    if cardnews_root.exists():
+        for day_dir in sorted((p for p in cardnews_root.iterdir() if is_date_folder(p)), reverse=True):
+            cards = sorted(day_dir.glob("card_*.png"))
+            if not cards:
+                continue
+            day = day_dir.name
+            first = f"cardnews/{day}/{cards[0].name}"
+            entries.append(
+                f"""
             <article>
               <a href="cardnews/{day}/index.html">
-                <img src="{first}" alt="{day} cardnews cover">
+                <img src="{first}" alt="{day} 카드뉴스 표지">
                 <strong>{day}</strong>
               </a>
             </article>
             """
-        )
+            )
 
     body = "\n".join(entries) or "<p>아직 발행된 카드뉴스가 없습니다.</p>"
     html = f"""<!doctype html>
@@ -81,7 +86,7 @@ def write_index(docs_dir: Path, site_title: str, base_url: str) -> None:
 
 def write_day_page(day_dir: Path, day: str, site_title: str) -> None:
     cards = sorted(day_dir.glob("card_*.png"))
-    image_tags = "\n".join(
+    image_tags = "\n    ".join(
         f'<img src="{card.name}" alt="{day} {card.stem}">' for card in cards
     )
     html = f"""<!doctype html>

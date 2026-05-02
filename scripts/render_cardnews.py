@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 """Render AI News Aria cardnews PNG files from cards.json.
 
-This renderer uses existing character assets plus text/layout templates.
-It does not call any paid image generation API.
+The renderer uses the fixed visual template in assets/templates and only paints
+text into reserved areas. It does not call image generation APIs.
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import re
 from datetime import date
 from pathlib import Path
 from typing import Any
@@ -17,11 +18,17 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+TEMPLATE_PATH = PROJECT_ROOT / "assets" / "templates" / "ai_news_aria_layout_visual_v1.png"
+
+NAVY = (11, 38, 84, 255)
+MUTED = (70, 84, 110, 255)
+BLUE = (0, 133, 204, 255)
+WHITE = (255, 255, 255, 255)
 
 
 def clean_day(value: str) -> str:
-    text = str(value)
-    return text[:10] if len(text) >= 10 and text[4:5] == "-" and text[7:8] == "-" else text
+    text = str(value or "")
+    return text[:10] if re.match(r"^\d{4}-\d{2}-\d{2}", text) else text
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -39,55 +46,46 @@ def sample_cards(day: str) -> dict[str, Any]:
         "cards": [
             {
                 "type": "cover",
-                "title": "어제 AI 뉴스 핵심 요약",
-                "summary": "중요한 변화만 빠르게 정리했어요.",
-                "aria_line": "오늘은 흐름을 바꿀 만한 소식만 콕 집어줄게요!",
+                "title": "전날 AI 뉴스 핵심 요약",
+                "summary": "하루 동안 나온 중요한 AI 소식만 골라 읽기 쉽게 정리했어요.",
+                "bullets": [
+                    "제품 업데이트와 모델 변경",
+                    "정책·규제와 산업 흐름",
+                    "개발자가 바로 확인할 포인트",
+                ],
+                "aria_line": "중요한 것만 빠르게 볼까요?",
                 "caption": "AI 뉴스 큐레이터 아리아",
-                "importance": "브리핑",
-                "topic": "Daily Brief",
+                "importance": "Brief",
                 "source_date": day,
-                "bullets": ["제품 업데이트", "연구/논문", "정책과 커뮤니티 반응"],
                 "sources": [],
             },
             {
                 "type": "news",
-                "title": "제품 업데이트",
-                "summary": "새 모델, 새 기능, 가격 정책 변화처럼 실사용에 영향을 주는 소식을 우선 확인합니다.",
-                "aria_line": "업데이트는 기능보다 내 작업이 어떻게 달라지나를 보면 쉬워요.",
-                "caption": "실무 영향 중심으로 보기",
-                "importance": "중요",
-                "topic": "Product Update",
+                "title": "AI 제품 업데이트 체크",
+                "summary": "새 모델, 가격 정책, 개발자 도구 변화처럼 실제 업무에 영향을 줄 수 있는 소식을 우선 확인합니다.",
+                "bullets": [
+                    "무엇이 바뀌었는지",
+                    "누구에게 영향이 있는지",
+                    "오늘 바로 확인할 설정",
+                ],
+                "aria_line": "기능보다 업무 영향부터 보면 이해가 쉬워요.",
+                "caption": "제품·개발자 업데이트",
+                "importance": "Important",
                 "source_date": day,
-                "bullets": ["새 기능과 모델 변화", "가격/정책 영향", "실무 적용 포인트"],
-                "sources": [{"name": "출처 예시", "url": "https://example.com"}],
-            },
-            {
-                "type": "point",
-                "title": "오늘 주목할 포인트",
-                "summary": "반복해서 등장하는 키워드를 모아 내일 확인할 흐름을 정합니다.",
-                "aria_line": "뉴스는 하루치만 보면 점이고, 며칠 묶어 보면 방향이 보여요.",
-                "caption": "내일 다시 볼 키워드",
-                "importance": "체크",
-                "topic": "Watch Point",
-                "source_date": day,
-                "bullets": ["반복 키워드", "개발자 관점", "내일 확인할 흐름"],
-                "sources": [],
+                "sources": [{"name": "Example", "url": "https://example.com"}],
             },
         ],
     }
 
 
-def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
-    repo_fonts = PROJECT_ROOT / "assets" / "fonts"
+def font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
     candidates = [
-        repo_fonts / ("Pretendard-Bold.otf" if bold else "Pretendard-Regular.otf"),
-        repo_fonts / ("Pretendard-Bold.ttf" if bold else "Pretendard-Regular.ttf"),
-        repo_fonts / ("S-CoreDream-6Bold.otf" if bold else "S-CoreDream-4Regular.otf"),
-        repo_fonts / ("SCDream6.otf" if bold else "SCDream4.otf"),
-        Path("C:/Windows/Fonts/Pretendard-Bold.otf" if bold else "C:/Windows/Fonts/Pretendard-Regular.otf"),
-        Path("C:/Windows/Fonts/S-CoreDream-6Bold.otf" if bold else "C:/Windows/Fonts/S-CoreDream-4Regular.otf"),
-        Path("C:/Windows/Fonts/malgunbd.ttf" if bold else "C:/Windows/Fonts/malgun.ttf"),
-        Path("C:/Windows/Fonts/NotoSansKR-VF.ttf"),
+        PROJECT_ROOT / "assets" / "fonts" / "Pretendard-Medium.otf",
+        PROJECT_ROOT / "assets" / "fonts" / "Pretendard-Regular.otf",
+        PROJECT_ROOT / "assets" / "fonts" / "S-CoreDream-4Regular.otf",
+        Path("C:/Windows/Fonts/Pretendard-Medium.otf"),
+        Path("C:/Windows/Fonts/Pretendard-Regular.otf"),
+        Path("C:/Windows/Fonts/malgun.ttf"),
     ]
     for candidate in candidates:
         if candidate.exists():
@@ -95,234 +93,167 @@ def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
     return ImageFont.load_default(size=size)
 
 
-def wrap_text(draw: ImageDraw.ImageDraw, text: str, font_obj: ImageFont.ImageFont, max_width: int) -> list[str]:
-    lines: list[str] = []
-    for paragraph in str(text).splitlines() or [""]:
-        if not paragraph.strip():
-            lines.append("")
-            continue
-        current = ""
-        for token in paragraph.split():
-            candidate = token if not current else f"{current} {token}"
-            bbox = draw.textbbox((0, 0), candidate, font=font_obj)
-            if bbox[2] - bbox[0] <= max_width:
-                current = candidate
-            else:
-                if current:
-                    lines.append(current)
-                current = token
-        if current:
-            lines.append(current)
-    return lines
+def text_width(draw: ImageDraw.ImageDraw, text: str, font_obj: ImageFont.ImageFont) -> int:
+    box = draw.textbbox((0, 0), text, font=font_obj)
+    return box[2] - box[0]
 
 
-def draw_wrapped(
+def wrap_text(
     draw: ImageDraw.ImageDraw,
-    xy: tuple[int, int],
     text: str,
     font_obj: ImageFont.ImageFont,
-    fill: tuple[int, int, int],
     max_width: int,
-    line_height: int,
+) -> list[str]:
+    result: list[str] = []
+    for raw_paragraph in str(text or "").splitlines() or [""]:
+        paragraph = raw_paragraph.strip()
+        if not paragraph:
+            result.append("")
+            continue
+
+        current = ""
+        for char in paragraph:
+            candidate = current + char
+            if text_width(draw, candidate, font_obj) <= max_width:
+                current = candidate
+            else:
+                break_at = current.rfind(" ")
+                if break_at > 0:
+                    result.append(current[:break_at].rstrip())
+                    current = (current[break_at + 1 :] + char).lstrip()
+                else:
+                    if current:
+                        result.append(current.rstrip())
+                    current = char.lstrip()
+        if current:
+            result.append(current.rstrip())
+    return result
+
+
+def ellipsize(draw: ImageDraw.ImageDraw, text: str, font_obj: ImageFont.ImageFont, max_width: int) -> str:
+    text = str(text or "")
+    if text_width(draw, text, font_obj) <= max_width:
+        return text
+    suffix = "..."
+    while text and text_width(draw, text + suffix, font_obj) > max_width:
+        text = text[:-1]
+    return text + suffix if text else suffix
+
+
+def fit_font(
+    draw: ImageDraw.ImageDraw,
+    text: str,
+    max_width: int,
     max_lines: int,
+    start: int,
+    minimum: int,
+) -> tuple[ImageFont.ImageFont, list[str], int]:
+    for size in range(start, minimum - 1, -2):
+        f = font(size)
+        lines = wrap_text(draw, text, f, max_width)
+        if len(lines) <= max_lines:
+            return f, lines, size
+    f = font(minimum)
+    lines = wrap_text(draw, text, f, max_width)[:max_lines]
+    if lines:
+        lines[-1] = ellipsize(draw, lines[-1], f, max_width)
+    return f, lines, minimum
+
+
+def draw_lines(
+    draw: ImageDraw.ImageDraw,
+    xy: tuple[int, int],
+    lines: list[str],
+    font_obj: ImageFont.ImageFont,
+    fill: tuple[int, int, int, int],
+    line_height: int,
 ) -> int:
     x, y = xy
-    for line in wrap_text(draw, text, font_obj, max_width)[:max_lines]:
+    for line in lines:
         draw.text((x, y), line, font=font_obj, fill=fill)
         y += line_height
     return y
 
 
-def paste_character(canvas: Image.Image, reference_path: Path, width: int, height: int) -> None:
-    if not reference_path.exists():
-        return
-    ref = Image.open(reference_path).convert("RGBA")
-    # Use Aria as a compact host avatar, not the main visual.
-    crop = (
-        int(ref.width * 0.50),
-        int(ref.height * 0.12),
-        int(ref.width * 0.92),
-        int(ref.height * 0.47),
-    )
-    ref = ref.crop(crop)
-    size = 176
-    ref = ref.resize((size, size), Image.Resampling.LANCZOS)
-
-    mask = Image.new("L", (size, size), 0)
-    mask_draw = ImageDraw.Draw(mask)
-    mask_draw.ellipse((0, 0, size - 1, size - 1), fill=255)
-
-    avatar = Image.new("RGBA", (size, size), (255, 255, 255, 0))
-    avatar.alpha_composite(ref, (0, 0))
-    avatar.putalpha(mask)
-
-    x = width - size - 72
-    y = height - size - 156
-    canvas.alpha_composite(avatar, (x, y))
-
-    draw = ImageDraw.Draw(canvas)
-    draw.ellipse((x - 6, y - 6, x + size + 6, y + size + 6), outline=(9, 32, 70, 255), width=5)
-    draw.ellipse((x - 13, y - 13, x + size + 13, y + size + 13), outline=(0, 178, 218, 180), width=3)
-
-
-def draw_badge(
+def draw_clamped(
     draw: ImageDraw.ImageDraw,
-    box: tuple[int, int, int, int],
+    xy: tuple[int, int],
     text: str,
-    font_obj: ImageFont.ImageFont,
-    fill: tuple[int, int, int],
-    outline: tuple[int, int, int],
-    text_fill: tuple[int, int, int],
-) -> None:
-    draw.rounded_rectangle(box, radius=18, fill=fill, outline=outline, width=3)
-    bbox = draw.textbbox((0, 0), text, font=font_obj)
-    x = box[0] + ((box[2] - box[0]) - (bbox[2] - bbox[0])) // 2
-    y = box[1] + ((box[3] - box[1]) - (bbox[3] - bbox[1])) // 2 - 2
-    draw.text((x, y), text, font=font_obj, fill=text_fill)
+    fill: tuple[int, int, int, int],
+    max_width: int,
+    max_lines: int,
+    start_size: int,
+    min_size: int,
+    line_gap: int = 8,
+) -> int:
+    font_obj, lines, size = fit_font(draw, text, max_width, max_lines, start_size, min_size)
+    return draw_lines(draw, xy, lines, font_obj, fill, size + line_gap)
 
 
-def draw_soft_shadow(draw: ImageDraw.ImageDraw, box: tuple[int, int, int, int], radius: int) -> None:
-    x1, y1, x2, y2 = box
-    for offset, alpha in [(14, 24), (8, 30), (4, 38)]:
-        draw.rounded_rectangle(
-            (x1 + offset, y1 + offset, x2 + offset, y2 + offset),
-            radius=radius,
-            fill=(24, 55, 94, alpha),
-        )
+def source_names(card: dict[str, Any]) -> str:
+    sources = card.get("sources") or []
+    names = []
+    for source in sources:
+        if isinstance(source, dict) and source.get("name"):
+            names.append(str(source["name"]))
+    return ", ".join(names[:3])
 
 
 def draw_card(card: dict[str, Any], index: int, total: int, config: dict[str, Any], output_path: Path) -> None:
     width = int(config["cardnews"]["image_width"])
     height = int(config["cardnews"]["image_height"])
-    reference_path = PROJECT_ROOT / config["cardnews"]["character_reference"]
 
-    canvas = Image.new("RGBA", (width, height), (244, 248, 252, 255))
+    if TEMPLATE_PATH.exists():
+        canvas = Image.open(TEMPLATE_PATH).convert("RGBA").resize((width, height), Image.Resampling.LANCZOS)
+    else:
+        canvas = Image.new("RGBA", (width, height), (245, 249, 253, 255))
+
     draw = ImageDraw.Draw(canvas)
 
-    # Editorial, clean base background.
-    for y in range(height):
-        ratio = y / height
-        r = int(247 * (1 - ratio) + 232 * ratio)
-        g = int(250 * (1 - ratio) + 241 * ratio)
-        b = int(253 * (1 - ratio) + 249 * ratio)
-        draw.line([(0, y), (width, y)], fill=(r, g, b, 255))
-
-    draw.rounded_rectangle((-70, 220, 470, 760), radius=80, fill=(214, 235, 250, 105))
-    draw.rounded_rectangle((720, 146, 1200, 520), radius=90, fill=(208, 230, 247, 105))
-    draw.rounded_rectangle((646, 940, 1170, 1430), radius=100, fill=(225, 237, 244, 150))
-
-    grid_color = (182, 205, 225, 65)
-    for x in range(60, width, 120):
-        draw.line([(x, 170), (x, height - 70)], fill=grid_color, width=1)
-    for y in range(190, height, 120):
-        draw.line([(40, y), (width - 40, y)], fill=grid_color, width=1)
-
-    paste_character(canvas, reference_path, width, height)
-    draw = ImageDraw.Draw(canvas)
-
-    navy = (12, 38, 82)
-    deep = (9, 26, 54)
-    blue = (0, 132, 204)
-    cyan = (0, 178, 218)
-    gold = (242, 181, 44)
-    gray = (74, 88, 112)
-    muted = (101, 116, 138)
-    white = (255, 255, 255)
-    panel_border = (180, 209, 232)
-
-    meta_font = font(25, bold=True)
-    date_font = font(24, bold=True)
-    card_no_font = font(58, bold=True)
-    title_font = font(50, bold=True)
-    body_font = font(37)
-    speech_font = font(21, bold=True)
-    small_font = font(27)
-    source_font = font(24)
-    label_font = font(25, bold=True)
-    bullet_font = font(32, bold=True)
-
-    created_date = clean_day(str(card.get("created_date") or card.get("date") or date.today().isoformat()))
-    source_date = clean_day(str(card.get("source_date") or created_date))
-    topic = str(card.get("topic") or card.get("type") or "AI News")
     title = str(card.get("title") or "AI 뉴스 아리아")
     summary = str(card.get("summary") or "요약 내용이 아직 없습니다.")
-    aria_line = str(card.get("aria_line") or "핵심만 차분하게 정리해볼게요.")
+    aria_line = str(card.get("aria_line") or "중요한 것만 쉽게 정리해드릴게요.")
     caption = str(card.get("caption") or "AI 뉴스 큐레이터 아리아")
-    importance = str(card.get("importance") or "뉴스")
+    importance = str(card.get("importance") or "News")
+    topic = str(card.get("topic") or card.get("type") or "AI News")
+    source_date = clean_day(str(card.get("source_date") or card.get("date") or date.today().isoformat()))
+    created_date = clean_day(str(card.get("created_date") or card.get("date") or date.today().isoformat()))
 
-    # Top editorial header.
-    header = (42, 40, width - 42, 176)
-    draw_soft_shadow(draw, header, 28)
-    draw.rounded_rectangle(header, radius=28, fill=(14, 36, 74, 248))
-    draw.rounded_rectangle((42, 40, 70, 176), radius=14, fill=cyan)
-    number_box = (90, 68, 164, 148)
-    draw.rounded_rectangle(number_box, radius=18, fill=(255, 255, 255, 255), outline=(111, 189, 237), width=3)
-    no_bbox = draw.textbbox((0, 0), str(index), font=card_no_font)
-    draw.text(
-        (number_box[0] + 37 - (no_bbox[2] - no_bbox[0]) // 2, number_box[1] + 35 - (no_bbox[3] - no_bbox[1]) // 2),
-        str(index),
-        font=card_no_font,
-        fill=navy,
-    )
-    draw.text((188, 66), "AI NEWS ARIA", font=label_font, fill=(142, 218, 255))
-    draw_wrapped(draw, (188, 96), title, title_font, white, 540, 58, 1)
-    draw_badge(
-        draw,
-        (770, 72, 1016, 143),
-        f"작성 {created_date}",
-        date_font,
-        (255, 255, 255, 250),
-        (146, 198, 233),
-        navy,
-    )
+    # Top title box.
+    draw.text((84, 62), f"CARD {index:02d} / {total:02d}", font=font(25), fill=BLUE)
+    draw_clamped(draw, (84, 102), title, NAVY, 650, 1, 40, 28)
+    draw_clamped(draw, (862, 82), created_date, WHITE, 150, 1, 24, 18)
 
-    # Main information board.
-    panel = (66, 228, 1014, 1014)
-    draw_soft_shadow(draw, panel, 30)
-    draw.rounded_rectangle(panel, radius=30, fill=(255, 255, 255, 248), outline=panel_border, width=2)
-    draw.rounded_rectangle((66, 228, 1014, 304), radius=30, fill=(239, 248, 255, 255))
-    draw.rectangle((66, 266, 1014, 304), fill=(239, 248, 255, 255))
-    draw.text((98, 250), topic, font=label_font, fill=blue)
-    draw_badge(draw, (812, 246, 970, 290), importance, meta_font, (255, 248, 224, 255), gold, navy)
-    draw.text((98, 344), "핵심 요약", font=label_font, fill=navy)
-    y_after_summary = draw_wrapped(draw, (98, 394), summary, body_font, gray, 820, 54, 5)
+    # Main content panel.
+    draw.text((78, 232), importance, font=font(26), fill=BLUE)
+    draw_clamped(draw, (78, 286), summary, MUTED, 860, 5, 34, 24)
 
-    bullets = card.get("bullets") or []
-    if not bullets:
-        bullets = [caption, "출처 확인", "내일 흐름 체크"]
-    draw.text((98, max(630, y_after_summary + 34)), "오늘 볼 포인트", font=label_font, fill=navy)
-    bullet_y = max(684, y_after_summary + 86)
-    for bullet in [str(item) for item in bullets[:3]]:
-        row = (98, bullet_y - 10, 650, bullet_y + 44)
-        draw.rounded_rectangle(row, radius=16, fill=(245, 249, 252, 255), outline=(220, 232, 240), width=1)
-        draw.rounded_rectangle((118, bullet_y + 5, 138, bullet_y + 25), radius=6, fill=cyan)
-        draw.text((154, bullet_y - 1), bullet, font=bullet_font, fill=navy)
-        bullet_y += 66
+    bullets = [str(item) for item in (card.get("bullets") or []) if str(item).strip()]
+    if bullets:
+        draw.text((78, 600), "핵심 포인트", font=font(31), fill=NAVY)
+        y = 658
+        bullet_font = font(28)
+        for bullet in bullets[:3]:
+            lines = wrap_text(draw, bullet, bullet_font, 790)
+            lines = lines[:2]
+            draw.ellipse((86, y + 10, 100, y + 24), fill=BLUE)
+            y = draw_lines(draw, (118, y), lines, bullet_font, NAVY, 39) + 18
+            if y > 850:
+                break
 
-    # Source/date strip.
-    strip = (96, 900, 568, 958)
-    draw.rounded_rectangle(strip, radius=18, fill=(235, 244, 253, 255), outline=(187, 211, 232), width=1)
-    draw.text((126, 916), f"뉴스 기준일  {source_date}", font=small_font, fill=navy)
+    sources = source_names(card)
+    if sources:
+        source_text = "출처: " + sources
+        draw_clamped(draw, (78, 920), source_text, MUTED, 700, 2, 21, 17)
 
-    # Speech bubble from Aria.
-    speech_box = (420, 1034, 802, 1164)
-    draw_soft_shadow(draw, speech_box, 24)
-    draw.rounded_rectangle(speech_box, radius=24, fill=white, outline=navy, width=3)
-    tail = [(802, 1118), (838, 1100), (802, 1084)]
-    draw.polygon(tail, fill=white, outline=navy)
-    draw.line([tail[0], tail[1], tail[2]], fill=navy, width=3)
-    draw.text((452, 1056), "ARIA", font=label_font, fill=blue)
-    draw_wrapped(draw, (452, 1088), aria_line, speech_font, navy, 310, 30, 2)
+    meta = f"{topic} | 뉴스 기준 {source_date}"
+    draw_clamped(draw, (78, 970), meta, MUTED, 700, 1, 20, 16)
 
-    sources = card.get("sources") or []
-    names = [str(source.get("name")) for source in sources if isinstance(source, dict) and source.get("name")]
-    if names:
-        draw_wrapped(draw, (78, 1048), "출처: " + ", ".join(names), source_font, muted, 540, 34, 3)
+    # Speech bubble area in the template.
+    draw_clamped(draw, (78, 1112), aria_line, NAVY, 610, 3, 34, 23)
 
-    footer = (66, 1202, 1014, 1284)
-    draw.rounded_rectangle(footer, radius=24, fill=(9, 32, 70, 238))
-    draw.text((100, 1228), caption, font=small_font, fill=white)
-    draw.text((842, 1228), f"{index:02d}/{total:02d}", font=small_font, fill=(151, 219, 255))
+    # Small signature inside the lower speech area.
+    draw_clamped(draw, (78, 1272), caption, MUTED, 540, 1, 22, 17)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     canvas.convert("RGB").save(output_path, "PNG")
@@ -347,14 +278,19 @@ def main() -> None:
 
     if args.cards_json:
         data = load_json(PROJECT_ROOT / args.cards_json)
+        save_json(default_cards_path, data)
     elif default_cards_path.exists() and not args.sample:
         data = load_json(default_cards_path)
     else:
         data = sample_cards(args.date)
         save_json(default_cards_path, data)
 
+    root_day = clean_day(str(data.get("date") or args.date))
     cards = data.get("cards") or []
     for idx, card in enumerate(cards, start=1):
+        if isinstance(card, dict):
+            card.setdefault("date", root_day)
+            card.setdefault("source_date", root_day)
         draw_card(card, idx, len(cards), config, output_dir / f"card_{idx:02d}.png")
 
     print(f"Done: {output_dir}")
