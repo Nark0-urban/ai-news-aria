@@ -1,0 +1,221 @@
+{
+  "date": "2026-05-02",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "전날 AI 뉴스 요약 (5/2)",
+      "summary": "인프라(전력/데이터센터) 경쟁, ‘에이전트 거버넌스’ 제품, 그리고 새 논문 흐름까지 8장으로 정리했어요.",
+      "bullets": [
+        "인프라: OpenAI·Anthropic의 ‘컴퓨트 확보전’",
+        "제품: Microsoft Agent 365로 에이전트 관리 본격화",
+        "연구: 추론/편향/컨텍스트 학습 관련 새 preprint들"
+      ],
+      "visual_keywords": [
+        "daily brief",
+        "AI infrastructure",
+        "agents",
+        "research"
+      ],
+      "aria_line": "주인님, 어제(5월 2일) AI 이슈만 콕 집어서 빠르게 볼까요?",
+      "caption": "AI 뉴스 큐레이터 아리아",
+      "importance": "Brief",
+      "sources": []
+    },
+    {
+      "type": "news",
+      "title": "OpenAI ‘Stargate’ 인프라: 10GW 목표를 1년 만에 초과",
+      "summary": "OpenAI는 ‘지능의 시대’를 위한 컴퓨트 확장 계획을 공개하며, 2029년까지 미국 내 10GW를 확보하겠다는 목표를 이미 넘겼다고 밝혔습니다. 데이터센터가 제품 출시 속도와 직결되는 국면이에요.",
+      "bullets": [
+        "모델 경쟁이 ‘알고리즘’에서 ‘전력·부지·공급망’으로 확장",
+        "파트너/지역사회와 함께 빠르게 용량을 늘리겠다는 접근",
+        "인프라 투자·조달 뉴스는 제품 로드맵 신호로 읽히기 쉬움"
+      ],
+      "visual_keywords": [
+        "data center",
+        "power grid",
+        "compute",
+        "Stargate",
+        "infrastructure"
+      ],
+      "aria_line": "요즘 AI 경쟁은 ‘모델’만이 아니라 ‘전력·데이터센터’ 싸움이기도 해요.",
+      "caption": "인프라 경쟁",
+      "importance": "Hot",
+      "sources": [
+        {
+          "name": "OpenAI (Global Affairs)",
+          "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-has-effectively-abandoned-first-party-stargate-data-centers-in-favor-of-more-flexible-deals-company-now-prefers-to-lease-compute-and-says-stargate-is-an-umbrella-term"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "title": "Microsoft Agent 365 정식 출시(GA): ‘에이전트 컨트롤 플레인’",
+      "summary": "Microsoft가 Agent 365를 상용 고객 대상으로 정식 출시했습니다. 조직 안에 생기는 수많은 AI 에이전트를 ‘발견→관찰→거버넌스→보안’으로 한 곳에서 관리한다는 컨셉이며, 독립 라이선스는 사용자당 월 15달러로 안내됐습니다.",
+      "bullets": [
+        "보안/IT 관점의 ‘에이전트 스프롤(난립)’ 문제를 정면으로 겨냥",
+        "SaaS·클라우드·로컬 에이전트까지 인벤토리로 묶는 방향",
+        "커뮤니티에서는 M365 변경/폐지 항목(관리 UI/Graph 등)도 함께 주목"
+      ],
+      "visual_keywords": [
+        "enterprise",
+        "governance",
+        "agent control plane",
+        "Defender",
+        "Entra"
+      ],
+      "aria_line": "에이전트가 늘수록 ‘누가 뭘 하고 있나’가 제일 먼저 무너져요. 그래서 관리판이 나와요.",
+      "caption": "제품 업데이트",
+      "importance": "Important",
+      "sources": [
+        {
+          "name": "Microsoft Security Blog",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/"
+        },
+        {
+          "name": "WinBuzzer",
+          "url": "https://winbuzzer.com/2026/05/02/microsoft-agent-365-general-availability-local-ai-agents-xcxwbn/"
+        },
+        {
+          "name": "Reddit r/sysadmin",
+          "url": "https://www.reddit.com/r/sysadmin/comments/1t0prry/may_2026_microsoft_365_changes_a_quick_summary/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Anthropic × Amazon: 최대 5GW 컴퓨트 확보(Trainium2/3 포함)",
+      "summary": "Anthropic은 AWS와의 협력을 확대해 Claude 학습/배포용 컴퓨트를 최대 5GW까지 확보한다고 발표했습니다. ‘모델 성능’이 아니라 ‘학습과 서빙을 지속할 물리적 자원’이 전략의 중심으로 이동 중입니다.",
+      "bullets": [
+        "향후 10년간 1000억 달러 이상을 AWS 기술에 커밋",
+        "Trainium2(상반기), Trainium2/3(연말까지) 용량 확대 언급",
+        "컴퓨트 확보가 곧 제품 안정성과 출시 속도에 직결"
+      ],
+      "visual_keywords": [
+        "AWS",
+        "Trainium",
+        "compute",
+        "Claude",
+        "capacity"
+      ],
+      "aria_line": "요즘 ‘GPU/가속기 계약’이 곧 로드맵이에요. 모델 얘기보다 먼저 봐야 할 때가 있어요.",
+      "caption": "컴퓨트 전쟁",
+      "importance": "Hot",
+      "sources": [
+        {
+          "name": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news/anthropic-amazon-compute"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/04/21/anthropic-amazon-compute-wars"
+        }
+      ]
+    },
+    {
+      "type": "policy",
+      "title": "미 국방부, 민간 AI 벤더와 기밀망 계약 확대",
+      "summary": "미 국방부가 엔비디아·마이크로소프트·AWS 등과 계약을 맺고 AI 기술과 모델을 기밀 네트워크에 배치할 수 있도록 했다는 보도가 나왔습니다. ‘조달/감사/가드레일’이 AI 도입의 핵심 변수가 되는 흐름입니다.",
+      "bullets": [
+        "기밀 환경에 민간 모델을 ‘운영’하는 단계로 이동",
+        "벤더 다변화로 락인·정책 리스크를 분산하려는 의도",
+        "감시/자율무기 등 사용 범위를 두고 논쟁이 지속"
+      ],
+      "visual_keywords": [
+        "Pentagon",
+        "classified network",
+        "procurement",
+        "national security",
+        "cloud"
+      ],
+      "aria_line": "AI는 이제 ‘기능’이 아니라 ‘조달·규정·책임’으로 움직이는 영역이 됐어요.",
+      "caption": "정책/조달",
+      "importance": "Policy",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-01/nvidia-microsoft-aws-expanding-classified-military-ai-use?srnd=phx-industries-consumer"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "title": "Microsoft Word ‘Legal Agent’: 법무 워크플로에 특화된 에이전트",
+      "summary": "Microsoft가 Word 안에서 계약 검토·수정·협상 변경 추적 등 법무 업무에 맞춘 ‘Legal Agent’를 소개했습니다. 범용 챗봇보다, 반복 가능한 ‘플레이북형 워크플로’에 힘을 주는 방향이 보입니다.",
+      "bullets": [
+        "계약서·트랙드 체인지 등 실무 문서 형식에 초점",
+        "‘생성’보다 ‘검토/리스크 식별/규칙 기반 절차’ 강조",
+        "특정 직무용 에이전트가 더 빠르게 확산될 가능성"
+      ],
+      "visual_keywords": [
+        "Word",
+        "legal",
+        "contract review",
+        "workflow",
+        "agent"
+      ],
+      "aria_line": "범용 챗봇보다 ‘업무 절차에 딱 맞춘 에이전트’가 더 빨리 자리잡을 때가 있어요.",
+      "caption": "업무 특화 에이전트",
+      "importance": "Important",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai"
+        }
+      ]
+    },
+    {
+      "type": "research",
+      "title": "arXiv: 추론·편향·컨텍스트 학습 관련 새 preprint 흐름",
+      "summary": "LLM의 ‘선택 편향(보기 순서에 따른 흔들림)’, ‘생각 모드/비생각 모드 분리’, ‘컨텍스트에서 스킬을 스스로 진화시키는 프레임워크’ 같은 주제를 다룬 preprint들이 소개됐습니다. 모델이 커질수록 ‘학습 방식’과 ‘제어/평가’가 더 핵심이 되는 느낌이에요.",
+      "bullets": [
+        "정답률뿐 아니라 편향·제어 가능성을 같이 다루는 연구가 증가",
+        "하이브리드 추론(think/no-think)에서 누수/장황함을 줄이려는 시도",
+        "‘컨텍스트→스킬’ 자동화는 에이전트 신뢰성 개선과 맞물림"
+      ],
+      "visual_keywords": [
+        "arXiv",
+        "reasoning",
+        "bias",
+        "evaluation",
+        "LLM"
+      ],
+      "aria_line": "연구는 ‘모델 더 키우기’에서 ‘제어하고 평가하기’로 무게중심이 조금씩 이동 중이에요.",
+      "caption": "연구/논문",
+      "importance": "Research",
+      "sources": [
+        {
+          "name": "The AI Report",
+          "url": "https://theaireport.net/news/four-new-papers-tackle-reasoning-bias-and-learning-challenge/"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "title": "오늘의 체크포인트",
+      "summary": "다음 흐름을 보면 ‘어디에 투자/도입해야 할지’ 판단이 빨라져요.",
+      "bullets": [
+        "인프라: 전력·데이터센터·가속기 계약 뉴스(=로드맵 힌트)",
+        "에이전트: 거버넌스/감사/접근권한이 먼저 준비돼야 함",
+        "연구: 편향·평가·컨텍스트 학습 개선이 제품 품질로 연결"
+      ],
+      "visual_keywords": [
+        "watchlist",
+        "governance",
+        "compute",
+        "research trends"
+      ],
+      "aria_line": "주인님, 오늘은 ‘컴퓨트 계약’과 ‘에이전트 관리’ 공지부터 체크하면 효율적이에요.",
+      "caption": "키워드: 10GW / Agent 365 / 5GW / Legal Agent / arXiv",
+      "importance": "Watch",
+      "sources": []
+    }
+  ]
+}
