@@ -68,9 +68,9 @@ def main() -> None:
         "--config",
         args.config,
         "--title",
-        "AI 뉴스 아리아",
+        f"AI 뉴스 아리아 ({day})",
         "--description",
-        "오늘의 AI 카드뉴스가 업데이트됐습니다.",
+        "전날 AI 카드뉴스가 업데이트됐습니다.",
         "--image-url",
         image_url,
         "--link-url",
@@ -87,3 +87,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

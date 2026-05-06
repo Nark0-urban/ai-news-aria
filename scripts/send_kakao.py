@@ -58,11 +58,7 @@ def post_form(url: str, data: dict[str, str], headers: dict[str, str] | None = N
 
 def make_token_body(config: dict[str, Any], grant_type: str, **kwargs: str) -> dict[str, str]:
     kakao = config["kakao"]
-    body: dict[str, str] = {
-        "grant_type": grant_type,
-        "client_id": kakao["rest_api_key"],
-        **kwargs,
-    }
+    body: dict[str, str] = {"grant_type": grant_type, "client_id": kakao["rest_api_key"], **kwargs}
     client_secret = kakao.get("client_secret")
     if client_secret:
         body["client_secret"] = client_secret
@@ -139,18 +135,12 @@ def build_template(args: argparse.Namespace) -> dict[str, Any]:
                 "title": args.title,
                 "description": description,
                 "image_url": args.image_url,
-                "link": {
-                    "web_url": args.link_url,
-                    "mobile_web_url": args.link_url,
-                },
+                "link": {"web_url": args.link_url, "mobile_web_url": args.link_url},
             },
             "buttons": [
                 {
                     "title": args.button_title,
-                    "link": {
-                        "web_url": args.link_url,
-                        "mobile_web_url": args.link_url,
-                    },
+                    "link": {"web_url": args.link_url, "mobile_web_url": args.link_url},
                 }
             ],
         }
@@ -158,10 +148,7 @@ def build_template(args: argparse.Namespace) -> dict[str, Any]:
     return {
         "object_type": "text",
         "text": args.text,
-        "link": {
-            "web_url": args.link_url,
-            "mobile_web_url": args.link_url,
-        },
+        "link": {"web_url": args.link_url, "mobile_web_url": args.link_url},
         "button_title": args.button_title,
     }
 
@@ -170,10 +157,7 @@ def build_text_template(text: str, link_url: str, button_title: str) -> dict[str
     return {
         "object_type": "text",
         "text": text,
-        "link": {
-            "web_url": link_url,
-            "mobile_web_url": link_url,
-        },
+        "link": {"web_url": link_url, "mobile_web_url": link_url},
         "button_title": button_title,
     }
 
@@ -181,7 +165,7 @@ def build_text_template(text: str, link_url: str, button_title: str) -> dict[str
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", default="config/config.json")
-    parser.add_argument("--text", default="아리아 카드뉴스 테스트입니다.")
+    parser.add_argument("--text", default="AI 뉴스 아리아 테스트입니다.")
     parser.add_argument("--title", default="AI 뉴스 아리아")
     parser.add_argument("--description", default="")
     parser.add_argument("--image-url", default="")
@@ -198,6 +182,7 @@ def main() -> None:
         config["kakao"]["rest_api_key"] = os.environ["KAKAO_REST_API_KEY"]
     if os.environ.get("KAKAO_CLIENT_SECRET"):
         config["kakao"]["client_secret"] = os.environ["KAKAO_CLIENT_SECRET"]
+
     token = load_and_refresh_token(config)
     template_json = json.dumps(build_template(args), ensure_ascii=False, separators=(",", ":"))
 
@@ -229,3 +214,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

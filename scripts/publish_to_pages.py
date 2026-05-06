@@ -13,6 +13,10 @@ from typing import Any
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+TITLE_KO = "AI \ub274\uc2a4 \uc544\ub9ac\uc544"
+CARDNEWS_COVER_ALT = "\uce74\ub4dc\ub274\uc2a4 \ud45c\uc9c0"
+EMPTY_MESSAGE = "\uc544\uc9c1 \ubc1c\ud589\ub41c \uce74\ub4dc\ub274\uc2a4\uac00 \uc5c6\uc2b5\ub2c8\ub2e4."
+BACK_TO_LIST = "\uc804\uccb4 \ubaa9\ub85d"
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -32,7 +36,7 @@ def is_date_folder(path: Path) -> bool:
     return path.is_dir() and re.match(r"^\d{4}-\d{2}-\d{2}$", path.name) is not None
 
 
-def write_index(docs_dir: Path, site_title: str, base_url: str) -> None:
+def write_index(docs_dir: Path, site_title: str) -> None:
     entries: list[str] = []
     cardnews_root = docs_dir / "cardnews"
     if cardnews_root.exists():
@@ -46,14 +50,14 @@ def write_index(docs_dir: Path, site_title: str, base_url: str) -> None:
                 f"""
             <article>
               <a href="cardnews/{day}/index.html">
-                <img src="{first}" alt="{day} 카드뉴스 표지">
+                <img src="{first}" alt="{day} {CARDNEWS_COVER_ALT}">
                 <strong>{day}</strong>
               </a>
             </article>
             """
             )
 
-    body = "\n".join(entries) or "<p>아직 발행된 카드뉴스가 없습니다.</p>"
+    body = "\n".join(entries) or f"<p>{EMPTY_MESSAGE}</p>"
     html = f"""<!doctype html>
 <html lang="ko">
 <head>
@@ -86,9 +90,7 @@ def write_index(docs_dir: Path, site_title: str, base_url: str) -> None:
 
 def write_day_page(day_dir: Path, day: str, site_title: str) -> None:
     cards = sorted(day_dir.glob("card_*.png"))
-    image_tags = "\n    ".join(
-        f'<img src="{card.name}" alt="{day} {card.stem}">' for card in cards
-    )
+    image_tags = "\n    ".join(f'<img src="{card.name}" alt="{day} {card.stem}">' for card in cards)
     html = f"""<!doctype html>
 <html lang="ko">
 <head>
@@ -105,8 +107,8 @@ def write_day_page(day_dir: Path, day: str, site_title: str) -> None:
 </head>
 <body>
   <main>
-    <p><a href="../../">전체 목록</a></p>
-    <h1>{day} AI 뉴스 아리아</h1>
+    <p><a href="../../">{BACK_TO_LIST}</a></p>
+    <h1>{day} {TITLE_KO}</h1>
     {image_tags}
   </main>
 </body>
@@ -120,7 +122,7 @@ def main() -> None:
     parser.add_argument("--config", default="config/config.json")
     parser.add_argument("--date", default=date.today().isoformat())
     parser.add_argument("--base-url", default="https://nark0-urban.github.io/ai-news-aria")
-    parser.add_argument("--site-title", default="AI News Aria")
+    parser.add_argument("--site-title", default=TITLE_KO)
     args = parser.parse_args()
 
     config_path = PROJECT_ROOT / args.config
@@ -134,7 +136,7 @@ def main() -> None:
 
     copy_tree(source_dir, target_dir)
     write_day_page(target_dir, args.date, args.site_title)
-    write_index(docs_dir, args.site_title, args.base_url)
+    write_index(docs_dir, args.site_title)
 
     page_url = f"{args.base_url.rstrip('/')}/cardnews/{args.date}/"
     image_url = f"{args.base_url.rstrip('/')}/cardnews/{args.date}/card_01.png"

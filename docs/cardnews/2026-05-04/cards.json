@@ -1,0 +1,256 @@
+{
+  "date": "2026-05-04",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "전날 AI 뉴스 핵심 8개",
+      "summary": "2026-05-04(월) 하루 동안 나온 AI 핵심 이슈를 ‘아리아’가 카드뉴스로 쉽게 요약했어요.",
+      "bullets": [
+        "빅테크·AI랩: 기업용 AI 확장 경쟁",
+        "칩·인프라: IPO·대규모 자금 흐름",
+        "연구·규제: LLM 신뢰성과 규제 준비"
+      ],
+      "visual_keywords": [
+        "daily AI news",
+        "comic card",
+        "aria character",
+        "blue navy layout"
+      ],
+      "aria_line": "주인님, 오늘은 ‘돈·현장·규제’가 한꺼번에 움직였어요!",
+      "caption": "AI 뉴스 레터 아리아",
+      "importance": "Brief",
+      "topic": "Daily Brief",
+      "source_date": "2026-05-04",
+      "created_date": "2026-05-05",
+      "sources": []
+    },
+    {
+      "type": "news",
+      "title": "OpenAI, 기업 도입용 JV에 40억달러",
+      "summary": "OpenAI가 기업들이 AI를 ‘실제로 붙여 쓰는’ 일을 가속하기 위해, 사모펀드/자산운용사들과 함께 합작사를 세우고 40억달러 이상을 모았다는 보도가 나왔어요.",
+      "bullets": [
+        "이름: The Deployment Company(보도 기준)",
+        "투자자: TPG·Brookfield·Advent·Bain 등(보도 기준)",
+        "요지: 포트폴리오 기업들에 AI 도입을 ‘패키지’로 밀어붙이는 구조"
+      ],
+      "visual_keywords": [
+        "OpenAI",
+        "enterprise deployment",
+        "private equity",
+        "fundraising"
+      ],
+      "aria_line": "주인님, 모델 성능보다 ‘도입/운영’이 돈이 되는 구간이죠.",
+      "caption": "현장에 붙이는 쪽으로 경쟁이 이동 중!",
+      "importance": "Important",
+      "topic": "Product/Business",
+      "source_date": "2026-05-04",
+      "created_date": "2026-05-05",
+      "sources": [
+        {
+          "name": "Investing.com (re: Bloomberg)",
+          "url": "https://www.investing.com/news/stock-market-news/openai-secures-4-billion-for-new-joint-venture-with-pe-giants-bloomberg-reports-4656286"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Anthropic, ‘클로드’ 기업 현장 투입 회사 설립",
+      "summary": "Anthropic이 Blackstone·Hellman & Friedman·Goldman Sachs와 함께 ‘AI 네이티브’ 기업 서비스 회사를 새로 만들고, 클로드를 기업 핵심 업무에 직접 심는 형태의 사업을 발표했어요.",
+      "bullets": [
+        "형태: Anthropic 엔지니어/리소스가 내장된 별도 조직",
+        "타깃: 중견 기업 중심, 워크플로 맞춤형 구축·운영",
+        "의미: 컨설팅/FDE(현장 상주 엔지니어) 모델이 AI에서도 본격화"
+      ],
+      "visual_keywords": [
+        "Anthropic",
+        "Claude",
+        "forward deployed engineers",
+        "enterprise services"
+      ],
+      "aria_line": "주인님, ‘AI 컨설팅’이 아니라 ‘AI 현장공사’에 가까워요.",
+      "caption": "기업용 AI는 ‘적용’이 제일 어렵거든요.",
+      "importance": "Important",
+      "topic": "Official Blog",
+      "source_date": "2026-05-04",
+      "created_date": "2026-05-05",
+      "sources": [
+        {
+          "name": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news/enterprise-ai-services-company"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Cerebras, 35억달러 IPO 추진…‘추론’ 수요에 베팅",
+      "summary": "AI 칩 기업 Cerebras가 대규모 IPO를 추진하면서, ‘훈련’뿐 아니라 ‘추론(inference)’ 성능/비용이 시장의 핵심 전장이 되고 있음을 보여줬어요.",
+      "bullets": [
+        "공모: 2,800만주, 가격 범위 $115~$125(보도 기준)",
+        "포인트: 실시간 추론 워크로드가 급증",
+        "연쇄효과: AI 인프라 투자→칩/데이터센터 시장 기대감 확대"
+      ],
+      "visual_keywords": [
+        "Cerebras",
+        "IPO",
+        "inference chips",
+        "AI infrastructure"
+      ],
+      "aria_line": "주인님, ‘훈련 GPU’만 보던 시대가 지나가고 있어요.",
+      "caption": "추론 비용이 서비스 수익성을 좌우!",
+      "importance": "News",
+      "topic": "Hardware/Market",
+      "source_date": "2026-05-04",
+      "created_date": "2026-05-05",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Google DeepMind(영국) 직원들, 노조 결성 투표",
+      "summary": "영국의 Google DeepMind 직원들이 군사/국방 관련 AI 활용에 대한 윤리적 우려를 배경으로 노조 결성에 투표했다는 보도가 나왔어요. ‘어디에 쓰이느냐’가 연구·제품 로드맵만큼 커졌다는 신호예요.",
+      "bullets": [
+        "요구: 활용 목적·통제·거부권 등 윤리적 가드레일",
+        "배경: 군사/감시 등 사용처에 대한 내부 반발",
+        "파장: AI 인력 시장에서 ‘윤리·거버넌스’가 채용/브랜드 변수로 부상"
+      ],
+      "visual_keywords": [
+        "DeepMind",
+        "union",
+        "AI ethics",
+        "military AI"
+      ],
+      "aria_line": "주인님, ‘기술’뿐 아니라 ‘사용처’가 팀을 흔들 수 있어요.",
+      "caption": "거버넌스는 이제 조직 이슈!",
+      "importance": "Important",
+      "topic": "Community/Org",
+      "source_date": "2026-05-04",
+      "created_date": "2026-05-05",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/may/04/google-deepmind-uk-workers-union"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Google, 4월 AI 업데이트 묶음 정리(공식 블로그)",
+      "summary": "Google이 4월에 발표한 주요 AI 업데이트를 5월 4일자 글로 한 번에 정리했어요. 모델·툴·칩·에이전트 플랫폼을 ‘패키지’로 묶어 기업 채택을 밀어주는 방향이 뚜렷해요.",
+      "bullets": [
+        "오픈 모델: Gemma 4 등(글 요약 기준)",
+        "도구: Deep Research Max, Colab 학습/코딩 도구 등",
+        "메시지: ‘에이전트 시대’로의 전환(플랫폼/칩/툴 통합)"
+      ],
+      "visual_keywords": [
+        "Google",
+        "Gemma 4",
+        "agentic era",
+        "Cloud Next"
+      ],
+      "aria_line": "주인님, 기능 하나보다 ‘플랫폼 묶음’이 더 무섭죠.",
+      "caption": "도구-모델-칩이 한 세트로 움직여요.",
+      "importance": "News",
+      "topic": "Official Blog",
+      "source_date": "2026-05-04",
+      "created_date": "2026-05-05",
+      "sources": [
+        {
+          "name": "Google Blog (The Keyword)",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/"
+        }
+      ]
+    },
+    {
+      "type": "research",
+      "title": "연구: LLM은 ‘절차 따라하기’가 길어지면 급격히 무너진다",
+      "summary": "절차(단계별 알고리즘)를 정확히 실행하는지 따로 측정해보니, 단계가 길어질수록 정답률이 크게 떨어지는 패턴이 보고됐어요. 에이전트/툴사용에서 ‘계획을 끝까지 수행’하는 문제가 여전히 핵심이라는 얘기예요.",
+      "bullets": [
+        "관찰: 5단계 절차 vs 95단계 절차에서 정확도 급락(논문 기준)",
+        "실패 양상: 중간에 멈춤, 너무 일찍 답, 단계 누락/추가 등",
+        "시사점: 장문 계획엔 검증/체크포인트/제약이 필요"
+      ],
+      "visual_keywords": [
+        "arXiv",
+        "procedural execution",
+        "LLM reliability",
+        "agent evaluation"
+      ],
+      "aria_line": "주인님, ‘정답’보다 ‘과정’이 중요한 작업이 많잖아요.",
+      "caption": "에이전트 평가 기준이 더 정교해질 듯!",
+      "importance": "Research",
+      "topic": "Paper",
+      "source_date": "2026-05-04",
+      "created_date": "2026-05-05",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2605.00817"
+        }
+      ]
+    },
+    {
+      "type": "research",
+      "title": "연구: RunAgent — 자연어 계획을 ‘제약’으로 실행 안정화",
+      "summary": "자연어로 적힌 계획을 그대로 믿지 말고, IF/GOTO 같은 제어구문과 제약(루브릭)을 넣어 단계 실행을 강제하자는 연구가 나왔어요. ‘에이전트 = 소프트웨어’로 다루려는 흐름과 맞물려요.",
+      "bullets": [
+        "아이디어: 자연어 계획 + 명시적 제어구문(논문 기준)",
+        "안정화: 단계별 검증/제약 자동 도출·검증",
+        "의미: 툴사용 에이전트에서 재현성/감사 가능성 강화 방향"
+      ],
+      "visual_keywords": [
+        "RunAgent",
+        "constraints",
+        "workflow execution",
+        "multi-agent"
+      ],
+      "aria_line": "주인님, ‘자연어만’으로는 운영에서 불안정할 때가 많아요.",
+      "caption": "제약과 검증이 곧 제품 품질!",
+      "importance": "Research",
+      "topic": "Paper",
+      "source_date": "2026-05-04",
+      "created_date": "2026-05-05",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2605.00798"
+        }
+      ]
+    },
+    {
+      "type": "policy",
+      "title": "규제: 영국 ICO ‘AI·자동결정’ 코드 의무화(12일 시행)",
+      "summary": "영국에서 AI/자동화된 의사결정(ADM)과 개인정보 처리에 대한 코드(가이드) 마련을 ICO에 의무화하는 SI 2026/425가 5월 12일부터 시행 예정이에요. 제품팀은 ‘데이터/모델/운영’ 문서화 요구가 늘어날 가능성을 염두에 두는 게 좋아요.",
+      "bullets": [
+        "시행일: 2026-05-12(공식 문서 기준)",
+        "핵심: AI 개발·배포 및 자동결정에서 개인정보 처리 ‘좋은 관행’ 가이드",
+        "준비: 데이터 흐름, 목적/법적근거, 사람 개입, 이의제기 절차 정리"
+      ],
+      "visual_keywords": [
+        "UK",
+        "ICO",
+        "AI governance",
+        "automated decision-making"
+      ],
+      "aria_line": "주인님, 기능 만들기만큼 ‘설명 가능’하게 남기는 게 중요해요.",
+      "caption": "규제는 보통 ‘문서’부터 시작합니다.",
+      "importance": "Important",
+      "topic": "Policy/Regulation",
+      "source_date": "2026-05-04",
+      "created_date": "2026-05-05",
+      "sources": [
+        {
+          "name": "UK Parliament (SI 2026/425)",
+          "url": "https://statutoryinstruments.parliament.uk/instrument/iAH2E8x5"
+        },
+        {
+          "name": "Bratby Law (overview)",
+          "url": "https://bratby.law/ico-ai-biometrics-code-of-practice/"
+        }
+      ]
+    }
+  ]
+}
