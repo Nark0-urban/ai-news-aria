@@ -1,0 +1,224 @@
+{
+  "date": "2026-05-07",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "오늘 AI 뉴스 핵심 요약",
+      "summary": "2026-05-07(목) 기준, 오늘 확인된 주요 AI 이슈 7가지를 카드뉴스로 압축 정리했어요.",
+      "bullets": [
+        "제품 업데이트: ChatGPT 기본 모델·메모리 기능 변화",
+        "정책/규제: EU AI 규정 단순화, 미국 CAISI 사전평가 확대",
+        "오픈모델·로보틱스·연구: Gemma, 로봇 앱스토어, 에이전트 벤치마크"
+      ],
+      "visual_keywords": [
+        "daily AI briefing",
+        "timeline",
+        "news roundup",
+        "clean infographic"
+      ],
+      "aria_line": "주인님, 오늘은 '제품 변화'와 '규제·안전' 이슈가 특히 크네요!",
+      "caption": "AI 뉴스 레터 캐릭터 아리아",
+      "importance": "Brief",
+      "topic": "Daily Brief",
+      "source_date": "2026-05-07",
+      "sources": []
+    },
+    {
+      "type": "news",
+      "title": "OpenAI: ChatGPT 기본 모델을 GPT‑5.5 Instant로 교체",
+      "summary": "OpenAI가 ChatGPT 기본 모델을 GPT‑5.3 Instant에서 GPT‑5.5 Instant로 교체했어요. 핵심은 '더 짧고 정확한 답변'과 '민감 분야(의학/법/금융)에서 환각 감소'예요.",
+      "bullets": [
+        "기본 모델 교체로 체감 품질이 곧바로 변함(일상 사용 중심)",
+        "민감 주제에서 사실성 개선을 전면에 내세움",
+        "개발/업무용 답변을 더 간결하게 만드는 방향"
+      ],
+      "visual_keywords": [
+        "ChatGPT upgrade",
+        "model switch",
+        "accuracy",
+        "shield icon"
+      ],
+      "aria_line": "주인님, 오늘부터 '기본 모델'이 바뀌면 팀의 작업 템플릿도 같이 점검해야 해요!",
+      "caption": "아리아의 한줄 코멘트",
+      "importance": "Product",
+      "topic": "OpenAI",
+      "source_date": "2026-05-05",
+      "sources": [
+        {
+          "name": "OpenAI (Product)",
+          "url": "https://openai.com/index/gpt-5-5-instant/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "ChatGPT: 메모리 출처(‘Memory sources’)로 개인화 투명성 강화",
+      "summary": "ChatGPT가 답변을 개인화할 때 '어떤 메모리/대화/파일이 영향을 줬는지'를 사용자가 확인할 수 있는 기능(메모리 출처)을 도입했어요. 개인화 강화와 동시에, 왜 그런 답이 나왔는지 추적·수정하기 쉬워지는 변화예요.",
+      "bullets": [
+        "개인화가 강해질수록 '근거 추적' UI가 중요해짐",
+        "잘못 저장된 맥락을 사용자가 직접 정정/삭제할 동기 제공",
+        "업무 계정/조직 사용에서는 개인정보·보안 가이드가 더 필요"
+      ],
+      "visual_keywords": [
+        "memory transparency",
+        "sources panel",
+        "privacy controls",
+        "settings UI"
+      ],
+      "aria_line": "주인님, 메모리가 똑똑해질수록 ‘어디서 기억을 가져왔는지’가 진짜 핵심이죠.",
+      "caption": "아리아의 한줄 코멘트",
+      "importance": "Update",
+      "topic": "ChatGPT",
+      "source_date": "2026-05-05",
+      "sources": [
+        {
+          "name": "OpenAI Help Center (Release Notes)",
+          "url": "https://help.openai.com/en/articles/6825453-dall-e-3-beta"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "EU: AI 규정 단순화 합의 + ‘누디피케이션’ 앱 금지",
+      "summary": "EU 집행위가 AI 규정의 단순화(기업 부담 완화)를 위한 정치적 합의가 이뤄졌다고 발표했어요. 동시에 ‘누디피케이션(nudification)’ 앱을 금지해 시민 보호를 강화한다고 밝혔고, 고위험 AI 적용 시점도 단계적으로 명확화했어요.",
+      "bullets": [
+        "단순화 = 규정 완화가 아니라 '이행을 더 쉽게' 만드는 방향",
+        "고위험 AI 적용 시점이 단계적으로 안내됨(준비 기간 확보)",
+        "딥페이크·성착취 악용 방지 쪽은 더 강하게 보는 흐름"
+      ],
+      "visual_keywords": [
+        "EU flag",
+        "law gavel",
+        "compliance timeline",
+        "safety"
+      ],
+      "aria_line": "주인님, 유럽은 ‘혁신 지원’과 ‘악용 차단’을 같이 밀어붙이는 느낌이에요.",
+      "caption": "아리아의 한줄 코멘트",
+      "importance": "Policy",
+      "topic": "EU",
+      "source_date": "2026-05-07",
+      "sources": [
+        {
+          "name": "European Commission (Press Release)",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/eu-agrees-simplify-ai-rules-boost-innovation-and-ban-nudification-apps-protect-citizens"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "미국 NIST/CAISI: 구글·MS·xAI와 ‘모델 사전평가’ 협약 확대",
+      "summary": "미국 상무부 NIST 산하 CAISI가 Google DeepMind, Microsoft, xAI와 협약을 맺고, 공개 전 ‘사전평가(pre-deployment evaluations)’와 보안 연구를 확대한다고 발표했어요. 정부 주도의 독립 평가를 표준화하려는 흐름이 더 뚜렷해졌습니다.",
+      "bullets": [
+        "프런티어 모델 공개 전 정부가 평가에 참여(자발적 협약 기반)",
+        "보안/국가안보 관점의 위험 측정·베스트프랙티스 개발 강화",
+        "기업은 출시 리드타임·공개 전략에 영향을 받을 수 있음"
+      ],
+      "visual_keywords": [
+        "US government",
+        "model evaluation",
+        "security testing",
+        "checklist"
+      ],
+      "aria_line": "주인님, 이제는 ‘모델 출시’도 보안 점검 프로세스처럼 보이는 시대예요.",
+      "caption": "아리아의 한줄 코멘트",
+      "importance": "Policy",
+      "topic": "US / NIST",
+      "source_date": "2026-05-05",
+      "sources": [
+        {
+          "name": "NIST (Official)",
+          "url": "https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/924017/google-microsoft-xai-government-review"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Google DeepMind: Gemma 오픈모델 업데이트(추론 속도·워크플로 최적화)",
+      "summary": "DeepMind의 오픈 모델 라인업 Gemma에 대해, 추론 속도/운영 효율 개선을 강조하는 업데이트가 공개됐어요. 오픈 모델도 ‘에이전트/추론 워크플로’에 맞춰 최적화 경쟁이 심해지는 흐름입니다.",
+      "bullets": [
+        "오픈 모델의 성패가 ‘추론 비용/속도’에 더 크게 좌우",
+        "에이전트 워크플로(툴 사용)에서 응답 지연이 곧 UX 손실",
+        "팀 단위 도입에서는 ‘속도/비용/품질’ 3요소 밸런스가 핵심"
+      ],
+      "visual_keywords": [
+        "Gemma",
+        "open model",
+        "speed",
+        "chip icon"
+      ],
+      "aria_line": "주인님, 오픈 모델은 이제 ‘똑똑함’만큼 ‘빠름’이 무기예요.",
+      "caption": "아리아의 한줄 코멘트",
+      "importance": "Official Blog",
+      "topic": "DeepMind",
+      "source_date": "2026-05",
+      "sources": [
+        {
+          "name": "Google DeepMind (Gemma)",
+          "url": "https://deepmind.google/models/gemma/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Hugging Face: Reachy Mini ‘로봇 앱스토어’ 공개(약 200개 앱)",
+      "summary": "Hugging Face가 Reachy Mini용 앱스토어를 공개했다는 보도가 나왔어요. 앱을 다운로드하거나 커스터마이즈해 로봇 행동을 빠르게 만들 수 있다는 점에서, ‘로봇+생성형 AI’가 개발자/메이커 커뮤니티로 확산되는 신호로 볼 수 있어요.",
+      "bullets": [
+        "로봇도 ‘앱 생태계’로 확장: 콘텐츠/툴링이 핵심 경쟁력",
+        "비개발자도 커스터마이즈할 수 있게 하려는 방향",
+        "커뮤니티 기반 배포·재사용이 로봇 개발 속도를 끌어올림"
+      ],
+      "visual_keywords": [
+        "robot app store",
+        "open source",
+        "community",
+        "marketplace UI"
+      ],
+      "aria_line": "주인님, 로봇은 이제 ‘하드웨어’보다 ‘앱 생태계’가 더 무서울지도요.",
+      "caption": "아리아의 한줄 코멘트",
+      "importance": "Community",
+      "topic": "Hugging Face / Robotics",
+      "source_date": "2026-05-06",
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/05/06/hugging-face-consumer-robot-app-store"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "연구/벤치마크: Agent^2 RL-Bench로 ‘에이전트 RL 후학습’ 역량 측정",
+      "summary": "Microsoft Research가 LLM 에이전트가 'RL 후학습 파이프라인'을 스스로 설계·구현·실행해 성능을 끌어올릴 수 있는지 평가하는 벤치마크(Agent^2 RL-Bench)를 소개했어요. 에이전트가 실제로 ‘실험/코드/반복개선’을 할 수 있는지를 구조적으로 검증하려는 시도입니다.",
+      "bullets": [
+        "에이전트 평가가 '정답 맞히기'에서 '워크플로 수행'으로 이동",
+        "격리된 워크스페이스·자동 채점 등 실험 자동화 요소 포함",
+        "사내 에이전트 도입 시, 작업 단위(테스트/리포트/리비전) 설계 참고"
+      ],
+      "visual_keywords": [
+        "benchmark",
+        "agent workflow",
+        "reinforcement learning",
+        "experiment pipeline"
+      ],
+      "aria_line": "주인님, ‘에이전트가 진짜 일을 했는지’는 벤치마크 설계가 좌우해요.",
+      "caption": "아리아의 한줄 코멘트",
+      "importance": "Research",
+      "topic": "Paper / Benchmark",
+      "source_date": "2026-04",
+      "sources": [
+        {
+          "name": "Microsoft Research",
+          "url": "https://www.microsoft.com/en-us/research/publication/agent2-rl-bench-can-llm-agents-engineer-agentic-rl-post-training/"
+        }
+      ]
+    }
+  ]
+}
