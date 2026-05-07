@@ -207,7 +207,7 @@ def render_example() -> None:
     draw = ImageDraw.Draw(image)
 
     draw.text((72, 62), "AI NEWS ARIA", font=fonts["eyebrow"], fill=(74, 147, 190, 255))
-    draw.text((72, 96), "전날 AI 뉴스 핵심 요약", font=fonts["title"], fill=NAVY)
+    draw.text((72, 96), "오늘 AI 뉴스 핵심 요약", font=fonts["title"], fill=NAVY)
     draw.text((835, 104), "2026.05.01", font=fonts["date"], fill=(230, 247, 255, 255))
     draw.text((846, 145), "작성 기준", font=fonts["small"], fill=(165, 213, 232, 255))
 

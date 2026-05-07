@@ -70,7 +70,7 @@ def main() -> None:
         "--title",
         f"AI 뉴스 아리아 ({day})",
         "--description",
-        "전날 AI 카드뉴스가 업데이트됐습니다.",
+        "오늘 AI 카드뉴스가 업데이트됐습니다.",
         "--image-url",
         image_url,
         "--link-url",
@@ -87,4 +87,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

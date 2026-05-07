@@ -46,7 +46,7 @@ def sample_cards(day: str) -> dict[str, Any]:
         "cards": [
             {
                 "type": "cover",
-                "title": "전날 AI 뉴스 핵심 요약",
+                "title": "오늘 AI 뉴스 핵심 요약",
                 "summary": "하루 동안 나온 중요한 AI 소식만 골라 읽기 쉽게 정리했어요.",
                 "bullets": [
                     "제품 업데이트와 모델 변경",

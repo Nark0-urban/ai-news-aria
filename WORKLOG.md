@@ -26,3 +26,9 @@
 - GitHub 발행은 Codex GitHub 커넥터를 사용하도록 자동화 기준 변경
 - `scripts/publish_to_pages.py`의 깨진 한글과 날짜별 HTML 제목 오류 수정
 - `PROJECT_CONTEXT.md`를 UTF-8 한글 기준으로 재작성
+
+## 2026-05-07
+
+- 자동화 실행 시간을 매일 오전 8시에서 오후 9시로 변경
+- 요약 기준을 “전날 뉴스”에서 “오늘 하루 뉴스”로 변경
+- 로컬 PC와 Codex를 저녁에 켜둘 수 있는 현실적인 사용 패턴에 맞춰 문서와 Kakao 문구를 갱신
