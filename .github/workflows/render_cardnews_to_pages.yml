@@ -62,8 +62,9 @@ jobs:
             exit 0
           fi
 
+          # Extract YYYY-MM-DD from paths like: output/cardnews/YYYY-MM-DD/cards.json
           DATES="$(git diff --name-only "${BEFORE}" "${AFTER}" -- 'output/cardnews/**/cards.json' \
-            | sed -E 's#^output/cardnews/([0-9]{4}-[0-9]{2}-[0-9]{2})/cards\.json$#\1#' \
+            | awk -F/ '/^output\/cardnews\/[0-9]{4}-[0-9]{2}-[0-9]{2}\/cards\.json$/ { print $3 }' \
             | sort -u | tr '\n' ' ')"
 
           echo "dates=${DATES}" >> "$GITHUB_OUTPUT"
