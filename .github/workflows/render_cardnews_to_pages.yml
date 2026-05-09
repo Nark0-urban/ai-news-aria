@@ -63,7 +63,7 @@ jobs:
           fi
 
           DATES="$(git diff --name-only "${BEFORE}" "${AFTER}" -- 'output/cardnews/**/cards.json' \
-            | sed -E 's#^output/cardnews/([0-9]{4}-[0-9]{2}-[0-9]{2})/cards\\.json$#\1#' \
+            | sed -E 's#^output/cardnews/([0-9]{4}-[0-9]{2}-[0-9]{2})/cards\.json$#\1#' \
             | sort -u | tr '\n' ' ')"
 
           echo "dates=${DATES}" >> "$GITHUB_OUTPUT"
