@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
     inputs:
       date:
-        description: "Render specific YYYY-MM-DD (optional)"
+        description: "Render specific YYYY-MM-DD (optional; blank = latest)"
         required: false
         type: string
 
@@ -46,9 +46,23 @@ jobs:
         run: |
           set -euo pipefail
 
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" && -n "${{ inputs.date }}" ]]; then
-            echo "dates=${{ inputs.date }}" >> "$GITHUB_OUTPUT"
-            echo "Detected dates (manual): ${{ inputs.date }}"
+          # Manual run: use provided date, or default to latest output/cardnews/YYYY-MM-DD folder.
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            if [[ -n "${{ inputs.date }}" ]]; then
+              echo "dates=${{ inputs.date }}" >> "$GITHUB_OUTPUT"
+              echo "Detected dates (manual): ${{ inputs.date }}"
+              exit 0
+            fi
+
+            LATEST="$(ls -1 output/cardnews 2>/dev/null | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' | sort | tail -n 1 || true)"
+            if [[ -n "${LATEST}" ]]; then
+              echo "dates=${LATEST}" >> "$GITHUB_OUTPUT"
+              echo "Detected dates (manual default latest): ${LATEST}"
+              exit 0
+            fi
+
+            echo "dates=" >> "$GITHUB_OUTPUT"
+            echo "No dated folders found under output/cardnews." >&2
             exit 0
           fi
 
