@@ -41,6 +41,7 @@ def wait_for_page(url: str, marker: str, wait_seconds: int, interval_seconds: in
             last_error = str(exc)
         time.sleep(interval_seconds)
     print(f"Warning: page was not confirmed before sending Kakao: {last_error}", file=sys.stderr)
+    raise SystemExit(f"Page not ready (still 404 or missing marker). Stop to avoid sending broken link: {url}")
 
 
 def main() -> None:
@@ -49,12 +50,13 @@ def main() -> None:
     parser.add_argument("--config", default="config/config.json")
     parser.add_argument("--base-url", default="https://nark0-urban.github.io/ai-news-aria")
     parser.add_argument("--image-url", default="")
-    parser.add_argument("--wait-seconds", type=int, default=180)
-    parser.add_argument("--interval-seconds", type=int, default=15)
+    parser.add_argument("--wait-seconds", type=int, default=900)
+    parser.add_argument("--interval-seconds", type=int, default=30)
+    parser.add_argument("--fallback-text", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
-    cardnews_root = PROJECT_ROOT / "docs" / "cardnews"
+    cardnews_root = PROJECT_ROOT / "output" / "cardnews"
     day = args.date or find_latest_day(cardnews_root)
     page_url = f"{args.base_url.rstrip('/')}/cardnews/{day}/"
     image_url = args.image_url or f"{args.base_url.rstrip('/')}/assets/kakao_thumbnail_20260501_v2.png"
@@ -77,8 +79,9 @@ def main() -> None:
         page_url,
         "--button-title",
         "카드뉴스 확인하기",
-        "--fallback-text",
     ]
+    if args.fallback_text:
+        command.append("--fallback-text")
     if args.dry_run:
         command.append("--dry-run")
 
