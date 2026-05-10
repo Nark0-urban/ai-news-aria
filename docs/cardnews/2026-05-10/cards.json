@@ -1,0 +1,244 @@
+{
+  "date": "2026-05-10",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "오늘 AI 뉴스 핵심 요약",
+      "summary": "2026-05-10(일) 실행 시각(21시 KST) 기준으로, 오늘~최근 며칠 사이 확인 가능한 핵심 AI 소식 7가지를 카드뉴스로 정리했어요.",
+      "bullets": [
+        "OpenAI: Realtime 음성 모델 3종 API 공개",
+        "Anthropic: Managed Agents에 ‘dreaming’(기억 정리) 추가",
+        "EU/미국: AI 규제·안전성 평가 흐름 업데이트"
+      ],
+      "visual_keywords": [
+        "daily AI briefing",
+        "clean infographic",
+        "news roundup",
+        "timeline"
+      ],
+      "aria_line": "주인님, 오늘은 ‘음성/에이전트/규제’ 3축이 특히 크게 움직였어요. 바로 핵심만 짚어드릴게요.",
+      "caption": "AI 뉴스 리포터 아리아",
+      "importance": "Brief",
+      "topic": "Daily Brief",
+      "source_date": "2026-05-10",
+      "created_date": "2026-05-10",
+      "sources": []
+    },
+    {
+      "type": "news",
+      "title": "OpenAI: Realtime 음성 모델 3종을 API로 공개",
+      "summary": "OpenAI가 말하는 동시에 ‘이해→추론→응답/행동’까지 이어지는 Realtime 음성 모델 라인업을 공개했어요. 실시간 대화형 앱, 동시통역, 저지연 STT(자막/회의록) 같은 제품을 만들 때 체감이 큰 업데이트입니다.",
+      "bullets": [
+        "GPT‑Realtime‑2: ‘GPT‑5급 추론’을 내세운 실시간 음성 대화 모델",
+        "GPT‑Realtime‑Translate: 라이브 다국어 통역/대화 지원",
+        "GPT‑Realtime‑Whisper: 스트리밍 STT로 자막·회의록에 최적"
+      ],
+      "visual_keywords": [
+        "realtime voice",
+        "waveform UI",
+        "live translation",
+        "microphone"
+      ],
+      "aria_line": "주인님, 이제 ‘말로’ 앱을 조종하는 흐름이 진짜 개발 옵션으로 굳어지는 느낌이에요.",
+      "caption": "음성 UX는 제품 완성도를 바꿔요",
+      "importance": "Product",
+      "topic": "OpenAI API / Audio",
+      "source_date": "2026-05-07",
+      "created_date": "2026-05-10",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "OpenAI: ChatGPT 기본 모델이 GPT‑5.5 Instant로 업데이트",
+      "summary": "ChatGPT 기본(Instant) 모델이 GPT‑5.5 Instant로 바뀌었고, 개인화 관련 기능(메모리/소스 표시 등)도 함께 강조됐어요. ‘정확도(환각) 개선’과 ‘문맥 재활용’이 핵심 포인트입니다.",
+      "bullets": [
+        "고위험 영역(의료·법·금융 등)에서 환각 주장 감소를 강조",
+        "메모리/과거 대화 등 개인화 컨텍스트 활용이 강화",
+        "시스템 카드 공개로 안전성 평가·완화 전략도 함께 제공"
+      ],
+      "visual_keywords": [
+        "model update",
+        "release notes",
+        "system card",
+        "chat UI"
+      ],
+      "aria_line": "주인님, ‘기본 모델’이 바뀌면 팀의 프롬프트/가이드도 같이 점검해야 해요. 체감이 크게 달라질 수 있거든요.",
+      "caption": "기본 모델 변경은 운영 이슈예요",
+      "importance": "Product",
+      "topic": "ChatGPT / Model Update",
+      "source_date": "2026-05-05",
+      "created_date": "2026-05-10",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/gpt-5-5-instant/"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/gpt-5-5-instant-system-card/"
+        },
+        {
+          "name": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes-whats-new"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Anthropic: Managed Agents에 ‘dreaming’(기억 정리/개선) 추가",
+      "summary": "Anthropic이 Claude Managed Agents에 ‘dreaming’ 연구 프리뷰를 추가했어요. 여러 세션에 걸친 메모리(기억 저장소)가 중복·모순·노이즈로 망가지는 문제를, 과거 세션과 함께 재정리해서 ‘쓸모 있는 기억’으로 압축하는 흐름입니다.",
+      "bullets": [
+        "세션 기록+메모리 스토어를 함께 읽고, 새로 정리된 메모리를 생성",
+        "입력 스토어는 수정하지 않고 결과물을 검토/적용 가능",
+        "장기 프로젝트/멀티에이전트 운영에서 ‘기억 거버넌스’가 핵심으로 부상"
+      ],
+      "visual_keywords": [
+        "agent memory",
+        "dreaming",
+        "managed agents",
+        "workflow automation"
+      ],
+      "aria_line": "주인님, 에이전트는 ‘한 번 잘함’보다 ‘다음에 더 잘함’이 중요해요. dreaming은 그 부분을 정면으로 건드렸어요.",
+      "caption": "장기 작업엔 기억 정리가 필수예요",
+      "importance": "Developer",
+      "topic": "Anthropic / Agents",
+      "source_date": "2026-05-06",
+      "created_date": "2026-05-10",
+      "sources": [
+        {
+          "name": "Claude Blog",
+          "url": "https://claude.com/blog/new-in-claude-managed-agents"
+        },
+        {
+          "name": "Claude Docs",
+          "url": "https://platform.claude.com/docs/en/managed-agents/dreams"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "EU: AI 규정 ‘간소화(Omnibus)’ 잠정 합의…적용 일정도 재정리",
+      "summary": "EU가 AI 규정(일명 AI Act) 집행 부담을 줄이는 방향의 ‘Digital Omnibus on AI’에 정치적 합의를 했다고 발표했어요. 핵심은 기업의 행정 부담을 줄이면서도 고위험(high-risk) 영역 규칙은 단계적으로 적용한다는 점입니다.",
+      "bullets": [
+        "고위험 AI 규칙 적용 시점이 2027-12-02부터 단계 적용으로 명시",
+        "제품 내장형(예: 장난감/승강기 등) 고위험 규칙은 2028-08-02부터",
+        "‘혁신 친화’ 명분 아래, 기준·표준·지원 도구 준비를 선행"
+      ],
+      "visual_keywords": [
+        "EU regulation",
+        "AI Act",
+        "timeline",
+        "compliance"
+      ],
+      "aria_line": "주인님, 규제는 ‘언제부터 적용되나’가 제일 중요해요. 일정이 바뀌면 준비 우선순위도 바뀝니다.",
+      "caption": "규제 타임라인은 곧 로드맵이에요",
+      "importance": "Policy",
+      "topic": "EU / Regulation",
+      "source_date": "2026-05-07",
+      "created_date": "2026-05-10",
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/eu-agrees-simplify-ai-rules-boost-innovation-and-ban-nudification-apps-protect-citizens"
+        },
+        {
+          "name": "Council of the EU",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "미국: CAISI(상무부) 사전 모델 평가 협약이 ‘전면 참여’로 확대",
+      "summary": "미국 상무부 산하 CAISI(모델 안전성 평가 조직)가 주요 AI 기업들과 ‘공개 전 모델 평가’ 협약을 넓히는 흐름이 보도됐어요. 자율 협약이지만, ‘사전 점검’을 제도화하려는 압력이 커지고 있다는 신호로 읽힙니다.",
+      "bullets": [
+        "사전 평가 포인트는 사이버/바이오/화학 등 국가안보 리스크",
+        "평가 조직(CAISI)의 역할이 ‘권고’에서 ‘표준화’로 이동 중",
+        "기업 입장에선 출시 속도 vs 신뢰/규제 대응의 균형 이슈"
+      ],
+      "visual_keywords": [
+        "model evaluation",
+        "AI safety institute",
+        "government testing",
+        "risk assessment"
+      ],
+      "aria_line": "주인님, ‘출시 전에 외부가 본다’는 흐름은 앞으로 모델 릴리즈 관행 자체를 바꿀 수 있어요.",
+      "caption": "출시 프로세스가 규칙이 됩니다",
+      "importance": "Policy",
+      "topic": "US / AI Safety",
+      "source_date": "2026-05-05",
+      "created_date": "2026-05-10",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/may/05/commerce-department-ai-agreements-google-microsoft-xai"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Hugging Face: 소비자 로봇 ‘Reachy Mini’용 앱 스토어 공개",
+      "summary": "Hugging Face가 Reachy Mini 로봇용 앱 스토어를 공식 론칭했어요. ‘로봇 앱을 누구나 만들고 바꿔 쓸 수 있게’라는 방향이어서, 오픈소스 AI 생태계가 로봇으로 확장되는 시그널로 볼 만합니다.",
+      "bullets": [
+        "초기부터 다수(약 200개 수준)의 앱을 스토어에 올려 생태계 시동",
+        "‘비개발자도 커스터마이즈’에 초점을 둔 접근",
+        "LLM/비전의 발전이 소비자 로봇 폼팩터로 내려오는 흐름 가속"
+      ],
+      "visual_keywords": [
+        "consumer robot",
+        "app store",
+        "open source",
+        "robotics"
+      ],
+      "aria_line": "주인님, ‘모델’보다 ‘배포 채널’이 먼저 잡히면 생태계가 빨리 커져요. 로봇도 그 길을 타는 중입니다.",
+      "caption": "생태계는 스토어에서 커져요",
+      "importance": "Ecosystem",
+      "topic": "Hugging Face / Robotics",
+      "source_date": "2026-05-06",
+      "created_date": "2026-05-10",
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/05/06/hugging-face-consumer-robot-app-store"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "마이크로소프트-OpenAI 관계 변화: Copilot의 ‘멀티 모델’ 전략이 가속",
+      "summary": "MS와 OpenAI의 파트너십이 ‘비독점’ 구조로 재편되면서, Copilot 같은 제품이 단일 모델 의존을 줄이고 멀티 모델/자체 모델 조합으로 갈 가능성이 커졌다는 분석이 나왔습니다. 기업 도입 관점에선 품질·비용·데이터 거버넌스 판단이 더 중요해져요.",
+      "bullets": [
+        "비독점 구조: 제품이 한 모델에 고정되지 않을 가능성 확대",
+        "Copilot은 사용자 경험(응답 품질/속도) 개선 압력이 계속",
+        "실무에선 ‘어떤 업무에 어떤 모델’이냐를 명시하는 운영이 중요"
+      ],
+      "visual_keywords": [
+        "Copilot",
+        "multi model",
+        "enterprise AI",
+        "product strategy"
+      ],
+      "aria_line": "주인님, 이제는 ‘어느 회사 모델이 최고냐’보다 ‘우리 업무에 맞는 조합이 뭐냐’가 더 현실적인 질문이에요.",
+      "caption": "실무는 모델 조합이 답이에요",
+      "importance": "Industry",
+      "topic": "Microsoft / OpenAI / Enterprise",
+      "source_date": "2026-05-06",
+      "created_date": "2026-05-10",
+      "sources": [
+        {
+          "name": "Windows Central",
+          "url": "https://www.windowscentral.com/artificial-intelligence/openai-chatgpt/the-microsoft-openai-breakup-what-does-it-actually-mean"
+        }
+      ]
+    }
+  ]
+}
