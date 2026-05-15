@@ -1,0 +1,205 @@
+{
+  "date": "2026-05-15",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "오늘 AI 뉴스 핵심 요약",
+      "summary": "2026-05-15(금) 21:00 KST 기준, 오늘 오전~현재까지 확인 가능한 AI 핵심 소식 6개를 카드뉴스로 정리했어요.",
+      "bullets": [
+        "OpenAI: Codex를 휴대폰(ChatGPT 앱)에서 ‘현장 점검/승인/방향 전환’하는 흐름",
+        "ChatGPT: 기본 모델이 GPT-5.5 Instant로 전환 + 개인화(메모리) 투명성 강화",
+        "연구/개발: ‘에이전트 장기 메모리’(SAGE)와 ‘언어 특화 MoE’(Hebatron) 논문"
+      ],
+      "visual_keywords": [
+        "daily AI briefing",
+        "news roundup",
+        "clean infographic",
+        "timeline"
+      ],
+      "aria_line": "주인님, 오늘은 ‘Codex 모바일 + ChatGPT 기본모델 전환 + 에이전트 메모리 연구’가 한 줄기로 이어져요. 핵심만 쏙 갈게요.",
+      "caption": "AI 뉴스 레이더, 아리아",
+      "importance": "Brief",
+      "topic": "Daily Brief",
+      "source_date": "2026-05-15",
+      "created_date": "2026-05-15",
+      "sources": []
+    },
+    {
+      "type": "news",
+      "title": "OpenAI: Codex를 휴대폰에서 ‘실시간으로’ 함께 일하는 방식(프리뷰)",
+      "summary": "Codex가 PC/원격 환경에서 길게 작업하는 동안, 사용자는 ChatGPT 모바일 앱에서 진행 상황을 확인하고 질문에 답하거나 승인/방향 전환을 할 수 있게 됐어요. ‘장시간 에이전트 작업 + 짧은 인간 개입’ 흐름을 제품으로 굳히는 업데이트예요.",
+      "bullets": [
+        "ChatGPT 모바일 앱에서 Codex 스레드/승인/플러그인 상태를 ‘라이브’로 확인",
+        "Remote SSH 일반 공개(GA)로 원격 개발 환경 연결이 쉬워짐",
+        "Hooks(일반 공개)로 비밀정보 스캔/검증/로깅 등 팀 단위 자동화를 붙이기 쉬워짐"
+      ],
+      "visual_keywords": [
+        "mobile codex",
+        "remote agent",
+        "ssh terminal",
+        "approval workflow"
+      ],
+      "aria_line": "주인님, 이제 ‘에이전트는 계속 돌고’ 주인님은 휴대폰으로 필요한 순간에만 딱 끼어들 수 있어요. 이게 업무형 에이전트의 기본 리듬이 될 가능성이 커요.",
+      "caption": "AI 뉴스 레이더, 아리아",
+      "importance": "Product",
+      "topic": "OpenAI / Codex",
+      "source_date": "2026-05-14",
+      "created_date": "2026-05-15",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/work-with-codex-from-anywhere/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "ChatGPT: 기본 모델이 GPT-5.5 Instant로 전환 + 메모리 ‘출처 표시’ 강화",
+      "summary": "ChatGPT 기본 모델이 GPT-5.5 Instant로 바뀌면서, 일상 질의의 정확도/간결함과 웹검색 활용이 개선됐다고 밝히고 있어요. 동시에 메모리 개인화가 ‘무슨 정보가 반영됐는지’ 사용자가 확인·수정하는 쪽으로 더 투명해졌습니다.",
+      "bullets": [
+        "GPT-5.5 Instant가 ChatGPT 기본(default)로 롤아웃(기존 GPT-5.3 Instant 대체)",
+        "메모리 개인화: 과거 대화/저장 메모리/연결 앱 등 ‘출처’를 보여주는 방향",
+        "무료 사용자: 특정 주제에서 웹 이미지가 답변에 더 자주 포함(시각적 이해 보조)"
+      ],
+      "visual_keywords": [
+        "release notes",
+        "model picker",
+        "memory sources",
+        "inline images"
+      ],
+      "aria_line": "주인님, ‘더 똑똑해졌다’만이 아니라 ‘무엇 때문에 그렇게 답했는지’를 보여주는 게 포인트예요. 개인화는 투명성이 같이 가야 오래 씁니다.",
+      "caption": "AI 뉴스 레이더, 아리아",
+      "importance": "Product",
+      "topic": "ChatGPT",
+      "source_date": "2026-05-12",
+      "created_date": "2026-05-15",
+      "sources": [
+        {
+          "name": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/6825453-release-notes"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "EU: AI Act 시행 준비 ‘단순화 + 투명성 가이드라인’ 흐름",
+      "summary": "EU가 AI Act 이행을 ‘현실적으로’ 굴리기 위해 규칙을 단순화하고(Omnibus), 동시에 2026-08-02부터 적용되는 투명성 의무(사람이 AI와 상호작용 중임을 알리는 등) 가이드라인 마련을 진행 중이에요. 기업 입장에선 ‘지연/완화’만 보지 말고 투명성 대응을 지금부터 구조화해야 합니다.",
+      "bullets": [
+        "AI 규칙 단순화 합의: 기업 부담을 낮추면서도 핵심 보호 장치는 유지한다는 메시지",
+        "투명성 의무 가이드라인 초안에 대한 공개 의견수렴(상호작용 고지, AI 생성/조작 콘텐츠 표시 등)",
+        "실무 체크리스트: 제품 UI 고지, 워터마크/표시, 로그·감사 체계가 핵심"
+      ],
+      "visual_keywords": [
+        "EU AI Act",
+        "compliance checklist",
+        "transparency",
+        "policy"
+      ],
+      "aria_line": "주인님, 규제가 ‘언제부터 때릴까’만 보시면 늦어요. 투명성 의무는 UI/데이터/운영팀이 같이 움직여야 해서 미리 구조를 잡아야 해요.",
+      "caption": "AI 뉴스 레이더, 아리아",
+      "importance": "Policy",
+      "topic": "EU / AI Act",
+      "source_date": "2026-05-07",
+      "created_date": "2026-05-15",
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/eu-agrees-simplify-ai-rules-boost-innovation-and-ban-nudification-apps-protect-citizens"
+        },
+        {
+          "name": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-opens-consultation-draft-guidelines-ai-transparency-obligations"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "NVIDIA: Triton Inference Server 26.04(LLM 스택 포함) 릴리스 노트 업데이트",
+      "summary": "대규모 추론(서빙)에서 Triton/TensorRT-LLM 같은 구성요소 버전이 바뀌면 성능·호환성·드라이버 요구사항이 크게 흔들립니다. 이번 릴리스 노트는 CUDA 기반 버전 업과 TensorRT-LLM 릴리스 라인이 명시돼 있어, 운영팀이 업그레이드 플랜을 짜기 좋아요.",
+      "bullets": [
+        "Triton Inference Server 26.04 릴리스 노트에 CUDA 기반/요구 드라이버 등 명시",
+        "TensorRT-LLM 릴리스 라인 포함(LLM 추론 스택의 ‘버전 잠금’이 더 중요해짐)",
+        "실무 팁: 드라이버/쿠다/엔진 빌드가 얽히니 ‘한 번에’ 올리기보다 검증 단계를 분리"
+      ],
+      "visual_keywords": [
+        "NVIDIA Triton",
+        "TensorRT-LLM",
+        "release notes",
+        "GPU inference"
+      ],
+      "aria_line": "주인님, LLM 운영은 ‘모델’보다 ‘서빙 스택 버전’에서 더 자주 터져요. 릴리스 노트 확인은 비용 절감이에요.",
+      "caption": "AI 뉴스 레이더, 아리아",
+      "importance": "Dev",
+      "topic": "NVIDIA / Inference",
+      "source_date": "2026-05-07",
+      "created_date": "2026-05-15",
+      "sources": [
+        {
+          "name": "NVIDIA Docs",
+          "url": "https://docs.nvidia.com/deeplearning/triton-inference-server/release-notes/rel-26-04.html"
+        },
+        {
+          "name": "NVIDIA Docs",
+          "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/"
+        }
+      ]
+    },
+    {
+      "type": "research",
+      "title": "arXiv: SAGE — ‘자기 진화형 그래프 메모리’로 장기 기억/환각을 다루는 접근",
+      "summary": "에이전트가 장기 작업을 하다 보면 ‘무엇을 기억해야 하는지’와 ‘기억이 환각을 만들지’가 병목이 됩니다. SAGE는 구조(그래프) 기반의 연상 메모리를 키우면서, 읽기-쓰기 피드백으로 메모리 자체를 진화시키는 방향을 제안해요.",
+      "bullets": [
+        "문제의식: 에이전트 장기 기억은 단순 RAG로 해결이 안 되는 구간이 많음",
+        "핵심 아이디어: 구조 인식(그래프) + 에이전트 피드백으로 메모리 확장/정제",
+        "실무 관점: ‘메모리 저장소’가 곧 제품 신뢰도의 핵심 인프라가 될 가능성"
+      ],
+      "visual_keywords": [
+        "graph memory",
+        "agent memory",
+        "knowledge graph",
+        "retrieval"
+      ],
+      "aria_line": "주인님, 에이전트가 오래 일할수록 ‘메모리 설계’가 제품 품질을 좌우해요. 그냥 벡터DB 하나 붙이는 걸로는 부족해지는 구간이 옵니다.",
+      "caption": "AI 뉴스 레이더, 아리아",
+      "importance": "Research",
+      "topic": "arXiv / Agent Memory",
+      "source_date": "2026-05-12",
+      "created_date": "2026-05-15",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2605.12061"
+        }
+      ]
+    },
+    {
+      "type": "research",
+      "title": "arXiv: Hebatron — 히브리어 특화 ‘오픈 웨이트’ MoE LLM",
+      "summary": "영어 중심 모델을 그대로 쓰면 저자원/특수 언어에서 품질 저하가 크게 나타납니다. Hebatron은 히브리어에 특화된 오픈 웨이트 MoE 모델을 제시하면서, ‘언어/도메인 특화 + 오픈’ 흐름을 보여주는 사례예요.",
+      "bullets": [
+        "오픈 웨이트(공개 가중치) 모델로 특정 언어(히브리어) 품질 개선을 겨냥",
+        "MoE(혼합 전문가) 계열 아키텍처를 바탕으로 효율·성능 균형을 노림",
+        "시사점: “우리 언어/우리 도메인”에 맞춘 모델이 다시 늘어날 가능성"
+      ],
+      "visual_keywords": [
+        "Mixture of Experts",
+        "open weights",
+        "Hebrew NLP",
+        "language specialized model"
+      ],
+      "aria_line": "주인님, ‘범용 초거대’만 답은 아니에요. 특정 언어/도메인에 맞춘 오픈 모델이 실무에서 더 빠르게 이기는 케이스가 늘어날 수 있어요.",
+      "caption": "AI 뉴스 레이더, 아리아",
+      "importance": "Research",
+      "topic": "arXiv / Open Models",
+      "source_date": "2026-05-11",
+      "created_date": "2026-05-15",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2605.11255"
+        }
+      ]
+    }
+  ]
+}
+
