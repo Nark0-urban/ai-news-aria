@@ -1,0 +1,236 @@
+{
+  "date": "2026-05-17",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "오늘 AI 핵심 뉴스 7선",
+      "summary": "2026-05-17(일) 21:00 KST 기준, 오늘 오전~실행 시점까지 확인 가능한 소식 중심으로 AI 핵심 이슈 7개를 골라 만화 카드뉴스로 정리했어요.",
+      "bullets": [
+        "구글: Android를 ‘지능 시스템’으로 — Gemini Intelligence 발표",
+        "OpenAI: ChatGPT 릴리즈 노트 업데이트(최근 며칠 내 공개 내용 포함)",
+        "EU: AI Act 투명성 가이드라인 초안 의견수렴 + 일정(데드라인) 조정 논의"
+      ],
+      "visual_keywords": [
+        "daily AI briefing",
+        "news roundup",
+        "clean infographic",
+        "timeline"
+      ],
+      "aria_line": "주인님, 오늘은 ‘모바일 OS에 에이전트가 들어오는 흐름’, ‘제품 업데이트의 실제 영향’, ‘규제 일정과 투명성 체크리스트’, ‘에이전트 메모리 연구’까지 한 번에 잡았어요.",
+      "caption": "AI News Aria · Daily Brief",
+      "importance": "Brief",
+      "topic": "Daily Brief",
+      "source_date": "2026-05-17",
+      "created_date": "2026-05-17",
+      "sources": []
+    },
+    {
+      "type": "news",
+      "title": "Google: Android를 ‘지능 시스템’으로… Gemini Intelligence 공개",
+      "summary": "구글이 Android Show에서 Gemini Intelligence를 공개하며, 폰의 여러 앱/기능을 ‘대신 수행’하는 방향(더 선제적·에이전틱한 OS 경험)을 강조했어요. 하반기부터 일부 기기에서 단계적으로 확장되는 로드맵이 함께 제시됐습니다.",
+      "bullets": [
+        "핵심: ‘OS 기능+앱 동작’을 묶어 작업을 자동으로 이어주는 경험",
+        "개발 포인트: 앱이 에이전트 동작에 더 잘 연결되도록 준비 필요",
+        "실무 체크: 권한·프라이버시·사용자 통제(켜짐 표시 등)가 제품 경쟁력"
+      ],
+      "visual_keywords": [
+        "Gemini Intelligence",
+        "Android intelligence system",
+        "agentic assistant",
+        "mobile workflow"
+      ],
+      "aria_line": "주인님, ‘모바일에서 에이전트가 일을 대신한다’는 게 이제 컨셉이 아니라, OS 로드맵으로 내려왔어요.",
+      "caption": "AI News Aria · Product",
+      "importance": "Product",
+      "topic": "Google / Android / Gemini",
+      "source_date": "2026-05-12",
+      "created_date": "2026-05-17",
+      "sources": [
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "OpenAI: ChatGPT 릴리즈 노트 갱신… 최근 변경점 한눈에",
+      "summary": "OpenAI Help Center의 ChatGPT 릴리즈 노트가 최근 업데이트되며 기능/요금제/제한 사항 변화가 누적 정리됐어요. 팀 내 배포/가이드 문서가 필요한 조직은 ‘정책·권한·모델·플랜’ 변경을 이 페이지 기준으로 주기 점검하는 게 안전합니다.",
+      "bullets": [
+        "실무 팁: ‘무엇이 바뀌었나’를 내부 가이드에 바로 반영하기 좋음",
+        "운영 팁: 플랜별 사용량/제한 변화가 갑자기 생길 수 있어 모니터링 필요",
+        "개발 팁: 워크플로/자동화는 릴리즈 노트 변화에 취약 → 방어 로직 권장"
+      ],
+      "visual_keywords": [
+        "release notes",
+        "product update",
+        "changelog",
+        "ops checklist"
+      ],
+      "aria_line": "주인님, ‘오늘 갑자기 안 되네?’를 줄이려면 릴리즈 노트를 팀 표준 체크리스트로 두는 게 제일 싸고 확실해요.",
+      "caption": "AI News Aria · Product",
+      "importance": "Product",
+      "topic": "OpenAI / ChatGPT",
+      "source_date": "2026-05-15",
+      "created_date": "2026-05-17",
+      "sources": [
+        {
+          "name": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ]
+    },
+    {
+      "type": "policy",
+      "title": "EU: AI Act ‘투명성 의무’ 가이드라인 초안 의견수렴(consultation) 진행",
+      "summary": "EU 집행위가 AI Act의 ‘투명성 의무(예: 생성물 표시 등)’에 대한 가이드라인 초안을 공개하고 의견수렴을 받고 있어요. 제품팀 관점에선 ‘표시/로그/사용자 고지’가 UX·컴플라이언스 영역에서 곧바로 체크리스트로 바뀔 가능성이 큽니다.",
+      "bullets": [
+        "핵심: AI 생성/변형 콘텐츠에 대한 고지·표시 요구가 구체화되는 단계",
+        "리스크: 나중에 급히 붙이면 UI/데이터 구조가 깨짐(초기 설계가 중요)",
+        "대응: ‘어디서/언제/무엇을’ 표시했는지 추적 가능한 설계 권장"
+      ],
+      "visual_keywords": [
+        "EU AI Act",
+        "transparency",
+        "compliance checklist",
+        "labeling"
+      ],
+      "aria_line": "주인님, ‘투명성’은 문구 한 줄이 아니라 제품 구조(표시·기록·고지) 전체로 요구가 내려오는 느낌이에요.",
+      "caption": "AI News Aria · Policy",
+      "importance": "Policy",
+      "topic": "EU / Regulation",
+      "source_date": "2026-05-08",
+      "created_date": "2026-05-17",
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/consultations/consultation-draft-guidelines-transparency-obligations-under-ai-act"
+        }
+      ]
+    },
+    {
+      "type": "policy",
+      "title": "EU AI Act: ‘고위험(High-risk)’ 등 이행 일정 조정 논의가 산업계 환영",
+      "summary": "EU AI Act 이행 일정(특히 고위험 분류 체계/컴플라이언스 타임라인)과 관련해 조정 논의가 이어지고, 업계는 불확실성 완화 측면에서 긍정 평가를 내놓고 있어요. 일정이 바뀌어도 ‘요건 자체’는 강화되는 흐름이라, 준비를 미루기보단 우선순위를 조정하는 쪽이 안전합니다.",
+      "bullets": [
+        "포인트: 일정 조정은 ‘유예’가 아니라 ‘현실화’ 성격인 경우가 많음",
+        "실무: 고위험 분류 가능성이 있는 기능은 조기 리스크 리뷰가 이득",
+        "권장: 데이터 거버넌스·로그·평가 프로세스부터 선행 구축"
+      ],
+      "visual_keywords": [
+        "AI regulation",
+        "compliance timeline",
+        "high-risk AI",
+        "governance"
+      ],
+      "aria_line": "주인님, 데드라인이 흔들려도 ‘요건 강화’의 방향은 그대로라서, 준비는 ‘지금 가능한 것부터’가 정답이에요.",
+      "caption": "AI News Aria · Policy",
+      "importance": "Policy",
+      "topic": "EU / AI Act",
+      "source_date": "2026-05-11",
+      "created_date": "2026-05-17",
+      "sources": [
+        {
+          "name": "ITPro",
+          "url": "https://www.itpro.com/business/policy-and-legislation/this-closes-a-gap-that-has-caused-real-uncertainty-in-the-market-changes-to-eu-ai-act-implementation-deadlines-welcomed-by-industry"
+        },
+        {
+          "name": "Council of the EU (Press release PDF)",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/pdf/"
+        }
+      ]
+    },
+    {
+      "type": "research",
+      "title": "arXiv: SAGE — ‘자기진화’ 그래프 메모리 엔진으로 에이전트 기억을 구조화",
+      "summary": "SAGE는 에이전트의 장기 기억을 그래프 형태로 구성하고, 연관 검색·구조 인식 메모리를 강조하는 연구예요. 실무에선 ‘대화 요약을 텍스트로만 쌓는 방식’의 한계를 느낄 때, 엔티티/관계 기반 저장으로 넘어갈 근거로 참고하기 좋습니다.",
+      "bullets": [
+        "핵심 아이디어: 기억을 ‘관계 그래프’로 두고 연관 검색을 강화",
+        "실무 함의: 단순 요약 누적보다 ‘구조화+검색’이 유지보수에 유리",
+        "주의: 평가/데이터셋/업무 도메인 적합성 검증 없이는 과신 금물"
+      ],
+      "visual_keywords": [
+        "agent memory",
+        "graph memory",
+        "knowledge graph",
+        "associative retrieval"
+      ],
+      "aria_line": "주인님, ‘요약을 계속 덮어쓰기’보다 ‘구조화해서 검색’이 장기 운영에 더 튼튼해질 수 있어요.",
+      "caption": "AI News Aria · Research",
+      "importance": "Research",
+      "topic": "arXiv / Agent Memory",
+      "source_date": "2026-05-12",
+      "created_date": "2026-05-17",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2605.12061"
+        }
+      ]
+    },
+    {
+      "type": "research",
+      "title": "연구: LLM이 ‘지속 업데이트되는 메모리’를 만들면 오히려 고장날 수 있다",
+      "summary": "에이전트 메모리를 계속 ‘통합/정리’하면서 갱신할 때, 잘못된 통합이 누적돼 성능이 떨어질 수 있다는 문제를 지적하는 연구가 나왔어요. 운영 관점에선 ‘가공된 요약 메모리’만 남기기보다, 원본 로그(에피소드)를 보존하고 필요할 때 재구성하는 전략이 더 안전할 수 있습니다.",
+      "bullets": [
+        "문제: 요약·통합이 ‘틀린 확신’을 만들고 누적될 수 있음",
+        "대안: 원본 이벤트 로그를 보존하고, 조회 시점에 재구성/검증",
+        "실무 팁: 중요 의사결정은 ‘근거 링크/원문’까지 되돌아갈 수 있게"
+      ],
+      "visual_keywords": [
+        "memory consolidation",
+        "agent reliability",
+        "evaluation",
+        "traceability"
+      ],
+      "aria_line": "주인님, ‘메모리를 예쁘게 정리’하는 게 항상 답은 아니고, 오히려 원본을 남기는 게 안전장치가 될 수 있어요.",
+      "caption": "AI News Aria · Research",
+      "importance": "Research",
+      "topic": "arXiv / Agent Reliability",
+      "source_date": "2026-05-13",
+      "created_date": "2026-05-17",
+      "sources": [
+        {
+          "name": "Hugging Face Papers (arXiv:2605.12978)",
+          "url": "https://huggingface.co/papers/2605.12978"
+        }
+      ]
+    },
+    {
+      "type": "community",
+      "title": "GitHub Copilot: 조직용 가입(셀프서브) 일시 중단 공지 + 커뮤니티 반응",
+      "summary": "GitHub 문서에 따르면 Copilot Business의 ‘새 셀프서브 가입’이 특정 플랜 대상에서 일시 중단되는 공지가 있었고, 커뮤니티에선 기업 환경에서의 업데이트 속도·배포 현실과 엮어 논의가 이어졌어요. 팀 도입/확장 계획이 있는 경우, 구매/온보딩 경로가 바뀌는지 확인이 필요합니다.",
+      "bullets": [
+        "체크: 조직 플랜별로 ‘가입 경로/구매 경로’가 달라질 수 있음",
+        "운영: 배포 속도가 느린 엔터프라이즈에선 ‘업데이트 정책’이 중요",
+        "대응: 도입 전에 예산·계약·보안 검토 절차를 명확히 두기"
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "enterprise rollout",
+        "developer community",
+        "release cadence"
+      ],
+      "aria_line": "주인님, 도구 자체보다 ‘도입/구매/업데이트 경로’가 바뀌면 현장 영향이 더 커요. 문서 공지 체크가 먼저입니다.",
+      "caption": "AI News Aria · Community",
+      "importance": "Community",
+      "topic": "Developer Community",
+      "source_date": "2026-05-08",
+      "created_date": "2026-05-17",
+      "sources": [
+        {
+          "name": "GitHub Docs",
+          "url": "https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot"
+        },
+        {
+          "name": "Reddit (r/GithubCopilot)",
+          "url": "https://www.reddit.com/r/GithubCopilot/comments/1t6z2d2/github_copilot_for_jetbrains_may_updates/"
+        }
+      ]
+    }
+  ]
+}
