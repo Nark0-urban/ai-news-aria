@@ -1,0 +1,244 @@
+{
+  "date": "2026-05-20",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "5월 20일 AI 뉴스 요약",
+      "summary": "오늘(오전~저녁 9시 기준) 확인 가능한 AI 핵심 이슈 7가지를 카드뉴스로 빠르게 정리했어요.",
+      "bullets": [
+        "OpenAI: 콘텐츠 출처(워터마크/메타데이터) 고도화",
+        "GitHub Copilot: 기본 모델/앱 프리뷰 등 제품 업데이트",
+        "정책·보안·연구: EU AI Act 가이드, Triton 보안, LLM 메모리 연구"
+      ],
+      "visual_keywords": [
+        "daily AI news",
+        "timeline",
+        "watermark",
+        "developer tools",
+        "policy"
+      ],
+      "aria_line": "오늘은 ‘출처 표시’와 ‘개발자 도구 변화’, 그리고 ‘보안·정책·연구’까지 한 번에 훑어볼게요.",
+      "caption": "AI 뉴스 메신저 아리아",
+      "importance": "Brief",
+      "created_date": "2026-05-20",
+      "source_date": "2026-05-20",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/advancing-content-provenance/"
+        },
+        {
+          "name": "GitHub Blog (Changelog)",
+          "url": "https://github.blog/changelog/2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise"
+        },
+        {
+          "name": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/consultations/consultation-draft-guidelines-transparency-obligations-under-ai-act"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Policy",
+      "title": "OpenAI: 콘텐츠 출처(워터마크·메타데이터) 판별 강화",
+      "summary": "합성 이미지·영상이 늘수록 “이게 어디서 나온 건지”가 더 중요해졌어요. OpenAI가 SynthID 기반 워터마크 감지와 C2PA 메타데이터 신호를 더 잘 ‘찾고 표기’하는 방향의 업데이트를 공개했습니다.",
+      "bullets": [
+        "워터마크 ‘존재 여부’를 더 신뢰성 있게 확인하는 방향",
+        "콘텐츠에 남은 C2PA 메타데이터 신호를 함께 노출",
+        "실무에서는 ‘검증 가능한 출처 표시’가 배포/유통 리스크를 줄임"
+      ],
+      "visual_keywords": [
+        "content provenance",
+        "watermark detection",
+        "C2PA metadata",
+        "verification badge",
+        "media integrity"
+      ],
+      "aria_line": "생성형 시대엔 ‘잘 만드는 것’만큼 ‘누가 만들었는지 증명’이 중요해요.",
+      "caption": "정책·신뢰",
+      "importance": "Important",
+      "created_date": "2026-05-20",
+      "source_date": "2026-05-19",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/advancing-content-provenance/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Product",
+      "title": "GitHub Copilot: GPT-5.3-Codex가 기본 모델로 전환",
+      "summary": "Copilot Business/Enterprise 조직에서 기본 모델이 GPT-5.3-Codex로 바뀌었습니다. 팀 단위로 쓰는 코딩 도구는 ‘기본값 변경’이 생산성과 정책(허용 모델/데이터 처리)에 직접 영향을 줘요.",
+      "bullets": [
+        "조직 기본 모델이 바뀌면 결과 품질/스타일이 달라질 수 있음",
+        "보안·규정 이슈가 있는 팀은 허용 모델 정책을 재확인 필요",
+        "개발자 입장에선 ‘업데이트 이후 체감’ 체크리스트를 두는 게 안전"
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "base model",
+        "coding assistant",
+        "enterprise policy",
+        "developer workflow"
+      ],
+      "aria_line": "Copilot은 업데이트가 곧 팀 워크플로우 변화라서, 릴리즈 노트를 ‘업무 영향’ 관점으로 봐야 해요.",
+      "caption": "개발자 도구",
+      "importance": "Notable",
+      "created_date": "2026-05-20",
+      "source_date": "2026-05-17",
+      "sources": [
+        {
+          "name": "GitHub Blog (Changelog)",
+          "url": "https://github.blog/changelog/2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Product",
+      "title": "GitHub Copilot 앱(technical preview) 공개",
+      "summary": "GitHub가 Copilot ‘앱’ 형태의 기술 프리뷰를 공개했습니다. 브라우저/IDE 안을 넘어 ‘앱 단’에서 작업 맥락을 연결하려는 흐름으로 볼 수 있어요.",
+      "bullets": [
+        "프리뷰 단계: 조직/사용자별 접근 조건 확인이 먼저",
+        "업무 적용은 ‘권한·컨텍스트 범위’가 어디까지인지 점검 필요",
+        "팀에선 POC(시험 적용) 기준을 미리 정하면 혼선이 줄어듦"
+      ],
+      "visual_keywords": [
+        "Copilot app",
+        "technical preview",
+        "developer experience",
+        "context switching",
+        "product update"
+      ],
+      "aria_line": "도구가 ‘앱’으로 나오면, 기능보다도 ‘어떤 맥락을 가져오나’가 핵심이에요.",
+      "caption": "개발자 제품 업데이트",
+      "importance": "Notable",
+      "created_date": "2026-05-20",
+      "source_date": "2026-05-14",
+      "sources": [
+        {
+          "name": "GitHub Blog (Changelog)",
+          "url": "https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Security",
+      "title": "NVIDIA: Triton Inference Server 보안 공지(업데이트 권고)",
+      "summary": "서버 측 추론 환경은 ‘모델 성능’만큼 ‘패치 속도’가 중요해요. NVIDIA가 Triton Inference Server 관련 보안 공지를 내고 특정 버전 이상으로의 업데이트를 권고했습니다.",
+      "bullets": [
+        "Triton 운영 중이면 현재 버전/베이스 이미지부터 확인",
+        "업데이트는 ‘컨테이너 태그 고정’ 여부까지 같이 점검",
+        "취약점 공지는 “지금 당장 바꿔야 할 운영 루틴”을 알려주는 신호"
+      ],
+      "visual_keywords": [
+        "security bulletin",
+        "Triton Inference Server",
+        "patch management",
+        "container update",
+        "GPU serving"
+      ],
+      "aria_line": "추론 서버는 ‘한 번 깔고 끝’이 아니라, 패치 루틴이 곧 안전장치예요.",
+      "caption": "보안·운영",
+      "importance": "Important",
+      "created_date": "2026-05-20",
+      "source_date": "2026-05-19",
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/5828"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Policy",
+      "title": "EU AI Act: 투명성 의무 가이드라인(초안) 의견수렴",
+      "summary": "EU AI Act의 투명성(표시) 의무는 서비스 운영·UI·문구까지 바꿔야 하는 영역이에요. 유럽연합 집행위원회가 관련 가이드라인 초안에 대한 의견수렴(consultation)을 진행 중입니다.",
+      "bullets": [
+        "생성 콘텐츠 표기/사용자 고지 같은 ‘UX 레벨’ 의무가 핵심",
+        "제품·법무·보안이 함께 봐야 실무 적용이 쉬움",
+        "EU 시장을 염두에 둔 서비스는 대응 체크리스트를 미리 준비 권장"
+      ],
+      "visual_keywords": [
+        "EU AI Act",
+        "transparency obligations",
+        "consultation",
+        "compliance checklist",
+        "regulation"
+      ],
+      "aria_line": "규제 대응은 문서 작업이 아니라 ‘제품 설계 변경’이 되는 경우가 많아요.",
+      "caption": "정책·규제",
+      "importance": "Important",
+      "created_date": "2026-05-20",
+      "source_date": "2026-05-08",
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/consultations/consultation-draft-guidelines-transparency-obligations-under-ai-act"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Research",
+      "title": "연구: 메모리를 계속 갱신하면 오히려 ‘유용한 기억’이 망가질 수 있다",
+      "summary": "에이전트/챗봇에 장기 메모리를 붙이는 시도가 많지만, 메모리를 계속 ‘요약·통합’하며 업데이트할수록 성능이 떨어지거나 왜곡이 누적될 수 있다는 연구가 나왔습니다. 메모리 설계는 ‘정확성’과 ‘유지보수’가 함께 필요해요.",
+      "bullets": [
+        "지속 업데이트 메모리에서 오류/퇴화가 생길 수 있다는 관찰",
+        "원문 로그/예시(증거)를 함께 보관하는 설계가 도움이 될 수 있음",
+        "프로덕션 메모리는 평가(리그레션) 체계 없이는 위험"
+      ],
+      "visual_keywords": [
+        "LLM memory",
+        "continual update",
+        "regression",
+        "agent design",
+        "evaluation"
+      ],
+      "aria_line": "메모리는 붙이는 순간부터 ‘평가하고 고치는 시스템’이 같이 따라와야 해요.",
+      "caption": "연구·에이전트",
+      "importance": "Research",
+      "created_date": "2026-05-20",
+      "source_date": "2026-05-13",
+      "sources": [
+        {
+          "name": "Hugging Face Papers (arXiv:2605.12978)",
+          "url": "https://huggingface.co/papers/2605.12978"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Research",
+      "title": "MemLens: 멀티모달 장기 메모리(VLM) 벤치마크 제안",
+      "summary": "텍스트뿐 아니라 이미지까지 다루는 비전-언어 모델(VLM)에서 ‘장기 메모리’를 어떻게 평가할지에 대한 벤치마크가 제안됐습니다. 기능을 넣는 것보다 “측정 가능한 기준”을 세우는 게 먼저예요.",
+      "bullets": [
+        "멀티모달(텍스트+이미지) 장기 메모리 평가에 초점",
+        "모델/프로덕트 모두 ‘기능 추가 → 평가 부재’ 함정이 잦음",
+        "벤치마크는 메모리 기능의 개선 방향을 잡는 나침반"
+      ],
+      "visual_keywords": [
+        "multimodal memory",
+        "VLM benchmark",
+        "long-term context",
+        "evaluation suite",
+        "research paper"
+      ],
+      "aria_line": "메모리는 ‘있다/없다’가 아니라 ‘정확히 기억하나’를 재야 진짜 개선돼요.",
+      "caption": "연구·벤치마크",
+      "importance": "Research",
+      "created_date": "2026-05-20",
+      "source_date": "2026-05-14",
+      "sources": [
+        {
+          "name": "Hugging Face Papers (arXiv:2605.14906)",
+          "url": "https://huggingface.co/papers/2605.14906"
+        }
+      ]
+    }
+  ]
+}
