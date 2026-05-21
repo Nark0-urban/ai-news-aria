@@ -1,0 +1,248 @@
+{
+  "date": "2026-05-21",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "5월 21일 AI 뉴스 요약",
+      "summary": "오늘(오전~저녁 9시 기준) 확인 가능한 AI 핵심 이슈 7가지를 카드뉴스로 정리했어요.",
+      "bullets": [
+        "OpenAI IPO 준비설, 투자·거버넌스 영향",
+        "Google I/O: ‘에이전트 시대’로 제품 전면 개편",
+        "Anthropic·GitHub·EU 규제·LLM 메모리 연구 업데이트"
+      ],
+      "visual_keywords": [
+        "daily AI news",
+        "timeline",
+        "agentic AI",
+        "IPO",
+        "policy"
+      ],
+      "aria_line": "주인님, 오늘은 ‘상장/에이전트/규제/개발도구’ 축으로 크게 움직였어요. 필요한 것부터 쏙쏙 볼까요?",
+      "caption": "AI 뉴스 메신저 아리아",
+      "importance": "Brief",
+      "created_date": "2026-05-21",
+      "source_date": "2026-05-21",
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/05/20/openai-ipo-spacex-musk"
+        },
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/"
+        },
+        {
+          "name": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/consultations/consultation-draft-guidelines-transparency-obligations-under-ai-act"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Business",
+      "title": "OpenAI IPO ‘비공개 제출’ 준비설",
+      "summary": "Axios 보도에 따르면 OpenAI가 비공개(Confidential) 방식으로 IPO 서류를 제출할 수 있다는 관측이 나왔어요. 확정된 일정은 유동적이지만, 시장은 ‘자본조달/컴퓨트 투자/지배구조’까지 한 번에 재평가하게 됩니다.",
+      "bullets": [
+        "상장 자체보다 ‘언제·어떤 구조로’가 제품·파트너에 영향",
+        "대규모 컴퓨트/인재 경쟁이 더 거세질 가능성",
+        "개발자·기업 고객은 요금·정책 변화 신호에 주목"
+      ],
+      "visual_keywords": [
+        "IPO filing",
+        "confidential prospectus",
+        "market reaction",
+        "compute investment",
+        "AI industry"
+      ],
+      "aria_line": "주인님, ‘상장 준비설’은 곧 ‘돈이 얼마나 더 들어올지’와 ‘제품 전략이 어디로 갈지’ 힌트가 되기도 해요.",
+      "caption": "AI 뉴스 메신저 아리아",
+      "importance": "Important",
+      "created_date": "2026-05-21",
+      "source_date": "2026-05-20",
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/05/20/openai-ipo-spacex-musk"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tools",
+      "title": "Anthropic, Stainless 인수: SDK/CLI/MCP 생성까지 ‘공식화’",
+      "summary": "Anthropic이 Stainless를 인수했어요. Stainless는 API 스펙으로부터 여러 언어 SDK·CLI·MCP 서버(커넥터)까지 자동 생성하는 툴체인으로 알려져 있는데, 이제 ‘개발자 경험(DX)’을 제품 핵심으로 끌어올리려는 신호로 읽힙니다.",
+      "bullets": [
+        "SDK 품질·일관성·배포 속도가 곧 플랫폼 경쟁력",
+        "에이전트/툴 호출 시대에 ‘커넥터 생산라인’이 중요",
+        "API 변경 시 호환성/마이그레이션 체계가 관건"
+      ],
+      "visual_keywords": [
+        "SDK generator",
+        "CLI tooling",
+        "MCP servers",
+        "developer experience",
+        "API platform"
+      ],
+      "aria_line": "주인님, 이제 ‘모델 성능’만큼 ‘툴·SDK·커넥터’가 승부처예요. 개발자 손에 쥐어주는 속도가 곧 점유율이거든요.",
+      "caption": "AI 뉴스 메신저 아리아",
+      "importance": "Notable",
+      "created_date": "2026-05-21",
+      "source_date": "2026-05-18",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-acquires-stainless"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Product",
+      "title": "Google I/O 2026: ‘에이전트형 Gemini’로 제품 전면 확대",
+      "summary": "Google I/O 2026 발표 핵심은 ‘도와주는 도구’에서 ‘일을 수행하는 에이전트’로의 전환이에요. Google은 Gemini 모델·앱·Search·Shopping·개발도구까지 에이전트 경험을 확장한다고 강조했습니다.",
+      "bullets": [
+        "Gemini 모델/앱에 ‘프로액티브(상시 도움)’ 방향 강조",
+        "Search·YouTube·쇼핑 등 ‘행동(액션)’까지 이어지는 UX 확대",
+        "개발자는 ‘에이전트 워크플로우’ 설계 역량이 더 중요"
+      ],
+      "visual_keywords": [
+        "Google I/O",
+        "Gemini agentic era",
+        "AI Search",
+        "developer tools",
+        "multimodal"
+      ],
+      "aria_line": "주인님, ‘에이전트’는 결국 제품이 사용자 대신 ‘다음 행동까지’ 해주는 흐름이에요. UX 경쟁이 한 단계 올라가요.",
+      "caption": "AI 뉴스 메신저 아리아",
+      "importance": "Important",
+      "created_date": "2026-05-21",
+      "source_date": "2026-05-20",
+      "sources": [
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/"
+        },
+        {
+          "name": "Google Blog (The Keyword)",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Product",
+      "title": "Edge for Business: ‘AI 사용은 허용하되 데이터는 테넌트 안에’",
+      "summary": "Microsoft는 Edge for Business에서 ‘업무용 AI 사용을 안전하게’라는 메시지를 강하게 냈어요. 브라우저에서 엔터프라이즈 데이터 보호(예: 복사/붙여넣기 제어)를 AI 워크플로우에도 그대로 적용하고, M365 Copilot의 테넌트 보호를 강조합니다.",
+      "bullets": [
+        "AI 도입의 병목은 ‘모델’보다 ‘데이터 유출 리스크’인 경우가 많음",
+        "브라우저 레이어에서 정책·DLP를 강제하는 전략",
+        "조직은 ‘허용 범위/로그/교육’ 3종 세트가 필요"
+      ],
+      "visual_keywords": [
+        "enterprise browser",
+        "data protection",
+        "AI for work",
+        "tenant isolation",
+        "policy controls"
+      ],
+      "aria_line": "주인님, 기업은 ‘AI를 쓰지 말자’가 아니라 ‘안전하게 쓰자’로 넘어왔어요. 도구보다 정책 설계가 더 중요해져요.",
+      "caption": "AI 뉴스 메신저 아리아",
+      "importance": "Notable",
+      "created_date": "2026-05-21",
+      "source_date": "2026-05-20",
+      "sources": [
+        {
+          "name": "Microsoft Edge Blog",
+          "url": "https://blogs.windows.com/msedgedev/2026/05/20/new-in-edge-for-business-ai-for-work-safe-from-day-one/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Policy",
+      "title": "EU AI Act: 투명성(Article 50) 가이드라인 초안 의견수렴",
+      "summary": "EU 집행위가 AI Act의 ‘투명성 의무(Article 50)’ 가이드라인 초안에 대한 의견수렴을 진행 중입니다. 사용자 상호작용, 합성콘텐츠 생성/조작, 딥페이크 등에서 ‘알림/표시/문서화’ 요구가 실무적으로 어떻게 적용될지 방향을 잡는 문서예요.",
+      "bullets": [
+        "“이건 AI입니다” 표기·공지 같은 요구가 제품 UX에 직결",
+        "배포자(Deployers)도 내부 운영 문서·절차를 갖춰야 함",
+        "지금은 의견수렴 단계: 2026-06-03까지 피드백"
+      ],
+      "visual_keywords": [
+        "EU AI Act",
+        "Article 50",
+        "transparency obligations",
+        "compliance",
+        "consultation"
+      ],
+      "aria_line": "주인님, 규제는 ‘법무팀 일’로 끝나지 않아요. 실제 화면 문구·로그·운영 프로세스로 내려와요.",
+      "caption": "AI 뉴스 메신저 아리아",
+      "importance": "Important",
+      "created_date": "2026-05-21",
+      "source_date": "2026-05-08",
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/consultations/consultation-draft-guidelines-transparency-obligations-under-ai-act"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tools",
+      "title": "GitHub Copilot: GPT-5.3-Codex가 Business/Enterprise 기본 모델로",
+      "summary": "GitHub은 Copilot Business/Enterprise의 기본 모델을 GPT-5.3-Codex로 전환했다고 밝혔습니다. 특히 ‘LTS(12개월 보장)’ 모델로서 기업의 보안/안전성 검토 시간을 고려해 안정성을 강조한 점이 눈에 띕니다.",
+      "bullets": [
+        "기본 모델은 ‘조직이 다른 모델을 승인하지 않았을 때’ 사용",
+        "LTS 제공은 기업 내부 리뷰/규정 준수에 유리",
+        "6/1 사용량 기반 과금 등, 정책/비용 변화도 함께 체크"
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "base model",
+        "LTS model",
+        "enterprise adoption",
+        "coding assistant"
+      ],
+      "aria_line": "주인님, 기업용 코딩 보조는 ‘성능’만이 아니라 ‘안정적으로 유지되는 기간’이 정말 중요해요.",
+      "caption": "AI 뉴스 메신저 아리아",
+      "importance": "Notable",
+      "created_date": "2026-05-21",
+      "source_date": "2026-05-17",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Research",
+      "title": "GroupMemBench: ‘여러 사람이 함께 쓰는 에이전트’ 메모리 벤치마크",
+      "summary": "arXiv에 공개된 GroupMemBench는, 실제 업무처럼 ‘그룹 채널에서 여러 사용자가 같은 에이전트를 쓰는 상황’에서 메모리를 어떻게 평가할지 제안합니다. 단순히 1:1 대화 로그를 합치는 방식으로는 측정이 안 되는 요소(발화자별 신념 추적, 역할별 언어 조정 등)를 분리해 보려는 시도예요.",
+      "bullets": [
+        "그룹 대화는 ‘누가 말했는지’가 기억 품질을 좌우",
+        "에이전트는 청중/역할에 따라 표현을 바꿔야 함",
+        "현업 에이전트 도입 팀에 ‘평가 지표’가 필요한 시점"
+      ],
+      "visual_keywords": [
+        "LLM agent memory",
+        "multi-party conversations",
+        "benchmark",
+        "belief tracking",
+        "theory of mind"
+      ],
+      "aria_line": "주인님, 에이전트 메모리는 ‘길게 저장’이 아니라 ‘사람·맥락을 구분해서 정확히’가 핵심이에요.",
+      "caption": "AI 뉴스 메신저 아리아",
+      "importance": "Research",
+      "created_date": "2026-05-21",
+      "source_date": "2026-05-14",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2605.14498"
+        }
+      ]
+    }
+  ]
+}
