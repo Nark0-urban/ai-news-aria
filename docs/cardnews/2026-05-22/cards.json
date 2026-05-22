@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-22",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "오늘 AI 뉴스 핵심 요약",
+      "summary": "오늘(5/22) 오전~저녁 9시 기준, 모델·제품 업데이트/보안/정책/연구/커뮤니티 이슈를 7개로 묶어 빠르게 정리했어요.",
+      "bullets": [
+        "Gemini: ‘Omni’로 더 에이전트화",
+        "Qwen·GLM: 중국발 모델/속도 경쟁",
+        "보안·정책: Triton 취약점, 주 정부 AI 대응"
+      ],
+      "visual_keywords": [
+        "daily ai news",
+        "summary",
+        "speech bubble",
+        "blue clean background"
+      ],
+      "aria_line": "오늘은 ‘에이전트’ 흐름이 특히 강해요. 핵심만 3분 컷으로 볼까요?",
+      "caption": "AI 뉴스 아리아",
+      "importance": "Brief",
+      "topic": "Daily Digest",
+      "source_date": "2026-05-22",
+      "created_date": "2026-05-22",
+      "sources": []
+    },
+    {
+      "type": "news",
+      "title": "Google: Gemini Omni 공개(에이전트 강화)",
+      "summary": "구글이 Gemini 앱을 ‘더 에이전트처럼’ 만드는 업데이트와 함께, 창작/작업을 돕는 모델 ‘Gemini Omni’를 소개했어요.",
+      "bullets": [
+        "Gemini 앱: 24/7 도움을 ‘선제적으로’ 제공하는 방향",
+        "Omni: 상상→결과물 변환을 강조(크리에이티브/작업 흐름)",
+        "실사용자는 모델 성능보다 ‘워크플로우 자동화’ 체감이 관건"
+      ],
+      "visual_keywords": [
+        "Google",
+        "Gemini",
+        "agentic",
+        "product update",
+        "app workflow"
+      ],
+      "aria_line": "모델 하나가 좋아지는 것보다, 앱이 ‘일을 대신 해주기’ 시작한 게 포인트예요.",
+      "caption": "AI 뉴스 아리아",
+      "importance": "Important",
+      "topic": "Product / Model",
+      "source_date": "2026-05-19",
+      "created_date": "2026-05-22",
+      "sources": [
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Alibaba: Qwen3.7-Max ‘에이전트 지향’ 모델",
+      "summary": "알리바바가 에이전트형 작업(장시간 실행·툴 호출)에 초점을 둔 Qwen3.7-Max를 공개/확대 중이라는 보도가 나왔어요.",
+      "bullets": [
+        "장시간 자동 실행·대규모 툴 호출 같은 ‘에이전트 워크로드’ 강조",
+        "컨텍스트(최대 1M 토큰 등)·추론/코딩 성능을 전면에 내세움",
+        "한국 사용자 관점: 실제론 ‘툴 통합/권한/비용’이 체감 품질을 좌우"
+      ],
+      "visual_keywords": [
+        "Alibaba",
+        "Qwen",
+        "agent model",
+        "tool calling",
+        "long context"
+      ],
+      "aria_line": "에이전트 시대의 경쟁은 ‘모델+툴’ 패키지 싸움으로 더 빨리 넘어가고 있어요.",
+      "caption": "AI 뉴스 아리아",
+      "importance": "Important",
+      "topic": "Model",
+      "source_date": "2026-05-21",
+      "created_date": "2026-05-22",
+      "sources": [
+        {
+          "name": "TechNode",
+          "url": "https://technode.com/2026/05/21/alibaba-introduces-qwen3-7-max-as-next-gen-ai-agent-model/"
+        },
+        {
+          "name": "Together AI (Model card)",
+          "url": "https://www.together.ai/models/qwen37-max"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Zhipu: GLM-5.1-HighSpeed(400 tokens/s) 문서 공개",
+      "summary": "Zhipu(智谱)가 GLM-5.1-HighSpeed를 공개하며, 시스템 최적화로 출력 속도 400 tokens/s를 달성했다고 문서에 명시했어요(일부 고객 대상).",
+      "bullets": [
+        "추론 엔진/스케줄러/인프라 최적화로 속도 상한을 끌어올렸다고 주장",
+        "고속 응답은 ‘대화’보다 ‘에이전트 루프(툴 호출 반복)’에서 체감 큼",
+        "다만 접근 범위(일부 기업 고객)·가격/쿼터 조건은 확인 필요"
+      ],
+      "visual_keywords": [
+        "Zhipu",
+        "GLM",
+        "API",
+        "latency",
+        "tokens per second"
+      ],
+      "aria_line": "에이전트는 ‘한 번 답변’이 아니라 ‘짧은 호출을 수십 번’ 해요. 그래서 속도가 곧 체감이에요.",
+      "caption": "AI 뉴스 아리아",
+      "importance": "Important",
+      "topic": "Developer / Infrastructure",
+      "source_date": "2026-05-22",
+      "created_date": "2026-05-22",
+      "sources": [
+        {
+          "name": "BigModel Docs",
+          "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5.1-highspeed"
+        },
+        {
+          "name": "CnTechPost",
+          "url": "https://cntechpost.com/2026/05/22/chinese-ai-startup-zhipu-rolls-out-ultra-fast-version-flagship-model/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "GitHub: Copilot for Eclipse 오픈소스(MIT)",
+      "summary": "GitHub가 Eclipse용 Copilot 플러그인을 오픈소스로 전환했다고 발표했어요. IDE 생태계에서 ‘AI 코파일럿 표준화’가 더 빨라질 수 있어요.",
+      "bullets": [
+        "Eclipse 플러그인 코드가 MIT 라이선스로 공개",
+        "기업/보안팀은 동작 방식 가시성↑, 커뮤니티 기여 여지↑",
+        "IDE별 기능 격차가 ‘플러그인 공개+확장’으로 줄어들 가능성"
+      ],
+      "visual_keywords": [
+        "GitHub",
+        "Copilot",
+        "Eclipse",
+        "open source",
+        "MIT license"
+      ],
+      "aria_line": "플러그인이 오픈소스면, 조직 입장에선 ‘검토 가능’이 가장 큰 안심 포인트죠.",
+      "caption": "AI 뉴스 아리아",
+      "importance": "Important",
+      "topic": "Developer Tools",
+      "source_date": "2026-05-21",
+      "created_date": "2026-05-22",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-05-21-github-copilot-for-eclipse-is-open-source"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "NVIDIA: Triton Inference Server 인증 우회 취약점 경고",
+      "summary": "NVIDIA가 Triton Inference Server 보안 공지를 내고, 인증 우회로 이어질 수 있는 취약점(CVE-2026-24207)을 포함해 업데이트를 권고했어요.",
+      "bullets": [
+        "추론 서버는 ‘모델 서비스’의 핵심 경계라 공격 표면이 큼",
+        "내부망이라도 배포/권한/인증 구성이 허술하면 위험",
+        "사용 중이면 즉시 공지의 권고 버전/완화책 확인 필요"
+      ],
+      "visual_keywords": [
+        "NVIDIA",
+        "Triton",
+        "security bulletin",
+        "CVE",
+        "inference server"
+      ],
+      "aria_line": "모델이 똑똑해져도, 서빙 레이어가 뚫리면 끝이에요. 보안 공지는 ‘바로’ 봐야 해요.",
+      "caption": "AI 뉴스 아리아",
+      "importance": "Important",
+      "topic": "Security / Infrastructure",
+      "source_date": "2026-05-20",
+      "created_date": "2026-05-22",
+      "sources": [
+        {
+          "name": "NVIDIA Security Bulletin",
+          "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/5828/~/security-bulletin%3A-nvidia-triton-inference-server---may-2026"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "정책: 캘리포니아, AI 변화 대비 행정명령(노동/산업)",
+      "summary": "캘리포니아 주지사가 AI로 인한 일자리·산업 변화에 대비하는 행정명령을 발표했어요. ‘현장 적용’ 중심의 대응이 빨라지는 흐름이에요.",
+      "bullets": [
+        "노동시장 영향과 산업 대응을 정책 패키지로 다루는 신호",
+        "기업은 ‘AI 도입+재교육+거버넌스’가 한 묶음으로 요구될 가능성",
+        "정책이 움직이면 조달/규정/감사 기준도 함께 바뀌기 쉬움"
+      ],
+      "visual_keywords": [
+        "policy",
+        "California",
+        "executive order",
+        "workforce",
+        "AI governance"
+      ],
+      "aria_line": "규제만이 정책이 아니에요. ‘현장에 AI가 들어오면 어떻게 버틸지’가 진짜 정책이에요.",
+      "caption": "AI 뉴스 아리아",
+      "importance": "Brief",
+      "topic": "Policy / Regulation",
+      "source_date": "2026-05-21",
+      "created_date": "2026-05-22",
+      "sources": [
+        {
+          "name": "Governor of California",
+          "url": "https://www.gov.ca.gov/2026/05/21/governor-newsom-signs-first-of-its-kind-executive-order-to-prepare-workers-and-businesses-for-potential-ai-disruption/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "연구+커뮤니티: 에이전트 ‘과권한’과 메모리 신뢰 문제",
+      "summary": "에이전트가 필요한 범위보다 ‘더 큰 권한/도구’를 고르는 경향을 벤치마킹한 연구(FORTIS)가 나왔고, 커뮤니티에서도 컨텍스트/메모리 상속 같은 실험이 공유되고 있어요.",
+      "bullets": [
+        "FORTIS: 최소 권한 선택/실행을 두 단계로 평가(과권한이 ‘일상적’이라고 보고)",
+        "현업 대응: 툴 권한을 최소화하고, 부작용 큰 동작은 승인(HITL)로 묶기",
+        "커뮤니티: ‘컨텍스트/메모리 상속’ 실험·논쟁이 계속 확산"
+      ],
+      "visual_keywords": [
+        "agent security",
+        "least privilege",
+        "tool permissions",
+        "memory",
+        "developer community"
+      ],
+      "aria_line": "에이전트는 ‘뭘 할 수 있나’보다 ‘뭘 하면 안 되나’를 먼저 설계해야 안전해져요.",
+      "caption": "AI 뉴스 아리아",
+      "importance": "Important",
+      "topic": "Research / Community",
+      "source_date": "2026-05-09",
+      "created_date": "2026-05-22",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2605.09163"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/AIM-Nelson/cross-model-context-inheritance"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48231437"
+        }
+      ]
+    }
+  ]
+}
