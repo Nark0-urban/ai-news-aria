@@ -1,0 +1,256 @@
+{
+  "date": "2026-05-23",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "오늘 AI 뉴스 핵심 요약",
+      "summary": "2026년 5월 23일 저녁 기준, 최근 24~72시간 사이 확인된 AI 모델, 에이전트, 개발자 도구, 자본, 정책 흐름을 7개 이슈로 정리했어요.",
+      "bullets": [
+        "Gemini 3.5와 Qwen3.7-Max가 에이전트 경쟁을 키움",
+        "DeepSeek는 코딩 에이전트와 대규모 투자 이슈가 동시 부상",
+        "속도, Copilot 모델 선택, 정책 논의가 실무 영향 포인트"
+      ],
+      "visual_keywords": [
+        "daily AI news",
+        "Korean cardnews",
+        "AI agent",
+        "clean blue dashboard"
+      ],
+      "aria_line": "오늘은 AI가 '대답하는 도구'에서 '일을 맡는 에이전트'로 넘어가는 흐름이 제일 커 보여요.",
+      "caption": "AI 뉴스 아리아",
+      "importance": "Brief",
+      "topic": "Daily Digest",
+      "source_date": "2026-05-23",
+      "created_date": "2026-05-23",
+      "sources": []
+    },
+    {
+      "type": "news",
+      "title": "Google: Gemini 3.5 Flash와 에이전트형 검색",
+      "summary": "Google I/O 2026 발표에서 Gemini 3.5 Flash가 AI Studio, Android Studio, Antigravity 등에 제공되고, Search에는 정보 에이전트와 생성형 UI 방향이 강조됐어요.",
+      "bullets": [
+        "Gemini 3.5 Flash는 코딩과 장기 에이전트 작업을 겨냥한 모델로 소개",
+        "AI Mode 검색은 Gemini 3.5 Flash를 기본 모델로 쓰는 방향",
+        "검색도 단순 답변보다 배경 감시, 요약, 맞춤 화면 생성으로 이동"
+      ],
+      "visual_keywords": [
+        "Google Gemini",
+        "AI search",
+        "agentic search",
+        "developer tools"
+      ],
+      "aria_line": "검색창이 점점 '물어보는 곳'이 아니라 '작은 작업실'처럼 바뀌고 있어요.",
+      "caption": "모델/제품 업데이트",
+      "importance": "Important",
+      "topic": "Product / Model",
+      "source_date": "2026-05-20",
+      "created_date": "2026-05-23",
+      "sources": [
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
+        },
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Alibaba: Qwen3.7-Max, 에이전트 전용 모델 경쟁",
+      "summary": "Alibaba Cloud는 Qwen3.7-Max를 긴 작업, 도구 호출, 코드 작성, 업무 자동화를 버티는 에이전트 기반 모델로 공개했어요. 공개 가중치가 아닌 API 중심 모델이라는 점도 주목됩니다.",
+      "bullets": [
+        "공식 글은 Qwen3.7-Max를 'agent frontier' 성격의 모델로 설명",
+        "장시간 자율 실행과 1M 토큰급 긴 문맥이 핵심 홍보 포인트",
+        "커뮤니티는 성능 기대와 API 의존, 공개 가중치 부재를 함께 논의"
+      ],
+      "visual_keywords": [
+        "Alibaba Qwen",
+        "agent model",
+        "long context",
+        "tool calling"
+      ],
+      "aria_line": "이제 모델 경쟁은 '말을 잘하나'보다 '얼마나 오래 안정적으로 일을 맡기나'로 가고 있어요.",
+      "caption": "중국 AI / 에이전트 모델",
+      "importance": "Important",
+      "topic": "Model",
+      "source_date": "2026-05-21",
+      "created_date": "2026-05-23",
+      "sources": [
+        {
+          "name": "Alibaba Cloud Community",
+          "url": "https://www.alibabacloud.com/blog/qwen3-7-the-agent-frontier_603154"
+        },
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/technology/alibabas-proprietary-qwen3-7-max-can-run-for-35-hours-autonomously-and-supports-external-harnesses-like-anthropics-claude-code"
+        },
+        {
+          "name": "Reddit r/aicuriosity",
+          "url": "https://www.reddit.com/r/aicuriosity/comments/1tjokvs/alibaba_drops_qwen37max_their_strongest_ai_model/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "DeepSeek: 코딩 에이전트 'Harness'팀 부상",
+      "summary": "DeepSeek가 Claude Code와 Codex를 겨냥한 코드 에이전트 조직을 만들고 있다는 보도가 이어졌어요. 핵심은 모델 자체보다 터미널, 테스트, 롤백까지 묶는 하네스 경쟁입니다.",
+      "bullets": [
+        "보도들은 Beijing 기반 Code Harness 팀 구성과 제품화를 언급",
+        "개발자 관점에서는 모델 성능보다 파일 편집, 테스트 루프, 복구가 중요",
+        "Reddit 반응도 Claude Code, Codex, DeepSeek 조합을 비교하는 쪽으로 이동"
+      ],
+      "visual_keywords": [
+        "DeepSeek",
+        "coding agent",
+        "terminal workflow",
+        "developer community"
+      ],
+      "aria_line": "코딩 AI의 승부처는 모델 하나가 아니라 '실수했을 때 다시 고치는 작업 흐름'이에요.",
+      "caption": "개발자 도구 / 커뮤니티 반응",
+      "importance": "Important",
+      "topic": "Developer Tools",
+      "source_date": "2026-05-22",
+      "created_date": "2026-05-23",
+      "sources": [
+        {
+          "name": "Pandaily",
+          "url": "https://pandaily.com/deepseek-building-harness-team-rival-claude-code-l8jq"
+        },
+        {
+          "name": "ForkLog",
+          "url": "https://forklog.com/en/deepseek-to-challenge-claude-code-and-codex-with-new-initiative/"
+        },
+        {
+          "name": "Reddit r/DeepSeek",
+          "url": "https://www.reddit.com/r/DeepSeek/comments/1tbsq0u/did_anyone_here_start_using_opencode_deepseek/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "DeepSeek: 대규모 투자와 CATL 참여 보도",
+      "summary": "DeepSeek가 수십억 달러 규모의 첫 외부 자금 조달을 추진하고, CATL도 투자에 참여할 계획이라는 보도가 나왔어요. AI 모델 경쟁이 전력, 배터리, 데이터센터 산업과 더 강하게 연결됩니다.",
+      "bullets": [
+        "Bloomberg 계열 보도는 DeepSeek가 AGI와 오픈 모델 연구를 강조했다고 전함",
+        "The Information은 CATL의 DeepSeek 투자 계획을 보도",
+        "중국 AI 경쟁은 모델 성능뿐 아니라 전력 장비와 컴퓨트 공급망 싸움으로 확대"
+      ],
+      "visual_keywords": [
+        "DeepSeek funding",
+        "CATL",
+        "AI data center",
+        "China AI capital"
+      ],
+      "aria_line": "AI 투자는 이제 소프트웨어 투자만이 아니라 전기와 데이터센터 인프라 투자로 이어지고 있어요.",
+      "caption": "자본 / 인프라",
+      "importance": "Important",
+      "topic": "Funding / Infrastructure",
+      "source_date": "2026-05-22",
+      "created_date": "2026-05-23",
+      "sources": [
+        {
+          "name": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/artificial-intelligence/deepseek-founder-declares-agi-goal-as-10-billion-round-advances"
+        },
+        {
+          "name": "The Information",
+          "url": "https://www.theinformation.com/articles/chinese-ev-battery-giant-catl-plans-invest-deepseek"
+        },
+        {
+          "name": "CnEVPost",
+          "url": "https://cnevpost.com/2026/05/22/catl-plans-to-invest-in-deepseek/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Zhipu: GLM-5.1 고속 API, 속도 경쟁 가속",
+      "summary": "Zhipu AI가 GLM-5.1-highspeed API를 공개하며 400 tokens/s 수준의 빠른 응답을 내세웠어요. 에이전트가 여러 번 도구를 호출할수록 지연시간은 비용만큼 중요한 경쟁력이 됩니다.",
+      "bullets": [
+        "보도 기준 공개일은 2026년 5월 22일",
+        "빠른 토큰 생성은 채팅보다 반복형 에이전트 루프에서 체감이 큼",
+        "실제 도입 전에는 가격, 안정성, 지역별 접근성 확인이 필요"
+      ],
+      "visual_keywords": [
+        "Zhipu AI",
+        "GLM 5.1",
+        "API speed",
+        "latency"
+      ],
+      "aria_line": "에이전트가 수십 번 생각하고 도구를 부르면, 1초 차이가 전체 작업 시간 차이로 커져요.",
+      "caption": "모델 API / 속도",
+      "importance": "Useful",
+      "topic": "Developer / Infrastructure",
+      "source_date": "2026-05-22",
+      "created_date": "2026-05-23",
+      "sources": [
+        {
+          "name": "Pandaily",
+          "url": "https://pandaily.com/zhipu-ai-glm-5.1-high-speed-api-400-tokens-s-may2026"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Cerebras: Kimi K2.6 추론 속도 981 tokens/s",
+      "summary": "Cerebras가 Moonshot AI의 Kimi K2.6 모델을 981 output tokens/s로 서비스했다고 보도됐어요. 큰 모델도 빠르게 서빙할 수 있으면 장문 생성, 코드 생성, 에이전트 루프 비용 계산이 달라집니다.",
+      "bullets": [
+        "VentureBeat는 Artificial Analysis 검증 수치를 인용",
+        "GPU 클라우드 대비 6배 이상 빠르다는 성능 주장이 핵심",
+        "실사용 평가는 품질, 가격, 지역 지연시간까지 함께 봐야 함"
+      ],
+      "visual_keywords": [
+        "Cerebras",
+        "Kimi K2.6",
+        "inference speed",
+        "AI chips"
+      ],
+      "aria_line": "모델 전쟁의 다음 축은 '똑똑함'에 더해 '얼마나 빨리 끝내나'예요.",
+      "caption": "칩 / 추론 인프라",
+      "importance": "Useful",
+      "topic": "Infrastructure",
+      "source_date": "2026-05-22",
+      "created_date": "2026-05-23",
+      "sources": [
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/technology/cerebras-says-its-chips-run-a-trillion-parameter-ai-model-nearly-7-times-faster-than-gpu-clouds"
+        },
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/cerebras-981-tokens-kimi-k2-gpu-speed/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "GitHub Copilot: 웹 모델 선택과 기업 모델 관리 변화",
+      "summary": "GitHub는 Copilot on web의 사용 가능 모델 목록을 조정했고, 관련 변경으로 Gemini 3.5 Flash 제공과 자동 모델 라우팅도 함께 드러났어요. 개발자는 '어떤 모델을 언제 쓰는지'를 더 자주 확인해야 합니다.",
+      "bullets": [
+        "Copilot 웹 모델 선택지는 품질과 일관성을 이유로 조정됨",
+        "관련 변경 목록에는 Gemini 3.5 Flash 일반 제공과 자동 모델 선택 개선이 포함",
+        "팀 단위로는 모델 가용성, 비용, 정책 설정을 문서화하는 일이 중요"
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "model picker",
+        "developer workflow",
+        "enterprise settings"
+      ],
+      "aria_line": "코딩 도구는 이제 기능 업데이트보다 '어떤 모델이 뒤에서 돌고 있나'가 실무 리스크예요.",
+      "caption": "개발자 도구 / 제품 업데이트",
+      "importance": "Useful",
+      "topic": "Developer Tools",
+      "source_date": "2026-05-20",
+      "created_date": "2026-05-23",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-05-20-updates-to-available-models-in-copilot-on-web/"
+        }
+      ]
+    }
+  ]
+}
