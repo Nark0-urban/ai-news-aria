@@ -1,0 +1,232 @@
+{
+  "date": "2026-05-26",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "오늘 AI 뉴스 핵심 요약",
+      "summary": "2026년 5월 26일 저녁 기준, 오늘 확인된 AI 정책, 개발자 도구, 모델 생태계, 연구와 커뮤니티 반응을 7개 이슈로 압축했어요.",
+      "bullets": [
+        "중국 AI 인재 이동 제한 보도와 OpenAI 브라질 미디어 제휴",
+        "GitHub PR 코드 커버리지, Google AI Studio, xAI·DeepSeek 계열 코딩 에이전트 경쟁",
+        "Hacker News 반응과 에이전트 장기 기억 연구까지 함께 점검"
+      ],
+      "visual_keywords": [
+        "daily AI news",
+        "Korean cardnews",
+        "AI agents",
+        "developer tools"
+      ],
+      "aria_line": "오늘은 AI가 더 똑똑해졌다는 소식보다, 누가 AI를 통제하고 어디에 붙일지가 더 큰 흐름이에요.",
+      "caption": "AI 뉴스 아리아",
+      "importance": "Brief",
+      "topic": "Daily Digest",
+      "source_date": "2026-05-26",
+      "created_date": "2026-05-26",
+      "sources": []
+    },
+    {
+      "type": "news",
+      "title": "중국, 핵심 AI 인재 해외 이동 제한 보도",
+      "summary": "Reuters가 Bloomberg 보도를 인용해 중국 당국이 Alibaba와 DeepSeek 등 민간 기업의 전략 AI 인력 해외 출장을 더 엄격히 통제하고 있다고 전했어요. AI 경쟁이 모델 성능뿐 아니라 인재와 지식 유출 관리 문제로 확장되는 신호입니다.",
+      "bullets": [
+        "보도일은 2026년 5월 26일",
+        "대상은 첨단 AI 작업에 관여하는 핵심 전문가로 설명",
+        "중국 AI 생태계의 글로벌 협업과 채용 흐름에 영향을 줄 수 있음"
+      ],
+      "visual_keywords": [
+        "China AI",
+        "Alibaba",
+        "DeepSeek",
+        "talent controls"
+      ],
+      "aria_line": "AI 경쟁의 병목이 GPU에서 사람으로 옮겨가는 장면처럼 보여요.",
+      "caption": "정책 / 중국 AI",
+      "importance": "Important",
+      "topic": "Policy / China AI",
+      "source_date": "2026-05-26",
+      "created_date": "2026-05-26",
+      "sources": [
+        {
+          "name": "Reuters via MarketScreener",
+          "url": "https://www.marketscreener.com/news/china-restricts-overseas-travel-for-top-ai-talent-at-alibaba-and-deepseek-bloomberg-news-reports-ce7f5adddc8ff322"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "OpenAI, 브라질 첫 미디어 파트너십 체결",
+      "summary": "OpenAI가 Grupo Folha, Grupo UOL과 전략적 콘텐츠 파트너십을 발표했어요. ChatGPT 안에서 브라질 주요 언론의 보도를 요약, 출처 표기, 원문 링크와 함께 보여주는 방향이라 뉴스 생태계와 AI 검색의 접점이 더 넓어졌습니다.",
+      "bullets": [
+        "공식 발표일은 2026년 5월 25일",
+        "OpenAI의 브라질 첫 미디어 파트너십",
+        "출처 표기와 원문 링크를 강조해 AI 답변의 신뢰도를 높이는 전략"
+      ],
+      "visual_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "news partnership",
+        "Brazil journalism"
+      ],
+      "aria_line": "ChatGPT가 뉴스를 보여줄수록, 원문 출처를 어떻게 살릴지가 핵심이에요.",
+      "caption": "OpenAI / 미디어",
+      "importance": "Important",
+      "topic": "OpenAI / Media",
+      "source_date": "2026-05-25",
+      "created_date": "2026-05-26",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "GitHub, PR 코드 커버리지 공개 프리뷰",
+      "summary": "GitHub Changelog에 따르면 GitHub Code Quality 사용자는 PR 화면에서 코드 커버리지 비율을 직접 볼 수 있게 됐어요. AI 코드 리뷰와 자동 수정이 늘어날수록, 사람이 보기 쉬운 품질 지표가 PR 안에 붙는 흐름이 중요해집니다.",
+      "bullets": [
+        "공개 프리뷰 발표일은 2026년 5월 26일",
+        "PR에서 변경 코드의 테스트 커버리지 맥락을 바로 확인",
+        "AI 코딩 에이전트 결과물을 검증하는 품질 게이트로 활용 가능"
+      ],
+      "visual_keywords": [
+        "GitHub",
+        "pull request",
+        "code coverage",
+        "developer workflow"
+      ],
+      "aria_line": "AI가 코드를 빨리 짜도, PR에서 숫자로 품질을 확인하는 장치가 더 중요해져요.",
+      "caption": "개발자 도구 / GitHub",
+      "importance": "Useful",
+      "topic": "Developer Tools",
+      "source_date": "2026-05-26",
+      "created_date": "2026-05-26",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-05-26-code-coverage-in-pull-requests-is-now-in-public-preview"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Google AI Studio, 앱 제작 흐름을 더 넓힘",
+      "summary": "Google은 I/O 2026에서 AI Studio에 Android 앱 제작, Workspace 연동, 모바일 앱, Antigravity 내보내기 등을 추가한다고 발표했어요. 프롬프트로 앱을 만들고, 실제 배포와 팀 작업으로 이어지는 경로가 더 짧아지는 흐름입니다.",
+      "bullets": [
+        "공식 발표일은 2026년 5월 19일",
+        "브라우저에서 Android 앱 생성과 에뮬레이터 미리보기 지원",
+        "Workspace 데이터와 Antigravity 내보내기로 업무 앱 제작 흐름 강화"
+      ],
+      "visual_keywords": [
+        "Google AI Studio",
+        "Android app",
+        "vibe coding",
+        "Workspace"
+      ],
+      "aria_line": "이제 바이브코딩의 경쟁력은 데모가 아니라, 배포와 협업까지 이어지는지예요.",
+      "caption": "Google / 개발자 도구",
+      "importance": "Important",
+      "topic": "Developer Tools",
+      "source_date": "2026-05-19",
+      "created_date": "2026-05-26",
+      "sources": [
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-ai-studio-io-2026/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "xAI·DeepSeek, 코딩 에이전트 경쟁 가열",
+      "summary": "오늘 수집된 보도와 커뮤니티 신호에서 xAI의 Grok CLI, Grok Build, DeepSeek의 Code Harness 계열 움직임이 함께 잡혔어요. Claude Code와 Codex가 만든 코딩 에이전트 시장에 모델 회사들이 직접 개발 워크플로 도구로 진입하는 모습입니다.",
+      "bullets": [
+        "xAI Grok CLI 관련 보도는 2026년 5월 26일 기준 수집",
+        "DeepSeek Code Harness 보도는 최근 24~48시간 내 재확산",
+        "핵심 경쟁은 모델 점수보다 터미널, 파일 수정, 테스트 루프 품질"
+      ],
+      "visual_keywords": [
+        "coding agent",
+        "Grok CLI",
+        "DeepSeek",
+        "terminal workflow"
+      ],
+      "aria_line": "코딩 AI는 이제 챗봇이 아니라, 내 프로젝트 폴더 안에서 일하는 도구 경쟁이에요.",
+      "caption": "코딩 에이전트 / 제품 경쟁",
+      "importance": "Important",
+      "topic": "Coding Agents",
+      "source_date": "2026-05-26",
+      "created_date": "2026-05-26",
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com"
+        },
+        {
+          "name": "Digital Today via Google News",
+          "url": "https://news.google.com/rss/search?q=DeepSeek%20Code%20Harness%20Claude%20Code%20Codex"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Hacker News, 통합 AI 에이전트 CLI에 반응",
+      "summary": "Hacker News에는 Codex, Claude Code, Cursor, Gemini, OpenCode 같은 로컬 코딩 에이전트를 하나의 명령어로 실행하려는 Show HN 프로젝트가 올라왔어요. 개발자 커뮤니티의 불편은 모델 부족보다 도구별 명령과 설정 파편화에 가깝습니다.",
+      "bullets": [
+        "게시 시점은 2026년 5월 26일 UTC",
+        "여러 코딩 에이전트의 실행 플래그와 작업 폴더 지정 방식을 통합",
+        "멀티 에이전트 시대에는 실행 표준과 세션 관리가 새 UX 경쟁력이 됨"
+      ],
+      "visual_keywords": [
+        "Hacker News",
+        "Codex",
+        "Claude Code",
+        "agent CLI"
+      ],
+      "aria_line": "개발자는 더 많은 AI보다, 여러 AI를 한 손에 잡는 조종석을 원하고 있어요.",
+      "caption": "커뮤니티 반응 / 개발자 UX",
+      "importance": "Useful",
+      "topic": "Community",
+      "source_date": "2026-05-26",
+      "created_date": "2026-05-26",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48278148"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Agent-BRACE, 장기 작업 에이전트의 기억 문제 연구",
+      "summary": "Hugging Face Papers에 올라온 Agent-BRACE는 LLM 에이전트가 긴 작업에서 모든 기록을 계속 들고 가는 대신, 믿음 상태와 행동 정책을 나눠 불확실성을 관리하는 접근을 제안해요. 장기 실행 에이전트가 실무화될수록 중요한 연구 방향입니다.",
+      "bullets": [
+        "논문 공개일은 2026년 5월 12일, 최근 Papers에서 재노출",
+        "환경에 대한 주장과 확신도를 구조화해 긴 히스토리 부담을 줄임",
+        "Qwen 계열 모델 실험에서 긴 작업 성능 개선을 보고"
+      ],
+      "visual_keywords": [
+        "Agent-BRACE",
+        "LLM agents",
+        "belief state",
+        "long-horizon tasks"
+      ],
+      "aria_line": "오래 일하는 AI에게 필요한 건 더 긴 기억만이 아니라, 무엇을 얼마나 믿는지 정리하는 능력이에요.",
+      "caption": "연구 / 에이전트 기억",
+      "importance": "Research",
+      "topic": "Research",
+      "source_date": "2026-05-12",
+      "created_date": "2026-05-26",
+      "sources": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2605.11436"
+        },
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2605.11436"
+        }
+      ]
+    }
+  ]
+}
