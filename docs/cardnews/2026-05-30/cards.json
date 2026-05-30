@@ -1,0 +1,232 @@
+{
+  "date": "2026-05-30",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "오늘 AI 뉴스 핵심 요약",
+      "summary": "2026년 5월 30일 실행 기준, 오늘 오전부터 확인된 AI 모델, 개발자 도구, 검색/RAG 인프라, 중국 AI 투자, 에이전트 보안과 연구 소식을 7개 이슈로 정리했어요.",
+      "bullets": [
+        "MiniMax IPO 준비와 중국 AI 경쟁이 오늘 주요 시장 이슈",
+        "xAI, Google, Mistral, GitHub는 개발자와 기업 운영 도구를 업데이트",
+        "에이전트 보안과 기업 IT 벤치마크는 실제 배포의 한계를 보여줌"
+      ],
+      "visual_keywords": [
+        "daily AI news",
+        "coding agents",
+        "Gemini",
+        "enterprise AI"
+      ],
+      "aria_line": "오늘은 새 모델 소식보다, AI를 실제 업무와 인프라에 어떻게 붙이고 통제할지가 더 크게 보이는 날이에요.",
+      "caption": "AI 뉴스 아리아",
+      "importance": "Brief",
+      "topic": "Daily Digest",
+      "source_date": "2026-05-30",
+      "created_date": "2026-05-30",
+      "sources": []
+    },
+    {
+      "type": "news",
+      "title": "MiniMax, 중국 상장 준비 보도",
+      "summary": "중국 AI 스타트업 MiniMax가 국내 IPO 준비에 들어갔다는 보도가 나왔어요. DeepSeek 이후 중국 AI 기업들이 모델 경쟁뿐 아니라 자본시장에서도 다시 평가받는 국면입니다.",
+      "bullets": [
+        "보도일은 2026년 5월 30일",
+        "MiniMax는 DeepSeek, Moonshot, Zhipu와 함께 중국 주요 AI 랩으로 거론",
+        "모델 성능 경쟁이 투자, 상장, 정부 승인 이슈와 연결되는 흐름"
+      ],
+      "visual_keywords": [
+        "MiniMax",
+        "DeepSeek",
+        "China AI",
+        "IPO"
+      ],
+      "aria_line": "중국 AI 경쟁은 이제 누가 모델을 잘 만드느냐와 함께, 누가 자본과 규제 문턱을 넘느냐의 싸움이 됐어요.",
+      "caption": "시장 / 중국 AI",
+      "importance": "Important",
+      "topic": "AI Business",
+      "source_date": "2026-05-30",
+      "created_date": "2026-05-30",
+      "sources": [
+        {
+          "name": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/minimax-plans-china-ipo-it-eyes-local-rivals-deepseek"
+        },
+        {
+          "name": "Google News",
+          "url": "https://news.google.com/rss/search?q=DeepSeek%20model%20release%20AI%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "xAI, Grok Build 0.1 API 베타",
+      "summary": "xAI가 코딩 특화 모델 grok-build-0.1을 API 공개 베타로 열었어요. 웹 개발, 디버깅, MCP 지원 같은 에이전틱 코딩 작업을 전면에 내세운 모델입니다.",
+      "bullets": [
+        "공식 게시일은 2026년 5월 29일",
+        "xAI는 100+ tokens/sec 속도와 낮은 토큰 단가를 강조",
+        "Cursor, OpenCode, Vercel AI Gateway, OpenRouter 같은 개발자 경로와 연결"
+      ],
+      "visual_keywords": [
+        "xAI",
+        "Grok Build",
+        "coding model",
+        "MCP"
+      ],
+      "aria_line": "코딩 모델 경쟁은 IDE 안에서만 끝나지 않아요. API, CLI, MCP 도구까지 묶인 생태계 싸움으로 커지고 있어요.",
+      "caption": "코딩 에이전트 / xAI",
+      "importance": "Important",
+      "topic": "Coding Agents",
+      "source_date": "2026-05-29",
+      "created_date": "2026-05-30",
+      "sources": [
+        {
+          "name": "xAI",
+          "url": "https://x.ai/news/grok-build-0-1"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "GitHub, Copilot 도입 단계 API 추가",
+      "summary": "GitHub는 Copilot 사용 지표 API에 AI 도입 단계(cohort)를 추가했어요. 단순 활성 사용자 수가 아니라 코드 완성, 에이전트, 멀티에이전트 사용으로 팀의 AI 성숙도를 나눠 볼 수 있습니다.",
+      "bullets": [
+        "GitHub Changelog 게시일은 2026년 5월 29일",
+        "ai_adoption_phase와 totals_by_ai_adoption_phase 필드가 추가",
+        "기업은 교육, 롤아웃, 비용 관리를 실제 사용 단계별로 조정 가능"
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "metrics API",
+        "AI adoption",
+        "developer productivity"
+      ],
+      "aria_line": "이제 기업은 'Copilot을 쓰고 있나'보다 '어떤 방식으로 성숙하게 쓰고 있나'를 측정하려고 해요.",
+      "caption": "개발자 도구 / GitHub",
+      "importance": "Useful",
+      "topic": "Developer Tools",
+      "source_date": "2026-05-29",
+      "created_date": "2026-05-30",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-05-29-copilot-usage-metrics-api-adds-cohorts-for-ai-adoption/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Google, I/O AI 핵심 데모 재정리",
+      "summary": "Google은 I/O 2026의 주요 AI 발표 12개를 다시 정리했어요. Gemini Omni, Gemini 3.5 Flash, Search 정보 에이전트, Antigravity 기반 생성형 UI가 핵심 축입니다.",
+      "bullets": [
+        "공식 정리 글 게시일은 2026년 5월 28일",
+        "Gemini 3.5 Flash는 에이전트와 코딩 장기 작업 성능을 강조",
+        "Search 안에서 정보 에이전트와 맞춤형 인터페이스를 제공하는 방향 제시"
+      ],
+      "visual_keywords": [
+        "Google I/O",
+        "Gemini 3.5 Flash",
+        "Gemini Omni",
+        "Search agents"
+      ],
+      "aria_line": "Google의 메시지는 분명해요. 검색, 앱, 개발환경을 전부 에이전트 입구로 바꾸겠다는 거예요.",
+      "caption": "제품 / Google",
+      "importance": "Important",
+      "topic": "Product Update",
+      "source_date": "2026-05-28",
+      "created_date": "2026-05-30",
+      "sources": [
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Mistral, Search Toolkit 공개",
+      "summary": "Mistral이 AI 애플리케이션용 검색 파이프라인 프레임워크 Search Toolkit을 공개 프리뷰로 내놨어요. RAG와 엔터프라이즈 검색에서 ingestion, retrieval, evaluation을 한 구조로 묶는 방향입니다.",
+      "bullets": [
+        "공식 게시일은 2026년 5월 28일",
+        "오픈소스로 제공되며 클라우드, 온프레미스, 엣지 환경을 모두 겨냥",
+        "검색 품질보다 배관 작업에 시간을 쓰는 팀의 부담을 줄이는 것이 목표"
+      ],
+      "visual_keywords": [
+        "Mistral AI",
+        "Search Toolkit",
+        "RAG",
+        "enterprise search"
+      ],
+      "aria_line": "RAG의 어려움은 모델보다 데이터 파이프라인일 때가 많아요. Mistral은 그 배관을 제품화하려는 거예요.",
+      "caption": "검색 인프라 / Mistral",
+      "importance": "Useful",
+      "topic": "AI Infrastructure",
+      "source_date": "2026-05-28",
+      "created_date": "2026-05-30",
+      "sources": [
+        {
+          "name": "Mistral AI",
+          "url": "https://mistral.ai/news/search-toolkit/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Anthropic, Claude 에이전트 격리 설계 공개",
+      "summary": "Anthropic은 Claude가 제품 안에서 더 많은 권한을 갖게 될수록 어떻게 피해 범위를 제한하는지 설명했어요. Claude Code, claude.ai, Cowork에서 컨테이너, 샌드박스, VM 경계를 다르게 쓰는 방식입니다.",
+      "bullets": [
+        "공식 엔지니어링 글 게시일은 2026년 5월 25일",
+        "허용된 도메인을 통한 데이터 유출 사례와 방어 프록시 교훈을 공유",
+        "에이전트 시대에는 모델 안전성뿐 아니라 시스템 경계와 관찰성이 중요"
+      ],
+      "visual_keywords": [
+        "Anthropic",
+        "Claude Code",
+        "agent security",
+        "sandbox"
+      ],
+      "aria_line": "AI 에이전트가 파일과 네트워크를 만지는 순간, 좋은 답변보다 더 중요한 건 피해 범위를 딱 잘라두는 설계예요.",
+      "caption": "보안 / 에이전트 격리",
+      "importance": "Important",
+      "topic": "AI Safety Engineering",
+      "source_date": "2026-05-25",
+      "created_date": "2026-05-30",
+      "sources": [
+        {
+          "name": "Anthropic Engineering",
+          "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "ITBench-AA, 기업 IT 에이전트 한계 측정",
+      "summary": "Artificial Analysis와 IBM이 기업 IT 작업용 에이전트 벤치마크 ITBench-AA를 공개했어요. Kubernetes 장애 대응 같은 SRE 작업에서 주요 프런티어 모델이 50% 미만 점수를 기록했습니다.",
+      "bullets": [
+        "Hugging Face 게시일은 2026년 5월 27일",
+        "Claude Opus 4.7, GPT-5.5, Qwen3.7 Max 등이 비교 대상",
+        "복잡한 로그와 의존성을 읽는 실전 운영 업무는 아직 포화되지 않은 과제"
+      ],
+      "visual_keywords": [
+        "ITBench-AA",
+        "IBM Research",
+        "SRE",
+        "agent benchmark"
+      ],
+      "aria_line": "에이전트가 데모에서는 똑똑해 보여도, 실제 장애 대응처럼 지저분한 현장 문제는 아직 어렵다는 신호예요.",
+      "caption": "연구 / 기업 IT 에이전트",
+      "importance": "Research",
+      "topic": "Research",
+      "source_date": "2026-05-27",
+      "created_date": "2026-05-30",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/ibm-research/itbench-aa"
+        },
+        {
+          "name": "ITBench GitHub",
+          "url": "https://github.com/itbench-hub/ITBench"
+        }
+      ]
+    }
+  ]
+}
