@@ -1,0 +1,224 @@
+{
+  "date": "2026-05-31",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "오늘 AI 뉴스 핵심 7가지",
+      "summary": "2026년 5월 31일 기준으로 확인한 AI 업계의 핵심 흐름입니다. 오늘 단독 소식은 적어 최근 24~72시간 안에 나온 공식 발표와 주요 보도를 함께 골랐습니다.",
+      "bullets": [
+        "Codex와 Copilot은 개발자 작업 공간으로 더 깊게 들어갔습니다.",
+        "Anthropic, Google, Mistral은 모델보다 실제 업무 적용을 강조했습니다.",
+        "연구와 가격 경쟁은 AI 에이전트의 한계와 비용 문제를 드러냈습니다."
+      ],
+      "visual_keywords": [
+        "daily AI news",
+        "developer agents",
+        "enterprise AI"
+      ],
+      "aria_line": "오늘은 새 모델 이름보다, 어디서 실제로 쓰이기 시작했는지가 포인트예요.",
+      "caption": "AI 뉴스 아리아",
+      "importance": "Daily Brief",
+      "topic": "Daily Digest",
+      "source_date": "2026-05-31",
+      "created_date": "2026-05-31",
+      "sources": []
+    },
+    {
+      "type": "news",
+      "title": "Codex, Windows와 원격 제어로 확장",
+      "summary": "OpenAI는 5월 29일 릴리스 노트에서 Codex 앱의 Windows Computer Use와 원격 제어, 프로필 기능을 공개했습니다. 개발자가 PC 앞을 떠나도 같은 작업 맥락을 이어가는 방향입니다.",
+      "bullets": [
+        "Windows 앱을 보고 클릭하고 입력하는 Computer Use가 추가됐습니다.",
+        "모바일이나 다른 Codex 환경에서 진행 상황을 확인하고 지시할 수 있습니다.",
+        "기업 환경은 기본 비활성화라 관리자가 별도 접근을 열어야 합니다."
+      ],
+      "visual_keywords": [
+        "OpenAI Codex",
+        "Windows computer use",
+        "remote control"
+      ],
+      "aria_line": "코딩 에이전트가 이제 브라우저 안 도구가 아니라, PC 작업 흐름 자체로 들어오고 있어요.",
+      "caption": "OpenAI 릴리스 노트, 2026-05-29",
+      "importance": "Product",
+      "topic": "OpenAI Codex",
+      "source_date": "2026-05-29",
+      "created_date": "2026-05-31",
+      "sources": [
+        {
+          "name": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "GPT-5.5 Instant 품질 조정과 구모델 종료",
+      "summary": "OpenAI는 5월 28일 GPT-5.5 Instant의 응답 스타일과 품질을 조정하고, ChatGPT에서 o3와 GPT-4.5를 단계적으로 종료한다고 밝혔습니다.",
+      "bullets": [
+        "GPT-5.5 Instant는 더 자연스럽고 짧게 실무 도움을 주도록 조정됐습니다.",
+        "Canvas 대신 채팅 안의 글쓰기 블록과 코드 블록으로 기능을 모읍니다.",
+        "o3는 8월 26일, GPT-4.5는 6월 27일 ChatGPT에서 종료 예정입니다."
+      ],
+      "visual_keywords": [
+        "GPT-5.5 Instant",
+        "model sunset",
+        "ChatGPT release notes"
+      ],
+      "aria_line": "모델 교체는 성능 뉴스이기도 하지만, 사용자가 익숙한 작업 방식이 바뀐다는 뜻이에요.",
+      "caption": "OpenAI 릴리스 노트, 2026-05-28",
+      "importance": "Product",
+      "topic": "OpenAI Models",
+      "source_date": "2026-05-28",
+      "created_date": "2026-05-31",
+      "sources": [
+        {
+          "name": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Claude Opus 4.8, GitHub Copilot에 투입",
+      "summary": "GitHub는 5월 28일 Claude Opus 4.8을 Copilot에서 일반 제공한다고 발표했습니다. 대형 코드베이스 탐색과 복잡한 문제 해결을 더 강하게 밀어붙이는 선택지입니다.",
+      "bullets": [
+        "VS Code, Visual Studio, Copilot CLI, Copilot App, GitHub Mobile 등에서 선택할 수 있습니다.",
+        "Copilot Pro+, Business, Enterprise 사용자를 대상으로 순차 배포됩니다.",
+        "6월 1일 사용량 기반 과금 전까지 15배 프리미엄 요청 배수가 붙습니다."
+      ],
+      "visual_keywords": [
+        "Claude Opus 4.8",
+        "GitHub Copilot",
+        "coding agent"
+      ],
+      "aria_line": "비싼 모델은 무조건 쓰기보다, 큰 저장소 분석이나 어려운 수정에 아껴 쓰는 전략이 필요해요.",
+      "caption": "GitHub Changelog, 2026-05-28",
+      "importance": "Developer Tools",
+      "topic": "GitHub Copilot",
+      "source_date": "2026-05-28",
+      "created_date": "2026-05-31",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-05-28-claude-opus-4-8-is-generally-available-for-github-copilot/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Anthropic, 650억 달러 투자 유치",
+      "summary": "Anthropic은 5월 28일 Series H에서 650억 달러를 조달했고 기업가치는 9,650억 달러로 평가됐다고 발표했습니다. Claude 수요와 컴퓨트 확보 경쟁이 동시에 커졌다는 신호입니다.",
+      "bullets": [
+        "Altimeter, Dragoneer, Greenoaks, Sequoia가 라운드를 이끌었습니다.",
+        "회사 측은 연구 최전선 유지, 컴퓨트 확장, Claude 제품 확대에 자금을 쓰겠다고 밝혔습니다.",
+        "Axios는 이 라운드가 OpenAI를 넘어선 민간 AI 기업 가치 경쟁으로 해석된다고 전했습니다."
+      ],
+      "visual_keywords": [
+        "Anthropic funding",
+        "Claude demand",
+        "AI compute race"
+      ],
+      "aria_line": "AI 경쟁은 모델 성능 싸움이면서 동시에, 전력과 데이터센터를 확보하는 자본 싸움이에요.",
+      "caption": "Anthropic, Axios, 2026-05-28",
+      "importance": "Business",
+      "topic": "Anthropic",
+      "source_date": "2026-05-28",
+      "created_date": "2026-05-31",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/series-h"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/05/28/anthropic-ai-fundraising-openai"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Mistral, 검색과 산업 AI 스택 공개",
+      "summary": "Mistral은 5월 28일 Search Toolkit 공개 프리뷰와 AI Now Summit 발표를 통해 검색, RAG, 산업 엔지니어링, 장기 작업 에이전트 Vibe를 한꺼번에 밀었습니다.",
+      "bullets": [
+        "Search Toolkit은 인덱싱, 검색, 평가를 하나의 프레임워크로 묶습니다.",
+        "Mistral for Industrial Engineering은 Airbus, BMW, ASML 같은 제조 현장을 겨냥합니다.",
+        "Les Ulis 데이터센터는 2026년 3분기 추론 운영용 10MW 시설로 예고됐습니다."
+      ],
+      "visual_keywords": [
+        "Mistral Search Toolkit",
+        "industrial AI",
+        "enterprise RAG"
+      ],
+      "aria_line": "기업 AI는 챗봇보다 검색 품질과 업무 데이터 연결이 성패를 가르는 단계로 가고 있어요.",
+      "caption": "Mistral AI, 2026-05-28",
+      "importance": "Infrastructure",
+      "topic": "Mistral AI",
+      "source_date": "2026-05-28",
+      "created_date": "2026-05-31",
+      "sources": [
+        {
+          "name": "Mistral AI Search Toolkit",
+          "url": "https://mistral.ai/news/search-toolkit/"
+        },
+        {
+          "name": "Mistral AI Now Summit",
+          "url": "https://mistral.ai/news/ai-now-summit-2026/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "DeepSeek 가격 인하, 비용 경쟁 압박",
+      "summary": "VentureBeat는 5월 28일 DeepSeek가 V4 Pro의 75% 할인 가격을 영구화하며 기업 AI 비용 구조를 흔들고 있다고 보도했습니다. 고성능 모델 경쟁이 가격 경쟁으로 번지는 장면입니다.",
+      "bullets": [
+        "비민감 업무는 저비용 모델로 보내고 고난도 작업만 프리미엄 모델에 맡기는 라우팅 전략이 부상합니다.",
+        "기업은 모델 성능뿐 아니라 토큰 단가, 지연 시간, 자체 추론 스택 비용을 함께 봐야 합니다.",
+        "가격 인하가 장기 수익성인지 전략적 보조금인지는 아직 확인이 필요합니다."
+      ],
+      "visual_keywords": [
+        "DeepSeek V4",
+        "AI pricing",
+        "enterprise inference"
+      ],
+      "aria_line": "모델이 똑똑해지는 만큼, 이제는 어떤 요청을 어떤 모델에 보낼지가 비용 절감의 핵심이에요.",
+      "caption": "VentureBeat, 2026-05-28",
+      "importance": "Market",
+      "topic": "AI Pricing",
+      "source_date": "2026-05-28",
+      "created_date": "2026-05-31",
+      "sources": [
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/infrastructure/how-deepseeks-radical-architecture-is-shattering-silicon-valleys-token-moat"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "AI 연구 에이전트, 아이디어를 좁힌다",
+      "summary": "5월 27일 arXiv 논문은 AI 연구 에이전트가 대량의 연구 아이디어를 만들 수 있지만, 인간 연구보다 출발 문헌 근처에 더 몰리고 후속 인용 가능성이 낮은 주제와 가까웠다고 분석했습니다.",
+      "bullets": [
+        "4개 연구 에이전트 프레임워크와 6개 LLM으로 37,802개 아이디어를 생성했습니다.",
+        "AI 아이디어는 같은 분야 인간 논문보다 집중도가 높고 다양성이 낮았습니다.",
+        "과학 자동화는 속도만이 아니라 탐색 다양성을 보완하는 설계가 필요합니다."
+      ],
+      "visual_keywords": [
+        "AI research agents",
+        "scientific discovery",
+        "idea diversity"
+      ],
+      "aria_line": "에이전트가 아이디어를 많이 내도, 새로운 길을 넓게 찾는지는 따로 검증해야 해요.",
+      "caption": "arXiv:2605.27905, 2026-05-27",
+      "importance": "Research",
+      "topic": "AI Research",
+      "source_date": "2026-05-27",
+      "created_date": "2026-05-31",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2605.27905"
+        }
+      ]
+    }
+  ]
+}
