@@ -1,0 +1,248 @@
+{
+  "date": "2026-06-02",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "오늘 AI 뉴스 핵심 7가지",
+      "summary": "2026년 6월 2일 저녁 기준으로 확인한 AI 업계 핵심 흐름입니다. 오늘 오전부터 확인된 소식과 최근 24시간 안의 공식 발표, 주요 보도, 개발자 반응을 함께 골랐습니다.",
+      "bullets": [
+        "OpenAI와 AWS, GitHub는 기업 도입과 과금 체계를 다시 정리했습니다.",
+        "MiniMax, Qwen, NVIDIA는 긴 컨텍스트와 물리 AI 에이전트 경쟁을 키웠습니다.",
+        "정책 영역은 EU AI Act 시행 일정과 고위험 AI 가이드라인이 계속 중요합니다."
+      ],
+      "visual_keywords": [
+        "daily AI news",
+        "agentic AI",
+        "enterprise AI"
+      ],
+      "aria_line": "오늘은 모델 성능만이 아니라, 어디서 쓰고 얼마를 내는지가 핵심이에요.",
+      "caption": "AI 뉴스 아리아",
+      "importance": "Daily Brief",
+      "topic": "Daily Digest",
+      "source_date": "2026-06-02",
+      "created_date": "2026-06-02",
+      "sources": []
+    },
+    {
+      "type": "news",
+      "title": "OpenAI 모델과 Codex, AWS에 일반 제공",
+      "summary": "OpenAI는 6월 1일 frontier 모델과 Codex가 AWS에서 일반 제공된다고 발표했습니다. 기업은 기존 AWS 보안, 거버넌스, 조달 흐름 안에서 OpenAI 기능을 더 쉽게 운영할 수 있게 됩니다.",
+      "bullets": [
+        "OpenAI 모델과 Codex가 Amazon Bedrock 경로로 기업 환경에 들어갑니다.",
+        "보안, 컴플라이언스, 결제, 운영 정책을 이미 AWS로 묶은 조직에 유리합니다.",
+        "개발자는 Codex를 실험 도구가 아니라 클라우드 운영 스택의 일부로 보게 됩니다."
+      ],
+      "visual_keywords": [
+        "OpenAI on AWS",
+        "Amazon Bedrock",
+        "Codex enterprise"
+      ],
+      "aria_line": "AI 도입 장벽은 모델 성능보다 사내 보안과 결제 절차일 때가 많아요.",
+      "caption": "OpenAI, 2026-06-01",
+      "importance": "Product",
+      "topic": "OpenAI / AWS",
+      "source_date": "2026-06-01",
+      "created_date": "2026-06-02",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "MiniMax M3, 100만 토큰과 멀티모달 전면전",
+      "summary": "MiniMax는 6월 1일 M3를 공개하며 100만 토큰 컨텍스트, 네이티브 멀티모달, 에이전틱 코딩을 강조했습니다. VentureBeat와 SCMP는 비용 대비 벤치마크 경쟁력이 크다고 보도했습니다.",
+      "bullets": [
+        "공식 블로그는 M3를 코딩, 긴 문서, 이미지, 음성, 음악을 함께 다루는 모델로 설명했습니다.",
+        "SCMP는 MiniMax가 SWE-Bench Pro에서 주요 경쟁 모델을 앞섰다고 주장했다고 전했습니다.",
+        "긴 컨텍스트 모델 경쟁은 성능뿐 아니라 토큰 비용과 응답 지연까지 함께 봐야 합니다."
+      ],
+      "visual_keywords": [
+        "MiniMax M3",
+        "1M context",
+        "agentic coding"
+      ],
+      "aria_line": "100만 토큰은 멋진 숫자지만, 실제 업무에서는 비용과 속도까지 같이 계산해야 해요.",
+      "caption": "MiniMax, SCMP, VentureBeat, 2026-06-01",
+      "importance": "Model",
+      "topic": "MiniMax M3",
+      "source_date": "2026-06-01",
+      "created_date": "2026-06-02",
+      "sources": [
+        {
+          "name": "MiniMax",
+          "url": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "South China Morning Post",
+          "url": "https://www.scmp.com/tech/tech-trends/article/3355529/minimax-debuts-ai-model-built-long-and-complex-coding-tasks"
+        },
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Qwen-VLA, 로봇 행동까지 다루는 Qwen 확장",
+      "summary": "Alibaba Qwen 팀의 Qwen-VLA는 시각, 언어, 행동을 하나로 묶는 embodied AI 모델입니다. 5월 말 논문 공개 뒤 6월 1~2일 보도가 이어지며 중국 AI가 로봇 제어 영역으로 넓어지는 흐름을 보여줍니다.",
+      "bullets": [
+        "논문은 Qwen의 비전-언어 모델링을 연속 행동과 궤적 생성으로 확장했다고 설명합니다.",
+        "Pandaily는 Qwen-VLA가 Alibaba의 물리 세계 AI 경쟁 진입 신호라고 보도했습니다.",
+        "로봇, 제조, 물류에서는 텍스트 답변보다 실제 움직임을 안전하게 제어하는 능력이 중요합니다."
+      ],
+      "visual_keywords": [
+        "Qwen-VLA",
+        "embodied AI",
+        "robot control"
+      ],
+      "aria_line": "AI가 화면 속 답변을 넘어 로봇의 손과 이동 경로까지 다루려는 단계예요.",
+      "caption": "arXiv, Pandaily, 2026-06-01",
+      "importance": "Research",
+      "topic": "China AI / Robotics",
+      "source_date": "2026-06-01",
+      "created_date": "2026-06-02",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2605.30280"
+        },
+        {
+          "name": "Pandaily",
+          "url": "https://pandaily.com/alibaba-qwen-embodied-ai-qwen-vla-2026"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "NVIDIA, 물리 AI 에이전트 도구 공개",
+      "summary": "NVIDIA는 5월 31일 physical AI용 오픈소스 agent tools와 skills를 공개했고, 6월 1일 Jetson 업데이트로 현장 로봇과 산업 자동화까지 연결했습니다.",
+      "bullets": [
+        "Agent Toolkit의 skills는 데이터 생성, 시뮬레이션, 훈련, 평가, 배포 흐름을 에이전트가 다루게 합니다.",
+        "JetPack 7.2는 Jetson Orin과 Thor에 agentic AI skills, CUDA 13, MIG 지원을 추가합니다.",
+        "로컬 장치에서 돌아가는 에이전트는 공장, 검사, 자율주행 같은 물리 현장으로 확장됩니다."
+      ],
+      "visual_keywords": [
+        "NVIDIA Agent Toolkit",
+        "physical AI",
+        "Jetson"
+      ],
+      "aria_line": "에이전트가 문서만 읽는 게 아니라, 시뮬레이션과 로봇 배포까지 맡는 방향이에요.",
+      "caption": "NVIDIA Newsroom / Blog, 2026-05-31~06-01",
+      "importance": "Developer Tools",
+      "topic": "NVIDIA Physical AI",
+      "source_date": "2026-06-01",
+      "created_date": "2026-06-02",
+      "sources": [
+        {
+          "name": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai"
+        },
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "GitHub Copilot, 사용량 과금과 예산 통제 시작",
+      "summary": "GitHub는 6월 1일부터 Copilot 전 요금제에 사용량 기반 과금이 적용되고, 사용자 단위 예산 통제가 일반 제공된다고 공지했습니다. 개인 요금제 auto 선택에는 평가 모델도 들어갈 수 있습니다.",
+      "bullets": [
+        "Copilot은 GitHub AI Credits 소비량을 기준으로 과금하며, 포함량 이후 추가 예산 설정이 필요합니다.",
+        "Copilot code review는 AI Credits뿐 아니라 GitHub Actions minutes도 소비합니다.",
+        "Reddit 개발자 반응은 비용 예측과 모델 선택 투명성에 대한 불만이 중심입니다."
+      ],
+      "visual_keywords": [
+        "GitHub Copilot billing",
+        "AI credits",
+        "developer reaction"
+      ],
+      "aria_line": "개발자 AI도 이제 무제한 느낌보다, 예산과 모델 선택을 관리하는 시대예요.",
+      "caption": "GitHub Changelog, Reddit, 2026-06-01~06-02",
+      "importance": "Developer Tools",
+      "topic": "GitHub Copilot",
+      "source_date": "2026-06-01",
+      "created_date": "2026-06-02",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans/"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-01-evaluation-models-in-auto-for-individual-plans/"
+        },
+        {
+          "name": "Reddit r/GithubCopilot",
+          "url": "https://www.reddit.com/r/GithubCopilot/comments/1ttd1hl/end_of_an_era_june_1_2026_github_copilot_models/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Gemini Spark, 개인 에이전트의 비용과 개인정보 질문",
+      "summary": "Google I/O에서 예고된 Gemini Spark는 개인 업무를 대신 처리하는 24시간 에이전트 방향을 보여줍니다. 6월 1일 The Verge 체험기는 성능 가능성과 함께 비용, 권한, 개인정보 부담을 지적했습니다.",
+      "bullets": [
+        "Google은 I/O 발표에서 Gemini 앱이 더 능동적인 도움을 주는 방향으로 진화한다고 설명했습니다.",
+        "The Verge는 Spark가 일부 작업에서 놀라울 만큼 좋지만, 가격과 프라이버시 거래가 크다고 평가했습니다.",
+        "개인 에이전트는 편리함보다 먼저 어떤 데이터와 권한을 맡길지 정하는 문제가 따라옵니다."
+      ],
+      "visual_keywords": [
+        "Gemini Spark",
+        "personal AI agent",
+        "privacy"
+      ],
+      "aria_line": "개인 비서형 AI는 똑똑한지만큼, 어디까지 허락할지 경계선을 정해야 해요.",
+      "caption": "Google Blog, The Verge, 2026-06-01",
+      "importance": "Product",
+      "topic": "Google Gemini",
+      "source_date": "2026-06-01",
+      "created_date": "2026-06-02",
+      "sources": [
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "title": "EU AI Act, 2026 시행 앞두고 고위험 기준 정리",
+      "summary": "오늘 나온 단독 소식은 아니지만, 최근 EU는 AI Act 적용을 단순화하는 합의와 고위험 AI 가이드라인 상담을 이어가고 있습니다. 2026년 8월 2일 일반 적용을 앞두고 기업 준비 시간이 줄고 있습니다.",
+      "bullets": [
+        "EU는 5월 7일 AI Act 일부 시행 일정을 단순화하고 고위험 영역 적용 시점을 정리했습니다.",
+        "ITPro는 고위험 AI 가이드라인 공개 상담이 6월 23일까지 열려 있다고 보도했습니다.",
+        "AI 제품을 만드는 조직은 모델 성능표만이 아니라 위험 분류, 기록, 투명성 문서가 필요합니다."
+      ],
+      "visual_keywords": [
+        "EU AI Act",
+        "high risk AI",
+        "compliance"
+      ],
+      "aria_line": "규제 뉴스는 느려 보여도, 제품 출시 체크리스트를 실제로 바꾸는 항목이에요.",
+      "caption": "European Commission, ITPro, 2026-05",
+      "importance": "Policy",
+      "topic": "AI Regulation",
+      "source_date": "2026-05-07",
+      "created_date": "2026-06-02",
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/eu-agrees-simplify-ai-rules-boost-innovation-and-ban-nudification-apps-protect-citizens"
+        },
+        {
+          "name": "ITPro",
+          "url": "https://www.itpro.com/business/policy-and-legislation/european-commission-opens-public-consultation-on-long-awaited-draft-for-high-risk-ai-guidelines"
+        }
+      ]
+    }
+  ]
+}
