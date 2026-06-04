@@ -1,0 +1,262 @@
+{
+  "date": "2026-06-04",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily AI Brief",
+      "importance": "오늘의 흐름",
+      "source_date": "2026-06-04",
+      "created_date": "2026-06-04",
+      "title": "오늘 AI 뉴스 8개",
+      "summary": "오늘은 과학 연구용 특화 모델, 개발자 에이전트 SDK, 중국형 AI 에이전트 플랫폼, 피지컬 AI와 데이터센터 전력 이슈가 한꺼번에 움직였습니다.",
+      "bullets": [
+        "OpenAI는 생명과학용 GPT-Rosalind를 강화",
+        "GitHub는 Copilot을 앱·CLI·IDE 안으로 더 깊게 확장",
+        "국내 이슈는 피지컬 AI와 데이터센터 전력 리스크가 중심"
+      ],
+      "visual_keywords": [
+        "AI agent",
+        "life science",
+        "Copilot",
+        "Qwen",
+        "Physical AI",
+        "data center"
+      ],
+      "aria_line": "오늘 키워드는 'AI가 답변 도구에서 실행 파트너로 바뀌는 속도'예요.",
+      "caption": "2026-06-04 AI 뉴스 브리핑",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-02-copilot-sdk-is-now-generally-available/"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/amp/view/AKR20260602064700003"
+        }
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "GPT-Rosalind",
+      "importance": "공식 발표",
+      "source_date": "2026-06-03",
+      "created_date": "2026-06-04",
+      "title": "OpenAI, 과학 연구용 Rosalind 강화",
+      "summary": "OpenAI가 생명과학 연구용 GPT-Rosalind 업데이트를 공개했습니다. 약물 탐색, 유전체 분석, 실험 워크플로를 한 작업공간에서 다루는 쪽으로 확장됐습니다.",
+      "bullets": [
+        "GPT-5.5 기반의 코딩·도구 사용 능력을 과학 연구에 결합",
+        "medicinal chemistry, genomics, wet lab troubleshooting 성능을 강조",
+        "Codex 안에서 생명과학 플러그인과 뷰어를 함께 쓰는 구조"
+      ],
+      "visual_keywords": [
+        "GPT-Rosalind",
+        "drug discovery",
+        "genomics",
+        "Codex",
+        "lab workflow"
+      ],
+      "aria_line": "논문 읽기에서 끝나는 AI가 아니라, 분석 파일과 실험 절차까지 이어주는 연구 조수에 가까워졌어요.",
+      "caption": "OpenAI GPT-Rosalind update",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
+        }
+      ]
+    },
+    {
+      "type": "developer",
+      "topic": "GitHub Copilot SDK",
+      "importance": "개발자 도구",
+      "source_date": "2026-06-02",
+      "created_date": "2026-06-04",
+      "title": "Copilot SDK, 정식 출시",
+      "summary": "GitHub Copilot SDK가 GA가 되면서 기업 내부 도구나 서비스에 Copilot의 에이전트 런타임을 직접 넣을 수 있게 됐습니다.",
+      "bullets": [
+        "계획, 도구 호출, 파일 편집, 스트리밍, 멀티턴 세션을 API로 제공",
+        "Node.js, Python, Go, .NET, Rust, Java를 지원",
+        "MCP 도구, BYOK, OpenTelemetry 추적까지 포함"
+      ],
+      "visual_keywords": [
+        "Copilot SDK",
+        "MCP",
+        "developer tools",
+        "API",
+        "agent runtime"
+      ],
+      "aria_line": "이제 '우리 회사만의 Copilot'을 만드는 진입장벽이 훨씬 낮아졌어요.",
+      "caption": "GitHub Copilot SDK GA",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-02-copilot-sdk-is-now-generally-available/"
+        }
+      ]
+    },
+    {
+      "type": "developer",
+      "topic": "Copilot CLI",
+      "importance": "작업 자동화",
+      "source_date": "2026-06-02",
+      "created_date": "2026-06-04",
+      "title": "Copilot CLI, 말하고 예약하는 에이전트로",
+      "summary": "Copilot CLI가 새 터미널 UI, rubber duck 검토 에이전트, 프롬프트 예약, 로컬 음성 입력을 추가했습니다. 개발 작업이 채팅보다 세션 운영에 가까워지고 있습니다.",
+      "bullets": [
+        "이슈·PR·gist 탭을 갖춘 실험적 터미널 UI",
+        "rubber duck 에이전트가 계획과 구현을 비판적으로 검토",
+        "음성 입력은 로컬에서 처리해 오디오가 기기를 떠나지 않음"
+      ],
+      "visual_keywords": [
+        "Copilot CLI",
+        "voice input",
+        "prompt scheduling",
+        "terminal",
+        "review agent"
+      ],
+      "aria_line": "터미널 안에 비서, 리뷰어, 일정표가 같이 들어오는 느낌이에요.",
+      "caption": "Copilot CLI update",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-02-copilot-cli-improved-ui-rubber-duck-prompt-scheduling-and-voice-input/"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "topic": "Qwen Agent Platform",
+      "importance": "중국 AI",
+      "source_date": "2026-06-04",
+      "created_date": "2026-06-04",
+      "title": "알리바바 Qwen, 외부 에이전트에 개방",
+      "summary": "알리바바가 Qwen 앱을 외부 기업의 에이전트와 스킬에 열었습니다. 커피, 항공, 외식 브랜드가 초기 테스트에 참여하며 소비자용 AI 플랫폼 경쟁이 커지고 있습니다.",
+      "bullets": [
+        "Luckin Coffee, KFC, MIXUE, China Eastern 등이 초기 파트너로 언급",
+        "AI 챗봇이 브랜드별 업무 수행 창구로 바뀌는 흐름",
+        "중국 내 Doubao, Qwen 등 소비자 AI 앱 경쟁이 에이전트화"
+      ],
+      "visual_keywords": [
+        "Qwen",
+        "Alibaba",
+        "AI agents",
+        "consumer app",
+        "China AI"
+      ],
+      "aria_line": "AI 앱이 검색창이 아니라 쇼핑·예약·주문을 처리하는 플랫폼으로 가고 있어요.",
+      "caption": "Qwen third-party agents",
+      "sources": [
+        {
+          "name": "Pandaily",
+          "url": "https://pandaily.com/qwen-opens-third-party-agents-skills-kfc-luckin-jun2026"
+        },
+        {
+          "name": "Caixin Global",
+          "url": "https://www.caixinglobal.com/2026-06-04/alibaba-opens-qwen-ai-to-third-party-services-in-push-for-agent-dominance-102450730.html"
+        }
+      ]
+    },
+    {
+      "type": "model",
+      "topic": "DeepSeek",
+      "importance": "모델 경쟁",
+      "source_date": "2026-06-04",
+      "created_date": "2026-06-04",
+      "title": "DeepSeek, 저비용 모델 압박 계속",
+      "summary": "DeepSeek V4 계열과 저가 API 전략이 계속 주목받고 있습니다. 오늘은 자금 조달 보도와 미국 기업의 중국 AI 사용 확대 보도가 겹치며 비용 경쟁 이슈가 다시 떠올랐습니다.",
+      "bullets": [
+        "공식 문서에는 V4-Pro, V4-Flash 모델명과 기존 모델 종료 일정이 공지",
+        "Axios는 DeepSeek의 대규모 자금 조달 추진을 보도",
+        "SCMP는 일부 미국 기업이 고가 모델 대신 DeepSeek를 검토한다고 보도"
+      ],
+      "visual_keywords": [
+        "DeepSeek",
+        "V4-Pro",
+        "V4-Flash",
+        "AI cost",
+        "China AI"
+      ],
+      "aria_line": "성능만큼이나 '토큰 비용'이 기업 AI 선택의 핵심 변수로 커지고 있어요.",
+      "caption": "DeepSeek cost pressure",
+      "sources": [
+        {
+          "name": "DeepSeek API Docs",
+          "url": "https://api-docs.deepseek.com/updates/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/06/03/china-deepseek-billion"
+        },
+        {
+          "name": "South China Morning Post",
+          "url": "https://www.scmp.com/tech/big-tech/article/3313256/more-us-firms-turn-chinas-deepseek-over-pricey-silicon-valley-ai"
+        }
+      ]
+    },
+    {
+      "type": "domestic",
+      "topic": "Physical AI Korea",
+      "importance": "국내 산업",
+      "source_date": "2026-06-02",
+      "created_date": "2026-06-04",
+      "title": "국내 피지컬 AI 기대감 확대",
+      "summary": "젠슨 황 엔비디아 CEO의 한국 로보틱스 언급 이후 국내에서는 로봇, 자동차, 제조 자동화와 AI 인프라 협력 가능성이 핵심 이슈로 떠올랐습니다.",
+      "bullets": [
+        "연합뉴스는 한국 로보틱스 투자 가능성과 산업계 협력 관심을 보도",
+        "두산로보틱스 등은 엔비디아 AI·로보틱스 인프라 활용 사례로 언급",
+        "투자 종목보다 로봇 제어, 제조 자동화, 데이터센터 인프라 맥락이 중요"
+      ],
+      "visual_keywords": [
+        "physical AI",
+        "NVIDIA",
+        "robotics",
+        "Korea",
+        "manufacturing"
+      ],
+      "aria_line": "피지컬 AI는 챗봇 다음 단계가 아니라, 로봇과 공장이 AI를 쓰는 방식의 변화예요.",
+      "caption": "Korea physical AI",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/amp/view/AKR20260602064700003"
+        }
+      ]
+    },
+    {
+      "type": "infrastructure",
+      "topic": "AI Power Demand",
+      "importance": "인프라 리스크",
+      "source_date": "2026-06-04",
+      "created_date": "2026-06-04",
+      "title": "AI 데이터센터, 전력 병목이 변수",
+      "summary": "DCInside 레이더에서 확인된 외부 후보 중 AI 전력난과 데이터센터 착공 지연 이슈가 반복적으로 포착됐습니다. 원출처 확인 후 확장 브리핑에서 인프라 리스크로 정리했습니다.",
+      "bullets": [
+        "AI 수요가 전력·냉각·부지 확보 문제와 직접 연결",
+        "전력망 병목은 모델 성능 경쟁만큼 중요한 인프라 뉴스",
+        "커뮤니티 신호는 확정 사실이 아니라 원출처 확인용 레이더로만 사용"
+      ],
+      "visual_keywords": [
+        "AI data center",
+        "power grid",
+        "energy",
+        "infrastructure",
+        "source radar"
+      ],
+      "aria_line": "AI 경쟁은 모델만의 싸움이 아니라 전기와 데이터센터의 싸움이기도 해요.",
+      "caption": "AI infrastructure watch",
+      "sources": [
+        {
+          "name": "DCInside source radar metadata",
+          "url": "work/drafts/dc_source_candidates_2026-06-04.json"
+        },
+        {
+          "name": "경향신문 후보",
+          "url": "https://www.khan.co.kr/"
+        }
+      ]
+    }
+  ]
+}
