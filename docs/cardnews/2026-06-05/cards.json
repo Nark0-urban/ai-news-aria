@@ -1,0 +1,253 @@
+{
+  "date": "2026-06-05",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily AI Brief",
+      "importance": "오늘의 흐름",
+      "source_date": "2026-06-05",
+      "created_date": "2026-06-05",
+      "title": "오늘 AI 뉴스 8개",
+      "summary": "오늘은 ChatGPT 메모리, Copilot 에이전트 API, 영상 생성 API, 중국 AI 에이전트 경쟁, 국내 피지컬 AI 인프라 흐름이 한꺼번에 이어졌습니다.",
+      "bullets": [
+        "OpenAI는 ChatGPT 메모리를 더 최신성 있게 합성하는 구조를 공개",
+        "GitHub는 Copilot cloud agent를 API와 Visual Studio 개발 흐름에 더 깊게 연결",
+        "국내에서는 엔비디아 AI 기술센터와 피지컬 AI 협력 신호가 이어짐"
+      ],
+      "visual_keywords": [
+        "ChatGPT memory",
+        "Copilot agent",
+        "Grok Imagine",
+        "Qwen",
+        "Physical AI"
+      ],
+      "aria_line": "오늘 키워드는 'AI가 앱 안 기능을 넘어 작업 환경과 인프라로 들어오는 속도'예요.",
+      "caption": "2026-06-05 AI 뉴스 브리핑",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-memory-dreaming/"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max/"
+        },
+        {
+          "name": "한국경제",
+          "url": "https://www.hankyung.com/article/202606034510i"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "topic": "ChatGPT Memory",
+      "importance": "공식 발표",
+      "source_date": "2026-06-04",
+      "created_date": "2026-06-05",
+      "title": "ChatGPT 메모리, 더 오래 가는 구조로",
+      "summary": "OpenAI는 ChatGPT가 사용자의 선호와 프로젝트 맥락을 더 신선하고 관련성 있게 합성하는 새 메모리 구조를 공개했습니다. 미국 Plus와 Pro 사용자부터 적용됩니다.",
+      "bullets": [
+        "대화 기록을 배경에서 정리하는 'dreaming' 기반 메모리 구조를 강화",
+        "낡은 정보와 틀린 정보를 줄이고, 장기 프로젝트 맥락 유지에 초점",
+        "메모리 요약 화면에서 사용자가 내용을 검토하고 수정할 수 있게 설계"
+      ],
+      "visual_keywords": [
+        "ChatGPT",
+        "memory",
+        "personalization",
+        "dreaming",
+        "context"
+      ],
+      "aria_line": "메모리가 좋아진다는 건, 매번 처음부터 설명하지 않아도 되는 AI에 가까워진다는 뜻이에요.",
+      "caption": "OpenAI ChatGPT memory update",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-memory-dreaming/"
+        }
+      ]
+    },
+    {
+      "type": "developer",
+      "topic": "Copilot Agent API",
+      "importance": "개발자 도구",
+      "source_date": "2026-06-04",
+      "created_date": "2026-06-05",
+      "title": "Copilot 에이전트 작업, REST API로 호출",
+      "summary": "GitHub가 Copilot Pro, Pro+, Max 사용자에게 Agent tasks REST API 공개 프리뷰를 열었습니다. 스크립트나 내부 포털에서 cloud agent 작업을 시작하고 추적할 수 있습니다.",
+      "bullets": [
+        "여러 저장소 리팩터링, 새 저장소 준비, 릴리스 노트 생성 같은 자동화에 활용",
+        "Copilot cloud agent는 별도 개발 환경에서 변경을 만들고 검증한 뒤 PR을 열 수 있음",
+        "classic/fine-grained PAT와 OAuth 토큰 인증을 지원"
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "REST API",
+        "cloud agent",
+        "pull request",
+        "automation"
+      ],
+      "aria_line": "이제 코딩 에이전트를 버튼으로만 쓰는 게 아니라, 회사 자동화 흐름 안에 끼워 넣을 수 있어요.",
+      "caption": "GitHub Agent tasks REST API",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max/"
+        }
+      ]
+    },
+    {
+      "type": "developer",
+      "topic": "Copilot Visual Studio",
+      "importance": "IDE 업데이트",
+      "source_date": "2026-06-04",
+      "created_date": "2026-06-05",
+      "title": "Visual Studio 안 Copilot, 계획과 스킬 관리 강화",
+      "summary": "GitHub는 Visual Studio 2026의 Copilot May 업데이트를 공개했습니다. Plan agent, 스킬 패널, 다중 파일 변경 요약, 컨텍스트 사용량 표시가 핵심입니다.",
+      "bullets": [
+        "Plan agent가 읽기 전용 탐색 후 구현 계획을 markdown으로 저장",
+        "workspace와 사용자 프로필의 agent skill을 한 곳에서 검색하고 편집",
+        "여러 파일 변경을 한 화면에서 검토하고, chunk 단위로 수락하거나 되돌릴 수 있음"
+      ],
+      "visual_keywords": [
+        "Visual Studio",
+        "Copilot",
+        "Plan agent",
+        "agent skills",
+        "diff"
+      ],
+      "aria_line": "IDE가 단순 채팅창에서 '계획-실행-검토' 작업대로 바뀌고 있어요.",
+      "caption": "Copilot in Visual Studio May update",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-04-github-copilot-in-visual-studio-may-update/"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "topic": "Grok Imagine 1.5",
+      "importance": "영상 생성 API",
+      "source_date": "2026-06-03",
+      "created_date": "2026-06-05",
+      "title": "xAI, 이미지 한 장을 영상으로 바꾸는 API 공개",
+      "summary": "xAI는 grok-imagine-video-1.5-preview를 API 프리뷰로 공개했습니다. 시작 이미지와 자연어 지시를 넣으면 최대 720p 영상 클립을 생성합니다.",
+      "bullets": [
+        "카메라 움직임, 분위기, 물리감을 프롬프트로 지시 가능",
+        "원본 이미지의 디테일과 조명을 유지하는 방향을 강조",
+        "여러 샷을 이어 장면 전체의 일관된 룩을 만드는 사용례를 제시"
+      ],
+      "visual_keywords": [
+        "xAI",
+        "Grok Imagine",
+        "image to video",
+        "API",
+        "720p"
+      ],
+      "aria_line": "이미지 생성 경쟁이 이제 '한 장의 그림을 어떻게 움직이게 하느냐'로 빠르게 넘어가고 있어요.",
+      "caption": "xAI Grok Imagine 1.5 Preview",
+      "sources": [
+        {
+          "name": "xAI",
+          "url": "https://x.ai/news/grok-imagine-1-5"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "topic": "Qwen Agents",
+      "importance": "중국 AI",
+      "source_date": "2026-06-04",
+      "created_date": "2026-06-05",
+      "title": "Qwen, 외부 앱과 브랜드 에이전트로 확장",
+      "summary": "알리바바 Qwen 생태계가 외부 앱과 브랜드별 에이전트로 확장되고 있습니다. KFC, Luckin, MIXUE 같은 소비자 브랜드가 초기 채택 사례로 언급됐습니다.",
+      "bullets": [
+        "중국 AI 경쟁의 초점이 모델 성능에서 에이전트 유통망으로 이동",
+        "음식, 항공, 소매처럼 반복 업무가 많은 서비스가 초기 적용처",
+        "Qwen과 Doubao 등 중국 플랫폼 간 사용자 접점 경쟁이 커지는 흐름"
+      ],
+      "visual_keywords": [
+        "Alibaba",
+        "Qwen",
+        "AI agents",
+        "China AI",
+        "consumer brands"
+      ],
+      "aria_line": "AI 앱 하나가 아니라, 브랜드마다 자기 업무를 처리하는 에이전트를 갖는 그림이에요.",
+      "caption": "Qwen third-party agents",
+      "sources": [
+        {
+          "name": "Pandaily",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWXAtY0ktNnRkemJXdmhvWkhFR2thSkhHZUJXUVZRRVBYU0xtOG1wdmRhWjZHX3Q5cUQxSmNFQXhYeGUyb3BneDBDUFNyREtjenFZb1k4RUJNMVlzUGlQR3M4OFlROGZiUlo5NUtEdGppaHlZeUtiMmNocExVYUVQdXR3?oc=5"
+        },
+        {
+          "name": "Nikkei Asia",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ2ZMM3dheGM4cGo1VXN1N21xSDl6N1Bid2pmRW01QjVhLWhXTnE0U2x3dE0yQk1PcmNra09TVFd6RWl0VDFrUGdncEx5RlJURmxMSmN4d1RhbUZaRG00bGJIVGc4d2pvS2RFV1VWY3czZUxIS3RQMlcwZ0N2b2V5RUxNSmFqb1p6NGZEYkIzX2hQT3NwNzJhUF9MdVBiUkRlckFaT05NWTFKSWtTQzRXcUlPdnVYQWllT0lpSlQ2LUZYNTdUbnI2NWt4bFN0SnEzUDB3YTNxUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "Vortex",
+      "importance": "논문",
+      "source_date": "2026-06-04",
+      "created_date": "2026-06-05",
+      "title": "긴 에이전트 작업을 위한 희소 어텐션 서빙 연구",
+      "summary": "arXiv에는 Vortex 논문이 공개됐습니다. 긴 생성 길이를 처리하는 AI 에이전트에서 희소 어텐션 알고리즘을 더 쉽게 배포하고 평가하기 위한 서빙 시스템 연구입니다.",
+      "bullets": [
+        "긴 컨텍스트와 긴 생성이 늘수록 LLM 서빙 비용과 지연이 커짐",
+        "새 sparse attention 알고리즘을 대규모로 실험하기 어렵다는 문제를 다룸",
+        "에이전트용 인프라 경쟁이 모델 자체만큼 중요해지고 있음을 보여줌"
+      ],
+      "visual_keywords": [
+        "Vortex",
+        "sparse attention",
+        "LLM serving",
+        "AI agents",
+        "infrastructure"
+      ],
+      "aria_line": "에이전트가 오래 일하려면, 똑똑한 모델뿐 아니라 오래 버티는 서빙 엔진도 필요해요.",
+      "caption": "arXiv Vortex sparse attention serving",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2606.06453v1"
+        }
+      ]
+    },
+    {
+      "type": "domestic",
+      "topic": "Korea Physical AI",
+      "importance": "국내 인프라",
+      "source_date": "2026-06-03",
+      "created_date": "2026-06-05",
+      "title": "엔비디아 한국 AI 기술센터 논의, 피지컬 AI로 연결",
+      "summary": "한국경제는 엔비디아와 현대차그룹·정부가 AI 기술센터 설립 부지와 시기를 조율 중이며 새만금이 유력 후보로 거론된다고 보도했습니다.",
+      "bullets": [
+        "박사급 인력이 현지에서 정부·대학·기업과 원천 기술을 공동 개발하는 R&D 거점 성격",
+        "현대차그룹의 로봇·AI·수소 거점 전략과 엔비디아 피지컬 AI 전략이 맞물림",
+        "투자 종목보다 로봇, 제조, 데이터센터, 전력 인프라 연결을 봐야 하는 이슈"
+      ],
+      "visual_keywords": [
+        "NVIDIA",
+        "Korea",
+        "AI technology center",
+        "Saemangeum",
+        "physical AI"
+      ],
+      "aria_line": "한국 AI 이슈도 이제 모델 발표보다 '로봇과 공장에 AI를 어떻게 심느냐'가 더 중요해지고 있어요.",
+      "caption": "Korea physical AI infrastructure",
+      "sources": [
+        {
+          "name": "한국경제",
+          "url": "https://www.hankyung.com/article/202606034510i"
+        },
+        {
+          "name": "뉴스1/다음",
+          "url": "https://v.daum.net/v/20260602163805660?f=p"
+        }
+      ]
+    }
+  ]
+}
