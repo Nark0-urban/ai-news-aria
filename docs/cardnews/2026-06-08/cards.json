@@ -1,0 +1,261 @@
+{
+  "date": "2026-06-08",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily AI Brief",
+      "importance": "오늘의 흐름",
+      "source_date": "2026-06-08",
+      "created_date": "2026-06-08",
+      "title": "오늘 AI 뉴스 8가지",
+      "summary": "오늘은 국내 SI 개발 공정의 에이전틱 AI 전환, 젠슨 황의 K-피지컬 AI 행보, Google의 Agentic RAG, OpenAI 메모리, Copilot 기능과 과금 반응, NVIDIA Cosmos 3, xAI 영상 API가 핵심입니다.",
+      "bullets": [
+        "국내는 LG CNS의 AIND 출시와 엔비디아-한국 AI/로봇 스타트업 접점이 강한 흐름",
+        "해외는 에이전트가 검색, 코딩, 로봇 학습 워크플로 안으로 깊게 들어가는 흐름",
+        "개발자 커뮤니티는 Copilot AI Credit 과금과 대형 컨텍스트 비용을 예민하게 보고 있음"
+      ],
+      "visual_keywords": [
+        "agentic AI",
+        "physical AI",
+        "Agentic RAG",
+        "Copilot credits",
+        "image to video"
+      ],
+      "aria_line": "오늘 키워드는 'AI가 답만 하는 도구에서 실제 업무 흐름을 움직이는 시스템으로 가는 중'이에요.",
+      "caption": "2026-06-08 AI 뉴스 브리핑",
+      "sources": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20260608101509"
+        },
+        {
+          "name": "Google Research",
+          "url": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-memory-dreaming/"
+        }
+      ]
+    },
+    {
+      "type": "domestic",
+      "topic": "LG CNS AIND",
+      "importance": "국내 기업",
+      "source_date": "2026-06-08",
+      "created_date": "2026-06-08",
+      "title": "LG CNS, SI 개발을 에이전틱 AI로 재편",
+      "summary": "LG CNS가 대규모 IT 시스템 구축과 운영 전 과정을 에이전틱 AI 중심으로 바꾸는 개발 플랫폼 'DevOn Agentic AIND'를 출시했습니다. 개인용 코딩 보조를 넘어 기업 SI 공정 자체를 AI 네이티브로 바꾸겠다는 신호입니다.",
+      "bullets": [
+        "요구사항 분석, 설계, 개발, 테스트, 운영까지 대형 프로젝트 흐름에 AI 에이전트를 넣는 방향",
+        "금융, 제조, 공공처럼 복잡한 시스템 구축 시장에서 AI 적용 가능성을 겨냥",
+        "국내 개발 현장도 단순 코드 생성보다 공정 자동화와 품질 관리가 핵심 경쟁축으로 이동"
+      ],
+      "visual_keywords": [
+        "LG CNS",
+        "agentic AI",
+        "SI development",
+        "enterprise software",
+        "DevOn AIND"
+      ],
+      "aria_line": "바이브코딩이 개인 생산성이라면, 이번 흐름은 회사 개발 공정 전체를 AI가 보조하는 단계예요.",
+      "caption": "LG CNS DevOn Agentic AIND",
+      "sources": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20260608101509"
+        }
+      ]
+    },
+    {
+      "type": "domestic",
+      "topic": "K-Physical AI",
+      "importance": "국내 생태계",
+      "source_date": "2026-06-08",
+      "created_date": "2026-06-08",
+      "title": "젠슨 황, 국내 AI·로봇 스타트업과 비공개 회동",
+      "summary": "엔비디아 젠슨 황 CEO가 방한 마지막 일정으로 국내 AI·로봇 스타트업 대표들과 만나는 것으로 보도됐습니다. 한국 AI 이슈가 챗봇을 넘어 로봇, 엣지 AI, 제조·물류 현장 데이터 쪽으로 확장되는 장면입니다.",
+      "bullets": [
+        "업스테이지, 트웰브랩스, 모레, 로보티즈 등 국내 AI·로봇 기업 접점이 거론됨",
+        "엔비디아의 피지컬 AI 전략과 한국의 제조·로봇·비전 AI 역량이 만나는 흐름",
+        "투자 종목보다 실제 현장 데이터와 로봇 실행 능력을 가진 기업이 더 중요해지는 신호"
+      ],
+      "visual_keywords": [
+        "Jensen Huang",
+        "Korea startups",
+        "robotics",
+        "edge AI",
+        "physical AI"
+      ],
+      "aria_line": "한국 AI 경쟁력은 이제 모델 발표보다 로봇과 공장 현장에서 쓸 수 있느냐로 시험받고 있어요.",
+      "caption": "NVIDIA and Korea physical AI startups",
+      "sources": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20260608173636"
+        }
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "Google Agentic RAG",
+      "importance": "공식 연구",
+      "source_date": "2026-06-05",
+      "created_date": "2026-06-08",
+      "title": "Google, 스스로 다시 찾는 Agentic RAG 공개",
+      "summary": "Google Research와 Google Cloud가 Gemini Enterprise Agent Platform 기반 Agentic RAG를 소개했습니다. 한 번 검색하고 답하는 RAG가 아니라, 질문을 쪼개고 충분한 근거가 있는지 판단한 뒤 다시 검색하는 다중 에이전트 흐름입니다.",
+      "bullets": [
+        "복잡한 기업 질문을 여러 하위 질문으로 나누고 필요한 문맥을 반복 검색",
+        "Query Rewriter와 Sufficient Context Agent로 검색 누락과 근거 부족을 줄이는 구조",
+        "RAG 경쟁이 벡터 검색 정확도에서 에이전트형 검색 워크플로 설계로 확장"
+      ],
+      "visual_keywords": [
+        "Google Research",
+        "Agentic RAG",
+        "Gemini Enterprise",
+        "retrieval",
+        "enterprise search"
+      ],
+      "aria_line": "좋은 RAG는 자료를 한 번 찾고 끝나는 게 아니라, 부족하면 스스로 다시 물어볼 줄 알아야 해요.",
+      "caption": "Google Agentic RAG",
+      "sources": [
+        {
+          "name": "Google Research",
+          "url": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "topic": "ChatGPT Memory",
+      "importance": "공식 업데이트",
+      "source_date": "2026-06-04",
+      "created_date": "2026-06-08",
+      "title": "OpenAI, ChatGPT 메모리 'dreaming' 구조 강화",
+      "summary": "OpenAI가 ChatGPT 메모리를 더 최신성 있고 연속성 있게 합성하는 dreaming 기반 구조를 발표했습니다. 오래된 정보가 남거나 서로 모순되는 문제를 줄이고, 장기 프로젝트와 선호를 더 잘 이어가게 하는 업데이트입니다.",
+      "bullets": [
+        "미국 Plus·Pro 사용자부터 적용되고 이후 다른 국가와 Free·Go 사용자로 확대 예정",
+        "시간이 지나며 낡아지는 메모리를 자동으로 정리하고 현재 맥락에 맞게 업데이트",
+        "개인화 AI의 핵심이 단순 저장에서 장기 맥락 관리와 사용자 통제 화면으로 이동"
+      ],
+      "visual_keywords": [
+        "OpenAI",
+        "ChatGPT memory",
+        "dreaming",
+        "personalization",
+        "context"
+      ],
+      "aria_line": "AI가 오래 도와주려면 기억도 그냥 저장이 아니라 계속 정리되고 갱신되어야 해요.",
+      "caption": "OpenAI ChatGPT memory update",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-memory-dreaming/"
+        },
+        {
+          "name": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/8590148-memory-faq"
+        }
+      ]
+    },
+    {
+      "type": "developer",
+      "topic": "GitHub Copilot",
+      "importance": "개발자 도구",
+      "source_date": "2026-06-04",
+      "created_date": "2026-06-08",
+      "title": "Copilot, 100만 토큰 컨텍스트와 추론 단계 조절",
+      "summary": "GitHub Copilot이 VS Code, Copilot CLI, Copilot 앱에서 더 큰 컨텍스트 창과 추론 수준 조절 기능을 지원한다고 밝혔습니다. 다만 큰 컨텍스트와 높은 추론 단계는 AI Credit을 더 많이 소모한다고 명시했습니다.",
+      "bullets": [
+        "대형 코드베이스와 복잡한 다중 파일 작업을 위해 100만 토큰 컨텍스트 활용 가능",
+        "빠른 답변과 깊은 사고 사이를 사용자가 선택하는 configurable reasoning 제공",
+        "동시에 커뮤니티에서는 사용량 기반 과금과 크레딧 소모량에 대한 불만이 확산"
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "one million tokens",
+        "reasoning levels",
+        "AI credits",
+        "developer backlash"
+      ],
+      "aria_line": "긴 컨텍스트는 강력하지만 공짜가 아니에요. 이제 개발자는 성능과 비용을 같이 설계해야 해요.",
+      "caption": "GitHub Copilot context and AI credits",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-04-larger-context-windows-and-configurable-reasoning-levels-for-github-copilot/"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/github-copilot-customers-suffer-from-sticker-shock-as-microsoft-switches-to-usage-based-pricing-customers-report-up-to-100-fold-price-hikes"
+        },
+        {
+          "name": "GitHub Community",
+          "url": "https://github.com/orgs/community/discussions/197524"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "topic": "NVIDIA Cosmos 3",
+      "importance": "피지컬 AI",
+      "source_date": "2026-06-01",
+      "created_date": "2026-06-08",
+      "title": "NVIDIA Cosmos 3, 로봇이 행동 전 생각하는 모델",
+      "summary": "NVIDIA는 GTC Taipei에서 Cosmos 3를 공개했습니다. 시각 추론, 세계 생성, 행동 예측을 하나로 묶어 로봇과 자율주행, 비전 AI가 실제 세계에서 행동을 시험하고 학습하도록 돕는 피지컬 AI 기반 모델입니다.",
+      "bullets": [
+        "Cosmos 3 Super와 Nano는 사용 가능하고 Edge는 향후 실시간 추론용으로 예고",
+        "로봇 정책 학습, 합성 데이터 생성, 물리 시뮬레이션과 평가를 하나의 흐름으로 연결",
+        "한국 피지컬 AI 이슈와도 맞물려 제조·물류·로봇 데이터 경쟁의 중요성을 키움"
+      ],
+      "visual_keywords": [
+        "NVIDIA Cosmos 3",
+        "robotics",
+        "world model",
+        "simulation",
+        "physical AI"
+      ],
+      "aria_line": "피지컬 AI는 로봇에게 '움직이기 전에 상상하고 검증하는 능력'을 주려는 경쟁이에요.",
+      "caption": "NVIDIA Cosmos 3 physical AI",
+      "sources": [
+        {
+          "name": "NVIDIA Press Release",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Cosmos-3-the-Open-Frontier-Foundation-Model-for-Physical-AI/default.aspx"
+        },
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "topic": "xAI Grok Imagine 1.5",
+      "importance": "영상 생성 API",
+      "source_date": "2026-06-03",
+      "created_date": "2026-06-08",
+      "title": "xAI, 이미지 한 장을 720p 영상으로 바꾸는 API 공개",
+      "summary": "xAI가 grok-imagine-video-1.5-preview를 API 프리뷰로 공개했습니다. 시작 이미지와 자연어 프롬프트를 넣으면 카메라 움직임, 분위기, 물리감을 반영한 최대 720p 클립을 생성하는 이미지-투-비디오 모델입니다.",
+      "bullets": [
+        "원본 이미지의 디테일과 조명을 유지하며 움직임을 입히는 방향을 강조",
+        "샷 단위로 애니메이션을 만들고 이어 붙여 일관된 영상 시퀀스를 만드는 사용 흐름 제시",
+        "이미지 생성 경쟁이 개발자 API 기반 영상 제작 파이프라인으로 빠르게 확장"
+      ],
+      "visual_keywords": [
+        "xAI",
+        "Grok Imagine",
+        "image to video",
+        "API preview",
+        "720p"
+      ],
+      "aria_line": "이제 그림 한 장도 끝이 아니라, 바로 움직이는 장면의 첫 프레임이 될 수 있어요.",
+      "caption": "xAI Grok Imagine 1.5 Preview",
+      "sources": [
+        {
+          "name": "xAI",
+          "url": "https://x.ai/news/grok-imagine-1-5"
+        }
+      ]
+    }
+  ]
+}
