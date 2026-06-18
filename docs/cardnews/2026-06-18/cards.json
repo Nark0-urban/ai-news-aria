@@ -1,0 +1,193 @@
+{
+  "date": "2026-06-18",
+  "cards": [
+    {
+      "type": "news",
+      "topic": "Life Sciences AI",
+      "importance": "핵심",
+      "source_date": "2026-06-17",
+      "created_date": "2026-06-18",
+      "title": "OpenAI, 실험실까지 연결한 AI 화학자 공개",
+      "summary": "OpenAI는 GPT-5.4와 Molecule.one의 자동화 실험실을 연결해 의약화학 반응 개선을 시험했다. 모델은 후보 아이디어를 만들고, 실험 데이터를 해석하고, 후속 실험까지 제안했다.",
+      "bullets": [
+        "Chan-Lam coupling 반응에서 TEMPO 계열 첨가제가 수율을 높인다는 결과를 제시했다.",
+        "Maria Lab에서 10,080개 반응을 돌려 작은 샘플의 착시를 줄였다.",
+        "사람 화학자가 벤치 스케일에서 14개 대표 조합 중 11개의 개선을 재확인했다."
+      ],
+      "visual_keywords": ["AI chemist", "automated lab", "medicinal chemistry", "reaction yield"],
+      "aria_line": "AI가 논문 요약을 넘어서 실험 설계와 검증 루프 안으로 들어가기 시작했어요.",
+      "caption": "과학용 AI는 이제 도구 호출보다 실험 루프가 핵심이에요.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/ai-chemist-improves-reaction/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "AI Benchmark",
+      "importance": "핵심",
+      "source_date": "2026-06-17",
+      "created_date": "2026-06-18",
+      "title": "OpenAI, 실전 생명과학 평가셋 LifeSciBench 발표",
+      "summary": "LifeSciBench는 단순 생물학 퀴즈가 아니라 논문, 표, 그림, 실험 맥락을 함께 보고 연구 판단을 내리는 능력을 평가한다. OpenAI는 750개 전문가 작성 과제로 구성했다고 밝혔다.",
+      "bullets": [
+        "173명의 생명과학 전문가가 과제를 만들고 453명의 전문가가 리뷰했다.",
+        "79% 과제가 여러 단계의 추론 또는 의사결정을 요구한다.",
+        "모델 성능을 정답 여부뿐 아니라 연구자가 쓸 수 있는 판단 품질로 본다."
+      ],
+      "visual_keywords": ["benchmark", "life science", "expert review", "research reasoning"],
+      "aria_line": "이제 AI 평가는 맞혔는지보다 연구자가 믿고 쓸 수 있는지가 중요해졌어요.",
+      "caption": "벤치마크도 실제 업무형으로 바뀌고 있어요.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-life-sci-bench/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Video AI",
+      "importance": "중요",
+      "source_date": "2026-06-16",
+      "created_date": "2026-06-18",
+      "title": "xAI, Grok Imagine Video 1.5 API 정식 출시",
+      "summary": "xAI는 Grok Imagine Video 1.5를 Imagine API에서 일반 제공한다고 발표했다. 720p 6초 영상 생성 속도를 이전 40초 이상에서 약 25초로 줄였고, 모션과 물리 표현, 오디오를 개선했다고 설명했다.",
+      "bullets": [
+        "API 모델명은 grok-imagine-video-1.5로 공개됐다.",
+        "Grok 웹과 iOS, Android에는 Video 1.5 Fast가 배포됐다.",
+        "프로젝트, 병렬 에이전트, 검색 기능도 창작 워크플로 개선 요소로 추가된다."
+      ],
+      "visual_keywords": ["image to video", "Grok Imagine", "xAI API", "creative workflow"],
+      "aria_line": "이미지 한 장에서 영상까지 가는 속도가 더 빨라졌어요. 창작 도구 경쟁이 뜨겁네요.",
+      "caption": "영상 생성 AI는 품질과 속도를 동시에 밀고 있어요.",
+      "sources": [
+        {
+          "name": "xAI",
+          "url": "https://x.ai/news/grok-imagine-video-1-5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tools",
+      "importance": "핵심",
+      "source_date": "2026-06-17",
+      "created_date": "2026-06-18",
+      "title": "GitHub Copilot 앱, 데스크톱 에이전트 개발 도구로 GA",
+      "summary": "GitHub Copilot 앱이 macOS, Windows, Linux에서 일반 제공으로 전환됐다. 이슈, PR, 프롬프트에서 세션을 시작하고 여러 저장소에서 병렬 작업한 뒤 diff와 테스트를 검증하는 흐름을 내세웠다.",
+      "bullets": [
+        "기술 프리뷰 이후 캔버스, 클라우드 자동화, 모델/도구 연결 기능이 추가됐다.",
+        "각 세션은 별도 브랜치와 worktree에서 병렬로 진행할 수 있다.",
+        "조직 정책상 Business/Enterprise 사용자는 Copilot CLI 활성화가 필요할 수 있다."
+      ],
+      "visual_keywords": ["GitHub Copilot", "desktop app", "agent development", "pull request"],
+      "aria_line": "코딩 에이전트가 채팅창이 아니라 작업대 전체로 옮겨가고 있어요.",
+      "caption": "개발 도구의 중심이 에이전트 세션 관리로 이동 중이에요.",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Agent Discovery",
+      "importance": "중요",
+      "source_date": "2026-06-17",
+      "created_date": "2026-06-18",
+      "title": "Copilot Agent Finder, 필요한 MCP와 도구를 찾아준다",
+      "summary": "GitHub는 Copilot Agent Finder를 공개했다. 작업을 자연어로 설명하면 MCP 서버, 스킬, 캔버스, 에이전트, 도구를 레지스트리에서 찾아 순위를 매겨 보여주는 방식이다.",
+      "bullets": [
+        "Google, GoDaddy, Hugging Face, Microsoft와 협력한 ARD 규격을 구현했다.",
+        "엔터프라이즈는 허용된 레지스트리 안에서만 검색되도록 관리할 수 있다.",
+        "자동 설치가 아니라 발견과 추천에 초점을 둬 사용자가 연결을 통제한다."
+      ],
+      "visual_keywords": ["MCP", "agent finder", "ARD", "tool discovery"],
+      "aria_line": "앞으로는 에이전트에게 도구를 일일이 외워주기보다, 필요한 도구를 찾게 하는 방향이에요.",
+      "caption": "MCP 생태계는 발견과 거버넌스가 다음 과제예요.",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Coding Agents",
+      "importance": "핵심",
+      "source_date": "2026-06-16",
+      "created_date": "2026-06-18",
+      "title": "Anthropic, Claude Code 40만 세션 분석 공개",
+      "summary": "Anthropic은 2025년 10월부터 2026년 4월까지 약 40만 개 Claude Code 세션을 분석했다. 사람은 무엇을 만들지 결정하고, Claude는 어떻게 만들지 실행하는 분업이 뚜렷하다고 설명했다.",
+      "bullets": [
+        "일반 세션에서 사람은 계획 결정의 약 70%, Claude는 실행 결정의 약 80%를 맡았다.",
+        "전문성이 높은 사용자는 한 번의 지시로 더 많은 작업을 끌어냈다.",
+        "디버깅 비중은 줄고 운영, 데이터 분석, 문서 작성형 사용이 늘었다."
+      ],
+      "visual_keywords": ["Claude Code", "agentic coding", "expertise", "workflow telemetry"],
+      "aria_line": "코딩 실력보다 문제를 정확히 아는 능력이 에이전트 활용도를 갈라요.",
+      "caption": "에이전트 시대에도 도메인 전문성은 더 중요해지고 있어요.",
+      "sources": [
+        {
+          "name": "Anthropic Research",
+          "url": "https://www.anthropic.com/research/claude-code-expertise"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Embodied AI",
+      "importance": "중요",
+      "source_date": "2026-06-15",
+      "created_date": "2026-06-18",
+      "title": "Qwen-RobotWorld, 로봇용 월드모델 연구 공개",
+      "summary": "Qwen 연구진은 언어 조건 비디오 생성으로 로봇의 미래 시각 궤적을 예측하는 Qwen-RobotWorld 기술 보고서를 공개했다. 조작, 자율주행, 실내 내비게이션을 하나의 언어 인터페이스로 다룬다.",
+      "bullets": [
+        "8.6M 비디오-텍스트 말뭉치와 20개 이상 embodiment를 사용했다.",
+        "합성 데이터 생성, 가상 평가 환경, 언어 기반 계획 신호를 응용 방향으로 제시했다.",
+        "로봇 AI 경쟁이 대화형 모델에서 물리 세계 예측 모델로 확장되고 있다."
+      ],
+      "visual_keywords": ["Qwen-RobotWorld", "robot world model", "embodied AI", "video generation"],
+      "aria_line": "로봇에게 중요한 건 말만 잘하는 게 아니라 다음 장면을 예측하는 능력이에요.",
+      "caption": "중국 AI 연구는 로봇 월드모델 쪽으로 빠르게 넓어지고 있어요.",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2606.17030"
+        },
+        {
+          "name": "Pandaily",
+          "url": "https://pandaily.com/alibaba-releases-qwen-robot-series-its-first-embodied-ai-model-family/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Robotics Research",
+      "importance": "중요",
+      "source_date": "2026-06-16",
+      "created_date": "2026-06-18",
+      "title": "Qwen-RobotNav, 지시별 관찰 전략을 바꾸는 내비게이션 모델",
+      "summary": "Qwen-RobotNav 보고서는 물체 찾기, 목표 추적, 자율주행처럼 서로 다른 내비게이션 과제를 하나의 모델에서 다루기 위해 관찰 토큰 예산과 카메라 가중치를 조절하는 방식을 제안했다.",
+      "bullets": [
+        "작업 모드와 관찰 파라미터를 나눠 추론 시 행동 전략을 바꾼다.",
+        "로봇 내비게이션을 고정 모델이 아니라 재구성 가능한 에이전트 시스템으로 본다.",
+        "Qwen-RobotWorld와 함께 로봇용 모델 제품군의 연구 축을 형성한다."
+      ],
+      "visual_keywords": ["Qwen-RobotNav", "navigation model", "robot agent", "multimodal planning"],
+      "aria_line": "같은 카메라라도 어떤 임무냐에 따라 보는 방법이 달라져야 한다는 접근이에요.",
+      "caption": "로봇 에이전트는 지시와 관찰 전략을 함께 설계해야 해요.",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2606.18112"
+        }
+      ]
+    }
+  ]
+}
