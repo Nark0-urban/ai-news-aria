@@ -1,0 +1,233 @@
+{
+  "date": "2026-06-21",
+  "cards": [
+    {
+      "type": "news",
+      "topic": "Enterprise AI",
+      "importance": "핵심",
+      "source_date": "2026-06-18",
+      "created_date": "2026-06-21",
+      "title": "OpenAI, 기업용 AI 사용량·비용 통제 강화",
+      "summary": "OpenAI가 ChatGPT Enterprise 관리자에게 ChatGPT와 Codex 크레딧 사용량을 한 화면에서 볼 수 있는 분석 기능과 기본·그룹·개인별 한도 설정을 추가했다. AI가 전사 도구가 되면서 성능보다 운영 가시성과 비용 통제가 더 중요한 단계로 넘어가는 신호다.",
+      "bullets": [
+        "Global Admin Console에서 사용자, 제품, 모델별 크레딧 사용 흐름을 확인할 수 있다.",
+        "워크스페이스 기본 한도, 그룹 한도, 개인 예외 설정을 조합해 예산을 관리한다.",
+        "사용자는 자신의 사용량을 보고 추가 크레딧을 요청할 수 있다."
+      ],
+      "visual_keywords": [
+        "ChatGPT Enterprise",
+        "Codex credits",
+        "usage analytics",
+        "spend controls"
+      ],
+      "aria_line": "기업 AI는 이제 도입보다 운영이 관건이에요. 누가, 어디서, 얼마나 쓰는지 보여야 확장할 수 있어요.",
+      "caption": "AI 운영의 중심축이 기능 경쟁에서 비용·거버넌스 관리로 이동 중입니다.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-enterprise-spend-controls/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Enterprise Agents",
+      "importance": "핵심",
+      "source_date": "2026-06-18",
+      "created_date": "2026-06-21",
+      "title": "xAI Grok, Databricks Agent Bricks에 탑재",
+      "summary": "xAI는 Grok 모델이 Databricks의 개발자 에이전트 플랫폼 Agent Bricks에서 네이티브로 제공된다고 밝혔다. 기업 데이터가 있는 Lakehouse 안에서 Grok를 선택해 에이전트를 만들 수 있어, 모델 경쟁이 실제 데이터 플랫폼 배포 경쟁으로 이어지고 있다.",
+      "bullets": [
+        "Databricks 2026 Data + AI Summit 흐름에 맞춰 발표됐다.",
+        "Agent Bricks는 Lakehouse 데이터 맥락, 통제, 모델 선택을 묶어 에이전트 개발을 지원한다.",
+        "Grok on Amazon Bedrock에 이어 기업 배포 경로가 더 넓어졌다."
+      ],
+      "visual_keywords": [
+        "Grok",
+        "Databricks",
+        "Agent Bricks",
+        "Lakehouse"
+      ],
+      "aria_line": "모델이 채팅창 밖으로 나와 기업 데이터 플랫폼 안으로 들어가고 있어요. 실전 배포가 승부처예요.",
+      "caption": "엔터프라이즈 에이전트 경쟁은 모델 성능과 데이터 거버넌스를 함께 묶고 있습니다.",
+      "sources": [
+        {
+          "name": "xAI",
+          "url": "https://x.ai/news/grok-databricks"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Office AI",
+      "importance": "중요",
+      "source_date": "2026-06-18",
+      "created_date": "2026-06-21",
+      "title": "Grok, Microsoft Word 안으로 들어왔다",
+      "summary": "xAI가 Microsoft Word용 Grok 애드인을 공개했다. 메모를 긴 문서로 정리하고, 문장을 다듬고, 웹·X·커넥터 기반 자료를 문서 안으로 가져올 수 있다. AI가 별도 앱이 아니라 기존 업무 앱 속 보조 기능으로 스며드는 흐름이다.",
+      "bullets": [
+        "Word에서 초안 작성, 문체 정리, 문법 수정, 긴 글 구조화를 지원한다.",
+        "웹 검색, X 검색, SharePoint·Google Drive 커넥터 활용을 언급했다.",
+        "Word 외 PowerPoint와 Excel용 Grok도 함께 제시됐다."
+      ],
+      "visual_keywords": [
+        "Grok for Word",
+        "Microsoft 365",
+        "document AI",
+        "office workflow"
+      ],
+      "aria_line": "AI가 새 프로그램을 여는 방식에서, 우리가 이미 쓰는 문서 도구 안에서 일하는 방식으로 바뀌고 있어요.",
+      "caption": "문서 업무 AI는 챗봇보다 플러그인·애드인 형태로 빠르게 확산될 가능성이 큽니다.",
+      "sources": [
+        {
+          "name": "xAI",
+          "url": "https://x.ai/news/introducing-word-addin"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Coding AI",
+      "importance": "핵심",
+      "source_date": "2026-06-19",
+      "created_date": "2026-06-21",
+      "title": "GitHub, Copilot AI 크레딧 사용량 API 공개",
+      "summary": "GitHub가 Copilot usage metrics API에 사용자별 일일 AI 크레딧 사용량 필드 ai_credits_used를 추가했다. 같은 주 MAI-Code-1-Flash를 더 많은 Copilot 화면에 확장한 흐름과 맞물려, 코딩 AI는 기능 확장과 사용량 관리가 동시에 중요해지고 있다.",
+      "bullets": [
+        "사용자별 1일·28일 리포트에서 AI 크레딧 사용량을 확인한다.",
+        "엔터프라이즈 관리자와 조직 소유자가 REST API로 소비 패턴을 볼 수 있다.",
+        "GitHub는 해당 값이 청구 총액이 아니라 분석용 지표라고 명시했다."
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "AI credits",
+        "usage metrics API",
+        "MAI-Code-1-Flash"
+      ],
+      "aria_line": "코딩 AI도 이제 ‘많이 쓰기’만으로는 부족해요. 팀별 소비와 가치가 같이 보여야 해요.",
+      "caption": "개발자 AI의 다음 경쟁축은 모델 선택, 표면 확장, 비용 가시성입니다.",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api/"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Agent Workflow",
+      "importance": "중요",
+      "source_date": "2026-06-18",
+      "created_date": "2026-06-21",
+      "title": "Copilot이 만든 PR, 작성자 검색에 포함",
+      "summary": "GitHub는 author:@me 같은 PR 검색이 사용자가 직접 만든 PR뿐 아니라 Copilot cloud agent가 사용자 지시에 따라 연 PR까지 함께 보여주도록 바꿨다. AI가 만든 작업물을 사람의 책임 흐름 안에 넣어 추적하려는 플랫폼 변화다.",
+      "bullets": [
+        "github.com UI와 GitHub Mobile에 먼저 적용된다.",
+        "7월 16일부터 REST API와 GraphQL API에도 같은 변경이 확장될 예정이다.",
+        "Created by me 같은 기본 보기에도 Copilot 작성 PR이 자동 포함된다."
+      ],
+      "visual_keywords": [
+        "Copilot cloud agent",
+        "pull request search",
+        "author search",
+        "developer workflow"
+      ],
+      "aria_line": "AI가 만든 PR도 결국 누군가의 책임 있는 작업이에요. 검색과 대시보드가 그 현실을 따라가고 있어요.",
+      "caption": "에이전트 시대의 협업 도구는 ‘AI가 했는가’보다 ‘누가 책임지는가’를 정리해야 합니다.",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Agent Security",
+      "importance": "핵심",
+      "source_date": "2026-06-18",
+      "created_date": "2026-06-21",
+      "title": "MosaicLeaks, 리서치 에이전트의 검색 누출 경고",
+      "summary": "ServiceNow 연구진은 Hugging Face 블로그에서 리서치 에이전트가 사내 문서와 웹 검색을 함께 쓸 때, 외부 검색어 조합만으로 민감 정보가 새어 나갈 수 있다는 MosaicLeaks 문제를 제시했다. 성능만 높인 에이전트가 오히려 더 많이 누출할 수 있다는 점이 중요하다.",
+      "bullets": [
+        "공격자는 사내 문서나 추론 과정을 보지 않고 검색 로그만 관찰한다.",
+        "1,001개 멀티홉 리서치 체인으로 누출 가능성을 측정했다.",
+        "PA-DR 학습은 성공률을 높이면서 answer/full-information leakage를 줄였다고 보고됐다."
+      ],
+      "visual_keywords": [
+        "MosaicLeaks",
+        "deep research agents",
+        "privacy leakage",
+        "enterprise security"
+      ],
+      "aria_line": "에이전트가 검색을 잘할수록 회사 비밀을 검색어 조각으로 흘릴 수도 있어요. 보안 설계가 먼저예요.",
+      "caption": "기업형 리서치 에이전트는 권한 관리뿐 아니라 외부 질의 로그까지 보안 대상으로 봐야 합니다.",
+      "sources": [
+        {
+          "name": "Hugging Face / ServiceNow",
+          "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Embodied AI",
+      "importance": "중요",
+      "source_date": "2026-06-15",
+      "created_date": "2026-06-21",
+      "title": "Qwen-RobotWorld, 로봇 월드모델 연구 공개",
+      "summary": "Qwen 연구진은 언어 지시를 받아 로봇의 미래 시각 궤적을 예측하는 Qwen-RobotWorld 기술 보고서를 공개했다. 조작, 자율주행, 실내 이동, 사람-로봇 전이를 하나의 비디오 월드모델 문제로 묶는 접근이다.",
+      "bullets": [
+        "8.6M 비디오-텍스트 코퍼스와 200M+ 프레임 규모를 사용했다고 설명했다.",
+        "정책 학습용 합성 데이터, 가상 평가 환경, 언어 기반 계획 신호를 주요 응용으로 제시했다.",
+        "로봇 AI 경쟁이 언어모델에서 물리 세계 예측 모델로 확장되고 있다."
+      ],
+      "visual_keywords": [
+        "Qwen-RobotWorld",
+        "embodied AI",
+        "robot world model",
+        "video generation"
+      ],
+      "aria_line": "로봇에게 중요한 건 말만 이해하는 게 아니에요. 다음 장면을 예측하는 능력이 점점 핵심이 되고 있어요.",
+      "caption": "중국 AI 연구는 로봇·물리 AI 방향에서도 빠르게 모델 스케일을 키우고 있습니다.",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2606.17030"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Spatial Agents",
+      "importance": "중요",
+      "source_date": "2026-06-18",
+      "created_date": "2026-06-21",
+      "title": "S-Agent, 공간 추론을 도구 사용 문제로 전환",
+      "summary": "S-Agent 논문은 정적인 이미지 인식이 아니라 연속적인 3D 세계에서 필요한 증거를 모으고, 2D·3D 도구와 메모리를 이용해 공간 추론을 수행하는 에이전트 방식을 제안했다. 로봇, AR, 비디오 이해의 기반 연구로 볼 수 있다.",
+      "bullets": [
+        "VLM이 필요한 증거를 계획하고 공간 도구가 객체를 2D·3D 증거로 변환한다.",
+        "Scene Memory와 Agent Memory로 프레임과 추론 단계를 넘나드는 정보를 유지한다.",
+        "멀티뷰·비디오 공간 추론 벤치마크에서 여러 VLM을 개선했다고 보고했다."
+      ],
+      "visual_keywords": [
+        "S-Agent",
+        "spatial intelligence",
+        "3D reasoning",
+        "tool use"
+      ],
+      "aria_line": "AI가 화면을 보는 수준을 넘어 공간을 이해하려면, 관찰과 도구 사용을 함께 설계해야 해요.",
+      "caption": "다음 에이전트 경쟁은 텍스트가 아니라 공간·물리 환경으로 이어지고 있습니다.",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2606.20515v1"
+        }
+      ]
+    }
+  ]
+}
