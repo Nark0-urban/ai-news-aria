@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-06-23 AI 뉴스 확장 브리핑</title>
+  <style>
+    body { margin: 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f7fb; color: #172033; line-height: 1.65; }
+    main { max-width: 980px; margin: 0 auto; padding: 34px 20px 56px; }
+    h1 { margin: 0 0 8px; font-size: 30px; }
+    h2 { margin: 34px 0 12px; font-size: 22px; color: #102652; }
+    h3 { margin: 22px 0 8px; font-size: 18px; }
+    .meta { color: #5a6477; margin-bottom: 24px; }
+    article { background: #fff; border: 1px solid #dce5f2; border-radius: 8px; padding: 18px 20px; margin: 14px 0; }
+    ul { padding-left: 20px; }
+    a { color: #0563c1; }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #e8f2ff; color: #0c4c8a; font-size: 12px; font-weight: 700; }
+    .note { background: #fff9e8; border-color: #ead48d; }
+    .excluded { color: #5a6477; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>2026-06-23 AI 뉴스 확장 브리핑</h1>
+  <p class="meta">작성 기준: 2026년 6월 23일 KST 저녁 실행 시점까지 확인 가능한 공식 발표, 신뢰 매체, 논문/문서, 로컬 소스 레이더 결과. 투자 권유·주가 중심 항목은 제외했습니다.</p>
+
+  <h2>국내뉴스 우선 정리</h2>
+  <article>
+    <span class="tag">국내 연관 공식 발표</span>
+    <h3>삼성전자, ChatGPT Enterprise와 Codex를 직원에게 배포</h3>
+    <p><a href="https://openai.com/index/samsung-electronics-chatgpt-codex-deployment/">OpenAI 발표</a>에 따르면 삼성전자는 한국 전 직원과 전 세계 Device eXperience(DX) 부문 직원에게 ChatGPT Enterprise와 Codex를 제공한다. 단순 개발자 도구가 아니라 R&amp;D, 제조, 마케팅, 제품 개발, 일반 사무 영역까지 적용 범위를 넓히는 기업용 AI 배포 사례다.</p>
+    <ul>
+      <li>핵심 포인트: Codex가 소프트웨어 개발 보조에서 전사 업무 생산성 도구로 확장된다.</li>
+      <li>왜 중요한가: 국내 대기업의 보안·거버넌스 환경에서 생성형 AI와 코딩 에이전트가 동시에 도입되는 사례라 다른 기업의 도입 기준에도 영향을 줄 수 있다.</li>
+    </ul>
+  </article>
+
+  <article>
+    <span class="tag">국내 보안 연관</span>
+    <h3>OpenAI Daybreak, 한국 포함 국제 사이버 협력 언급</h3>
+    <p><a href="https://openai.com/index/daybreak-securing-the-world/">OpenAI Daybreak 발표</a>는 Codex Security, GPT-5.5-Cyber, Patch the Planet, 파트너 프로그램을 묶어 취약점 발견 이후 패치 자동화까지 목표로 삼는다. 발표문은 한국을 포함한 여러 국가·기관과의 Trusted Access for Cyber 협력도 언급했다.</p>
+    <ul>
+      <li>핵심 포인트: 보안 AI가 취약점 탐지뿐 아니라 검증, 패치, 증거 생성까지 이어지는 워크플로로 이동한다.</li>
+      <li>왜 중요한가: 국내 공공·기업 보안팀도 AI 보안 도구를 도입할 때 접근권한, 검증된 방어자, 인간 검토 체계가 핵심 기준이 된다.</li>
+    </ul>
+  </article>
+
+  <h2>디시 정보탭 레이더에서 확인된 후보</h2>
+  <article class="note">
+    <h3>수집 방식과 안전 기준</h3>
+    <p>로컬 스크립트는 DCInside 정보탭을 본문 수집원이 아니라 source discovery radar로만 사용했다. 저장된 것은 목록 메타데이터, 제목 기반 검색 후보, 외부 링크 도메인뿐이며, 게시글 본문·댓글·이미지·OCR 텍스트는 저장하지 않았다.</p>
+    <p>산출물: <code>work/drafts/dc_source_radar_2026-06-23.json</code>, <code>work/drafts/dc_source_candidates_2026-06-23.json</code></p>
+  </article>
+  <article>
+    <h3>후보 신호 1: 알리바바 영상 생성 모델 HappyHorse 1.1</h3>
+    <p>레이더 제목에서 AI타임스 후보가 확인됐다. 카드뉴스에서는 확정 사실로 쓰지 않고, “영상 생성 모델 경쟁 후보”로만 처리했다. 공식 발표나 원문 추가 확인 전까지는 제품명·성능 주장을 보수적으로 다뤄야 한다.</p>
+  </article>
+  <article>
+    <h3>후보 신호 2: Anthropic 신원 확인 정책 논의</h3>
+    <p>레이더는 Claude 이용 관련 신원 확인·개인정보 처리방침 후보를 잡았다. 다만 오늘 확정 발표로 검증하지 못했기 때문에 정책 변화 확정 대신 커뮤니티 관심 항목으로만 분리했다.</p>
+  </article>
+  <article>
+    <h3>후보 신호 3: Sakana AI Fugu / 모델 오케스트레이션</h3>
+    <p>모델 오케스트레이션 플랫폼 관련 후보가 확인됐다. 공식 문서가 확인되기 전까지 벤치마크 우열 표현은 보류하고, “여러 모델을 조합해 프런티어급 결과를 노리는 접근”이라는 맥락으로만 기록한다.</p>
+  </article>
+
+  <h2>해외 검증 뉴스</h2>
+  <article>
+    <span class="tag">공식 발표</span>
+    <h3>OpenAI, Daybreak와 GPT-5.5-Cyber 확대</h3>
+    <p><a href="https://openai.com/index/daybreak-securing-the-world/">OpenAI</a>는 Codex Security 업데이트, GPT-5.5-Cyber 제한 공개, Daybreak Cyber Partner Program, Patch the Planet을 발표했다. <a href="https://www.axios.com/2026/06/22/openai-rolls-out-more-capable-version-of-cyber-model">Axios</a>도 해당 모델과 보안 파트너십 확대를 보도했다.</p>
+    <ul>
+      <li>핵심 포인트: 취약점 발견의 자동화보다 패치와 검증의 자동화가 핵심 메시지다.</li>
+      <li>왜 중요한가: AI 에이전트가 보안 업무의 고위험 작업에 들어갈수록 접근권한과 감사 가능성이 중요해진다.</li>
+    </ul>
+  </article>
+  <article>
+    <span class="tag">개발자 도구</span>
+    <h3>GitHub Copilot, JetBrains IDE에서 Claude 에이전트 제공자 미리보기</h3>
+    <p><a href="https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides/">GitHub Changelog</a>는 JetBrains IDE의 Copilot Chat에서 Claude Code CLI를 연결해 Claude 에이전트 세션을 실행하는 공개 미리보기를 발표했다. 모델 선택기 개선, 큰 컨텍스트 선택, 턴별 AI 크레딧 표시도 포함됐다.</p>
+    <ul>
+      <li>핵심 포인트: IDE 안에서 Copilot, CLI, 외부 에이전트를 고르는 방식이 일반화되고 있다.</li>
+      <li>왜 중요한가: 개발팀은 성능뿐 아니라 권한 모드와 비용 표시를 함께 관리해야 한다.</li>
+    </ul>
+  </article>
+  <article>
+    <span class="tag">AI 인프라</span>
+    <h3>Reflection AI, SpaceX Colossus 2 컴퓨트 사용 계약</h3>
+    <p><a href="https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/">TechCrunch</a>는 Reflection AI가 SpaceX Colossus 2 데이터센터의 Nvidia GB300 기반 컴퓨트를 쓰는 최대 63억 달러 규모 계약을 맺었다고 보도했다.</p>
+    <ul>
+      <li>핵심 포인트: 오픈웨이트 모델을 표방하는 스타트업도 대형 컴퓨트 계약이 필요해졌다.</li>
+      <li>왜 중요한가: 모델 경쟁은 알고리즘뿐 아니라 칩, 데이터센터, 장기 공급 계약 경쟁으로 확장되고 있다.</li>
+    </ul>
+  </article>
+  <article>
+    <span class="tag">콘텐츠 권리</span>
+    <h3>Getty Images와 OpenAI, ChatGPT 이미지 표시 제휴</h3>
+    <p><a href="https://newsroom.gettyimages.com/en/getty-images/getty-images-and-openai-announce-multi-year-partnership">Getty Images 발표</a>와 <a href="https://www.engadget.com/2198633/openai-signs-deal-with-getty-to-show-images-in-chatgpt-results/">Engadget 보도</a>에 따르면 Getty의 라이선스 콘텐츠가 OpenAI 검색과 ChatGPT 결과에 표시될 수 있다.</p>
+    <ul>
+      <li>핵심 포인트: AI 검색 결과에서 고품질 이미지와 출처 표시, 라이선스 처리가 제품 경쟁 요소가 된다.</li>
+      <li>왜 중요한가: 언론·이미지·콘텐츠 사업자와 AI 플랫폼의 계약 구조가 검색 경험의 신뢰도와 법적 리스크를 좌우한다.</li>
+    </ul>
+  </article>
+  <article>
+    <span class="tag">오픈모델</span>
+    <h3>Z.ai GLM-5.2, 코딩 에이전트용 오픈모델로 주목</h3>
+    <p><a href="https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6">Business Insider</a>는 GLM-5.2가 장시간 코딩 작업과 에이전트 워크플로를 겨냥한 중국발 오픈모델로 업계 관심을 받고 있다고 보도했다. 공식 저장소 후보는 <a href="https://github.com/zai-org/GLM-5.2">Z.ai GitHub</a>에서 확인 대상이다.</p>
+    <ul>
+      <li>핵심 포인트: 오픈웨이트 모델이 “대체 가능성”을 넘어 실사용 코딩 에이전트 후보로 평가받고 있다.</li>
+      <li>왜 중요한가: 기업은 폐쇄형 API 의존과 자체 배포 가능한 모델 사이에서 비용, 보안, 성능을 비교해야 한다.</li>
+    </ul>
+  </article>
+
+  <h2>제외 기준</h2>
+  <article class="excluded">
+    <ul>
+      <li>주식 매매, 목표가, 시가총액 상승, 투자 권유 중심 내용은 카드와 본문 핵심 항목에서 제외했다.</li>
+      <li>TestingCatalog, 커뮤니티 게시글, 제목 기반 후보처럼 공식 원문 확인이 부족한 항목은 후보 신호로만 취급했다.</li>
+      <li>DCInside 게시글 본문, 댓글, 이미지, OCR 텍스트는 수집하거나 저장하지 않았다.</li>
+      <li>루머성 모델명·성능 비교는 공식 발표 또는 신뢰 가능한 원문이 없으면 확정 표현을 피했다.</li>
+    </ul>
+  </article>
+</main>
+</body>
+</html>
