@@ -1,0 +1,205 @@
+{
+  "date": "2026-06-23",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily Brief",
+      "importance": "오늘 요약",
+      "source_date": "2026-06-23",
+      "created_date": "2026-06-23",
+      "title": "오늘 AI 핵심 뉴스",
+      "summary": "6월 23일 확인한 AI 소식은 보안 자동화, 기업용 AI 도입, 개발자 에이전트, AI 인프라, 저작권 이미지 제휴, 오픈모델 경쟁으로 모였습니다.",
+      "bullets": [
+        "OpenAI는 Daybreak와 GPT-5.5-Cyber 확장을 발표",
+        "삼성전자는 ChatGPT Enterprise와 Codex를 직원에게 배포",
+        "개발자 도구와 오픈모델 경쟁이 동시에 가속"
+      ],
+      "visual_keywords": ["AI newsroom", "security", "developer tools", "enterprise AI"],
+      "aria_line": "오늘은 AI가 '답변'을 넘어 보안, 업무, 개발 현장으로 더 깊게 들어간 날이에요.",
+      "caption": "AI 뉴스 아리아",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/daybreak-securing-the-world/"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Cybersecurity",
+      "importance": "공식 발표",
+      "source_date": "2026-06-22",
+      "created_date": "2026-06-23",
+      "title": "OpenAI, Daybreak 보안 도구 확대",
+      "summary": "OpenAI가 취약점 발견에서 패치 자동화까지 이어지는 Daybreak 보안 프로그램을 확대하고, Codex Security 플러그인과 GPT-5.5-Cyber 정식 제한 공개를 발표했습니다.",
+      "bullets": [
+        "Codex Security는 코드베이스 스캔, 검증, 패치 초안까지 지원",
+        "GPT-5.5-Cyber는 검증된 방어자에게 제한 제공",
+        "Patch the Planet은 오픈소스 유지보수자의 보안 패치 부담을 줄이는 구상"
+      ],
+      "visual_keywords": ["cyber defense", "code scan", "patch automation"],
+      "aria_line": "AI 보안의 초점이 '찾기'에서 '고치기'로 이동하고 있어요.",
+      "caption": "OpenAI Daybreak",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/daybreak-securing-the-world/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/06/22/openai-rolls-out-more-capable-version-of-cyber-model"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Enterprise AI",
+      "importance": "국내 연관",
+      "source_date": "2026-06-21",
+      "created_date": "2026-06-23",
+      "title": "삼성전자, ChatGPT와 Codex 배포",
+      "summary": "OpenAI는 삼성전자가 한국 전 직원과 전 세계 DX 부문 직원에게 ChatGPT Enterprise와 Codex를 제공한다고 밝혔습니다. 대기업의 비개발 직군까지 Codex 활용 범위가 넓어지는 신호입니다.",
+      "bullets": [
+        "대상은 한국 삼성전자 전 직원과 글로벌 DX 직원",
+        "R&D, 제조, 마케팅, 제품 개발 등으로 활용 범위 확대",
+        "Codex가 개발 도구를 넘어 업무 자동화 도구로 확장"
+      ],
+      "visual_keywords": ["Samsung", "enterprise rollout", "Codex", "ChatGPT Enterprise"],
+      "aria_line": "코덱스가 개발자 책상 밖으로 나와 회사 전체 업무 흐름에 들어가고 있어요.",
+      "caption": "삼성전자 x OpenAI",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tools",
+      "importance": "개발자 업데이트",
+      "source_date": "2026-06-22",
+      "created_date": "2026-06-23",
+      "title": "GitHub Copilot, JetBrains에서 Claude 에이전트 미리보기",
+      "summary": "GitHub는 JetBrains IDE용 Copilot 업데이트에서 Claude를 에이전트 제공자로 선택할 수 있는 공개 미리보기를 추가했습니다. 모델 선택, AI 크레딧 표시, 클라우드 에이전트 GA도 함께 포함됐습니다.",
+      "bullets": [
+        "Claude Code CLI를 연결해 Copilot Chat 안에서 Claude 세션 실행",
+        "모델 선택기와 큰 컨텍스트 선택 기능 개선",
+        "턴별 AI 크레딧 표시로 비용 가시성 강화"
+      ],
+      "visual_keywords": ["JetBrains IDE", "GitHub Copilot", "Claude agent", "AI credits"],
+      "aria_line": "개발 환경 안에서 여러 에이전트를 골라 쓰는 흐름이 본격화되고 있어요.",
+      "caption": "GitHub Copilot",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "AI Infrastructure",
+      "importance": "인프라",
+      "source_date": "2026-06-22",
+      "created_date": "2026-06-23",
+      "title": "Reflection AI, SpaceX 컴퓨트 계약",
+      "summary": "TechCrunch는 오픈웨이트 AI 스타트업 Reflection AI가 SpaceX의 Colossus 2 데이터센터에서 Nvidia GB300 기반 컴퓨트를 쓰는 대형 계약을 맺었다고 보도했습니다.",
+      "bullets": [
+        "계약 규모는 최대 63억 달러로 보도",
+        "Reflection은 오픈웨이트 모델 전략을 전면에 내세움",
+        "AI 경쟁의 핵심 병목이 모델 아이디어에서 컴퓨트 확보로 이동"
+      ],
+      "visual_keywords": ["data center", "AI chips", "open-weight model", "compute deal"],
+      "aria_line": "좋은 모델을 만들려면 이제 아이디어만큼이나 거대한 계산 자원이 필요해요.",
+      "caption": "AI 인프라 경쟁",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Content & Copyright",
+      "importance": "콘텐츠 제휴",
+      "source_date": "2026-06-22",
+      "created_date": "2026-06-23",
+      "title": "OpenAI-Getty 이미지 제휴",
+      "summary": "Getty Images는 OpenAI와 다년 파트너십을 맺고 Getty의 라이선스 콘텐츠가 OpenAI 검색과 ChatGPT에 표시될 수 있게 된다고 발표했습니다. AI 검색에서 출처와 권리 처리가 더 중요해지는 흐름입니다.",
+      "bullets": [
+        "Getty 콘텐츠가 OpenAI 검색과 ChatGPT 결과에 사용될 예정",
+        "라이선스 이미지의 신뢰성과 출처 표시가 핵심 쟁점",
+        "AI 검색 서비스의 저작권 협상 사례가 늘어나는 중"
+      ],
+      "visual_keywords": ["licensed images", "ChatGPT search", "Getty Images"],
+      "aria_line": "AI 검색도 이제 '어디서 가져온 이미지인가'를 더 분명히 보여줘야 해요.",
+      "caption": "AI와 콘텐츠 권리",
+      "sources": [
+        {
+          "name": "Getty Images",
+          "url": "https://newsroom.gettyimages.com/en/getty-images/getty-images-and-openai-announce-multi-year-partnership"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2198633/openai-signs-deal-with-getty-to-show-images-in-chatgpt-results/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Open Models",
+      "importance": "오픈모델",
+      "source_date": "2026-06-22",
+      "created_date": "2026-06-23",
+      "title": "Z.ai GLM-5.2, 오픈모델 관심 확대",
+      "summary": "Z.ai의 GLM-5.2가 장시간 코딩과 에이전트 워크플로 중심의 오픈모델로 주목받고 있습니다. 공식 저장소와 업계 보도는 긴 컨텍스트와 코딩 활용성을 핵심 포인트로 다뤘습니다.",
+      "bullets": [
+        "GLM-5.2는 장기 작업과 코딩 에이전트 활용을 강조",
+        "오픈웨이트 모델이 폐쇄형 프런티어 모델의 대안으로 부상",
+        "다만 벤치마크와 실제 업무 성능은 별도 검증 필요"
+      ],
+      "visual_keywords": ["open model", "coding agent", "long context", "GLM"],
+      "aria_line": "오픈모델 경쟁은 '쓸 수 있나'에서 '매일 쓸 만큼 강한가'로 넘어가고 있어요.",
+      "caption": "Z.ai GLM-5.2",
+      "sources": [
+        {
+          "name": "Business Insider",
+          "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6"
+        },
+        {
+          "name": "Z.ai GitHub",
+          "url": "https://github.com/zai-org/GLM-5.2"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Community Radar",
+      "importance": "후보 신호",
+      "source_date": "2026-06-23",
+      "created_date": "2026-06-23",
+      "title": "국내 커뮤니티 레이더: 영상·인증·모델 오케스트레이션",
+      "summary": "DCInside 정보탭 레이더는 본문 없이 제목과 외부 링크 후보만 확인했습니다. 알리바바 영상 생성 모델, Anthropic 신원 확인 정책, Sakana Fugu 같은 항목이 후보로 잡혔지만 원출처 확인 전까지 확정 사실로 보지 않습니다.",
+      "bullets": [
+        "AI타임스 등 외부 뉴스 후보가 일부 확인됨",
+        "커뮤니티 본문·댓글·이미지·OCR은 저장하지 않음",
+        "브리핑에서는 후보 신호와 검증 뉴스 영역을 분리"
+      ],
+      "visual_keywords": ["community radar", "source discovery", "Korean AI news"],
+      "aria_line": "커뮤니티는 방향을 알려주는 레이더, 최종 판단은 원출처 확인이 기준이에요.",
+      "caption": "안전한 소스 레이더",
+      "sources": [
+        {
+          "name": "Local DCInside radar metadata",
+          "url": "work/drafts/dc_source_candidates_2026-06-23.json"
+        }
+      ]
+    }
+  ]
+}
