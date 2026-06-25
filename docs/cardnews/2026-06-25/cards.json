@@ -1,0 +1,205 @@
+{
+  "date": "2026-06-25",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily Brief",
+      "importance": "Brief",
+      "source_date": "2026-06-25",
+      "created_date": "2026-06-25",
+      "title": "오늘 AI 핵심 뉴스 8",
+      "summary": "오늘은 에이전트가 PC와 도구를 직접 다루는 흐름, 중국 오픈 모델의 실험 환경 확장, 개발자 IDE 안의 AI 에이전트 경쟁이 한꺼번에 부각됐습니다.",
+      "bullets": [
+        "Gemini 3.5 Flash의 computer use 보도 확산",
+        "Qwen-AgentWorld 논문과 코드 공개",
+        "GitHub Copilot JetBrains 업데이트와 국내 AI 이슈"
+      ],
+      "visual_keywords": ["AI agents", "developer tools", "Korea AI"],
+      "aria_line": "오늘 키워드는 '화면을 보고 직접 실행하는 에이전트'예요.",
+      "caption": "AI 뉴스 큐레이터 아리아",
+      "sources": [
+        {
+          "name": "Google News",
+          "url": "https://news.google.com/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Product / Agent",
+      "importance": "Important",
+      "source_date": "2026-06-25",
+      "created_date": "2026-06-25",
+      "title": "Gemini, 화면 조작형 에이전트로 이동",
+      "summary": "Gemini 3.5 Flash에 화면을 인식하고 클릭·입력을 수행하는 computer use 기능이 붙는다는 보도가 이어졌습니다. 챗봇이 답만 하는 단계에서 PC 작업을 직접 실행하는 에이전트 경쟁으로 초점이 옮겨가는 신호입니다.",
+      "bullets": [
+        "화면 인식, 클릭, 텍스트 입력을 묶은 에이전트 기능",
+        "브라우저·업무 앱 자동화와 개발자 도구에 영향",
+        "공식 문서 확인 전까지는 보도 기반 후보로 분류"
+      ],
+      "visual_keywords": ["Gemini", "computer use", "AI agent"],
+      "aria_line": "AI가 답변창 밖으로 나와 화면 위에서 움직이기 시작했어요.",
+      "caption": "Gemini computer use 보도",
+      "sources": [
+        {
+          "name": "GIGAZINE via Google News",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SaU9hdU9WdzNLeGs3RjBFamgtem41dkF0V3NhSzMyLV8xeENZVDVTVTZpZWdYREFldFlRcHUwNVBHdm9abERHSXllMTJ4QkJ6bzJuVlJacFRrV296VVBta3A2SzBGNDVuMTZvRGRfWUtlS2tv?oc=5"
+        },
+        {
+          "name": "9to5Google via Google News",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LYXZBNXlCWmJGbVVxaURNdm1ZSEJ1TEIyT09CRko2M0F2SEFsY1FIWHFXUmxETjY1RkRFb0JiTURsRmhUenZORnN0cnJ6VDJTZDFYQURVeUlPcWI5UzdRTVNmNlhkc0xqdEtsaS1rQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Research",
+      "importance": "Important",
+      "source_date": "2026-06-23",
+      "created_date": "2026-06-25",
+      "title": "Qwen-AgentWorld, 에이전트 훈련용 세계 모델 공개",
+      "summary": "알리바바 Qwen 연구진은 7개 실행 환경을 시뮬레이션하는 언어 세계 모델 Qwen-AgentWorld를 arXiv에 공개했습니다. 실제 환경을 매번 호출하지 않고도 에이전트 행동 결과를 예측·훈련하는 방향입니다.",
+      "bullets": [
+        "7개 도메인 환경 시뮬레이션을 목표로 한 세계 모델",
+        "AgentWorldBench와 코드 저장소 공개",
+        "에이전트 RL 비용과 실험 반복 속도에 의미"
+      ],
+      "visual_keywords": ["Qwen", "AgentWorld", "arXiv"],
+      "aria_line": "에이전트를 훈련시키는 '가상 연습장' 경쟁이 더 중요해졌어요.",
+      "caption": "Qwen-AgentWorld 연구",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2606.24597"
+        },
+        {
+          "name": "Qwen GitHub",
+          "url": "https://github.com/QwenLM/Qwen-AgentWorld"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tools",
+      "importance": "Important",
+      "source_date": "2026-06-22",
+      "created_date": "2026-06-25",
+      "title": "GitHub Copilot, JetBrains에서 Claude 에이전트 미리보기",
+      "summary": "GitHub는 JetBrains IDE 업데이트에서 조직·엔터프라이즈 에이전트 지원, Copilot CLI 세션 메시지 큐, 에이전트 디버그 로그 요약, Claude agent provider preview를 안내했습니다.",
+      "bullets": [
+        "IDE 안에서 여러 에이전트 공급자를 고르는 방향",
+        "CLI 세션 제어와 디버그 요약으로 운영성 강화",
+        "팀 단위 코딩 에이전트 관리 기능이 핵심"
+      ],
+      "visual_keywords": ["GitHub Copilot", "JetBrains", "Claude"],
+      "aria_line": "개발자 도구의 다음 전장은 '어떤 에이전트를 IDE에 붙일지'예요.",
+      "caption": "GitHub Copilot 업데이트",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Korea AI",
+      "importance": "Important",
+      "source_date": "2026-06-25",
+      "created_date": "2026-06-25",
+      "title": "노타, AI 경량화 기술을 우주 제조로 확장",
+      "summary": "AI타임스 후보에 따르면 노타가 우주의약 제조 플랫폼 개발에 합류했습니다. 엣지·우주 환경처럼 자원이 제한된 곳에서 AI 경량화 기술이 실제 산업 인프라로 연결되는 사례입니다.",
+      "bullets": [
+        "국내 AI 경량화 기업의 우주·제조 적용 신호",
+        "온디바이스·엣지 AI가 특수 산업으로 확장",
+        "커뮤니티 레이더 후보는 원출처 확인 뒤 반영"
+      ],
+      "visual_keywords": ["Nota", "edge AI", "space manufacturing"],
+      "aria_line": "가벼운 AI는 휴대폰뿐 아니라 우주 장비에서도 경쟁력이 돼요.",
+      "caption": "국내 AI 경량화 적용",
+      "sources": [
+        {
+          "name": "AI타임스 via Google News",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44aHJodEs1ZlBlM05WWktNNE5WcmJfQlAySUZ3b04tcGdFejF4WG5NOUsxZ0FXdzM5N1JmU2hjRkdBSXJ2QmpIRVFwWTdsZmtvUF9rMDUwMGNsX1dmUVRhNlgtMkxhQ05GaEE?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "China AI",
+      "importance": "Important",
+      "source_date": "2026-06-24",
+      "created_date": "2026-06-25",
+      "title": "중국 AI, 가격·에이전트 경쟁 동시 가속",
+      "summary": "SCMP와 Bloomberg 후보는 알리바바 Qwen 가격 인하, Tencent의 DeepSeek 기반 기업용 WeChat 에이전트 테스트를 전했습니다. 중국 AI 경쟁은 모델 성능뿐 아니라 가격, 배포 채널, 업무 앱 통합으로 넓어지고 있습니다.",
+      "bullets": [
+        "Qwen 가격 인하 후보는 사용량 확대 전략으로 해석",
+        "DeepSeek 기반 기업용 에이전트 테스트 보도",
+        "중국 빅테크의 AI 경쟁이 업무 앱 안으로 이동"
+      ],
+      "visual_keywords": ["Qwen", "DeepSeek", "Tencent"],
+      "aria_line": "중국 AI는 모델 공개만이 아니라 가격과 배포 속도로도 경쟁 중이에요.",
+      "caption": "중국 AI 에이전트 경쟁",
+      "sources": [
+        {
+          "name": "South China Morning Post via Google News",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMno4RkJQQXQ0TS1IeFJGbnVCbGFiYUNWakg4amY1cjFSV0lUMmxJVXRreGRUdHpsb3JSY2RWbk9OdmNmaEJpRHV4aUpkbjh0WFlXb0R3ZHlQOTZ5OU0tTnVSU3ktZnAwbXZUbURfZEVtNENscmV6dklKVHVuZU44Y2ROMHkwbEVOSUN6Uklsb2Z1ZWpuRDdEUFNfaHVhd0RsSklxaUlLNF9VeEMzaXZSa2xMNmhxQjNEa0xKYWRhbUJ2ZVhnVENtRmdoc9IBywFBVV95cUxOb29qSkhUTWlwdnlsRXg3Z2o2LWFfZVA5bmRyODBrTmE1VDRueUxEYzZVNnZjV29QcVpIV1JzSWI5QXF5cHBISDdNM0hhZUhVUkpFOFI1LUZaTmh1Unc4N0NIcXk3cVZidE5VbXRzT3lKZEZmQldzYmx0S1d6c2dZLXNnY21zV3V3YTRWemVBSFI5dmVUSTRaX1RXZElfdzBBQUhtWHN6QVRzX1NFU3pVSkVFeGlVYmdsdDh2LW9ld2dCUHlaOXVCcEtucw?oc=5"
+        },
+        {
+          "name": "Bloomberg via Google News",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTmxNZ0w1VDI3TDVtOUxHVU1ZZVdHMmJzZi1nYUpxc1RjMFFsS3lIU2hNaHNKdFRJSWVzSGFpNi1DSnhSWHNmdDNMeThSVWhTd0pxZFVpQWc5MnJYc0ZFckpOMlJscDdISFBmcm91dmVsQ1dCRnFocm50SzVSVmdaOHo2clI0Y3RNTEF6OUZ1VXNfWm05MU5HSm9GTWdhWFUyWnFXaXpBd3VSeEhkTnZuX05iTGVoSzNQVWFoTnY3RDhLcjhMQldmbWxXS0tWTEdicUE?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Infrastructure",
+      "importance": "Brief",
+      "source_date": "2026-06-22",
+      "created_date": "2026-06-25",
+      "title": "대형 AI 컴퓨트 계약, 인프라 경쟁 재점화",
+      "summary": "Reflection AI와 SpaceX Colossus 2 관련 대형 컴퓨트 계약 보도가 나왔습니다. 정확한 세부 조건은 추가 확인이 필요하지만, 에이전트와 모델 경쟁의 병목이 GPU·데이터센터 계약으로 이동했다는 점은 분명합니다.",
+      "bullets": [
+        "AI 스타트업도 장기 컴퓨트 확보가 핵심 과제",
+        "모델 경쟁은 GPU 조달·전력·데이터센터로 연결",
+        "숫자와 조건은 후속 공식 확인 필요"
+      ],
+      "visual_keywords": ["AI compute", "GPU", "data center"],
+      "aria_line": "좋은 모델 뒤에는 결국 거대한 계산 자원이 있어요.",
+      "caption": "AI 인프라 경쟁",
+      "sources": [
+        {
+          "name": "MLQ.ai via Google News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTDRyQ3Z3RXhLZ2ZSemVZU0lIWVVVYXZxcTZaSmdUcFVpeVg5RVl0Vm8zSGxpcmlXX0xZR3hkU05jdTQwemVtTWVsN2VTVmJqQjZ4TEltc2g5Z3ZoV1A5NjJLbWxaeDFad3hNdWJpM0FHSGd5ZnlvWTBMclhCc2QxQjE5ancxQVZ4WUFBZ0tWMWdldnBOeE5LLWR3?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Community Radar",
+      "importance": "Needs Review",
+      "source_date": "2026-06-25",
+      "created_date": "2026-06-25",
+      "title": "커뮤니티 레이더: Codex·Claude·Hermes 업데이트 신호",
+      "summary": "DCInside 정보탭 레이더에서는 Codex CLI, Claude Code, Hermes Agent '/learn' 같은 개발자 에이전트 도구 업데이트 신호가 관측됐습니다. 본문·댓글·이미지는 수집하지 않았고, 원출처 후보 확인 전까지 확정 사실로 쓰지 않았습니다.",
+      "bullets": [
+        "목록 메타데이터와 외부 도메인만 저장",
+        "AI타임스 Hermes Agent 후보가 뉴스 후보로 해석됨",
+        "커뮤니티 반응은 확정 뉴스가 아니라 탐지 레이더"
+      ],
+      "visual_keywords": ["community radar", "Codex CLI", "Claude Code"],
+      "aria_line": "커뮤니티 신호는 빠르지만, 카드에 넣기 전엔 원출처 확인이 먼저예요.",
+      "caption": "DCInside 안전 레이더",
+      "sources": [
+        {
+          "name": "Local DCInside radar metadata",
+          "url": "work/drafts/dc_source_radar_2026-06-25.json"
+        },
+        {
+          "name": "AI타임스 candidate via Google News",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jenBORDBOaFg4QW5OYWVGZ0xwVklkak53VGp4cXFERjNxU2Nwd1dseHNwOTBEeTZhc2JyRXNuN3puRjZBcDdBMjhMdFY4U1dSMHA1bm5LMDJYdGdHRHRhTC16X3lPazNMSGc?oc=5"
+        }
+      ]
+    }
+  ]
+}
