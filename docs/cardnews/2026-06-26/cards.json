@@ -1,0 +1,234 @@
+{
+  "date": "2026-06-26",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily Brief",
+      "importance": "오늘의 AI 요약",
+      "source_date": "2026-06-26",
+      "created_date": "2026-06-26",
+      "title": "오늘 AI 핵심 8가지",
+      "summary": "국내 검색·안전 협력부터 개발자 도구, 에이전트 연구, GPU 추론 인프라까지 오늘 확인된 AI 흐름을 한눈에 정리했습니다.",
+      "bullets": [
+        "국내: 네이버 AI탭, KT클라우드·카카오 AI 가드레일 협력",
+        "개발자: Gemini 컴퓨터 사용, Copilot 코드리뷰·Jira 업데이트",
+        "연구/인프라: NVIDIA TensorRT, GUI 에이전트·RL 논문"
+      ],
+      "visual_keywords": [
+        "AI newsroom",
+        "Korea AI",
+        "developer tools",
+        "GPU inference"
+      ],
+      "aria_line": "오늘은 AI가 검색창, 코드리뷰, 업무 도구 안으로 더 깊게 들어온 날이에요.",
+      "caption": "AI 뉴스 아리아 | 2026-06-26",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates"
+        },
+        {
+          "name": "NVIDIA Developer Blog",
+          "url": "https://developer.nvidia.com/blog/scaling-ai-inference-across-multiple-gpus-using-nvidia-tensorrt-with-multi-device-inference-support/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "국내 AI 검색",
+      "importance": "국내뉴스",
+      "source_date": "2026-06-26",
+      "created_date": "2026-06-26",
+      "title": "네이버, 대화형 검색 AI탭 정식 출시",
+      "summary": "네이버가 모바일 검색에 대화형 AI탭을 정식 도입했다는 보도가 나왔습니다. 검색 결과를 링크 목록만 보는 방식에서 질문·요약·연결형 탐색으로 넓히는 변화입니다.",
+      "bullets": [
+        "모바일 검색창과 결과 화면에 AI탭을 전면 배치",
+        "국내 포털 검색도 생성형 답변 경쟁에 본격 진입",
+        "콘텐츠 출처 연결과 답변 품질 관리가 핵심 과제로 부상"
+      ],
+      "visual_keywords": [
+        "Naver AI tab",
+        "mobile search",
+        "conversational search"
+      ],
+      "aria_line": "검색이 이제 '찾기'보다 '물어보고 이어가기'에 가까워지고 있어요.",
+      "caption": "국내 AI 검색 변화",
+      "sources": [
+        {
+          "name": "연합뉴스 후보",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84QWotZG14RUJrbzAtQWcwUFpzb2VwT0lQLWp3S1dEak16dXRUNWZmOVdjWllHTWJTZ0ROVHduYVNRbG1uT3U0T1djOW1NelB6bzBhQkZhZExkYlHSAWBBVV95cUxQa05Sb3pSSG9NSmI4aU1xZDl6YjVvRHFoLTFqRUVxOUVscHRUZTJnMlE2MHJfU3J1VU05aG5JVGNid2Y5UDZyTmZGeGdMZnR5R1o4OW9xZW1pdURiSTRjdkM?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "AI 안전",
+      "importance": "국내뉴스",
+      "source_date": "2026-06-26",
+      "created_date": "2026-06-26",
+      "title": "KT클라우드·카카오 AI 가드레일 협력",
+      "summary": "KT클라우드와 카카오가 AI 가드레일·안전 생태계 협력을 추진한다는 국내 보도 후보가 확인됐습니다. 기업용 AI 도입에서 안전 필터와 운영 기준이 별도 제품 영역으로 커지는 흐름입니다.",
+      "bullets": [
+        "클라우드 인프라와 AI 안전 기술의 결합 사례",
+        "기업 고객은 모델 성능뿐 아니라 통제·감사 기능을 요구",
+        "국내 AI 생태계도 안전 레이어 경쟁이 커질 가능성"
+      ],
+      "visual_keywords": [
+        "AI guardrail",
+        "cloud security",
+        "Kakao KT Cloud"
+      ],
+      "aria_line": "기업 AI는 이제 '잘 답하는가'만큼 '안전하게 막는가'도 중요해졌어요.",
+      "caption": "AI 안전·거버넌스",
+      "sources": [
+        {
+          "name": "AI타임스 후보",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TVVlMdmtlZkQzbVowaHVUQ2xSS2dSLV9aMHF1T2V6WXZLbHFMRmpHMm1CVlFOR0w3U3JNWFdMbk10N0hLelhxX0dKRTVETUdySXRVcG5nZVRPVFdlTGEzNkcwZ1JqNG9melE?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Agentic AI",
+      "importance": "제품/모델",
+      "source_date": "2026-06-25",
+      "created_date": "2026-06-26",
+      "title": "Gemini 3.5 Flash, 컴퓨터 사용 기능 보도",
+      "summary": "Gemini 3.5 Flash에 화면 인식, 클릭, 텍스트 입력 등 컴퓨터 사용 기능이 결합된다는 보도가 이어졌습니다. 브라우저와 앱을 다루는 에이전트가 더 일반 제품 기능으로 내려오는 신호입니다.",
+      "bullets": [
+        "화면을 읽고 UI를 조작하는 에이전트 기능에 초점",
+        "검색·지도 같은 기존 Google 서비스와 결합 가능성 주목",
+        "실사용 단계에서는 권한, 보안, 실패 복구 설계가 중요"
+      ],
+      "visual_keywords": [
+        "Gemini computer use",
+        "AI agent",
+        "screen control"
+      ],
+      "aria_line": "AI가 답변만 하는 시대에서, 화면을 보고 직접 움직이는 시대로 넘어가고 있어요.",
+      "caption": "Google Gemini 에이전트 동향",
+      "sources": [
+        {
+          "name": "AIBase via Google News",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5JRjVpNDBpLWc1ZGVLVjNhZ1lGWnlrYllyVmhXR3J2bXJrbm5kNFpDX3l3TTFvd0hwYTlaMDN4bGlmLWpaRFlFTDZB?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tools",
+      "importance": "개발자 업데이트",
+      "source_date": "2026-06-25",
+      "created_date": "2026-06-26",
+      "title": "GitHub Copilot 코드리뷰 효율 업데이트",
+      "summary": "GitHub는 Copilot 코드리뷰가 CLI와 SDK의 파일 탐색 도구를 활용하도록 개선돼 분석 깊이와 비용 효율이 좋아졌다고 공지했습니다.",
+      "bullets": [
+        "기존 워크플로는 유지하면서 리뷰 내부 탐색 방식 개선",
+        "대형 저장소에서 불필요한 토큰·비용 낭비를 줄이는 방향",
+        "Copilot CLI·SDK와 코드리뷰 기능의 결합 강화"
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "code review",
+        "developer workflow"
+      ],
+      "aria_line": "코드리뷰 AI는 필요한 파일을 더 잘 찾아보는 쪽으로 진화 중이에요.",
+      "caption": "GitHub Copilot 업데이트",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tools",
+      "importance": "제품 업데이트",
+      "source_date": "2026-06-25",
+      "created_date": "2026-06-26",
+      "title": "Copilot for Jira 정식 출시",
+      "summary": "GitHub Copilot for Jira가 정식 출시됐습니다. 이슈·프로젝트 관리 도구 안에서 개발 문맥을 연결하려는 흐름이 강해지고 있습니다.",
+      "bullets": [
+        "Jira 작업 흐름과 Copilot을 연결하는 통합 기능",
+        "기획·이슈·코드 변경 사이의 문맥 단절을 줄이는 방향",
+        "AI 개발도구가 IDE 밖 업무 도구로 확장되는 사례"
+      ],
+      "visual_keywords": [
+        "Copilot for Jira",
+        "project management",
+        "developer productivity"
+      ],
+      "aria_line": "AI 개발도구가 코드 편집기 밖 이슈 관리판까지 따라오고 있어요.",
+      "caption": "업무 도구 속 Copilot",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-06-25-github-copilot-for-jira-is-now-generally-available"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Infrastructure",
+      "importance": "인프라",
+      "source_date": "2026-06-25",
+      "created_date": "2026-06-26",
+      "title": "NVIDIA, 다중 GPU TensorRT 추론 지원",
+      "summary": "NVIDIA가 TensorRT의 Multi-Device Inference Support로 여러 GPU에 걸쳐 AI 추론을 확장하는 방법을 공개했습니다. 대형 생성형 AI 워크로드가 단일 GPU 한계를 넘어서고 있다는 실무 신호입니다.",
+      "bullets": [
+        "미디어 생성 등 대형 추론 워크로드가 단일 GPU 한계를 압박",
+        "다중 GPU로 모델·계산을 나누는 추론 최적화가 중요",
+        "서비스 비용과 지연시간을 줄이는 인프라 기술 경쟁"
+      ],
+      "visual_keywords": [
+        "NVIDIA TensorRT",
+        "multi GPU inference",
+        "AI infrastructure"
+      ],
+      "aria_line": "모델이 커질수록 '어떤 모델'만큼 '어떻게 나눠 돌리나'가 중요해요.",
+      "caption": "AI 인프라 업데이트",
+      "sources": [
+        {
+          "name": "NVIDIA Developer Blog",
+          "url": "https://developer.nvidia.com/blog/scaling-ai-inference-across-multiple-gpus-using-nvidia-tensorrt-with-multi-device-inference-support/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Research / Community",
+      "importance": "연구·커뮤니티",
+      "source_date": "2026-06-25",
+      "created_date": "2026-06-26",
+      "title": "GUI 에이전트와 정답 없는 RL 연구",
+      "summary": "arXiv에는 GUI 작업 계획을 강화하는 에이전트 연구와 정답 데이터 없이도 LLM을 개선하는 강화학습 연구가 올라왔습니다. 커뮤니티 레이더에서도 Gemini 컴퓨터 사용, Codex 업무 활용, 국내 AI탭이 반복 포착됐습니다.",
+      "bullets": [
+        "GUI 에이전트: 경험 탐색과 사후 활용으로 작업 계획 개선",
+        "RL 연구: 정답이 없는 과제에서도 순위 기반 보상으로 학습 시도",
+        "커뮤니티 신호는 원출처 확인 전까지 참고 지표로만 사용"
+      ],
+      "visual_keywords": [
+        "GUI agent",
+        "reinforcement learning",
+        "DCInside source radar"
+      ],
+      "aria_line": "오늘 커뮤니티 키워드는 '컴퓨터를 쓰는 에이전트'와 '업무 속 코덱스'였어요.",
+      "caption": "연구와 커뮤니티 레이더",
+      "sources": [
+        {
+          "name": "arXiv GUI Agents",
+          "url": "https://arxiv.org/abs/2606.27330v1"
+        },
+        {
+          "name": "arXiv RL without Ground Truth",
+          "url": "https://arxiv.org/abs/2606.27369v1"
+        }
+      ]
+    }
+  ]
+}
