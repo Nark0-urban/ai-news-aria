@@ -1,0 +1,234 @@
+{
+  "date": "2026-06-29",
+  "created_at": "2026-06-29T20:00:00+09:00",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily Brief",
+      "importance": "오늘 요약",
+      "title": "오늘 AI 뉴스 핵심 8가지",
+      "summary": "2026년 6월 29일 확인 가능한 AI 소식을 공식 발표, 신뢰 보도, 국내 레이더 순서로 정리했습니다. 제품 발표보다 에이전트 API, 보안 모델, 추론 비용, 국내 AI 검색과 데이터센터 이슈가 두드러졌습니다.",
+      "bullets": [
+        "Gemini 쪽은 모델을 호출하는 새 인터페이스를 에이전트 중심으로 묶는 흐름이 보였습니다.",
+        "중국 AI는 GLM-5.2 보안 성능과 DeepSeek DSpark 추론 최적화가 주목을 받았습니다.",
+        "국내는 K-엑사원 AI 검색, AI 데이터센터 투자 발언, Codex 생태계 후보 신호를 따로 표시했습니다."
+      ],
+      "visual_keywords": [
+        "AI newsroom",
+        "Aria",
+        "daily briefing"
+      ],
+      "aria_line": "오늘은 모델 이름보다, AI를 실제 서비스에 붙이는 인터페이스와 비용 문제가 더 중요해졌어요.",
+      "caption": "AI 뉴스 아리아 2026-06-29",
+      "sources": [
+        {
+          "name": "Google Blog via Google News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObk5aTGR6dzNhLXZBWEpOY3Q2bHBDNk92amdBSXVmS1B6aVB3akFfd1VadWxUQk50bHl6Y2ZwNkdTaFNjclc1cmhDcjk2UG14VUZhM1MtaG42TUJEakZqZWkxelpGdS1YUEJGMkhBWUpPWjlLRnhHMHpXRUZRQnZDU19SdU51QnZmYURMejFtZ2lKWERCUks3OHNnLW93b1kyaEF3UHg4OA?oc=5"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity"
+        },
+        {
+          "name": "South China Morning Post",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQajNTbEVhUkwwZ0dpSHlTM194R1U4V19pS1dmNHktQXZLOHNJMW9ybXMzZUVpdENZYlFtLTVtUXVJckVSbThjMk9Bdjd6ZDVEM3F1UEdtU2lrOUllbHdCekItUms1ZW5NLVRaSUJBRklQT1ZnVUdSOUI0Y3ZDVW5ib1RPTjU5R2pIb3ByeDFkdzRBRERQbjRRem0tXy1UWmJqMjl4bE5zMHY5b3dSSGRpREtTR0FQcVRSVHd1cWZBUThHblZxQ2VVU29MOGpPUXRoR1BR0gHTAUFVX3lxTE81aVpYWEFxTnNNZGJlNENKdGh3M3Q4a1Mzd1A1bFhGbVpSU1Q4TzNEN1VYLXA1WjZMei0xbDI2bURCWlBtY0JFd29ZVHZKQ1lQMVRFeTg2YllNN0xzTE1aOTN6MklJZ0JGNHBFa2NuTG1IQzdOQnctVmIxY1FVR3NRSEhvTFhWSlExQmYtb25Gc1QzbDhiNXd6QTg1Z29fRWgwaTJjdVNPOG0zNXlLbkZ2UHZJMkR0U2JqQUtwcGVOb2RxbTZyTVJod0xQaVdIMm55Xzg?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Agent API",
+      "importance": "공식 블로그",
+      "title": "Gemini, Interactions API를 에이전트 기본 인터페이스로",
+      "summary": "Google 블로그 후보에는 Gemini 모델과 에이전트를 다루는 기본 접점으로 Interactions API를 소개하는 글이 올라왔습니다. 단순 텍스트 호출을 넘어 도구, 상태, 멀티턴 작업을 한 흐름으로 다루려는 방향입니다.",
+      "bullets": [
+        "에이전트는 한 번 답하는 챗봇보다 작업 맥락과 도구 호출을 오래 유지해야 합니다.",
+        "API가 바뀌면 개발자는 모델 성능보다 세션, 권한, 도구 연결 방식을 먼저 설계해야 합니다.",
+        "카드뉴스에서는 공식 블로그 후보로 다루고, 세부 구현은 원문 확인이 필요한 개발자 항목으로 분리했습니다."
+      ],
+      "visual_keywords": [
+        "Gemini",
+        "Interactions API",
+        "agents"
+      ],
+      "aria_line": "이제 AI 개발의 중심은 프롬프트 한 줄이 아니라, 에이전트가 일하는 통로를 어떻게 만들지예요.",
+      "caption": "Gemini 에이전트 API 신호",
+      "sources": [
+        {
+          "name": "Google Blog via Google News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObk5aTGR6dzNhLXZBWEpOY3Q2bHBDNk92amdBSXVmS1B6aVB3akFfd1VadWxUQk50bHl6Y2ZwNkdTaFNjclc1cmhDcjk2UG14VUZhM1MtaG42TUJEakZqZWkxelpGdS1YUEJGMkhBWUpPWjlLRnhHMHpXRUZRQnZDU19SdU51QnZmYURMejFtZ2lKWERCUks3OHNnLW93b1kyaEF3UHg4OA?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "China AI",
+      "importance": "보안 모델",
+      "title": "Z.ai GLM-5.2, 사이버보안 성능으로 주목",
+      "summary": "The Verge와 국내 보도 후보는 Z.ai의 GLM-5.2가 버그 탐지와 보안 과제에서 강한 성능을 보였다고 전했습니다. 오픈 모델 경쟁이 챗봇 성능을 넘어 보안 자동화 영역으로 이동하는 신호입니다.",
+      "bullets": [
+        "보안 분야는 일반 대화 능력보다 취약점 탐색, 코드 이해, 재현 가능성이 더 중요합니다.",
+        "오픈 가중치 모델이 이 영역에서 올라오면 기업 내부 보안 자동화 선택지가 넓어집니다.",
+        "다만 벤치마크 조건과 실제 운영 안전성은 별도로 검증해야 합니다."
+      ],
+      "visual_keywords": [
+        "Z.ai",
+        "GLM-5.2",
+        "cybersecurity"
+      ],
+      "aria_line": "중국 오픈 모델 경쟁이 이제 코딩을 넘어 보안 버그 찾기까지 들어왔어요.",
+      "caption": "GLM-5.2 보안 모델 경쟁",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity"
+        },
+        {
+          "name": "AI타임스 via Google News",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXek5kNXJHNU9Pc1VkRG1CSklLU29RbURSMjZhSU5iSnNPeE85Nkt0bTR3eWxuUDlaYWllZmtua3ptWGt0N25ZTHg5TUhaazYzMGFGUHhHMmxlcmlXc19CNS16WjVKWWFjOUE?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Inference",
+      "importance": "추론 최적화",
+      "title": "DeepSeek DSpark, 응답 속도와 비용 절감 경쟁",
+      "summary": "SCMP와 Tech in Asia 후보는 DeepSeek의 DSpark가 speculative decoding으로 V4 응답을 최대 85% 빠르게 만든다고 전했습니다. 모델 경쟁의 다음 축이 학습 규모에서 추론 비용과 지연 시간으로 옮겨가는 모습입니다.",
+      "bullets": [
+        "생성형 AI 서비스는 답변 품질뿐 아니라 빠른 응답과 낮은 GPU 비용이 중요합니다.",
+        "speculative decoding은 작은 모델의 초안을 큰 모델이 검증하는 식으로 병목을 줄이는 접근입니다.",
+        "중국 AI 업체의 경쟁력이 칩 제약 속 추론 효율로 이동하는 신호로 볼 수 있습니다."
+      ],
+      "visual_keywords": [
+        "DeepSeek",
+        "DSpark",
+        "speculative decoding"
+      ],
+      "aria_line": "AI 서비스는 똑똑한 것도 중요하지만, 싸고 빠르게 대답해야 계속 쓸 수 있어요.",
+      "caption": "DeepSeek 추론 비용 경쟁",
+      "sources": [
+        {
+          "name": "South China Morning Post",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQajNTbEVhUkwwZ0dpSHlTM194R1U4V19pS1dmNHktQXZLOHNJMW9ybXMzZUVpdENZYlFtLTVtUXVJckVSbThjMk9Bdjd6ZDVEM3F1UEdtU2lrOUllbHdCekItUms1ZW5NLVRaSUJBRklQT1ZnVUdSOUI0Y3ZDVW5ib1RPTjU5R2pIb3ByeDFkdzRBRERQbjRRem0tXy1UWmJqMjl4bE5zMHY5b3dSSGRpREtTR0FQcVRSVHd1cWZBUThHblZxQ2VVU29MOGpPUXRoR1BR0gHTAUFVX3lxTE81aVpYWEFxTnNNZGJlNENKdGh3M3Q4a1Mzd1A1bFhGbVpSU1Q4TzNEN1VYLXA1WjZMei0xbDI2bURCWlBtY0JFd29ZVHZKQ1lQMVRFeTg2YllNN0xzTE1aOTN6MklJZ0JGNHBFa2NuTG1IQzdOQnctVmIxY1FVR3NRSEhvTFhWSlExQmYtb25Gc1QzbDhiNXd6QTg1Z29fRWgwaTJjdVNPOG0zNXlLbkZ2UHZJMkR0U2JqQUtwcGVOb2RxbTZyTVJod0xQaVdIMm55Xzg?oc=5"
+        },
+        {
+          "name": "Tech in Asia via Google News",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZVpVRmxyNG5lZDBBMlVEa04wOTBUUXdLYkU2bm5ocG9ncERybDRJYlREd1dqc1pDQnR1ZmdDQ1lMSHBwWUhzc2JkNU10RGxma05zUVhBa3QwZXMzd1U1b2I5U0NIWXhidk1oRkYwX1RSNzRRMl9uR0tlMjJpSXZZNFNrRi01alhMUE9aVy1zVQ?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Domestic AI",
+      "importance": "국내 보도",
+      "title": "줌, K-엑사원 기반 AI 검색 확대 후보",
+      "summary": "국내 레이더에서는 줌이 LG AI연구원의 K-엑사원 계열을 활용해 AI 검색을 전면 확대한다는 보도 후보가 잡혔습니다. 국내 포털 검색도 링크 나열에서 답변형 검색으로 이동하는 흐름입니다.",
+      "bullets": [
+        "검색 서비스의 경쟁축이 색인 품질에서 AI 답변 품질과 출처 표시로 바뀌고 있습니다.",
+        "국산 모델을 실제 검색 화면에 붙이는 사례라면 국내 AI 적용 사례로 의미가 큽니다.",
+        "카드에서는 국내 보도 후보로 표시하고, 원문·회사 발표 확인 전까지 과장하지 않았습니다."
+      ],
+      "visual_keywords": [
+        "K-EXAONE",
+        "AI search",
+        "ZUM"
+      ],
+      "aria_line": "검색창도 이제 결과 목록만 보여주는 곳에서, 바로 정리해주는 AI 화면으로 바뀌고 있어요.",
+      "caption": "국내 AI 검색 레이더",
+      "sources": [
+        {
+          "name": "AI타임스 via Google News",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tanFBVE5yOVY1dEJGRFJfT1dQR3c2VFZHc1FkQURQRzc0QjNDSkVWNEhkdHd1NzR6VGFLbG5EMW52akprRTdBcms4MnpGbkh6OE8tV3NKUDh3dk1qZWtnOUxJSVEtQUZZeWc?oc=5"
+        },
+        {
+          "name": "DCInside source candidates",
+          "url": "work/drafts/dc_source_candidates_2026-06-29.json"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Infrastructure",
+      "importance": "국내 정책",
+      "title": "AI 데이터센터 투자 발언, 인프라 병목을 보여주다",
+      "summary": "아시아경제 등 국내 속보 후보는 과기부총리가 AI 데이터센터에 2029년까지 550조, 2035년까지 1000조원 이상 투자를 언급했다고 전했습니다. AI 경쟁이 모델 개발만이 아니라 전력, 부지, GPU 인프라 경쟁임을 보여줍니다.",
+      "bullets": [
+        "AI 서비스 확산에는 데이터센터, 전력망, 냉각, GPU 조달이 함께 필요합니다.",
+        "큰 숫자는 정책 방향 신호로 보되, 실제 예산·민간투자 구조는 후속 자료 확인이 필요합니다.",
+        "국내 AI 생태계에서는 모델보다 인프라 병목이 더 큰 제약이 될 수 있습니다."
+      ],
+      "visual_keywords": [
+        "AI datacenter",
+        "Korea",
+        "infrastructure"
+      ],
+      "aria_line": "AI 경쟁은 모델 발표만으로 끝나지 않아요. 전기와 데이터센터가 없으면 서비스가 못 돌아가요.",
+      "caption": "국내 AI 인프라 이슈",
+      "sources": [
+        {
+          "name": "아시아경제 via Google News",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BamZfbUYtc3ZNczh5TURuR3UyUjZoT19jRjAtNmJma1QxMnBoNHdNQ0JZMjBvclZtdHR2OUowYUhTcmNXTFQybC1VOFgySndOaTFINF8za2UyV08tLTFSYtIBeEFVX3lxTE5ZMlJvWVNHY2M1MU9UVk5mWGUwQzFQZFVXUHNRMXVNbm9MMTcxdVdTNndhV2ptR2V6ekx2WU5YS08tOUlyWVBRRUNfblRjV3JvWnFlcUZaUVBNV2k2eTRxcW1DSk8tQjduUTlvSk5ydU5MZzBST3drag?oc=5"
+        },
+        {
+          "name": "DCInside source radar",
+          "url": "work/drafts/dc_source_radar_2026-06-29.json"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Science AI",
+      "importance": "스타트업",
+      "title": "앤트로픽 출신, 과학자용 AI 스타트업 설립 후보",
+      "summary": "AI타임스 후보는 Anthropic 출신 인력이 과학자를 위한 AI 스타트업을 세우고 대규모 시드 투자를 유치했다고 전했습니다. 연구 자동화는 논문 요약을 넘어 실험 설계와 데이터 해석 보조로 넓어지고 있습니다.",
+      "bullets": [
+        "과학용 AI는 일반 챗봇보다 근거 추적, 계산 재현성, 도메인 도구 연결이 중요합니다.",
+        "AI 연구 보조 시장은 제약, 재료, 생명과학처럼 검증 비용이 큰 분야에서 먼저 커질 수 있습니다.",
+        "국내 보도 후보라서 확정 표현 대신 스타트업·투자 흐름으로 정리했습니다."
+      ],
+      "visual_keywords": [
+        "scientist AI",
+        "research assistant",
+        "startup"
+      ],
+      "aria_line": "연구자용 AI는 말 잘하는 것보다, 실험과 근거를 얼마나 정확히 따라가느냐가 핵심이에요.",
+      "caption": "과학 연구 AI 스타트업 신호",
+      "sources": [
+        {
+          "name": "AI타임스 via Google News",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94X2JwZEpEMFZXOVZJVG4tQmoycTVJOEpmcGI5bjdSSUYzblAwWGJjQjVHb0p4YTRXa2Q0QXN5SEVRWGlWQl84RDYyT0drVVZlTVRnMk1aMGs3WGpEaEN5bUczMkg5Z3JPaWc?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Ecosystem",
+      "importance": "국내 레이더",
+      "title": "Codex 크레딧 선물 테스트 보도 후보",
+      "summary": "국내 레이더에서는 OpenAI가 Codex 크레딧 선물 기능을 테스트한다는 보도 후보가 잡혔습니다. 확인된다면 코딩 에이전트가 개인 도구를 넘어 팀·생태계 결제 모델로 확장되는 신호입니다.",
+      "bullets": [
+        "크레딧 선물은 개발자 도구의 사용량 기반 결제와 팀 내 지원 흐름을 연결할 수 있습니다.",
+        "코딩 에이전트가 널리 쓰일수록 기능보다 과금, 권한, 사용량 관리가 중요해집니다.",
+        "공식 발표 확인 전까지는 확정 사실이 아니라 국내 보도·커뮤니티 레이더 신호로만 다뤘습니다."
+      ],
+      "visual_keywords": [
+        "OpenAI Codex",
+        "credits",
+        "developer ecosystem"
+      ],
+      "aria_line": "코딩 에이전트도 이제 기능 경쟁 다음으로, 누가 어떻게 비용을 나눌지가 중요해지고 있어요.",
+      "caption": "Codex 생태계 확장 후보",
+      "sources": [
+        {
+          "name": "AI타임스 via Google News",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UOTZrbHhDZnNVTncwR1RDU3RqLWJKb3VjeTd3WWxUVHhUVkV5elFUWkRRdGtOOGNSSkEza1VMZkEwTmRfZHJrdVNRV28zemlmbUpESl9UV3NNdHpkOFVHb3A2d3pJcXNvMlE?oc=5"
+        },
+        {
+          "name": "DCInside source candidates",
+          "url": "work/drafts/dc_source_candidates_2026-06-29.json"
+        }
+      ]
+    }
+  ]
+}
