@@ -1,0 +1,230 @@
+{
+  "date": "2026-07-13",
+  "created_at": "2026-07-13T23:12:24+09:00",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily Brief",
+      "importance": "오늘 요약",
+      "title": "오늘 AI 뉴스 핵심 8개",
+      "summary": "2026년 7월 13일 실행 시점까지 확인한 AI 소식입니다. 국내 공공 AI, AI 악용 규제 사례, 제품 업데이트, 코딩 에이전트 연구, 중국 AI 비용 경쟁과 개발자 도구 흐름을 묶었습니다.",
+      "bullets": [
+        "국내에서는 모두의 AI 공모와 AI 안경 부정행위 사법처리 보도가 눈에 띕니다.",
+        "해외에서는 Waze의 Gemini 기능, CLI 코딩 에이전트 연구, DeepSeek 비용 이슈가 실무 영향이 큽니다.",
+        "GPT-5.6 같은 루머성 항목은 공식 확인이 약해 카드 본문에서 제외했습니다."
+      ],
+      "visual_keywords": [
+        "AI newsroom",
+        "daily briefing",
+        "Aria"
+      ],
+      "aria_line": "오늘은 새 모델 이름보다 AI가 어디에 실제로 붙고, 어떤 비용과 규칙을 만들고 있는지가 핵심이에요.",
+      "caption": "AI 뉴스 아리아 2026-07-13",
+      "sources": [
+        {
+          "name": "Local RSS candidates",
+          "url": "work/drafts/sources_2026-07-13.json"
+        },
+        {
+          "name": "DCInside source radar",
+          "url": "work/drafts/dc_source_candidates_2026-07-13.json"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Korea Public AI",
+      "importance": "국내 공공",
+      "title": "정부, 전 국민 무료 AI 공모 착수",
+      "summary": "국내 보도에 따르면 과기정통부가 누구나 무료로 쓸 수 있는 AI 서비스를 목표로 '모두의 AI' 프로젝트 공모에 착수했습니다. 공공 AI는 성능보다 접근성, 안전성, 운영 비용이 핵심 쟁점입니다.",
+      "bullets": [
+        "개인과 소상공인이 비용 부담 없이 AI를 쓰는 기반을 만들겠다는 방향입니다.",
+        "정부 주도 서비스는 모델 품질뿐 아니라 개인정보, 저작권, 장애 대응 기준이 중요합니다.",
+        "국내 AI 생태계에는 공공 수요와 민간 모델 경쟁이 동시에 생길 수 있습니다."
+      ],
+      "visual_keywords": [
+        "Korea public AI",
+        "free AI access",
+        "government project"
+      ],
+      "aria_line": "무료 AI는 '공짜 챗봇'보다 더 큰 문제예요. 누가 안전하게 운영하고, 누구에게 열어줄지가 핵심이에요.",
+      "caption": "국내 공공 AI 접근성",
+      "sources": [
+        {
+          "name": "AI타임스",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0xci1yOG5PQTMxLTlZU2dZbVVLNXZmTkZqQjdOY3lTeS02d0tLT002elprY0o0ZjE2ZFpkR1pkTE15X25FUHVWRzBfcXRaZFRXY2NPTVVGcnBJNjRhNy14cnVLRXZ6LW56aEE?oc=5"
+        },
+        {
+          "name": "DCInside source radar",
+          "url": "work/drafts/dc_source_candidates_2026-07-13.json"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "AI Misuse",
+      "importance": "국내 규제",
+      "title": "AI 안경 부정행위, 사법처리 사례로",
+      "summary": "국내 보도에서 AI 안경을 이용한 시험 부정행위가 사법처리 대상이 된 사례가 확인됐습니다. 생성 AI가 웨어러블 기기와 결합하면서 교육, 시험, 자격 인증 현장의 감시와 규정이 다시 설계되는 흐름입니다.",
+      "bullets": [
+        "AI 도구가 화면 밖의 안경, 이어폰, 카메라 형태로 들어오면 기존 감독 방식만으로는 부족합니다.",
+        "교육기관과 시험기관은 금지 장비 목록보다 탐지 절차와 사후 증거 기준을 정교화해야 합니다.",
+        "AI 활용의 편의성과 부정 사용의 경계가 실제 사건을 통해 빠르게 시험받고 있습니다."
+      ],
+      "visual_keywords": [
+        "AI glasses",
+        "exam cheating",
+        "policy"
+      ],
+      "aria_line": "AI 규제는 먼 미래 이야기가 아니에요. 시험장 같은 일상 공간에서 이미 기준을 묻고 있어요.",
+      "caption": "AI 악용과 현장 규칙",
+      "sources": [
+        {
+          "name": "MBC 뉴스",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lbzdQMFp5dE1oX2IxWW5WYVZmUjBPTjY3WWZweEZKbmphNHVmWktKX2YzdVhuaHZDUzQwcEVKQXBfTUg2M1E4a3pXOE1HQm9KODNlaHhfbHBKT2Q5Rkh3dkZReXUzbk1BNW94Unc4NU1xSEwyLS0wOQ?oc=5"
+        },
+        {
+          "name": "DCInside source radar",
+          "url": "work/drafts/dc_source_candidates_2026-07-13.json"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Consumer AI",
+      "importance": "제품 업데이트",
+      "title": "Waze, Gemini 기반 운전 기능 확대",
+      "summary": "The Verge는 Google이 Waze에 Gemini 기반 음성 명령과 경로 개인화 기능을 더하고 있다고 보도했습니다. 생성 AI가 검색창과 챗봇을 넘어 이동 중 앱의 명령 인터페이스로 들어가는 사례입니다.",
+      "bullets": [
+        "운전 중에는 긴 입력보다 짧은 음성 명령과 상황 인식이 중요합니다.",
+        "AI 기능은 경로 안내, 신고, 목적지 탐색처럼 반복적인 앱 조작을 줄이는 쪽으로 붙고 있습니다.",
+        "실시간 위치 서비스에서는 정확성, 방해 최소화, 개인정보 처리 기준이 제품 품질을 좌우합니다."
+      ],
+      "visual_keywords": [
+        "Waze",
+        "Gemini",
+        "voice commands"
+      ],
+      "aria_line": "AI가 앱 안에 들어간다는 건, 버튼을 하나 더 만드는 게 아니라 조작 방식을 바꾸는 일이에요.",
+      "caption": "Gemini 소비자 제품 적용",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Coding Agents",
+      "importance": "연구",
+      "title": "CLI 코딩 에이전트, 조직 도입 효과 연구",
+      "summary": "arXiv 논문은 Microsoft의 Claude Code와 GitHub Copilot CLI 초기 도입 사례를 분석했습니다. 연구는 CLI 코딩 에이전트의 확산이 사회적 네트워크와 사용자의 개발 활동성에 크게 좌우된다고 보고합니다.",
+      "bullets": [
+        "도구를 배포하는 것만으로는 충분하지 않고, 실제 동료 사용 사례가 확산에 영향을 줍니다.",
+        "채택자는 관찰 기간 동안 병합 PR 수가 증가했지만, PR 수가 곧 가치 전체를 뜻하지는 않습니다.",
+        "조직은 비용, 유지율, 품질 지표를 함께 보면서 코딩 에이전트 정책을 설계해야 합니다."
+      ],
+      "visual_keywords": [
+        "Claude Code",
+        "Copilot CLI",
+        "developer productivity"
+      ],
+      "aria_line": "코딩 에이전트는 '설치했나'보다 '팀이 어떻게 습관으로 만들었나'가 더 중요해지고 있어요.",
+      "caption": "코딩 에이전트 도입 연구",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2607.01418"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Inference Cost",
+      "importance": "비용 경쟁",
+      "title": "DeepSeek 가격 인하, 100배 수요 문제",
+      "summary": "VentureBeat는 DeepSeek의 큰 폭 가격 인하에도 AI 서비스의 병목이 단순 단가가 아니라 폭증하는 추론 수요와 인프라 운영이라는 점을 짚었습니다. AI 경쟁은 모델 점수에서 토큰 비용과 처리량 경쟁으로 이동 중입니다.",
+      "bullets": [
+        "가격이 내려가면 사용량이 더 늘어 총 인프라 부담이 커질 수 있습니다.",
+        "기업은 모델 성능뿐 아니라 지연 시간, 처리량, 피크 시간 비용을 같이 계산해야 합니다.",
+        "저렴한 API가 곧 저렴한 제품 운영을 보장하지는 않습니다."
+      ],
+      "visual_keywords": [
+        "DeepSeek",
+        "inference cost",
+        "AI infrastructure"
+      ],
+      "aria_line": "AI가 싸지면 끝이 아니라, 더 많이 쓰게 되면서 새로운 병목이 생겨요.",
+      "caption": "추론 비용과 수요 폭증",
+      "sources": [
+        {
+          "name": "VentureBeat",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZ1JHeVYtOEZaWWRCcGdEV1FjVHdLUk5YYkxTUndzTVA4dGx4dXlwbC1TNmJRdFVyUlpNSEdGU2lRSG5xMk1FSDM5SHhwY3FrLVExQmN6ck1kVGU5bVB6OHlLLVpmM3ZIVEQwWFM4RVFuNy0zV1gxU2JtWV9tR2VHeW1EMTJ3ekh4bFoyQUlR?oc=5"
+        },
+        {
+          "name": "Local RSS candidates",
+          "url": "work/drafts/sources_2026-07-13.json"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "China AI",
+      "importance": "중국 AI",
+      "title": "Zhipu AI, 불황 속 AGI 장기전 강조",
+      "summary": "South China Morning Post 보도 후보는 Zhipu AI가 단기 수익보다 AGI와 오픈 생태계 전략을 강조한다고 전했습니다. 중국 AI 기업들은 가격 경쟁뿐 아니라 오픈 모델, 개발자 토큰, 산업 적용을 둘러싼 장기 전략을 내세우고 있습니다.",
+      "bullets": [
+        "중국 AI 경쟁은 DeepSeek 가격 충격 이후 오픈 모델과 생태계 장악 경쟁으로 넓어졌습니다.",
+        "오픈소스 전략은 개발자 확산에는 유리하지만, 지속 가능한 수익 모델은 별도 과제입니다.",
+        "국내 기업도 중국 모델의 성능보다 비용, 라이선스, 데이터 주권 리스크를 함께 봐야 합니다."
+      ],
+      "visual_keywords": [
+        "Zhipu AI",
+        "GLM",
+        "China AI"
+      ],
+      "aria_line": "중국 AI는 단순히 싸다는 이야기에서, 누가 개발자 생태계를 잡느냐의 싸움으로 가고 있어요.",
+      "caption": "중국 AI 장기 전략",
+      "sources": [
+        {
+          "name": "South China Morning Post",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdVFhdGFJMjhyQmhHTXZIancwWWFCNTU4dk9mcnBISG93MEJzNTFMY2xlVkZSVFViaDZaYnFIOUJjS1Y0QjQwZEVoQzZScG4wZy1feHF2WmEtNGtVdmk5ODZHalI1RkxRczMwYVFqblNidlFfZktwVVVYYVhmb3Y0dHh3b0lHUUZaX3ZuRng4bzlPNmVVWm1wYmFGX1BXdGxxX25YS2paNWY2UDBZQnRSVHcyMlozRlJGMzdQNWc2aVJrZlpUQkFZMkJqcHhEZ9IBzgFBVV95cUxNeHhndG5LSTlMU3VjeXd3LXQycnBseGN5ck55Uk12Q3hOV2E2TnpVLUptUVVJcGxPT1ZscnRpTXZ4bGpTd0ZVQTBvbmlqWkFWNTVib1JLdmV0d2JscC00SjhJN1U0LUFfYUp1Q1ZZanVWSWJNM0hjNmcxdE5IZWJpWUJZVXN2cVRhWTVfX2lRNzdNbHF0OHptUEdGSGptWU12RkMzb0doOTEtbW53NEY0REI3TnUxTi1obzRQT1ZkTkRIZWZCcEVQb0Y3TUxJQQ?oc=5"
+        },
+        {
+          "name": "Local RSS candidates",
+          "url": "work/drafts/sources_2026-07-13.json"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tools",
+      "importance": "개발자 도구",
+      "title": "Go 기반 AI 에이전트 프레임워크 주목",
+      "summary": "The New Stack은 Microsoft와 Google이 Go 생태계에서 AI 에이전트 프레임워크 흐름을 밀고 있다고 다뤘습니다. 에이전트 개발은 Python 실험을 넘어 운영 서버, CLI, 백엔드 서비스와 가까운 언어로 확장되고 있습니다.",
+      "bullets": [
+        "AI 에이전트가 실제 제품이 되려면 모델 호출보다 상태 관리, 도구 호출, 배포 안정성이 중요합니다.",
+        "Go는 서버 운영, 동시성, 단일 바이너리 배포에 강점이 있어 에이전트 런타임 후보가 됩니다.",
+        "개발자는 LLM SDK만 보지 말고 MCP, 워크플로 엔진, 권한 제어까지 함께 설계해야 합니다."
+      ],
+      "visual_keywords": [
+        "Go",
+        "AI agents",
+        "Microsoft Agent Framework"
+      ],
+      "aria_line": "바이브코딩도 다음 단계는 모델 프롬프트가 아니라, 에이전트를 오래 굴릴 런타임 설계예요.",
+      "caption": "에이전트 개발 스택",
+      "sources": [
+        {
+          "name": "The New Stack",
+          "url": "https://thenewstack.io/microsoft-agent-framework-go/"
+        },
+        {
+          "name": "Local RSS candidates",
+          "url": "work/drafts/sources_2026-07-13.json"
+        }
+      ]
+    }
+  ]
+}
