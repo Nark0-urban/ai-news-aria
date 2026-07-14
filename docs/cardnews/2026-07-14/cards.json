@@ -1,0 +1,255 @@
+{
+  "date": "2026-07-14",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily Brief",
+      "importance": "오늘의 흐름",
+      "source_date": "2026-07-14",
+      "created_date": "2026-07-14",
+      "title": "오늘 AI 뉴스 핵심 8가지",
+      "summary": "국내 보안 이슈, 업무용 AI 에이전트, 초대형 데이터센터, 중국 AI 자금 경쟁, 최신 연구까지 오늘 확인된 신호를 한 번에 정리했어요.",
+      "bullets": [
+        "국내는 GitHub 접속 권한 유출 경보와 AI 서비스 확산 신호가 눈에 띄었어요.",
+        "해외는 업무용 에이전트와 초대형 AI 인프라 투자가 계속 커지고 있어요.",
+        "연구 쪽은 더 적은 비용으로 모델·이미지 생성 품질을 끌어올리는 방법이 주목받았어요."
+      ],
+      "visual_keywords": [
+        "daily AI briefing",
+        "Korea AI security",
+        "AI infrastructure",
+        "research papers"
+      ],
+      "aria_line": "오늘은 기능 발표보다 '운영·보안·전력' 같은 현실 문제가 더 크게 보였어요.",
+      "caption": "AI 뉴스 아리아",
+      "sources": [
+        {
+          "name": "OpenAI Academy",
+          "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex"
+        },
+        {
+          "name": "NVIDIA Developer Blog",
+          "url": "https://developer.nvidia.com/blog/nvidia-ising-decoding-cuts-color-code-logical-error-rates-by-over-300x/"
+        },
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2607.11826"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "국내 보안",
+      "importance": "국내 우선",
+      "source_date": "2026-07-14",
+      "created_date": "2026-07-14",
+      "title": "경찰, GitHub 권한 유출 보안조치 권고",
+      "summary": "국내 개발자·기업을 대상으로 GitHub 접속 권한 유출 정황이 알려지며 긴급 보안조치가 권고됐어요. AI 개발팀도 토큰·키 관리가 곧 서비스 안정성 문제가 됐습니다.",
+      "bullets": [
+        "DCInside 레이더에서도 연합뉴스·CIO 등 원출처 후보가 반복 확인됐어요.",
+        "AI 코딩 도구를 쓸수록 저장소 토큰, PAT, OAuth 권한 노출 위험이 커져요.",
+        "오늘 점검 포인트는 불필요한 권한 회수, 토큰 재발급, 로그 확인이에요."
+      ],
+      "visual_keywords": [
+        "GitHub token leak",
+        "developer security",
+        "Korea cyber police"
+      ],
+      "aria_line": "AI 자동화가 편해질수록 저장소 권한은 더 작고 짧게 줘야 해요.",
+      "caption": "국내 개발자 보안 경보",
+      "sources": [
+        {
+          "name": "연합뉴스 후보(Google News)",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Na1pRT0pnSmEybGVxOWN3TDNOOGV5c0tfQ2MwVU5XVUpNODNJaHA2R0FZX0ZlcHlZdTlLMzAtcFdyckExU2l2WlZ0RkItZ1NUUFg0TUxvenpqWVnSAWBBVV95cUxOYl9uYXJ2UEg5VFlBeVd1M1k4cm1mY0paRFdqRzY2THJDRmRKb0JnVHBacUprcXc3dlQ4aWNReDVxbWJYNENFSVdYOHNJZEZuYXQ2WGJDTDBLLTV6eTE5SzU?oc=5"
+        },
+        {
+          "name": "DCInside 안전 레이더",
+          "url": "work/drafts/dc_source_candidates_2026-07-14.json"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "OpenAI",
+      "importance": "제품·업무",
+      "source_date": "2026-07-14",
+      "created_date": "2026-07-14",
+      "title": "OpenAI, 데이터팀용 ChatGPT Work 활용법 공개",
+      "summary": "OpenAI Academy가 데이터 사이언스 팀이 Codex/ChatGPT Work로 원인 분석, KPI 메모, 대시보드 설계 같은 업무 산출물을 만드는 방법을 정리했어요.",
+      "bullets": [
+        "코딩 보조를 넘어 실제 업무 입력물로 분석 문서와 실행 계획을 만드는 흐름이에요.",
+        "데이터팀은 쿼리·대시보드·리포트 초안을 같은 작업 공간에서 연결할 수 있어요.",
+        "AI 에이전트가 사무직 워크플로까지 확장되는 신호로 볼 수 있어요."
+      ],
+      "visual_keywords": [
+        "ChatGPT Work",
+        "Codex for work",
+        "data science team",
+        "workflow automation"
+      ],
+      "aria_line": "이제 '코드 작성'보다 '분석 결과물을 끝까지 만드는 일'이 핵심이에요.",
+      "caption": "업무형 AI 에이전트",
+      "sources": [
+        {
+          "name": "OpenAI Academy",
+          "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "인프라",
+      "importance": "초대형 컴퓨트",
+      "source_date": "2026-07-14",
+      "created_date": "2026-07-14",
+      "title": "Meta, 루이지애나 AI 데이터센터 5GW 규모 확대",
+      "summary": "Meta의 Hyperion AI 데이터센터가 5GW급 초대형 프로젝트로 확대됐다는 보도가 나왔어요. 모델 경쟁의 병목이 칩만이 아니라 전력·지역 인프라로 이동 중입니다.",
+      "bullets": [
+        "Business Insider는 총 투자 규모가 500억 달러 이상으로 커졌다고 전했어요.",
+        "지역 계약·일자리 효과와 동시에 전력·물 사용 부담 논쟁도 커지고 있어요.",
+        "AI 성능 경쟁은 모델 발표보다 데이터센터 확보 경쟁으로 이어지고 있어요."
+      ],
+      "visual_keywords": [
+        "Meta Hyperion",
+        "AI data center",
+        "5 gigawatt compute",
+        "Louisiana"
+      ],
+      "aria_line": "AI 모델 뒤에는 전기와 냉각, 지역 인프라라는 거대한 숙제가 있어요.",
+      "caption": "AI 인프라 경쟁",
+      "sources": [
+        {
+          "name": "Business Insider",
+          "url": "https://www.businessinsider.com/meta-expands-ai-data-center-louisiana-50k-teacher-bonuses-2026-7"
+        },
+        {
+          "name": "AI타임스 후보(Google News)",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yMzE3TG12azdOS1ZHMmZEUmQzQTRWVTdPaHFRb1RDc2dOOU1UOWhmc1BjcTFqSUZTcnZSQ2d0aHRTbFJIRTVUeG5Ec1lXcl9OdTJFTnJuaDFWcHB1X29mYy1OWlN4QmcwS3c?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "NVIDIA",
+      "importance": "연구·컴퓨트",
+      "source_date": "2026-07-13",
+      "created_date": "2026-07-14",
+      "title": "NVIDIA, 양자 오류정정용 Ising Decoding 성과 공개",
+      "summary": "NVIDIA는 Ising Decoding이 컬러 코드 기반 양자 오류정정에서 논리 오류율을 크게 낮췄다고 설명했어요. AI 인프라 기업이 양자컴퓨팅 스택까지 넓히는 흐름입니다.",
+      "bullets": [
+        "발표일은 7월 13일로, 오늘 기준 최근 24시간 내 핵심 기술 업데이트예요.",
+        "양자 오류정정은 미래 고성능 계산의 안정성을 좌우하는 기반 기술이에요.",
+        "GPU·CUDA 생태계와 양자 컴퓨팅 도구의 접점이 넓어지고 있어요."
+      ],
+      "visual_keywords": [
+        "NVIDIA Ising Decoding",
+        "quantum error correction",
+        "CUDA-Q"
+      ],
+      "aria_line": "AI 칩 회사들이 이제 '다음 계산 방식'까지 미리 잡으려는 모습이에요.",
+      "caption": "미래 컴퓨팅 인프라",
+      "sources": [
+        {
+          "name": "NVIDIA Developer Blog",
+          "url": "https://developer.nvidia.com/blog/nvidia-ising-decoding-cuts-color-code-logical-error-rates-by-over-300x/"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-releases-ising-open-ai-models"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "중국 AI",
+      "importance": "시장·인프라",
+      "source_date": "2026-07-14",
+      "created_date": "2026-07-14",
+      "title": "DeepSeek, 추가 자금 조달 검토 보도",
+      "summary": "FT와 Reuters 후보 보도에 따르면 DeepSeek가 첫 대형 투자 이후 추가 조달을 검토 중입니다. 핵심은 투자 이야기가 아니라 자체 데이터센터와 AI 칩 확보 압박이에요.",
+      "bullets": [
+        "자율 에이전트와 대규모 추론 수요가 컴퓨트 지출을 빠르게 밀어올리고 있어요.",
+        "중국 AI 기업들은 모델 성능뿐 아니라 칩·데이터센터 자립성을 같이 경쟁하고 있어요.",
+        "카드뉴스에서는 주가·매매 관점이 아니라 인프라 경쟁 신호로만 다뤘어요."
+      ],
+      "visual_keywords": [
+        "DeepSeek fundraising",
+        "China AI infrastructure",
+        "AI chips",
+        "agent compute"
+      ],
+      "aria_line": "돈 이야기가 아니라, 에이전트 시대에 필요한 컴퓨트가 얼마나 큰지 보는 뉴스예요.",
+      "caption": "중국 AI 컴퓨트 경쟁",
+      "sources": [
+        {
+          "name": "Financial Times",
+          "url": "https://www.ft.com/content/6deb470e-d152-43a2-be0d-cc1fde4f3db8"
+        },
+        {
+          "name": "Reuters 후보(Google News)",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWk55WkVVNmR6aGp1Mm9kM2c5dlhZU0hXRVczeVVYMHotME5pcW9BY09ldG5iY2FsdGhvRXNxTlh1ekMyNjVQMGN3Vk53T1RXaTNzbWhRT2JpMk5RYnZYYVJNWEMyMGtIMG4zWmM1djZ5TURCX0huckp0aWxkeTZTZThiblNfTXRuU0QtczlXZ2U0U3NjZm9mYjFpanNQSHFRSmVwTDlFZkdZSTZwZGpaSElfU2hTNzAwYnc?oc=5"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "연구",
+      "importance": "논문",
+      "source_date": "2026-07-13",
+      "created_date": "2026-07-14",
+      "title": "저비용 신경망 구조 탐색 연구 공개",
+      "summary": "arXiv에는 Transformer와 군집지능을 결합해 소비자급 RTX 3060에서 효율적인 신경망 구조를 찾는 NAS 연구가 올라왔어요.",
+      "bullets": [
+        "기존 NAS는 GPU-days 단위 비용이 컸지만, 이 연구는 3시간 탐색을 강조해요.",
+        "작은 파라미터 수로 CIFAR-10과 사기 탐지 사례를 실험했어요.",
+        "기업이 아닌 개인·소규모 팀도 맞춤형 모델 탐색을 시도할 수 있다는 신호예요."
+      ],
+      "visual_keywords": [
+        "frugal NAS",
+        "Transformer controller",
+        "RTX 3060",
+        "edge AI"
+      ],
+      "aria_line": "큰 연구실만 하던 모델 설계를 작은 장비로 낮추려는 시도예요.",
+      "caption": "연구/논문 신호",
+      "sources": [
+        {
+          "name": "arXiv:2607.11826",
+          "url": "https://arxiv.org/abs/2607.11826"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "멀티모달",
+      "importance": "논문",
+      "source_date": "2026-07-13",
+      "created_date": "2026-07-14",
+      "title": "이미지 생성 보상모델을 MLLM으로 대체하는 연구",
+      "summary": "SpectraReward 논문은 별도 선호데이터나 보상모델 학습 없이, 멀티모달 LLM의 이미지-텍스트 정합 능력을 보상 신호로 쓰는 방식을 제안했어요.",
+      "bullets": [
+        "생성 이미지를 보고 원래 프롬프트를 얼마나 잘 복원할 수 있는지를 보상으로 삼아요.",
+        "여러 확산모델·RL 알고리즘·MLLM 백본에서 성능 개선을 검증했다고 보고했어요.",
+        "이미지 생성 품질 향상이 점점 '평가 자동화' 문제와 연결되고 있어요."
+      ],
+      "visual_keywords": [
+        "SpectraReward",
+        "text-to-image generation",
+        "multimodal LLM",
+        "reward model"
+      ],
+      "aria_line": "이미지를 더 좋게 만드는 비결이 '잘 평가하는 AI'로 옮겨가고 있어요.",
+      "caption": "이미지 생성 연구",
+      "sources": [
+        {
+          "name": "arXiv:2607.11886",
+          "url": "https://arxiv.org/abs/2607.11886"
+        }
+      ]
+    }
+  ]
+}
