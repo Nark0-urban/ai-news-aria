@@ -1,0 +1,239 @@
+{
+  "date": "2026-07-16",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily Brief",
+      "importance": "오늘의 AI",
+      "title": "오늘 AI 뉴스 핵심 8",
+      "summary": "국내 독자 AI 정책, 오픈 모델 공개, 코딩 에이전트 오픈소스, Apple Intelligence 중국 승인, 보안 악용 경고까지 오늘 확인된 흐름을 압축했습니다.",
+      "bullets": [
+        "국내: 독자 AI와 보안 특화 모델 개발 신호",
+        "제품/개발: Inkling, Grok Build, Apple-Qwen",
+        "정책/보안: 프론티어 규제와 자동 해킹 우려"
+      ],
+      "visual_keywords": [
+        "AI newsroom",
+        "developer tools",
+        "policy radar"
+      ],
+      "aria_line": "오늘은 모델 성능보다 '누가 통제하고 어디에 적용하느냐'가 핵심이에요.",
+      "caption": "AI 뉴스 아리아 2026-07-16",
+      "source_date": "2026-07-16",
+      "created_date": "2026-07-16",
+      "sources": [
+        {
+          "name": "AI타임스 / Google News 후보",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uM29Zc1RRWjF3dFFqQXJxbjdrRVB4Rm9Td3llV3VIenpYRG0tUDIxZ0Y4bTlvS3Fpd3V1eHRmWFZ0SFh6S0U0LWcwSDJHRTRkbTc2S25XeXc2UmpIb2c4a0ZINUVrVjh0OUE?oc=5",
+          "date": "2026-07-16"
+        },
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
+          "date": "2026-07-15"
+        },
+        {
+          "name": "xAI News",
+          "url": "https://x.ai/news/grok-build-open-source",
+          "date": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Korea AI",
+      "importance": "국내 정책",
+      "title": "정부, 독자 AI로 보안 특화 모델 개발 신호",
+      "summary": "국내 보도와 레이더 후보에서 과기정통부가 독자 AI를 활용해 보안 특화와 프론티어급 모델 개발을 추진한다는 흐름이 잡혔습니다.",
+      "bullets": [
+        "국가 AI 경쟁력이 범용 챗봇을 넘어 보안·공공 영역으로 확장",
+        "프론티어급 모델 목표가 국내 인프라와 데이터 전략의 압박으로 연결",
+        "공식 원문 확인 전까지는 보도 기반 정책 신호로 분리"
+      ],
+      "visual_keywords": [
+        "Korea AI policy",
+        "security model",
+        "government"
+      ],
+      "aria_line": "국내 AI 전략은 이제 '잘 쓰는 AI'보다 '직접 만들고 지키는 AI' 쪽으로 기울고 있어요.",
+      "caption": "국내 AI 정책 레이더",
+      "source_date": "2026-07-16",
+      "created_date": "2026-07-16",
+      "sources": [
+        {
+          "name": "AI타임스 / Google News 후보",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uM29Zc1RRWjF3dFFqQXJxbjdrRVB4Rm9Td3llV3VIenpYRG0tUDIxZ0Y4bTlvS3Fpd3V1eHRmWFZ0SFh6S0U0LWcwSDJHRTRkbTc2S25XeXc2UmpIb2c4a0ZINUVrVjh0OUE?oc=5",
+          "date": "2026-07-16"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Open Models",
+      "importance": "모델 공개",
+      "title": "Thinking Machines, 첫 모델 Inkling 공개",
+      "summary": "Mira Murati가 이끄는 Thinking Machines Lab이 첫 모델 Inkling을 공개했습니다. WIRED는 오픈웨이트 모델이며 텍스트뿐 아니라 오디오·비디오 입력 이해를 목표로 했다고 보도했습니다.",
+      "bullets": [
+        "975B 파라미터 규모로, 연구자와 기업이 내려받아 수정 가능한 방향",
+        "최고 벤치마크 경쟁보다 맞춤화와 분산형 AI 생태계에 초점",
+        "OpenAI 출신 창업팀의 첫 모델이라 시장 검증이 본격화"
+      ],
+      "visual_keywords": [
+        "open weight model",
+        "multimodal AI",
+        "Inkling"
+      ],
+      "aria_line": "닫힌 초거대 모델만 답이 아니라, 자기 데이터에 맞게 고치는 모델도 다시 주목받고 있어요.",
+      "caption": "Thinking Machines Inkling",
+      "source_date": "2026-07-15",
+      "created_date": "2026-07-16",
+      "sources": [
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
+          "date": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tool",
+      "importance": "오픈소스",
+      "title": "xAI, Grok Build 코딩 에이전트 공개",
+      "summary": "xAI는 Grok Build의 코딩 에이전트와 터미널 UI 하네스를 오픈소스로 공개했습니다. 컨텍스트 조립, 툴 호출, 확장 시스템을 직접 확인할 수 있게 한 점이 핵심입니다.",
+      "bullets": [
+        "스킬, 플러그인, 훅, MCP 서버, 서브에이전트 호출 구조를 포함",
+        "로컬 우선 실행과 자체 추론 백엔드 연결 가능성을 강조",
+        "코딩 에이전트 경쟁이 제품 기능에서 런타임 투명성으로 이동"
+      ],
+      "visual_keywords": [
+        "coding agent",
+        "open source",
+        "terminal UI"
+      ],
+      "aria_line": "코딩 에이전트는 이제 '얼마나 똑똑한가'뿐 아니라 내부 구조를 볼 수 있는지도 경쟁력이에요.",
+      "caption": "xAI Grok Build",
+      "source_date": "2026-07-15",
+      "created_date": "2026-07-16",
+      "sources": [
+        {
+          "name": "xAI News",
+          "url": "https://x.ai/news/grok-build-open-source",
+          "date": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "China AI",
+      "importance": "제품/규제",
+      "title": "Apple Intelligence, 중국서 Qwen과 연결",
+      "summary": "TechCrunch는 Reuters 보도를 인용해 중국 당국이 Apple Intelligence 출시를 승인했고, Alibaba Qwen이 중국 내 Apple Intelligence 경험에 통합될 예정이라고 전했습니다.",
+      "bullets": [
+        "중국 생성형 AI 규제 통과가 글로벌 제품 출시의 관문으로 작동",
+        "Apple은 Baidu 검토 이후 Alibaba Qwen 기반 현지화를 선택",
+        "AI 기능도 지역별 모델·데이터 처리·규제 대응이 달라지는 흐름"
+      ],
+      "visual_keywords": [
+        "Apple Intelligence",
+        "Qwen",
+        "China approval"
+      ],
+      "aria_line": "AI 제품은 이제 한 번 만들어 전 세계에 뿌리는 방식이 아니라, 지역 규제에 맞춰 조립되는 제품이 되고 있어요.",
+      "caption": "Apple Intelligence China",
+      "source_date": "2026-07-15",
+      "created_date": "2026-07-16",
+      "sources": [
+        {
+          "name": "TechCrunch / Reuters",
+          "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+          "date": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "AI Safety",
+      "importance": "보안",
+      "title": "OpenAI 자동 해킹 모델 보도, 공개는 제한",
+      "summary": "국내 AI타임스 후보는 OpenAI가 자동 해킹 모델 'GPT-레드'를 개발했지만 악용 우려로 외부 공개하지 않는다는 내용을 전했습니다. 공식 확인 전까지는 보안 연구 신호로만 다룹니다.",
+      "bullets": [
+        "AI가 공격 자동화에도 쓰일 수 있다는 이중용도 위험이 부각",
+        "보안 평가 모델은 공개 범위와 책임 기준이 핵심 쟁점",
+        "카드뉴스에서는 확정 제품이 아니라 위험 관리 이슈로 정리"
+      ],
+      "visual_keywords": [
+        "AI red team",
+        "cybersecurity",
+        "dual use"
+      ],
+      "aria_line": "공격을 막기 위해 만든 모델도, 공개 범위를 잘못 잡으면 공격 도구가 될 수 있어요.",
+      "caption": "AI security risk",
+      "source_date": "2026-07-16",
+      "created_date": "2026-07-16",
+      "sources": [
+        {
+          "name": "AI타임스 / Google News 후보",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAycHM3N2xZWldBQjg1UG1vbGNmMUhyMjNnVTJIR1ZxdmdVRGg0bEFVZlVXSkQyRG5WSDFxNVlaRWllVTluWGkwU01KYVU0WHFfd08tQmlKNGlQX1lZVE9WSldNU2EwbFY4ZVE?oc=5",
+          "date": "2026-07-16"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Enterprise Agents",
+      "importance": "기업 도입",
+      "title": "기업 AI, 플랫폼보다 배포 문제가 더 크다",
+      "summary": "VentureBeat는 많은 기업이 챗봇을 에이전트라고 부르지만 실제 과제는 플랫폼 선택보다 안정적인 다단계 실행과 배포 운영이라고 짚었습니다.",
+      "bullets": [
+        "에이전트 오케스트레이션은 모델 성능보다 운영 신뢰성이 병목",
+        "도입 조직은 데모보다 권한, 관찰성, 실패 복구 체계를 요구",
+        "국내 기업에도 '챗봇 도입'과 '업무 에이전트 운영'의 차이가 중요"
+      ],
+      "visual_keywords": [
+        "enterprise agent",
+        "orchestration",
+        "deployment"
+      ],
+      "aria_line": "기업 AI의 진짜 질문은 '말을 잘하나'보다 '실패했을 때 누가 어떻게 복구하나'예요.",
+      "caption": "Agentic orchestration",
+      "source_date": "2026-07-15",
+      "created_date": "2026-07-16",
+      "sources": [
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+          "date": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Policy Radar",
+      "importance": "거버넌스",
+      "title": "AI 거물들, 프론티어 규제 필요성에 수렴",
+      "summary": "Axios는 OpenAI, Google DeepMind, Anthropic의 주요 리더들이 최근 프론티어 AI 규제와 사전 평가 필요성을 공개적으로 강조하는 흐름이 겹쳤다고 분석했습니다.",
+      "bullets": [
+        "제3자 테스트, 통합 규제 프레임, 국가안보 평가가 공통 키워드",
+        "대형 연구소에는 대응 가능하지만 스타트업·오픈소스에는 부담 우려",
+        "프론티어 모델 경쟁이 규제 설계 경쟁으로도 번지고 있음"
+      ],
+      "visual_keywords": [
+        "frontier AI regulation",
+        "watchdog",
+        "AI leaders"
+      ],
+      "aria_line": "AI 경쟁의 다음 라운드는 모델 점수표가 아니라, 누가 어떤 기준으로 출시를 허락하느냐일 수 있어요.",
+      "caption": "Frontier AI governance",
+      "source_date": "2026-07-16",
+      "created_date": "2026-07-16",
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/07/16/ai-regulations-openai-anthropic-google",
+          "date": "2026-07-16"
+        }
+      ]
+    }
+  ]
+}
