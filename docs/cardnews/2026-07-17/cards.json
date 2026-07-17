@@ -1,0 +1,249 @@
+{
+  "date": "2026-07-17",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily Brief",
+      "importance": "오늘의 AI",
+      "title": "오늘 AI 뉴스 핵심 8",
+      "summary": "국내 AI 인프라·1인 1 에이전트 정책, AI가 동원된 보안 침해 공개, 엔터프라이즈 에이전트 인프라, 개발자 도구와 오픈 모델 흐름을 한 번에 정리했습니다.",
+      "bullets": [
+        "국내: 550조 AI 데이터센터 투자와 모두의 AI·공공 에이전트 계획",
+        "보안: Hugging Face가 AI 주도 침해 사고와 방어 분석을 공개",
+        "개발자: Gemini API, GitHub Copilot, NVIDIA 에이전트 인프라 업데이트"
+      ],
+      "visual_keywords": [
+        "AI newsroom",
+        "policy radar",
+        "security operations"
+      ],
+      "aria_line": "오늘은 AI가 서비스가 아니라 인프라, 보안, 업무 운영 방식까지 바꾸는 흐름이 선명해요.",
+      "caption": "AI 뉴스 아리아 2026-07-17",
+      "source_date": "2026-07-17",
+      "created_date": "2026-07-17",
+      "sources": [
+        {
+          "name": "대한민국 정책브리핑",
+          "url": "https://www.korea.kr/news/policyFocusView.do?newsId=148968284&pWise=main&pWiseMain=F3&pkgId=49500844",
+          "date": "2026-07-16"
+        },
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/security-incident-july-2026",
+          "date": "2026-07-16"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/page/2/",
+          "date": "2026-07-14~16"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Korea AI",
+      "importance": "국내 정책",
+      "title": "정부, 1인 1 AI 에이전트와 AIDC 육성 제시",
+      "summary": "과기정통부는 하반기 업무계획에서 AI 데이터센터를 국가전략산업으로 키우고, 내년부터 전 국민 1인 1 AI 에이전트 시대를 열겠다는 방향을 냈습니다.",
+      "bullets": [
+        "기가와트급 AI 데이터센터와 피지컬 AI, K-반도체를 3대 축으로 제시",
+        "연내 무료 범용 AI 챗봇, 내년에는 공공 AI 에이전트 고도화를 추진",
+        "AI 교육, 사이버 취약점 점검, 공공 체감형 AI 서비스까지 정책 범위 확대"
+      ],
+      "visual_keywords": [
+        "Korea AI policy",
+        "AI datacenter",
+        "public AI agent"
+      ],
+      "aria_line": "국내 정책의 초점이 이제 모델 확보를 넘어 국민이 매일 쓰는 AI 에이전트로 이동하고 있어요.",
+      "caption": "국내 AI 기본사회 정책",
+      "source_date": "2026-07-16",
+      "created_date": "2026-07-17",
+      "sources": [
+        {
+          "name": "대한민국 정책브리핑",
+          "url": "https://www.korea.kr/news/policyFocusView.do?newsId=148968284&pWise=main&pWiseMain=F3&pkgId=49500844",
+          "date": "2026-07-16"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "AI Security",
+      "importance": "보안 사고",
+      "title": "Hugging Face, AI 주도 침해 사고 공개",
+      "summary": "Hugging Face는 일부 생산 인프라 침해를 공개하며, 공격과 방어 분석 모두에서 자율 AI 에이전트가 동원된 정황을 설명했습니다.",
+      "bullets": [
+        "데이터 처리 경로의 코드 실행 취약점이 초기 침투 지점으로 지목",
+        "내부 데이터 일부와 서비스 자격증명 노출 가능성을 조사 중이라고 공지",
+        "방어팀은 1만7천여 개 이벤트를 LLM 분석 에이전트로 재구성했다고 설명"
+      ],
+      "visual_keywords": [
+        "AI security incident",
+        "agentic attacker",
+        "token rotation"
+      ],
+      "aria_line": "AI 보안은 이제 프롬프트 안전만이 아니라 데이터 파이프라인과 토큰 관리까지 봐야 해요.",
+      "caption": "AI 보안 운영 경고",
+      "source_date": "2026-07-16",
+      "created_date": "2026-07-17",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/security-incident-july-2026",
+          "date": "2026-07-16"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "AI Infrastructure",
+      "importance": "에이전트 인프라",
+      "title": "NVIDIA, 기업용 에이전트 워크플로 통합 강조",
+      "summary": "NVIDIA 기술 블로그는 영상 AI 에이전트와 BlueField 기반 AI 팩토리 설계 등, 에이전트가 실제 업무 시스템에 들어갈 때 필요한 인프라 패턴을 집중적으로 다뤘습니다.",
+      "bullets": [
+        "대규모 영상 데이터를 이해하고 업무 흐름에 연결하는 에이전트 통합을 제시",
+        "에이전틱 AI는 추론, 도구 호출, 메모리, 정책 검사를 묶는 인프라 문제로 확대",
+        "국내 피지컬 AI·제조 디지털 트윈 흐름과도 맞물리는 신호"
+      ],
+      "visual_keywords": [
+        "NVIDIA agentic AI",
+        "AI factory",
+        "video analytics agent"
+      ],
+      "aria_line": "에이전트 경쟁은 모델 하나가 아니라 네트워크, 보안, 메모리까지 묶은 공장 설계 경쟁이 되고 있어요.",
+      "caption": "AI 팩토리와 에이전트 인프라",
+      "source_date": "2026-07-16",
+      "created_date": "2026-07-17",
+      "sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "url": "https://developer.nvidia.com/blog/tag/ai-agent/",
+          "date": "2026-07-16"
+        },
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20260715154801",
+          "date": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer API",
+      "importance": "개발자 업데이트",
+      "title": "Gemini API, Interactions 로그와 컴퓨터 유즈 흐름 강화",
+      "summary": "Google AI for Developers는 Interactions API 호출 로그를 AI Studio에서 볼 수 있게 했고, 최근 Gemini 3.5 Flash의 Computer Use 공개 미리보기도 문서화했습니다.",
+      "bullets": [
+        "Interactions API가 최신 기능과 모델 접근의 중심 API로 안내됨",
+        "개발자 로그 지원은 에이전트 호출 추적과 디버깅에 직접적 도움",
+        "Computer Use 도구는 브라우저·모바일·데스크톱 환경과 안전 정책을 포함"
+      ],
+      "visual_keywords": [
+        "Gemini API",
+        "Interactions API",
+        "computer use agent"
+      ],
+      "aria_line": "에이전트가 여러 단계를 실행할수록 로그와 안전 정책이 개발자 경험의 핵심이 돼요.",
+      "caption": "Gemini 개발자 API",
+      "source_date": "2026-07-06",
+      "created_date": "2026-07-17",
+      "sources": [
+        {
+          "name": "Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "date": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Security",
+      "importance": "코파일럿 보안",
+      "title": "GitHub Copilot, 보안 리뷰와 AI 탐지 흐름 확대",
+      "summary": "GitHub Changelog에는 7월 중 Copilot 앱 보안 리뷰, PR의 AI 보안 탐지 표시, agentic autofix 등 개발 보안 자동화 항목이 연속으로 올라왔습니다.",
+      "bullets": [
+        "Copilot 앱 안에서 보안 리뷰를 다루는 흐름이 추가됨",
+        "Code scanning은 PR에서 AI 보안 탐지 표시를 강화",
+        "agentic autofix 공개 미리보기로 수정 제안까지 자동화가 넓어지는 중"
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "security review",
+        "agentic autofix"
+      ],
+      "aria_line": "코딩 AI는 코드를 쓰는 데서 끝나지 않고, 취약점 찾기와 수정 제안까지 연결되고 있어요.",
+      "caption": "개발자 보안 자동화",
+      "source_date": "2026-07-14~16",
+      "created_date": "2026-07-17",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/page/2/",
+          "date": "2026-07-14~16"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Models",
+      "importance": "오픈 모델",
+      "title": "Thinking Machines Inkling, 맞춤형 AI 경쟁 신호",
+      "summary": "Axios는 Mira Murati의 Thinking Machines가 첫 모델 Inkling을 공개했고, 범용 최고 성능 경쟁보다 기업 맞춤화와 오픈 웨이트 활용을 앞세운다고 전했습니다.",
+      "bullets": [
+        "Inkling은 Thinking Machines가 거액 투자 이후 내놓은 첫 공개 모델",
+        "기업이 자체 데이터와 업무에 맞게 조정하는 사용성을 전면에 배치",
+        "프런티어 모델 독점보다 커스터마이징 가능한 모델 수요가 커지는 신호"
+      ],
+      "visual_keywords": [
+        "Thinking Machines",
+        "Inkling",
+        "open weight customization"
+      ],
+      "aria_line": "모델 시장은 가장 큰 모델만이 아니라 우리 회사에 맞게 고칠 수 있는 모델도 중요해지고 있어요.",
+      "caption": "맞춤형 오픈 모델 흐름",
+      "source_date": "2026-07-15",
+      "created_date": "2026-07-17",
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/07/15/mira-murati-thinking-machines-open-weight-model-inkling",
+          "date": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "China AI",
+      "importance": "중국 AI",
+      "title": "Kimi K3·WAIC 후보, 중국 오픈 모델 경쟁 재점화",
+      "summary": "오늘 수집기와 DCInside 안전 레이더 모두 Moonshot Kimi K3와 WAIC 관련 외부 보도를 후보로 잡았습니다. 공식·원출처 확인 전까지는 중국 오픈 모델 경쟁 신호로만 다뤘습니다.",
+      "bullets": [
+        "Google News 후보에는 Kimi K3 공개와 중국 AI 역량 부각 보도가 다수 포착",
+        "DCInside 레이더도 AI타임스·뉴스핌 등 외부 후보를 찾아냈지만 본문은 저장하지 않음",
+        "벤치마크 순위·파라미터 수치는 원출처 확인 전 확정 표현을 피함"
+      ],
+      "visual_keywords": [
+        "Kimi K3",
+        "WAIC",
+        "China open model"
+      ],
+      "aria_line": "커뮤니티 신호는 빠르지만, 숫자와 순위는 원출처 확인 전까지 조심해서 봐야 해요.",
+      "caption": "중국 AI 레이더",
+      "source_date": "2026-07-17",
+      "created_date": "2026-07-17",
+      "sources": [
+        {
+          "name": "Google News: Moonshot Kimi",
+          "url": "https://news.google.com/rss/search?q=Moonshot%20Kimi%20AI%20model%20release%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+          "date": "2026-07-17"
+        },
+        {
+          "name": "DCInside safe source radar",
+          "url": "work/drafts/dc_source_candidates_2026-07-17.json",
+          "date": "2026-07-17"
+        }
+      ]
+    }
+  ]
+}
