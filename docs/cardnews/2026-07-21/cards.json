@@ -1,0 +1,253 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T20:48:33+09:00",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily Briefing",
+      "importance": "오늘의 흐름",
+      "source_date": "2026-07-21",
+      "created_date": "2026-07-21",
+      "title": "오늘 AI 핵심 뉴스",
+      "summary": "한국 AI기본법 시행, AI 데이터센터 정책, 개발자 도구 과금 가시화, AI 보안 사고, 미중 AI 외교까지 한 번에 정리했어요.",
+      "bullets": [
+        "국내 이슈는 AI기본법 시행령과 국가 AI 인프라 계획이 중심입니다.",
+        "해외는 보안, 개발자 비용 관리, AI 공장 인프라, 미중 규제 대화가 핵심입니다.",
+        "루머성 모델 출시와 주식 중심 기사는 확정 뉴스에서 제외했습니다."
+      ],
+      "visual_keywords": [
+        "AI 뉴스",
+        "정책",
+        "보안",
+        "개발자 도구",
+        "AI 데이터센터"
+      ],
+      "aria_line": "오늘은 기술보다 '운영과 규칙' 뉴스가 더 중요해요.",
+      "caption": "AI 뉴스 아리아 2026-07-21",
+      "sources": [
+        {
+          "name": "과기정통부",
+          "url": "https://english.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1264&sCode=eng"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle/"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/security-incident-july-2026"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Korea Policy",
+      "importance": "국내 정책",
+      "source_date": "2026-07-21",
+      "created_date": "2026-07-21",
+      "title": "AI기본법 후속 시행령 시행",
+      "summary": "7월 21일부터 AI 제품·서비스 확인, 공공조달 우대, AI 취약계층 지원, AI 연구소 지원 같은 제도가 실제 운영 단계로 들어갑니다.",
+      "bullets": [
+        "공공기관이 AI 제품을 구매할 때 우선 검토할 수 있는 기준이 생겼습니다.",
+        "KOSA와 TTA가 AI 기술 적용 여부를 확인하는 구조가 제시됐습니다.",
+        "AI 접근 격차를 줄이기 위한 지원 대상도 더 넓어졌습니다."
+      ],
+      "visual_keywords": [
+        "한국 AI기본법",
+        "공공조달",
+        "AI 서비스 확인",
+        "AI 취약계층"
+      ],
+      "aria_line": "AI가 법 문서 밖으로 나와 조달과 지원 제도로 들어오는 날이에요.",
+      "caption": "AI기본법 시행령",
+      "sources": [
+        {
+          "name": "과기정통부 영문 보도자료",
+          "url": "https://english.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1264&sCode=eng"
+        },
+        {
+          "name": "대한민국 정책브리핑",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148968171"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Korea Infrastructure",
+      "importance": "국내 인프라",
+      "source_date": "2026-07-16",
+      "created_date": "2026-07-21",
+      "title": "550조 AI 데이터센터 계획",
+      "summary": "정부는 AI 데이터센터를 국가전략산업으로 키우고, 내년부터 전 국민 1인 1 AI 에이전트 시대를 열겠다는 하반기 계획을 냈습니다.",
+      "bullets": [
+        "민간 550조 원 규모의 기가와트급 AI 데이터센터 투자를 지원합니다.",
+        "피지컬 AI, K-AI 반도체, 국산 핵심 장비 고도화가 함께 묶였습니다.",
+        "범용 AI 챗봇과 국민형 AI 에이전트 정책도 병행됩니다."
+      ],
+      "visual_keywords": [
+        "AI 데이터센터",
+        "1인 1 AI 에이전트",
+        "K-AI 반도체",
+        "피지컬 AI"
+      ],
+      "aria_line": "모델 경쟁만큼 전력, 냉각, 반도체 패키지가 중요해졌어요.",
+      "caption": "국가 AI 인프라",
+      "sources": [
+        {
+          "name": "대한민국 정책브리핑",
+          "url": "https://www.korea.kr/news/policyFocusView.do?newsId=148968284&pWise=main&pWiseMain=F3&pkgId=49500844"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tools",
+      "importance": "개발자 도구",
+      "source_date": "2026-07-20",
+      "created_date": "2026-07-21",
+      "title": "Copilot AI 크레딧 사용량 표시",
+      "summary": "GitHub가 Copilot Business·Enterprise 사용자에게 예산이 없어도 이번 과금 주기의 AI 크레딧 사용량을 보여주기 시작했습니다.",
+      "bullets": [
+        "이전에는 예산 대비 비율 중심이라 실제 사용량 파악이 어려웠습니다.",
+        "관리자가 예산을 정하지 않아도 사용 크레딧 총량을 볼 수 있습니다.",
+        "에이전트형 개발 도구가 비용 관리를 제품 기능으로 흡수하는 흐름입니다."
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "AI credits",
+        "billing",
+        "developer tools"
+      ],
+      "aria_line": "AI 코딩 도구도 이제 기능만큼 사용량 계기판이 중요해요.",
+      "caption": "Copilot 비용 가시화",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "AI Security",
+      "importance": "보안 경보",
+      "source_date": "2026-07-16",
+      "created_date": "2026-07-21",
+      "title": "Hugging Face, AI 주도 침입 공개",
+      "summary": "Hugging Face는 내부 데이터셋 일부와 서비스 자격증명이 노출된 보안 사고를 공개하고, 사용자에게 토큰 회전과 활동 점검을 권고했습니다.",
+      "bullets": [
+        "악성 데이터셋이 처리 파이프라인의 코드 실행 경로를 악용했습니다.",
+        "회사 측은 취약점 차단, 노드 재구축, 자격증명 회전 조치를 발표했습니다.",
+        "방어 분석에는 자체 인프라의 오픈웨이트 모델을 썼다고 밝혔습니다."
+      ],
+      "visual_keywords": [
+        "Hugging Face",
+        "AI 보안",
+        "토큰 회전",
+        "데이터셋 보안"
+      ],
+      "aria_line": "AI 플랫폼에서는 모델뿐 아니라 데이터 처리 파이프라인도 공격면이에요.",
+      "caption": "AI 보안 사고",
+      "sources": [
+        {
+          "name": "Hugging Face 공식 블로그",
+          "url": "https://huggingface.co/blog/security-incident-july-2026"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/20/hugging-face-confirms-breach-affected-internal-datasets-and-credentials-urges-users-to-take-action/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Infrastructure",
+      "importance": "AI 공장",
+      "source_date": "2026-07-20",
+      "created_date": "2026-07-21",
+      "title": "NVIDIA, AI 공장 NVLink 강조",
+      "summary": "NVIDIA는 대규모 MoE·장문 추론·분리형 서빙에서 GPU 간 통신이 병목이 된다며, 6세대 NVLink를 AI 공장 핵심 네트워크로 설명했습니다.",
+      "bullets": [
+        "AI 공장은 단일 GPU 성능보다 랙 단위 처리량과 안정성이 중요합니다.",
+        "NVLink 6는 GPU당 대역폭, 랙 단위 대역폭, 인네트워크 연산을 강조합니다.",
+        "토큰당 비용과 전력 효율을 좌우하는 인프라 경쟁이 본격화됐습니다."
+      ],
+      "visual_keywords": [
+        "NVIDIA NVLink",
+        "AI factory",
+        "MoE",
+        "GPU network",
+        "inference"
+      ],
+      "aria_line": "AI 공장의 승부처는 모델만이 아니라 토큰이 오가는 길이에요.",
+      "caption": "AI 인프라 경쟁",
+      "sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "url": "https://developer.nvidia.com/blog/nvidia-nvlink-the-scale-up-network-for-ai-factories/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "On-device AI",
+      "importance": "웹 AI",
+      "source_date": "2026-07-09",
+      "created_date": "2026-07-21",
+      "title": "Google LiteRT.js, 웹 온디바이스 AI",
+      "summary": "Google은 브라우저 안에서 .tflite 모델을 실행하는 LiteRT.js를 발표해, 서버 없이 WebGPU·WebNN·WASM 기반 로컬 AI 추론을 쉽게 쓰도록 했습니다.",
+      "bullets": [
+        "개인정보를 서버로 보내지 않고 브라우저에서 추론할 수 있습니다.",
+        "WebGPU와 실험적 WebNN으로 GPU·NPU 가속을 노립니다.",
+        "웹 개발자가 TypeScript 앱에 AI 기능을 직접 넣기 쉬워졌습니다."
+      ],
+      "visual_keywords": [
+        "Google LiteRT.js",
+        "WebGPU",
+        "WebNN",
+        "on-device AI",
+        "browser AI"
+      ],
+      "aria_line": "작은 AI 기능은 서버가 아니라 브라우저 안에서 끝나는 흐름이에요.",
+      "caption": "웹 온디바이스 AI",
+      "sources": [
+        {
+          "name": "Google Developers Blog",
+          "url": "https://developers.googleblog.com/en/litertjs-googles-high-performance-web-ai-inference/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Global Policy",
+      "importance": "국제 규제",
+      "source_date": "2026-07-21",
+      "created_date": "2026-07-21",
+      "title": "미중, 9월 AI 대화 추진",
+      "summary": "Reuters는 미국과 중국이 9월 AI 대화를 준비 중이라고 보도했습니다. 프런티어 모델 위험과 접근 통제를 둘러싼 외교 채널이 열리는 신호입니다.",
+      "bullets": [
+        "보도에 따르면 5월 미중 정상회담의 후속 성격입니다.",
+        "강력해지는 양국 프런티어 모델의 위험 규제가 논의 배경입니다.",
+        "중국 AI 모델 수출·접근 통제 논의와도 맞물려 있습니다."
+      ],
+      "visual_keywords": [
+        "US China AI talks",
+        "frontier models",
+        "AI regulation",
+        "Reuters"
+      ],
+      "aria_line": "AI 모델 경쟁이 이제 외교 의제가 됐다는 점이 핵심이에요.",
+      "caption": "미중 AI 외교",
+      "sources": [
+        {
+          "name": "Reuters via Internazionale",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/07/21/exclusive-us-china-to-hold-ai-talks-in-september-sources-say"
+        },
+        {
+          "name": "Reuters via MarketScreener",
+          "url": "https://au.marketscreener.com/news/china-considers-tighter-export-controls-on-ai-models-and-chips-ft-reports-ce7f51dbdf80f42d"
+        }
+      ]
+    }
+  ]
+}
