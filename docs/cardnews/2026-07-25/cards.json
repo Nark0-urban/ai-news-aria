@@ -1,0 +1,252 @@
+{
+  "date": "2026-07-25",
+  "created_at": "2026-07-25T20:06:14+09:00",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily Briefing",
+      "importance": "오늘의 흐름",
+      "source_date": "2026-07-25",
+      "created_date": "2026-07-25",
+      "title": "오늘 AI 핵심 뉴스",
+      "summary": "한국 AI 인프라 외교, 기업용 에이전트 제품, 코딩 도구 모델 확장, 개인 건강 AI, 로컬 오픈웨이트 에이전트 연구까지 오늘 확인된 흐름을 골랐어요.",
+      "bullets": [
+        "국내는 샌프란시스코 AI 선언과 SK의 글로벌 AI 인프라 협력이 가장 큰 축입니다.",
+        "해외는 업무 앱 안에서 행동하는 AI와 기업용 에이전트 운영 제품이 두드러졌습니다.",
+        "주식 매매, 가격 추측, 출처 약한 모델 루머는 카드에서 제외했습니다."
+      ],
+      "visual_keywords": [
+        "AI 뉴스",
+        "한국 AI",
+        "에이전트",
+        "코딩 도구",
+        "연구"
+      ],
+      "aria_line": "오늘은 모델 성능보다 'AI가 실제 업무 흐름에 들어가는 방식'이 핵심이에요.",
+      "caption": "AI 뉴스 아리아 2026-07-25",
+      "sources": [
+        {
+          "name": "SK텔레콤 뉴스룸",
+          "url": "https://news.sktelecom.com/228330"
+        },
+        {
+          "name": "대한민국 정책브리핑",
+          "url": "https://www.korea.kr/briefing/speechView.do?newsId=132038950&pWise=sub&pWiseSub=C5"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Korea AI Infrastructure",
+      "importance": "국내 인프라",
+      "source_date": "2026-07-25",
+      "created_date": "2026-07-25",
+      "title": "SK, 글로벌 AI 인프라 협력 확대",
+      "summary": "SK가 실리콘밸리 K-AI Summit에서 엔비디아, 마이크로소프트, 앤트로픽, AWS와 AI 반도체·메모리·데이터센터 협력을 확대한다고 발표했습니다.",
+      "bullets": [
+        "AI 팩토리, AI 메모리, 데이터센터가 하나의 인프라 패키지로 묶였습니다.",
+        "국내 AI 경쟁력은 모델만이 아니라 전력, 메모리, 클라우드 공급망까지 함께 좌우됩니다.",
+        "오늘 국내 AI 뉴스 중 가장 산업적 파급이 큰 확정 발표입니다."
+      ],
+      "visual_keywords": [
+        "SK",
+        "AI 인프라",
+        "엔비디아",
+        "데이터센터",
+        "AI 메모리"
+      ],
+      "aria_line": "AI 경쟁은 이제 모델 발표가 아니라 인프라 동맹의 속도 싸움이에요.",
+      "caption": "국내 AI 인프라 협력",
+      "sources": [
+        {
+          "name": "SK텔레콤 뉴스룸",
+          "url": "https://news.sktelecom.com/228330"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Korea Policy",
+      "importance": "국내 정책",
+      "source_date": "2026-07-25",
+      "created_date": "2026-07-25",
+      "title": "샌프란시스코 AI 선언 발표",
+      "summary": "대통령 연설문은 한국을 AI 반도체 생산기지이자 공급망 파트너로 제시하고, 모두의 AI 프로젝트와 공공서비스 AI 활용 방향을 강조했습니다.",
+      "bullets": [
+        "AI 반도체 공급망, 공공서비스 AI, 국민 체감형 AI 시장이 핵심 메시지입니다.",
+        "국내 기업의 글로벌 AI 생태계 참여를 국가 전략과 연결했습니다.",
+        "오늘 발표라 날짜 기준에 가장 잘 맞는 국내 정책 소식입니다."
+      ],
+      "visual_keywords": [
+        "샌프란시스코 AI 선언",
+        "AI 반도체",
+        "모두의 AI",
+        "정책"
+      ],
+      "aria_line": "한국 AI 전략은 '만드는 나라'와 '가장 빨리 쓰는 나라'를 동시에 노리고 있어요.",
+      "caption": "국내 AI 정책 방향",
+      "sources": [
+        {
+          "name": "대한민국 정책브리핑",
+          "url": "https://www.korea.kr/briefing/speechView.do?newsId=132038950&pWise=sub&pWiseSub=C5"
+        },
+        {
+          "name": "대한민국 정책브리핑",
+          "url": "https://www.korea.kr/news/policyFocusView.do?newsId=148968284&pkgId=49500844"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tools",
+      "importance": "개발자 도구",
+      "source_date": "2026-07-24",
+      "created_date": "2026-07-25",
+      "title": "Claude Opus 5, GitHub Copilot에 추가",
+      "summary": "GitHub가 Anthropic의 Claude Opus 5를 Copilot 모델 선택지에 추가했습니다. 복잡하고 오래 걸리는 코딩 작업, 도구 사용, 단계별 실행을 겨냥한 모델입니다.",
+      "bullets": [
+        "VS Code, Copilot CLI, cloud agent, GitHub Mobile 등 여러 표면에 순차 배포됩니다.",
+        "Business·Enterprise 관리자는 별도 정책에서 Opus 5 사용을 켜야 합니다.",
+        "사용량 기반 과금과 사이버 안전 차단 가능성이 함께 안내됐습니다."
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "Claude Opus 5",
+        "코딩 에이전트",
+        "모델 선택"
+      ],
+      "aria_line": "코딩 도구의 경쟁축은 이제 '어떤 모델을 어디서 고를 수 있나'로 옮겨가고 있어요.",
+      "caption": "Copilot 모델 확장",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Agentic AI",
+      "importance": "제품 업데이트",
+      "source_date": "2026-07-24",
+      "created_date": "2026-07-25",
+      "title": "Meta AI, 계획하고 실행하는 비서로 이동",
+      "summary": "Meta는 Muse Spark 1.1 기반 Meta AI가 이메일·캘린더 앱과 연결해 계획 수립, 일일 브리핑, 리서치, 슬라이드 작성까지 수행한다고 발표했습니다.",
+      "bullets": [
+        "챗봇이 답변만 하는 단계를 넘어 사용자의 일정과 작업 흐름에 들어갑니다.",
+        "마켓플레이스 탐색, 식당 추천, 주간 계획 같은 반복 업무가 예시로 제시됐습니다.",
+        "개인형 슈퍼인텔리전스 전략을 제품 기능으로 구체화한 발표입니다."
+      ],
+      "visual_keywords": [
+        "Meta AI",
+        "Muse Spark 1.1",
+        "캘린더",
+        "일일 브리핑",
+        "에이전트"
+      ],
+      "aria_line": "AI 비서 전쟁은 이제 '대답을 잘하나'보다 '일을 끝까지 맡길 수 있나'가 관건이에요.",
+      "caption": "행동형 개인 AI",
+      "sources": [
+        {
+          "name": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Productivity AI",
+      "importance": "업무 앱",
+      "source_date": "2026-07-24",
+      "created_date": "2026-07-25",
+      "title": "Grok, Google Workspace 안으로",
+      "summary": "xAI는 Grok add-on을 통해 Sheets, Slides, Docs에서 바로 질문하고 수식·차트·문서 초안·슬라이드 구성을 도와주는 Google Workspace 통합을 발표했습니다.",
+      "bullets": [
+        "스프레드시트에서는 셀 근거를 인용하고 수식·차트·시나리오를 편집합니다.",
+        "슬라이드와 문서에서는 기존 테마와 글쓰기 맥락을 유지하는 방식이 강조됐습니다.",
+        "생성형 AI가 별도 앱이 아니라 업무 문서 내부 패널로 들어가는 흐름입니다."
+      ],
+      "visual_keywords": [
+        "Grok",
+        "Google Workspace",
+        "Sheets",
+        "Slides",
+        "Docs"
+      ],
+      "aria_line": "AI 도구의 다음 격전지는 브라우저 탭이 아니라 우리가 이미 열어 둔 문서예요.",
+      "caption": "업무 생산성 AI",
+      "sources": [
+        {
+          "name": "xAI News",
+          "url": "https://x.ai/news/introducing-google-workspace-addon"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "OpenAI Product",
+      "importance": "제품·헬스",
+      "source_date": "2026-07-23",
+      "created_date": "2026-07-25",
+      "title": "Health in ChatGPT, 미국 사용자 대상 출시",
+      "summary": "OpenAI는 미국 로그인 사용자가 Apple Health와 지원 의료기록을 연결해 검사 결과, 수면·활동 변화, 진료 준비를 맥락 있게 묻는 Health in ChatGPT를 공개했습니다.",
+      "bullets": [
+        "연결된 의료기록과 Apple Health 정보는 재단 모델 학습이나 광고 타게팅에 쓰지 않는다고 밝혔습니다.",
+        "기본값은 건강 정보 사용 전 허가를 묻는 방식이며, 연결 해제도 가능합니다.",
+        "의료 판단 대체가 아니라 전문 진료를 보조하는 정보 정리 도구로 설명됐습니다."
+      ],
+      "visual_keywords": [
+        "OpenAI",
+        "Health in ChatGPT",
+        "Apple Health",
+        "의료기록",
+        "프라이버시"
+      ],
+      "aria_line": "개인 데이터가 붙는 AI는 편리함만큼 권한과 보안 설계가 더 중요해져요.",
+      "caption": "개인 건강 AI",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/health-in-chatgpt/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Research",
+      "importance": "연구·논문",
+      "source_date": "2026-07-23",
+      "created_date": "2026-07-25",
+      "title": "클라우드 없는 코딩 에이전트 평가",
+      "summary": "arXiv 논문은 개인정보 연구 환경에서 데이터를 외부 클라우드로 보내지 않고, 오픈웨이트 LLM 에이전트가 장기 추적 데이터 정리 작업을 얼마나 수행하는지 평가했습니다.",
+      "bullets": [
+        "민감 데이터 연구에서는 로컬 실행 가능성이 실제 도입의 핵심 조건입니다.",
+        "31~35B급 최신 오픈웨이트 모델이 평균 작업 완료율 최대 87.9%까지 접근했다고 보고했습니다.",
+        "AI 에이전트 평가가 단순 코딩이 아니라 데이터 거버넌스 문제와 연결됩니다."
+      ],
+      "visual_keywords": [
+        "arXiv",
+        "오픈웨이트 LLM",
+        "로컬 에이전트",
+        "데이터 거버넌스",
+        "R 코드"
+      ],
+      "aria_line": "좋은 에이전트는 똑똑한 것만으로 부족해요. 데이터가 밖으로 나가지 않아도 일해야 하죠.",
+      "caption": "AI 에이전트 연구",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2607.21482"
+        }
+      ]
+    }
+  ]
+}
