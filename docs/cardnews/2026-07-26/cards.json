@@ -1,0 +1,269 @@
+{
+  "date": "2026-07-26",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily AI Briefing",
+      "importance": "Overview",
+      "title": "오늘 AI 핵심 8가지",
+      "summary": "오늘 확인한 AI 흐름은 음성으로 에이전트를 지시하는 데스크톱, 더 강한 코딩 모델, 오픈웨이트 정책 논쟁, 국내 공공 AI 활용으로 모였습니다.",
+      "bullets": [
+        "제품: ChatGPT/Codex 음성, Meta AI 실행형 assistant",
+        "개발: Claude Opus 5와 Grok 4.5가 코딩·에이전트 경쟁 강화",
+        "정책: 오픈웨이트 모델 규제 논쟁과 국내 공공 AI 활용 확대"
+      ],
+      "visual_keywords": [
+        "AI news desk",
+        "Korean briefing",
+        "assistant character",
+        "agent workflow"
+      ],
+      "aria_line": "오늘은 기능 발표보다 'AI가 실제 일을 맡는 방식'이 더 중요해요.",
+      "caption": "2026-07-26 AI 뉴스 아리아",
+      "source_date": "2026-07-26",
+      "created_date": "2026-07-26",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/"
+        },
+        {
+          "name": "OpenAI Newsroom",
+          "url": "https://openai.com/news/company-announcements/"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "OpenAI",
+      "importance": "Product",
+      "title": "ChatGPT 데스크톱 음성 제어",
+      "summary": "OpenAI의 새 음성 모드가 ChatGPT 데스크톱 앱까지 확장됐다는 보도가 나왔습니다. 핵심은 대화가 아니라 Codex와 작업 에이전트를 말로 지시하는 흐름입니다.",
+      "bullets": [
+        "ChatGPT Work와 Codex 작업을 음성으로 지시하는 사용성이 강조됐습니다.",
+        "키보드 입력을 줄이고 여러 에이전트 작업을 감독하는 방향입니다.",
+        "공식 뉴스룸에는 7월 OpenAI Presence 등 제품 발표 흐름이 이어지고 있습니다."
+      ],
+      "visual_keywords": [
+        "desktop app",
+        "voice control",
+        "coding agent",
+        "hands free"
+      ],
+      "aria_line": "이제 '말로 코딩 에이전트를 굴리는' 경험이 본격 테스트 구간에 들어왔어요.",
+      "caption": "음성 인터페이스가 에이전트 조작 UX로 이동",
+      "source_date": "2026-07-24",
+      "created_date": "2026-07-26",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/"
+        },
+        {
+          "name": "OpenAI Newsroom",
+          "url": "https://openai.com/news/company-announcements/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tools",
+      "importance": "Developer",
+      "title": "Claude Opus 5, Copilot 탑재",
+      "summary": "Anthropic은 Claude Opus 5를 공개했고, GitHub는 이를 Copilot 모델 선택지에 추가했습니다. 복잡한 장기 코딩 작업과 다단계 도구 사용이 핵심 포인트입니다.",
+      "bullets": [
+        "GitHub는 Opus 5가 장기 코딩·회귀 검증·멀티툴 작업에 맞춰졌다고 설명했습니다.",
+        "Anthropic은 Opus 4.8 대비 성능·효율 개선과 더 강한 안전장치를 강조했습니다.",
+        "Copilot Pro+, Max, Business, Enterprise 등 주요 Copilot 표면에 단계적으로 배포됩니다."
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "Claude Opus 5",
+        "code review",
+        "multi step agent"
+      ],
+      "aria_line": "개발자 도구 경쟁은 이제 모델 성능보다 '검증까지 끝내는가'로 옮겨가고 있어요.",
+      "caption": "코딩 에이전트 모델 경쟁",
+      "source_date": "2026-07-24",
+      "created_date": "2026-07-26",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Meta AI",
+      "importance": "Product",
+      "title": "Meta AI, 실행형 비서로 이동",
+      "summary": "Meta는 Muse Spark 1.1 기반 Meta AI가 계획 수립, 이메일·캘린더 연결, 슬라이드 생성, 정기 브리핑까지 처리한다고 발표했습니다.",
+      "bullets": [
+        "일정·시장조사·무드보드·슬라이드 같은 결과물을 한 번 설정 후 반복 실행합니다.",
+        "작업 중간에도 사용자가 방향을 바꾸면 실시간으로 수정하는 방식입니다.",
+        "일부 시장에서 앱과 meta.ai부터 시작해 WhatsApp 등으로 확장 예정입니다."
+      ],
+      "visual_keywords": [
+        "Meta AI",
+        "calendar",
+        "daily briefing",
+        "slides"
+      ],
+      "aria_line": "Meta의 메시지는 단순 챗봇이 아니라 생활 작업을 맡기는 비서예요.",
+      "caption": "개인 AI assistant 경쟁",
+      "source_date": "2026-07-24",
+      "created_date": "2026-07-26",
+      "sources": [
+        {
+          "name": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/"
+        },
+        {
+          "name": "AI at Meta",
+          "url": "https://ai.meta.com/blog/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Policy",
+      "importance": "Policy",
+      "title": "오픈웨이트 AI 서한 확산",
+      "summary": "미국 기술 기업·재단들이 오픈웨이트 모델을 성급히 제한하지 말라는 공동 서한을 냈습니다. 공개 모델이 경쟁, 안전 검증, 데이터 주권을 돕는다는 주장입니다.",
+      "bullets": [
+        "서한은 다운로드·검사·수정·자체 실행 가능한 모델을 오픈웨이트로 정의합니다.",
+        "명단에는 NVIDIA, Microsoft, Meta, IBM, GitHub, Hugging Face, OpenAI 등이 포함됐습니다.",
+        "중국 모델 규제 논쟁과 맞물려 AI 정책의 초점이 공개성·안전성 균형으로 이동했습니다."
+      ],
+      "visual_keywords": [
+        "open weights",
+        "AI policy",
+        "model governance",
+        "ecosystem"
+      ],
+      "aria_line": "오늘 정책 이슈의 핵심은 '막을 것인가, 열어두고 검증할 것인가'예요.",
+      "caption": "오픈 모델 정책 논쟁",
+      "source_date": "2026-07-24",
+      "created_date": "2026-07-26",
+      "sources": [
+        {
+          "name": "Open Weights and American AI Leadership",
+          "url": "https://boardbrief.alpha.ac/open-weights-and-american-ai-leadership/"
+        },
+        {
+          "name": "ITmedia NEWS",
+          "url": "https://www.itmedia.co.jp/news/articles/2607/26/news014.html"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "xAI",
+      "importance": "Model",
+      "title": "Grok 4.5, 코딩 모델 경쟁 가세",
+      "summary": "xAI는 Grok 4.5를 코딩, 에이전트 작업, 지식 업무에 강한 모델로 소개했습니다. Grok Build, Cursor, API 제공을 강조했습니다.",
+      "bullets": [
+        "xAI는 엔지니어링 벤치마크와 토큰 효율, 빠른 서빙 속도를 전면에 세웠습니다.",
+        "Word·PowerPoint·Excel·Outlook 플러그인 활용도 함께 제시했습니다.",
+        "코딩 모델 경쟁이 IDE를 넘어 오피스 문서 자동화까지 확장되고 있습니다."
+      ],
+      "visual_keywords": [
+        "Grok 4.5",
+        "coding model",
+        "office automation",
+        "API"
+      ],
+      "aria_line": "코딩 모델이 문서·스프레드시트까지 들어오면 업무 자동화 경계가 더 흐려져요.",
+      "caption": "모델 출시와 업무 자동화",
+      "source_date": "2026-07-16",
+      "created_date": "2026-07-26",
+      "sources": [
+        {
+          "name": "xAI",
+          "url": "https://x.ai/news/grok-4-5"
+        },
+        {
+          "name": "xAI Docs",
+          "url": "https://docs.x.ai/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Google",
+      "importance": "Infrastructure",
+      "title": "Google, AI 인프라 수요 강조",
+      "summary": "Alphabet은 Q2 발언에서 AI 투자가 Search, Gemini, Google Cloud 전반을 재정의하고 있다고 설명했습니다. 특히 Cloud는 AI 인프라·솔루션 수요가 성장 동력으로 언급됐습니다.",
+      "bullets": [
+        "Google은 Gemini Enterprise가 Fortune 100 대다수에서 쓰인다고 밝혔습니다.",
+        "AI 모델 경쟁은 제품뿐 아니라 클라우드·인프라 매출 구조와 연결되고 있습니다.",
+        "투자/주가 권유가 아니라 AI 인프라 수요 신호로만 정리했습니다."
+      ],
+      "visual_keywords": [
+        "Google Cloud",
+        "Gemini Enterprise",
+        "AI infrastructure",
+        "data center"
+      ],
+      "aria_line": "모델 발표 뒤에는 늘 클라우드와 GPU 인프라 경쟁이 붙어 있어요.",
+      "caption": "AI 인프라와 기업 도입",
+      "source_date": "2026-07-22",
+      "created_date": "2026-07-26",
+      "sources": [
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Korea",
+      "importance": "Domestic",
+      "title": "국내 공공 AI 활용 확장",
+      "summary": "오늘 당일 국내 대형 발표는 많지 않아 최근 2주 공식자료로 보완했습니다. 행안부, 고용노동부, 해수부 자료에서 공공·노동·해양 분야 AI 활용 논의가 이어졌습니다.",
+      "bullets": [
+        "행안부는 생성형 AI로 지진안전 영상을 만드는 국민 공모를 진행 중입니다.",
+        "고용노동부는 AI 기술혁신 시대의 사회계약과 노동 의제를 토론회로 다뤘습니다.",
+        "해수부는 인천국제해양포럼에서 AI 시대 해양산업 미래를 논의했습니다."
+      ],
+      "visual_keywords": [
+        "Korea public AI",
+        "government briefing",
+        "safety video",
+        "labor policy"
+      ],
+      "aria_line": "국내 흐름은 거대한 모델 출시보다 '어디에 AI를 붙일지'가 더 선명해요.",
+      "caption": "국내 AI 정책·공공 활용",
+      "source_date": "2026-07-06~2026-07-14",
+      "created_date": "2026-07-26",
+      "sources": [
+        {
+          "name": "행정안전부",
+          "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=127521"
+        },
+        {
+          "name": "고용노동부",
+          "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19657"
+        },
+        {
+          "name": "해양수산부",
+          "url": "https://www.mof.go.kr/doc/ko/selectDoc.do?bbsSeq=10&docSeq=67459&menuSeq=971"
+        }
+      ]
+    }
+  ]
+}
