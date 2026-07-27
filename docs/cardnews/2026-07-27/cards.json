@@ -1,0 +1,249 @@
+{
+  "date": "2026-07-27",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily Brief",
+      "importance": "오늘의 AI",
+      "created_date": "2026-07-27",
+      "source_date": "2026-07-27",
+      "title": "오늘 AI 핵심 8가지",
+      "summary": "오늘 오전부터 확인한 소식은 OpenAI의 업무 연구가 중심이고, 최근 24~96시간 공식 발표로 개발자 도구·국산 모델·규제 흐름을 보완했습니다.",
+      "bullets": [
+        "공식 발표와 신뢰 매체 중심",
+        "국내 소버린 AI와 개발자 도구 비중 확대",
+        "디시 정보탭은 원출처 후보 레이더로만 사용"
+      ],
+      "visual_keywords": [
+        "AI newsroom",
+        "Korean briefing",
+        "developer tools"
+      ],
+      "aria_line": "오늘은 새 모델보다 'AI가 실제 업무를 어디까지 바꾸는가'가 더 큰 흐름이에요.",
+      "caption": "AI 뉴스 아리아 | 2026-07-27",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/",
+          "published": "2026-07-27"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot/",
+          "published": "2026-07-24"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Work & Jobs",
+      "importance": "공식 연구",
+      "created_date": "2026-07-27",
+      "source_date": "2026-07-27",
+      "title": "OpenAI, 업무 경계 변화 분석",
+      "summary": "OpenAI가 미국 ChatGPT 업무 메시지 80만건 이상을 분석해, 직무별 AI 사용 중 상당 부분이 자기 직무 밖의 과업으로 넘어간다고 발표했습니다.",
+      "bullets": [
+        "직무 특화 메시지의 43.5%가 직무 밖 과업",
+        "고객지원·디자인·HR·법무에서 역할 확장 두드러짐",
+        "중소 조직일수록 AI가 '부서 간 손바꿈'을 줄이는 신호"
+      ],
+      "visual_keywords": [
+        "work graph",
+        "task crossover",
+        "office AI"
+      ],
+      "aria_line": "AI가 일자리를 단순히 대체한다기보다, 사람이 맡는 일의 경계를 흔들고 있어요.",
+      "caption": "핵심은 생산성보다 역할 재편",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/",
+          "published": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Korea AI",
+      "importance": "국내 모델",
+      "created_date": "2026-07-27",
+      "source_date": "2026-07-22",
+      "title": "업스테이지 Solar Open 2 공개",
+      "summary": "업스테이지가 에이전트 업무에 맞춘 오픈웨이트 국산 파운데이션 모델 Solar Open 2를 공개했습니다. 250B MoE 구조에서 토큰당 15B만 활성화합니다.",
+      "bullets": [
+        "1M 토큰 컨텍스트와 한·영·일 공식 지원",
+        "양자화 시 H200 2장 구동 목표",
+        "상업적 활용 가능한 오픈웨이트로 공개"
+      ],
+      "visual_keywords": [
+        "Solar Open 2",
+        "sovereign AI",
+        "agent model"
+      ],
+      "aria_line": "국산 모델 경쟁의 포인트가 '챗봇 점수'에서 '에이전트가 끝까지 일하는가'로 옮겨가고 있어요.",
+      "caption": "국내 AI 우선 브리핑",
+      "sources": [
+        {
+          "name": "Upstage",
+          "url": "https://www.upstage.ai/blog/en/solar-open-2",
+          "published": "2026-07-22"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/amp/view/AKR20260723043400017",
+          "published": "2026-07-23"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tools",
+      "importance": "개발자 도구",
+      "created_date": "2026-07-27",
+      "source_date": "2026-07-24",
+      "title": "Copilot에 Claude Opus 5 추가",
+      "summary": "GitHub가 Claude Opus 5를 Copilot 모델 선택지에 추가했습니다. 복잡하고 긴 코딩 작업, 회귀 검증, 여러 도구 조율을 겨냥한 업데이트입니다.",
+      "bullets": [
+        "VS Code·CLI·JetBrains·모바일 등 광범위한 표면에 순차 배포",
+        "Business·Enterprise 관리자는 정책 활성화 필요",
+        "고위험 사이버 요청에는 강화된 차단 장치 적용"
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "Claude Opus 5",
+        "agentic coding"
+      ],
+      "aria_line": "코딩 에이전트는 모델 성능만큼 관리자 정책과 비용 통제도 같이 봐야 해요.",
+      "caption": "개발자 생태계 업데이트",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot/",
+          "published": "2026-07-24"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Research",
+      "importance": "논문",
+      "created_date": "2026-07-27",
+      "source_date": "2026-07-24",
+      "title": "Skill Self-Play 논문 공개",
+      "summary": "Qwen 계열 연구진이 Skill Self-Play를 공개했습니다. 제안자·해결자·스킬 컨트롤러가 함께 진화하며 도구 사용과 추론 능력을 끌어올리는 방식입니다.",
+      "bullets": [
+        "검증 가능한 스킬 단위로 자기학습 루프 구성",
+        "개방형 과제 다양성과 보상 신뢰성의 균형을 노림",
+        "코드 저장소도 함께 공개되어 재현 가능성 확인 가능"
+      ],
+      "visual_keywords": [
+        "self-play",
+        "agent skills",
+        "reinforcement learning"
+      ],
+      "aria_line": "에이전트 학습은 이제 '문제 많이 풀기'보다 '검증 가능한 기술을 쌓기'로 가고 있어요.",
+      "caption": "연구·논문 레이더",
+      "sources": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2607.22529",
+          "published": "2026-07-24"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Policy",
+      "importance": "규제",
+      "created_date": "2026-07-27",
+      "source_date": "2026-07-20",
+      "title": "EU AI 투명성 의무 가이드",
+      "summary": "EU 집행위가 AI Act 투명성 의무 가이드를 발표했습니다. 2026년 8월 2일부터 AI 상호작용 고지와 생성·변조 콘텐츠 표시 의무가 본격 적용됩니다.",
+      "bullets": [
+        "AI와 직접 상호작용 중임을 사용자가 알 수 있어야 함",
+        "생성·변조 콘텐츠에는 기계 판독 표시 요구",
+        "딥페이크·공익 콘텐츠·감정인식 고지 의무도 포함"
+      ],
+      "visual_keywords": [
+        "EU AI Act",
+        "transparency",
+        "watermark"
+      ],
+      "aria_line": "AI 기능을 넣는 서비스라면 이제 '보이게 알리는 설계'가 제품 요구사항이 됩니다.",
+      "caption": "정책·규제 체크",
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+          "published": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Science AI",
+      "importance": "공식 발표",
+      "created_date": "2026-07-27",
+      "source_date": "2026-07-22",
+      "title": "OpenAI, 과학 연구 지원 확대",
+      "summary": "OpenAI가 미국 DOE Genesis Mission 연구자에게 Codex·API·전문 모델 접근을 지원하겠다고 밝혔습니다. AI를 과학 인프라로 묶는 흐름입니다.",
+      "bullets": [
+        "약 2,000명 연구자에게 Codex 접근 지원",
+        "대형 과학 캠페인에 API 지원과 기술 협업 제공",
+        "초전도체·기계접근 과학 프런티어 등 난제 캠페인 언급"
+      ],
+      "visual_keywords": [
+        "AI for science",
+        "national labs",
+        "Codex"
+      ],
+      "aria_line": "AI가 논문 보조를 넘어 국가 연구 인프라 안으로 들어가는 장면이에요.",
+      "caption": "AI 과학 인프라",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/advancing-the-next-era-of-national-science/",
+          "published": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Productivity AI",
+      "importance": "제품",
+      "created_date": "2026-07-27",
+      "source_date": "2026-07-24",
+      "title": "Grok, 업무 앱 안으로 확장",
+      "summary": "xAI는 Grok 4.5와 Google Workspace·Outlook용 Grok 애드온을 공개했습니다. 문서·메일·시트 안에서 요약, 작성, 수식, 차트 작업을 돕는 방향입니다.",
+      "bullets": [
+        "Grok 4.5는 코딩·에이전트·지식업무 모델로 소개",
+        "Workspace 애드온은 Sheets·Slides·Docs에서 직접 작동",
+        "Outlook 애드인은 긴 메일 요약과 답장 초안 작성 지원"
+      ],
+      "visual_keywords": [
+        "Grok",
+        "Workspace add-on",
+        "Outlook add-in"
+      ],
+      "aria_line": "AI 경쟁은 채팅창 밖으로 나와, 우리가 이미 쓰는 업무 앱 안에서 벌어지고 있어요.",
+      "caption": "제품 업데이트",
+      "sources": [
+        {
+          "name": "xAI",
+          "url": "https://x.ai/news/grok-4-5",
+          "published": "2026-07-16"
+        },
+        {
+          "name": "xAI",
+          "url": "https://x.ai/news/introducing-google-workspace-addon",
+          "published": "2026-07-24"
+        },
+        {
+          "name": "xAI",
+          "url": "https://x.ai/news/introducing-outlook-addin",
+          "published": "2026-07-21"
+        }
+      ]
+    }
+  ]
+}
