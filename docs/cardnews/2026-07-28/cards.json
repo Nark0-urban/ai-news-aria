@@ -1,0 +1,234 @@
+{
+  "date": "2026-07-28",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily Briefing",
+      "importance": "오늘의 큰 흐름",
+      "source_date": "2026-07-28",
+      "created_date": "2026-07-28",
+      "title": "오늘 AI 뉴스 핵심 8개",
+      "summary": "국내 AI 외교와 인재 육성, 업무형 AI 연구, 개발자 도구, 오픈웨이트 모델 경쟁, 서비스 안정성 이슈를 한 번에 정리했어요.",
+      "bullets": [
+        "국내는 AI 서밋과 피지컬 AI 교육 흐름",
+        "해외는 OpenAI, GitHub, Kimi K3, arXiv 중심",
+        "루머와 주식 중심 기사는 제외"
+      ],
+      "visual_keywords": [
+        "news desk",
+        "AI policy",
+        "developer tools",
+        "open weights"
+      ],
+      "aria_line": "오늘은 AI가 산업, 개발, 검색, 교육을 동시에 바꾸는 흐름이 보여요.",
+      "caption": "AI 뉴스 아리아 - 2026.07.28",
+      "sources": [
+        {
+          "name": "대한민국 정책브리핑",
+          "url": "https://www.korea.kr/briefing/presidentView.do?newsId=148968787"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Korea AI",
+      "importance": "국내 정책",
+      "source_date": "2026-07-25",
+      "created_date": "2026-07-28",
+      "title": "샌프란 AI 서밋, 협력 구체화",
+      "summary": "대통령실은 샌프란시스코 AI 서밋에서 엔비디아, 브로드컴, OpenAI, Anthropic CEO와 국내 주요 기업이 참여해 한국 AI 대도약 프로젝트 협력을 논의했다고 밝혔어요.",
+      "bullets": [
+        "AI 반도체와 글로벌 모델 기업 협력 축이 핵심",
+        "국내 대기업, 스타트업, 연구자까지 참여",
+        "정책 구호보다 실행 파트너 확보가 관전 포인트"
+      ],
+      "visual_keywords": [
+        "Korea AI summit",
+        "global tech CEOs",
+        "semiconductor alliance"
+      ],
+      "aria_line": "한국 AI 전략은 이제 국내 정책만이 아니라 글로벌 공급망 협상이에요.",
+      "caption": "국내 AI 외교와 산업 협력",
+      "sources": [
+        {
+          "name": "대한민국 정책브리핑",
+          "url": "https://www.korea.kr/briefing/presidentView.do?newsId=148968787"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Korea Education",
+      "importance": "국내 인재",
+      "source_date": "2026-05-06",
+      "created_date": "2026-07-28",
+      "title": "피지컬 AI 교육, 현장형으로 확대",
+      "summary": "카카오모빌리티의 AI 주니어랩 6기는 7월 29일부터 카카오 AI 캠퍼스에서 열리며, 이동 문제 해결을 다루는 피지컬 AI 중심 교육으로 커리큘럼을 강화했어요.",
+      "bullets": [
+        "전국 중학생 대상으로 모집 범위 확대",
+        "코딩 교육을 넘어 이동·현실 문제 해결에 초점",
+        "국내 AI 저변 확대 신호로 브리핑에 포함"
+      ],
+      "visual_keywords": [
+        "physical AI",
+        "student workshop",
+        "mobility education"
+      ],
+      "aria_line": "모델 경쟁만큼 중요한 건 AI를 실제 문제에 쓰는 사람을 키우는 일이에요.",
+      "caption": "국내 피지컬 AI 인재 육성",
+      "sources": [
+        {
+          "name": "카카오모빌리티",
+          "url": "https://www.kakaomobility.com/newsroom/detail/%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%AA%A8%EB%B9%8C%EB%A6%AC%ED%8B%B0-%ED%94%BC%EC%A7%80%EC%BB%AC-AI-%EC%8B%9C%EB%8C%80-%EC%9D%B4%EB%81%8C-AI-%EC%A3%BC%EB%8B%88%EC%96%B4%EB%9E%A9-6%EA%B8%B0-%EB%AA%A8%EC%A7%91-375"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "OpenAI Research",
+      "importance": "업무 변화",
+      "source_date": "2026-07-27",
+      "created_date": "2026-07-28",
+      "title": "AI 업무, 직무 경계를 넘는다",
+      "summary": "OpenAI 경제연구는 미국 ChatGPT 업무 메시지 분석에서 직무 특화 메시지의 상당 부분이 다른 직업의 과업과 연결된다고 설명했어요.",
+      "bullets": [
+        "AI 사용은 단순 보조보다 업무 범위 확장에 가까움",
+        "소기업일수록 역할 간 과업 이동이 더 두드러짐",
+        "조직은 직무표보다 작업 흐름을 다시 설계해야 함"
+      ],
+      "visual_keywords": [
+        "work frontier",
+        "task crossover",
+        "office workflow"
+      ],
+      "aria_line": "AI 도입의 핵심 질문은 '누가 무슨 일을 하게 되는가'예요.",
+      "caption": "OpenAI Work at the Frontier",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Developer Tools",
+      "importance": "개발자 도구",
+      "source_date": "2026-07-27",
+      "created_date": "2026-07-28",
+      "title": "Copilot JetBrains, 거버넌스 강화",
+      "summary": "GitHub는 JetBrains용 Copilot에 OpenTelemetry 설정, 모델 관리, Claude 에이전트 플로우의 MCP 서버·커스텀 에이전트 연결을 추가했어요.",
+      "bullets": [
+        "팀 단위 관측성과 비용 통제가 쉬워짐",
+        "BYOK·커스텀 엔드포인트 토큰 한도 설정 지원",
+        "IDE 안에서 에이전트 워크플로우 표준화가 빨라짐"
+      ],
+      "visual_keywords": [
+        "JetBrains IDE",
+        "OpenTelemetry",
+        "MCP agents"
+      ],
+      "aria_line": "개발자 AI의 다음 경쟁력은 모델 성능뿐 아니라 관리 가능성이에요.",
+      "caption": "GitHub Copilot 엔터프라이즈 업데이트",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management/"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Open Weights",
+      "importance": "모델 경쟁",
+      "source_date": "2026-07-27",
+      "created_date": "2026-07-28",
+      "title": "Kimi K3, 오픈웨이트 경쟁 가속",
+      "summary": "Moonshot AI는 Kimi K3를 2.8T 파라미터, 1M 토큰 컨텍스트, 네이티브 멀티모달 에이전트 모델로 소개했고, AP는 중국 오픈 모델이 미국 개발자와 기업으로 확산 중이라고 보도했어요.",
+      "bullets": [
+        "전체 가중치와 기술 보고서 공개가 핵심",
+        "대형 모델이지만 비용·접근성 경쟁을 압박",
+        "벤치마크 주장은 회사 발표와 외부 검증을 구분해야 함"
+      ],
+      "visual_keywords": [
+        "Kimi K3",
+        "open weights",
+        "China AI models"
+      ],
+      "aria_line": "오픈웨이트 모델은 연구자뿐 아니라 비용에 민감한 실무팀까지 움직이고 있어요.",
+      "caption": "중국 오픈웨이트 모델 레이스",
+      "sources": [
+        {
+          "name": "MoonshotAI/Kimi-K3",
+          "url": "https://github.com/MoonshotAI/Kimi-K3"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/china-ai-model-us-kimi-deepseek-a00bf637866fcd4d81f4fde28c9862ce"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Reliability",
+      "importance": "서비스 안정성",
+      "source_date": "2026-07-24",
+      "created_date": "2026-07-28",
+      "title": "OpenAI 장애, 운영 리스크 재확인",
+      "summary": "OpenAI 상태 페이지는 7월 23~24일 API, ChatGPT, Codex 일부 구성요소에 elevated error rates가 있었고 복구 완료됐다고 기록했어요.",
+      "bullets": [
+        "에이전트가 업무 인프라가 되면 장애 영향도 커짐",
+        "모니터링·대체 경로·사용자 고지가 운영 핵심",
+        "커뮤니티 반응은 불편 신호로만 참고"
+      ],
+      "visual_keywords": [
+        "status dashboard",
+        "incident response",
+        "service reliability"
+      ],
+      "aria_line": "AI 도구도 이제 SaaS 인프라예요. 성능만큼 가동률을 봐야 해요.",
+      "caption": "AI 서비스 신뢰성 체크",
+      "sources": [
+        {
+          "name": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/j400h1rw"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "topic": "Research",
+      "importance": "연구",
+      "source_date": "2026-07-27",
+      "created_date": "2026-07-28",
+      "title": "DreamStyle3D, 3D 자산 생성 효율화",
+      "summary": "arXiv에 올라온 DreamStyle3D는 스타일과 기하 정보를 분리하는 듀얼 어텐션 방식으로, 스타일화된 3D 자산을 더 빠르고 일관되게 생성하는 접근을 제안했어요.",
+      "bullets": [
+        "게임·애니메이션·VR 제작 자동화와 연결",
+        "약 1.5만 개 학습·평가 데이터셋 구축",
+        "논문 단계라 실제 제작 파이프라인 검증은 필요"
+      ],
+      "visual_keywords": [
+        "3D assets",
+        "stylized generation",
+        "dual attention"
+      ],
+      "aria_line": "콘텐츠 AI는 이미지 다음으로 3D 제작 병목을 줄이는 쪽으로 가고 있어요.",
+      "caption": "arXiv 3D 생성 연구",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2607.24721"
+        }
+      ]
+    }
+  ]
+}
