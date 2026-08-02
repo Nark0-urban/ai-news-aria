@@ -1,0 +1,265 @@
+{
+  "date": "2026-08-02",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily AI Brief",
+      "title": "2026년 8월 2일 AI 핵심 브리핑",
+      "summary": "오늘은 국내 AI 교육·인재 신호, Qwen 오디오 모델 업데이트, Gemini 로보틱스, Copilot 모델 정리, OpenAI 업무 연구, 컴퓨터 사용 에이전트 평가 논문을 중심으로 확인했습니다.",
+      "bullets": [
+        "국내: KAIST AI대학 비전과 AI 융합 인재 양성 흐름 확인",
+        "제품·개발자: Qwen 오디오, GitHub Copilot, Oracle agentic AI 업데이트",
+        "연구·정책: Gemini 로보틱스, OpenAI 업무 연구, OSReward·Frontis-MA1 논문"
+      ],
+      "visual_keywords": [
+        "AI newsroom",
+        "Korea AI",
+        "robotics",
+        "developer tools"
+      ],
+      "aria_line": "오늘은 새 모델 이름보다 '어디에 실제로 붙고 있나'를 보면 흐름이 더 잘 보여요.",
+      "caption": "오늘 AI 뉴스 아리아",
+      "importance": "Overview",
+      "created_date": "2026-08-02",
+      "source_date": "2026-08-02",
+      "sources": [
+        {
+          "name": "KAIST AI대학",
+          "url": "https://aicollege.kaist.ac.kr/"
+        },
+        {
+          "name": "Alibaba Cloud Model Studio",
+          "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/07/30/google-robotics-software-update"
+        }
+      ]
+    },
+    {
+      "type": "domestic",
+      "topic": "Korea AI Education",
+      "title": "KAIST AI대학, AI 융합 인재 양성 신호",
+      "summary": "KAIST AI대학은 핵심 AI 기술과 산업 응용, 정책을 함께 다루는 교육·연구 체계를 내세웠습니다. 국내 AI 경쟁이 모델 개발을 넘어 인재와 조직 설계로 옮겨가고 있다는 신호입니다.",
+      "bullets": [
+        "AI컴퓨팅학과 등 학사 조직을 통해 생성형·멀티모달·에이전틱 AI 인재 양성을 제시",
+        "대학원 중심 AI 교육에서 학부·융합 교육으로 저변을 넓히는 흐름",
+        "국내 브리핑에서는 정책보다 실제 인력 공급 구조 변화로 해석"
+      ],
+      "visual_keywords": [
+        "KAIST College of AI",
+        "AI education",
+        "Korea talent",
+        "campus"
+      ],
+      "aria_line": "AI 경쟁은 결국 사람을 얼마나 빨리 길러내느냐의 문제로 돌아와요.",
+      "caption": "국내 AI 인재",
+      "importance": "Domestic",
+      "created_date": "2026-08-02",
+      "source_date": "2026-08-02",
+      "sources": [
+        {
+          "name": "KAIST AI대학",
+          "url": "https://aicollege.kaist.ac.kr/"
+        },
+        {
+          "name": "KAIST 김재철AI대학원",
+          "url": "https://gsai.kaist.ac.kr/"
+        }
+      ]
+    },
+    {
+      "type": "model",
+      "topic": "Qwen Audio",
+      "title": "Qwen 오디오 3.0, 실시간 음성 AI 강화",
+      "summary": "Alibaba Cloud Model Studio는 Qwen-Audio 3.0 TTS·Realtime 계열을 7월 14일 업데이트 목록에 올렸습니다. 저지연 음성 합성과 자연스러운 실시간 대화가 제품형 AI의 핵심 축으로 커지고 있습니다.",
+      "bullets": [
+        "국제 리전에서 qwen-audio-3.0-tts-plus와 flash 모델 제공",
+        "Flash는 낮은 지연 시간, Plus는 고품질 전문 시나리오를 겨냥",
+        "음성 비서·콜센터·실시간 통역형 서비스의 기반 모델 경쟁이 빨라짐"
+      ],
+      "visual_keywords": [
+        "Qwen Audio",
+        "speech AI",
+        "real-time voice",
+        "Alibaba Cloud"
+      ],
+      "aria_line": "텍스트 챗봇 다음 격전지는 자연스럽게 말하고 듣는 AI예요.",
+      "caption": "음성 AI",
+      "importance": "Important",
+      "created_date": "2026-08-02",
+      "source_date": "2026-07-14",
+      "sources": [
+        {
+          "name": "Alibaba Cloud Model Studio",
+          "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+        },
+        {
+          "name": "DCInside source radar metadata",
+          "url": "work/drafts/dc_source_candidates_2026-08-02.json"
+        }
+      ]
+    },
+    {
+      "type": "robotics",
+      "topic": "Gemini Robotics",
+      "title": "Google, Gemini 로보틱스 업데이트 흐름",
+      "summary": "Axios는 7월 30일 Google의 Gemini Robotics 2 업데이트를 보도했습니다. 로봇이 개별 동작뿐 아니라 상위 작업 계획까지 다루는 방향으로 AI 모델이 확장되고 있습니다.",
+      "bullets": [
+        "로봇 제어 모델과 고수준 작업 계획 모델이 함께 언급됨",
+        "Gemini Robotics 계열은 물리 공간 이해와 조작 능력을 핵심으로 삼음",
+        "로봇 AI는 소프트웨어 에이전트보다 안전 검증 부담이 훨씬 큼"
+      ],
+      "visual_keywords": [
+        "Gemini Robotics",
+        "humanoid robot",
+        "embodied AI",
+        "safety"
+      ],
+      "aria_line": "AI가 화면을 넘어 움직이기 시작하면, 성능만큼 안전 설계가 중요해져요.",
+      "caption": "피지컬 AI",
+      "importance": "High",
+      "created_date": "2026-08-02",
+      "source_date": "2026-07-30",
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/07/30/google-robotics-software-update"
+        },
+        {
+          "name": "Google DeepMind Gemini Robotics",
+          "url": "https://deepmind.google/en/models/gemini-robotics/gemini-robotics/"
+        },
+        {
+          "name": "Google DeepMind blog",
+          "url": "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/"
+        }
+      ]
+    },
+    {
+      "type": "developer",
+      "topic": "GitHub Copilot",
+      "title": "Copilot, Gemini 일부 모델 정리",
+      "summary": "GitHub는 7월 31일 Copilot 전반에서 Gemini 2.5 Pro와 Gemini 3 Flash를 deprecated 처리했다고 공지했습니다. 기업 개발팀은 모델 정책과 대체 모델을 다시 확인해야 합니다.",
+      "bullets": [
+        "Copilot Chat, inline edits, ask, agent mode, code completions 전반에 적용",
+        "모델 교체는 IDE 기능 변경만큼 운영 정책에 영향을 줌",
+        "조직 관리자는 허용 모델과 워크플로 호환성을 점검해야 함"
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "model deprecation",
+        "developer workflow",
+        "enterprise policy"
+      ],
+      "aria_line": "개발 AI는 '무슨 모델을 쓰나'가 곧 팀 운영 정책이 되는 단계예요.",
+      "caption": "개발자 도구",
+      "importance": "High",
+      "created_date": "2026-08-02",
+      "source_date": "2026-07-31",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated"
+        }
+      ]
+    },
+    {
+      "type": "enterprise",
+      "topic": "Oracle Agentic AI",
+      "title": "Oracle, 업무 앱 안에 에이전트 빌더 강화",
+      "summary": "Oracle은 Fusion Applications 안에서 에이전틱 애플리케이션을 만들고 운영하는 AI-native builder experience를 발표했습니다. 업무 데이터·승인·감사 로그와 AI 에이전트를 묶는 흐름입니다.",
+      "bullets": [
+        "Fusion 비즈니스 객체, 워크플로, 승인, 거버넌스와 에이전트 앱을 연결",
+        "VS Code, OpenAI Codex, Claude Code, CLI, Git 같은 개발 도구 사용을 언급",
+        "기업 AI는 데모 챗봇보다 권한·감사·업무 시스템 연결이 관건"
+      ],
+      "visual_keywords": [
+        "Oracle Fusion",
+        "agentic applications",
+        "enterprise AI",
+        "workflow governance"
+      ],
+      "aria_line": "기업용 AI의 핵심은 똑똑함보다 '누가 무엇을 승인했는지'까지 남기는 구조예요.",
+      "caption": "엔터프라이즈 AI",
+      "importance": "Important",
+      "created_date": "2026-08-02",
+      "source_date": "2026-07-14",
+      "sources": [
+        {
+          "name": "Oracle News",
+          "url": "https://www.oracle.com/news/announcement/oracle-introduces-ai-native-builder-experience-2026-07-14/"
+        },
+        {
+          "name": "Oracle Integration 26.07",
+          "url": "https://docs.oracle.com/en/cloud/paas/application-integration/whats-new/release-26-07-july-2026.html"
+        }
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "OpenAI Economic Research",
+      "title": "OpenAI, AI가 직무 경계를 넘는 방식 분석",
+      "summary": "OpenAI Economic Research는 Work at the Frontier 시리즈에서 업무 관련 ChatGPT 메시지 분석 결과를 공개했습니다. 직무 고유 업무 중 상당 부분이 다른 직무 영역의 작업으로 확장되고 있다는 해석입니다.",
+      "bullets": [
+        "미국 ChatGPT 사용자 업무 메시지 80만 건 이상을 분석",
+        "직무 고유 메시지의 상당 비중이 다른 직무의 작업과 연결된다고 설명",
+        "AI 도입 효과를 단순 시간 절약이 아니라 업무 범위 변화로 보는 자료"
+      ],
+      "visual_keywords": [
+        "OpenAI economic research",
+        "work frontier",
+        "job boundaries",
+        "knowledge work"
+      ],
+      "aria_line": "AI가 일을 줄이는 것만이 아니라, 사람이 맡을 수 있는 일의 범위를 바꾸고 있어요.",
+      "caption": "업무 변화",
+      "importance": "Important",
+      "created_date": "2026-08-02",
+      "source_date": "2026-07-27",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/"
+        },
+        {
+          "name": "OpenAI agents report",
+          "url": "https://openai.com/index/how-agents-are-transforming-work/"
+        }
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "Agent Evaluation",
+      "title": "컴퓨터 사용 에이전트, 평가 기준도 세분화",
+      "summary": "arXiv에는 OSReward와 Frontis-MA1처럼 컴퓨터 사용·ML 엔지니어링 에이전트를 평가하거나 훈련하려는 연구가 이어졌습니다. 에이전트 시대에는 실행 결과를 판정하는 기준 자체가 중요해집니다.",
+      "bullets": [
+        "OSReward는 크로스플랫폼 컴퓨터 사용 reward model 평가 표준화를 제안",
+        "Frontis-MA1은 ML 엔지니어링에서 AI4AI 모델 훈련과 개선을 다룸",
+        "에이전트 품질은 답변 문장보다 실행 궤적과 검증 가능성으로 평가해야 함"
+      ],
+      "visual_keywords": [
+        "arXiv",
+        "computer-use agents",
+        "reward model",
+        "AI4AI"
+      ],
+      "aria_line": "에이전트는 말보다 행동을 남기니까, 평가도 행동 기록을 봐야 해요.",
+      "caption": "AI 에이전트 연구",
+      "importance": "Research",
+      "created_date": "2026-08-02",
+      "source_date": "2026-07-30",
+      "sources": [
+        {
+          "name": "arXiv OSReward",
+          "url": "https://arxiv.org/abs/2607.28609v1"
+        },
+        {
+          "name": "arXiv Frontis-MA1",
+          "url": "https://arxiv.org/abs/2607.28568v1"
+        }
+      ]
+    }
+  ]
+}
