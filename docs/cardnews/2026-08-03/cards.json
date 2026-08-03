@@ -1,0 +1,273 @@
+{
+  "date": "2026-08-03",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily AI Brief",
+      "title": "2026년 8월 3일 AI 핵심 브리핑",
+      "summary": "오늘은 국내 독자 AI 프로젝트 흐름, Microsoft의 에이전트 보안 스택, Alibaba Qwen3.8-Max, Qwen UI Agent, Google의 에이전트 평가 기능, GitHub Copilot 모델 정리, AI 거버넌스 논의가 핵심입니다.",
+      "bullets": [
+        "국내: 독자 AI 파운데이션 모델과 AI G3 정책 흐름을 우선 확인",
+        "제품·개발자: 보안 에이전트, UI 조작 에이전트, Copilot 모델 정책 변화",
+        "해외: 중국 오픈웨이트 모델 경쟁과 자동화 AI 거버넌스 논의 확대"
+      ],
+      "visual_keywords": [
+        "AI newsroom",
+        "Korea AI",
+        "developer tools",
+        "security agents"
+      ],
+      "aria_line": "오늘의 키워드는 '더 강한 모델'보다 '어디에 붙이고 어떻게 통제하느냐'예요.",
+      "caption": "오늘 AI 뉴스 아리아",
+      "importance": "Overview",
+      "created_date": "2026-08-03",
+      "source_date": "2026-08-03",
+      "sources": [
+        {
+          "name": "과학기술정보통신부",
+          "url": "https://english.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1212&sCode=eng"
+        },
+        {
+          "name": "Microsoft Official Blog",
+          "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai"
+        }
+      ]
+    },
+    {
+      "type": "domestic",
+      "topic": "Korea Sovereign AI",
+      "title": "국내 독자 AI, 2차 경쟁 구도 본격화",
+      "summary": "과기정통부는 독자 AI 파운데이션 모델 프로젝트의 단계 평가 결과와 추가 선발 방향을 공개했습니다. 핵심은 한국형 모델을 단순 실험이 아니라 GPU·데이터·기업 생태계 지원과 묶어 장기 경쟁으로 끌고 가겠다는 점입니다.",
+      "bullets": [
+        "LG AI연구원, SK텔레콤, 업스테이지가 다음 단계 진출팀으로 제시됨",
+        "정부는 추가 팀 선발로 국내 AI 모델 경쟁 구도를 넓히겠다는 계획",
+        "카드뉴스에서는 커뮤니티 소문이 아니라 공식 발표와 신뢰 매체 확인분만 반영"
+      ],
+      "visual_keywords": [
+        "Korea AI policy",
+        "sovereign AI",
+        "foundation model",
+        "GPU support"
+      ],
+      "aria_line": "국내 AI 경쟁은 이제 '모델 하나'가 아니라 인프라와 생태계를 같이 보는 단계예요.",
+      "caption": "국내 AI 정책",
+      "importance": "Domestic",
+      "created_date": "2026-08-03",
+      "source_date": "2026-07-29",
+      "sources": [
+        {
+          "name": "MSIT English",
+          "url": "https://english.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1212&sCode=eng"
+        },
+        {
+          "name": "대한민국 정책브리핑",
+          "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156745273"
+        },
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/"
+        }
+      ]
+    },
+    {
+      "type": "security",
+      "topic": "Microsoft Project Perception",
+      "title": "Microsoft, AI 보안 전용 스택 공개",
+      "summary": "Microsoft는 Project Perception을 통해 공격 경로 탐지, 위험 판단, 보완 조치를 에이전트형 보안 흐름으로 묶겠다고 밝혔습니다. MAI-Cyber-1-Flash를 활용한 취약점 관리 시나리오도 함께 제시했습니다.",
+      "bullets": [
+        "레드·블루·그린 에이전트가 발견, 판단, 조치를 분담하는 구조",
+        "MAI-Cyber-1-Flash 기반 MDASH 구성에서 CyberGym 96% 수준 성능을 주장",
+        "공개 프리뷰는 8월 3일로 안내되어 오늘 브리핑 핵심 항목으로 채택"
+      ],
+      "visual_keywords": [
+        "Microsoft security",
+        "Project Perception",
+        "cyber agents",
+        "AI defense"
+      ],
+      "aria_line": "보안 AI는 자동화만큼이나 '사람이 어디서 제어하느냐'가 핵심이에요.",
+      "caption": "AI 보안",
+      "importance": "High",
+      "created_date": "2026-08-03",
+      "source_date": "2026-07-27",
+      "sources": [
+        {
+          "name": "Microsoft Official Blog",
+          "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/07/27/microsoft-unveils-new-cyber-model-agentic-security-tools-to-fight-hackers"
+        }
+      ]
+    },
+    {
+      "type": "model",
+      "topic": "Alibaba Qwen3.8-Max",
+      "title": "Qwen3.8-Max, 중국 오픈웨이트 경쟁 가속",
+      "summary": "Alibaba의 Qwen3.8-Max 공개 보도는 중국 AI 진영이 대형 모델을 더 개방적인 배포 전략과 묶어 확산시키는 흐름을 보여줍니다. 오늘 후보 중 주식 중심 보도는 제외하고 모델·개방 전략 중심 기사만 반영했습니다.",
+      "bullets": [
+        "2.4조 매개변수급 MoE 모델이라는 설명과 오픈웨이트 계획이 핵심",
+        "미국 폐쇄형 프런티어 모델과 중국 개방형 모델 전략의 대비가 커짐",
+        "벤치마크 주장은 공식 모델 카드와 독립 검증 전까지 신중하게 해석"
+      ],
+      "visual_keywords": [
+        "Qwen3.8-Max",
+        "open weight",
+        "Alibaba AI",
+        "China AI"
+      ],
+      "aria_line": "모델 경쟁은 성능표만이 아니라 '누가 쓸 수 있게 여느냐'의 싸움이 됐어요.",
+      "caption": "중국 AI 모델",
+      "importance": "High",
+      "created_date": "2026-08-03",
+      "source_date": "2026-08-03",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai"
+        },
+        {
+          "name": "TechNode",
+          "url": "https://technode.com/2026/07/21/alibaba-outlines-qwen3-8-with-2-4-trillion-parameters/"
+        },
+        {
+          "name": "Qwen UI Agent",
+          "url": "https://tongyi-mai.github.io/Qwen-UI-Agent/"
+        }
+      ]
+    },
+    {
+      "type": "developer",
+      "topic": "Qwen UI Agent",
+      "title": "Qwen UI Agent, 화면 조작 에이전트 실험",
+      "summary": "Qwen UI Agent는 웹·앱 화면을 이해하고 조작하는 에이전트 방향을 보여주는 개발자 신호입니다. 단순 챗봇보다 실제 UI 작업을 처리하는 에이전트 평가와 안전 설계가 더 중요해지고 있습니다.",
+      "bullets": [
+        "Hacker News와 공식 프로젝트 페이지에서 개발자 커뮤니티 신호가 확인됨",
+        "UI 조작형 에이전트는 벤치마크보다 실패 복구와 권한 제어가 중요",
+        "국내 서비스 적용 시 개인정보, 결제, 업무 시스템 접근 경계가 핵심"
+      ],
+      "visual_keywords": [
+        "Qwen UI Agent",
+        "computer use",
+        "browser agent",
+        "developer demo"
+      ],
+      "aria_line": "AI가 버튼을 누르기 시작하면, 제일 먼저 정해야 할 건 '어디까지 허용할까'예요.",
+      "caption": "컴퓨터 사용 에이전트",
+      "importance": "Important",
+      "created_date": "2026-08-03",
+      "source_date": "2026-08-03",
+      "sources": [
+        {
+          "name": "Qwen UI Agent",
+          "url": "https://tongyi-mai.github.io/Qwen-UI-Agent/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49150289"
+        }
+      ]
+    },
+    {
+      "type": "developer",
+      "topic": "Gemini Enterprise Agent Platform",
+      "title": "Google, 에이전트 평가 기능 GA 신호",
+      "summary": "Google 개발자 블로그와 Cloud 문서에서는 Gemini Enterprise Agent Platform의 모델·에이전트 평가 기능이 운영 단계로 이동하는 흐름이 확인됩니다. 기업 AI는 생성 품질보다 라우팅, 툴 사용, 반복 평가가 중요해지고 있습니다.",
+      "bullets": [
+        "에이전트가 어떤 작업을 어느 하위 에이전트와 도구로 보내는지 평가해야 함",
+        "모델 평가 슬라이스와 autorater 구성 같은 운영형 평가 API가 중요해짐",
+        "카드뉴스에서는 출시명보다 '평가 체계가 제품 기능이 됐다'는 점을 강조"
+      ],
+      "visual_keywords": [
+        "Gemini Enterprise",
+        "agent evaluation",
+        "Google Cloud",
+        "autorater"
+      ],
+      "aria_line": "에이전트 시대에는 '대답이 그럴듯한가'보다 '작업을 제대로 보냈나'를 봐야 해요.",
+      "caption": "에이전트 평가",
+      "importance": "Important",
+      "created_date": "2026-08-03",
+      "source_date": "2026-07-31",
+      "sources": [
+        {
+          "name": "Google Developers Blog",
+          "url": "https://developers.googleblog.com/"
+        },
+        {
+          "name": "Google Cloud Documentation",
+          "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/reference/rpc/google.cloud.aiplatform.v1beta1"
+        }
+      ]
+    },
+    {
+      "type": "developer",
+      "topic": "GitHub Copilot",
+      "title": "Copilot, Gemini 일부 모델 deprecated",
+      "summary": "GitHub는 7월 31일 Copilot 전반에서 Gemini 2.5 Pro와 Gemini 3 Flash를 deprecated 처리했다고 공지했습니다. 조직은 AI 도구 도입만큼 모델 수명주기와 대체 정책을 관리해야 합니다.",
+      "bullets": [
+        "Copilot Chat, inline edits, ask, agent mode, code completions 전반에 영향",
+        "모델 선택권이 늘어날수록 폐기·대체 알림도 운영 리스크가 됨",
+        "개발팀은 워크플로별 기본 모델과 금지 모델 정책을 문서화할 필요"
+      ],
+      "visual_keywords": [
+        "GitHub Copilot",
+        "model deprecation",
+        "developer workflow",
+        "enterprise policy"
+      ],
+      "aria_line": "개발 AI도 이제 버전 관리 대상이에요. 모델이 바뀌면 결과물의 성격도 바뀌거든요.",
+      "caption": "개발자 도구",
+      "importance": "High",
+      "created_date": "2026-08-03",
+      "source_date": "2026-07-31",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated"
+        }
+      ]
+    },
+    {
+      "type": "policy",
+      "topic": "AI Governance",
+      "title": "자동화 AI 속도 조절 논의 확대",
+      "summary": "최근 AI 업계 종사자와 연구자들이 자동화된 AI 연구·개발의 속도와 통제 문제를 공개적으로 제기했습니다. 동시에 오픈 모델 경쟁이 빨라지면서 규제, 보안, 공개 범위를 둘러싼 논쟁도 커지고 있습니다.",
+      "bullets": [
+        "프런티어 AI의 자동화 연구 능력이 거버넌스 쟁점으로 부상",
+        "오픈웨이트 확산은 접근성을 높이지만 악용 통제 부담도 키움",
+        "국내 보고서에는 정책·보안·개발자 커뮤니티 반응을 분리해 정리"
+      ],
+      "visual_keywords": [
+        "AI governance",
+        "frontier AI",
+        "open models",
+        "policy debate"
+      ],
+      "aria_line": "AI를 빨리 여는 일과 안전하게 여는 일, 이제 둘 다 피할 수 없는 숙제예요.",
+      "caption": "AI 거버넌스",
+      "importance": "Policy",
+      "created_date": "2026-08-03",
+      "source_date": "2026-07-29",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta"
+        },
+        {
+          "name": "Pacing the Frontier",
+          "url": "https://www.pacingthefrontier.com/"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/technology/2026/jul/27/silicon-valley-ai-open-source-china"
+        }
+      ]
+    }
+  ]
+}
