@@ -1,0 +1,253 @@
+{
+  "date": "2026-08-05",
+  "cards": [
+    {
+      "type": "cover",
+      "topic": "Daily AI Brief",
+      "title": "2026년 8월 5일 AI 핵심 브리핑",
+      "summary": "오늘은 ChatGPT Work와 Codex 사용 경험 정리, AWS Bedrock의 OpenAI/Codex 연결, 중국 Qwen 모델 경쟁, 영상 기반 딥리서치 에이전트, 공공 AI 혁신 챌린지, AI 에이전트 안전성 검증이 핵심입니다.",
+      "bullets": [
+        "국내: 공공기관 AI 혁신 챌린지와 AI 에이전트 안전 검증 체계",
+        "제품·개발자: Work, Codex, Bedrock, Sinch Skills처럼 에이전트 운영 환경이 구체화",
+        "연구·모델: Qwen3.8-Max, Qwen-Image-3.0, Video-DeepResearch를 확인"
+      ],
+      "visual_keywords": [
+        "AI newsroom",
+        "Korea public AI",
+        "Codex",
+        "agent safety"
+      ],
+      "aria_line": "오늘의 흐름은 '더 똑똑한 모델'보다 '어디에 연결하고 어떻게 검증하느냐'예요.",
+      "caption": "오늘 AI 뉴스 아리아",
+      "importance": "Overview",
+      "created_date": "2026-08-05",
+      "source_date": "2026-08-05",
+      "sources": [
+        {
+          "name": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
+        },
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/"
+        },
+        {
+          "name": "NIA",
+          "url": "https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?bcIdx=29318&cbIdx=99835"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "topic": "ChatGPT Work and Codex",
+      "title": "OpenAI, Work·Codex 역할을 더 명확히 정리",
+      "summary": "OpenAI 도움말은 Chat, Work, Codex의 용도를 나눠 설명합니다. Work는 조사·분석·문서·사이트 같은 긴 작업에, Codex는 코드 작성·디버깅·테스트·저장소 작업에 맞춰져 있습니다.",
+      "bullets": [
+        "데스크톱 앱에서는 권한을 받은 로컬 파일과 앱을 Work가 활용할 수 있음",
+        "Voice가 Work와 Codex에 붙으면서 말로 장기 작업을 조율하는 흐름이 생김",
+        "팀은 '대화형 챗봇'과 '작업형 에이전트'를 분리해 도입 기준을 잡아야 함"
+      ],
+      "visual_keywords": [
+        "ChatGPT Work",
+        "Codex",
+        "desktop app",
+        "voice agents"
+      ],
+      "aria_line": "이제 중요한 건 모델 이름보다, 어떤 작업을 어떤 모드에 맡길지 정하는 거예요.",
+      "caption": "OpenAI 제품 업데이트",
+      "importance": "High",
+      "created_date": "2026-08-05",
+      "source_date": "2026-08-01",
+      "sources": [
+        {
+          "name": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
+        },
+        {
+          "name": "OpenAI Help Center - Plugins in Codex",
+          "url": "https://help.openai.com/en/articles/20001256-plugins-in-codex"
+        }
+      ]
+    },
+    {
+      "type": "developer",
+      "topic": "OpenAI on Amazon Bedrock",
+      "title": "AWS Bedrock, Codex 연결 경로를 개발자 문서화",
+      "summary": "AWS는 OpenAI GPT-5.6 계열과 Codex를 Amazon Bedrock에서 쓰는 설정 흐름을 안내했습니다. Codex CLI, IDE 확장, 데스크톱 앱의 추론을 AWS 계정과 리전 안으로 라우팅하는 구성이 핵심입니다.",
+      "bullets": [
+        "Codex 설정 파일에서 모델 제공자를 amazon-bedrock으로 지정하는 방식 제시",
+        "AWS 자격 증명 또는 Bedrock bearer token을 사용해 인증",
+        "기업 입장에서는 코딩 에이전트도 데이터 주권·감사·계정 관리 대상이 됨"
+      ],
+      "visual_keywords": [
+        "Amazon Bedrock",
+        "Codex CLI",
+        "AWS region",
+        "enterprise AI"
+      ],
+      "aria_line": "코딩 에이전트도 이제 '어느 클라우드에서 추론하느냐'가 운영 설계가 됐어요.",
+      "caption": "개발자 인프라",
+      "importance": "High",
+      "created_date": "2026-08-05",
+      "source_date": "2026-07-29",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/"
+        },
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/"
+        }
+      ]
+    },
+    {
+      "type": "model",
+      "topic": "Alibaba Qwen3.8-Max",
+      "title": "Qwen3.8-Max, 중국 오픈웨이트 경쟁 재점화",
+      "summary": "The Verge는 Alibaba가 Qwen3.8-Max를 공개하고 다음 주 가중치 공개를 예고했다고 보도했습니다. 대형 모델 성능 주장보다 중요한 포인트는 중국 진영이 오픈웨이트 배포로 개발자 접근성을 키운다는 점입니다.",
+      "bullets": [
+        "보도 기준 2.4조 매개변수급 모델로 소개됨",
+        "Moonshot Kimi K3 이후 중국 대형 모델 경쟁이 더 빨라짐",
+        "벤치마크 우위 주장은 독립 검증 전까지 신중하게 해석"
+      ],
+      "visual_keywords": [
+        "Qwen3.8-Max",
+        "open weights",
+        "Alibaba AI",
+        "China AI"
+      ],
+      "aria_line": "모델 경쟁은 성능표만이 아니라 '누가 직접 내려받아 쓸 수 있나'의 싸움이에요.",
+      "caption": "중국 AI 모델",
+      "importance": "High",
+      "created_date": "2026-08-05",
+      "source_date": "2026-08-03",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai"
+        },
+        {
+          "name": "Qwen",
+          "url": "https://qwen.ai/"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "topic": "Qwen-Image-3.0",
+      "title": "Qwen-Image-3.0, 긴 지시와 글자 렌더링 강조",
+      "summary": "Qwen 공식 블로그는 Qwen-Image-3.0의 핵심을 복잡한 지시 이해, 세밀한 디테일, 다국어 텍스트 표현으로 설명합니다. 이미지 생성 경쟁이 단순 미감에서 문서·UI·스토리보드 제작 능력으로 확장되는 신호입니다.",
+      "bullets": [
+        "긴 프롬프트와 복잡한 레이아웃 생성이 주요 차별점으로 제시됨",
+        "작은 글자와 다국어 텍스트 표현은 카드뉴스·광고·문서 이미지에 중요",
+        "API 가격성 기사보다 공식 모델 설명을 우선 반영"
+      ],
+      "visual_keywords": [
+        "Qwen-Image-3.0",
+        "image generation",
+        "text rendering",
+        "storyboard"
+      ],
+      "aria_line": "이미지 AI는 이제 예쁜 그림을 넘어서, 읽히는 문서와 화면을 만드는 단계예요.",
+      "caption": "이미지 생성 모델",
+      "importance": "Important",
+      "created_date": "2026-08-05",
+      "source_date": "2026-07-21",
+      "sources": [
+        {
+          "name": "Qwen Blog",
+          "url": "https://qwen.ai/blog?id=qwen-image-3.0"
+        },
+        {
+          "name": "AIBase",
+          "url": "https://www.aibase.com/"
+        }
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "Video-DeepResearch",
+      "title": "영상 딥리서치 에이전트 연구 등장",
+      "summary": "arXiv에 공개된 Video-DeepResearch는 멀티모달 에이전트가 정지 이미지가 아니라 연속 영상에서 근거를 찾고 웹 탐색과 결합하는 문제를 다룹니다. 영상 이해와 검색형 에이전트가 합쳐지는 연구 흐름입니다.",
+      "bullets": [
+        "2026년 8월 4일 제출된 논문으로 Video-DR-Bench를 함께 제안",
+        "영상 프레임 근거 확인 없이 텍스트 검색으로 우회하는 문제를 지적",
+        "실서비스 적용 전에는 벤치마크 구성과 재현 가능성 확인이 필요"
+      ],
+      "visual_keywords": [
+        "Video-DeepResearch",
+        "multimodal agent",
+        "video grounding",
+        "arXiv"
+      ],
+      "aria_line": "영상 에이전트는 '봤다고 말하는 것'보다, 어느 장면을 근거로 봤는지가 중요해요.",
+      "caption": "AI 연구",
+      "importance": "Research",
+      "created_date": "2026-08-05",
+      "source_date": "2026-08-04",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2608.03979v1"
+        }
+      ]
+    },
+    {
+      "type": "domestic",
+      "topic": "Public AI Innovation",
+      "title": "공공기관 AI 혁신 챌린지, 접수 진행 중",
+      "summary": "NIA는 과기정통부 전국민 AI 경진대회 참가 트랙 중 하나로 공공기관 AI 혁신 챌린지를 안내하고 있습니다. 공공기관이 AI 서비스 실증과 활용 우수사례를 제안하는 구조라 국내 공공 AX 흐름을 보여줍니다.",
+      "bullets": [
+        "접수 기간은 2026년 6월 1일부터 8월 28일 18시까지",
+        "AI서비스 실증·PoC와 AI활용 우수사례 부문으로 운영",
+        "국내 보고서에서는 카드보다 상세하게 공공 AI 확산 맥락으로 정리"
+      ],
+      "visual_keywords": [
+        "NIA",
+        "public AI",
+        "Korea AI challenge",
+        "AI PoC"
+      ],
+      "aria_line": "국내 AI는 민간 모델 경쟁뿐 아니라 공공 현장에 실제로 넣는 단계도 중요해요.",
+      "caption": "국내 공공 AI",
+      "importance": "Domestic",
+      "created_date": "2026-08-05",
+      "source_date": "2026-04-24",
+      "sources": [
+        {
+          "name": "NIA",
+          "url": "https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?bcIdx=29318&cbIdx=99835"
+        }
+      ]
+    },
+    {
+      "type": "policy",
+      "topic": "AI Agent Safety",
+      "title": "AI 에이전트 안전·신뢰성 검증 체계가 정책 과제로",
+      "summary": "NIA 공모는 AI 에이전트 안전·신뢰성 검증 체계 지원을 별도 과제로 다룹니다. MCP, 에이전트 성능 벤치마크, 평가 체계 구축 역량을 요구해 에이전트 시대의 공공 검증 인프라 필요성을 보여줍니다.",
+      "bullets": [
+        "정부출연금 18억원 규모의 검증 체계 지원 과제로 공고",
+        "AI 에이전트 마켓플레이스·도구 개발·안전 검증 과제 간 중복지원 제한",
+        "에이전트는 기능 출시보다 평가·감사·권한 경계 설계가 먼저 필요"
+      ],
+      "visual_keywords": [
+        "AI agent safety",
+        "trust evaluation",
+        "MCP",
+        "benchmark"
+      ],
+      "aria_line": "에이전트가 대신 행동하려면, 잘하는지보다 먼저 안전하게 멈출 수 있는지가 필요해요.",
+      "caption": "정책·규제",
+      "importance": "Policy",
+      "created_date": "2026-08-05",
+      "source_date": "2026-06-08",
+      "sources": [
+        {
+          "name": "NIA",
+          "url": "https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?bcIdx=29495&cbIdx=78336"
+        }
+      ]
+    }
+  ]
+}
