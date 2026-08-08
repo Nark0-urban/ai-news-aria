@@ -105,7 +105,7 @@
       "type": "developer",
       "topic": "GitHub Copilot",
       "title": "Kimi K3, GitHub Copilot 선택지로 등장",
-      "summary": "GitHub Changelog 후보는 Kimi K3가 Copilot에서 제공되기 시작했다고 잡혔습니다. 개발자 입장에서는 단일 폐쇄형 모델만 쓰는 구조에서 벗어나, 작업 성격과 비용·거버넌스에 맞춰 모델을 고르는 흐름이 더 뚜렷해졌습니다.",
+      "summary": "GitHub Changelog와 오늘 수집 후보는 Copilot의 모델 선택지가 계속 넓어지는 흐름을 보여 줍니다. 개발자 입장에서는 단일 폐쇄형 모델만 쓰는 구조에서 벗어나, 작업 성격과 비용·거버넌스에 맞춰 모델을 고르는 흐름이 더 뚜렷해졌습니다.",
       "bullets": [
         "Copilot 모델 피커가 모델 시장처럼 확장되는 신호",
         "개방형 가중치 계열 모델은 보안·컴플라이언스 검토가 더 중요",
